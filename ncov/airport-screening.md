@@ -1,6 +1,6 @@
 # Efficacy of traveller screeninng
 
-** Billy Quilty, CMMID nCoV team, Sam Clifford**
+**by Billy Quilty, CMMID nCoV team, Sam Clifford**
 
 *Last updated: 27 January 2020*
 
