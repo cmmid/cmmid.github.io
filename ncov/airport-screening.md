@@ -1,4 +1,4 @@
-# Efficacy of traveller screeninng
+# Efficacy of traveller screening
 
 **by Billy Quilty, Sam Clifford, CMMID nCoV team, Stefan Flasche, Rosalind Eggo**
 
