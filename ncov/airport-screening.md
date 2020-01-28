@@ -4,4 +4,4 @@
 
 *Last updated: 27 January 2020*
 
-We have created an [interactive tool](https://cmmid-lshtm.shinyapps.io/traveller_screening/) to illustrate the efficacy of traveller screening.
+We have created an [interactive tool](https://cmmid-lshtm.shinyapps.io/traveller_screening/) to illustrate the efficacy of traveller screening. The associated report is also available as a [pre-print.](https://cmmid.github.io/ncov/airport_screening_report/airport_screening_report.html)
