@@ -1,7 +1,7 @@
 # nCoV-2019 analysis
 
 ## Current projects
-• [Efficacy of airport screening](ncov/airport-screening)
+• [Effectiveness of airport screening](ncov/airport-screening)
 
 • [Analysis of early transmission dynamics in Wuhan](https://cmmid.github.io/ncov/wuhan_early_dynamics/index.html)
 
