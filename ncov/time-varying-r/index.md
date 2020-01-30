@@ -5,7 +5,7 @@ Reporting delays and temporal variation in transmission in China during the 2019
 
 *S. Funk (1), S. Abbott (1), S. Flasche (1), CMMID nCoV team (1). Note:
 this is preliminary analysis and has not yet been peer-reviewed. It will
-be updated with new data as the epidemic progresses.**
+be updated with new data as the epidemic progresses.*
 
 *Correspondence to:*
 <a href="mailto:sebastian.funk@lshtm.ac.uk" class="email">sebastian.funk@lshtm.ac.uk</a>
