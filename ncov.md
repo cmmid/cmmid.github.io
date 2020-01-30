@@ -4,7 +4,7 @@
 
 • [An online tool and study to assess the effectiveness of airport screening](ncov/airport-screening)
 
-• [Analysis of temporal variation in transmission during the 2019-nCoV outbreak using data form Wuhan and international cases](https://cmmid.github.io/ncov/wuhan_early_dynamics/index.html)
+• [Analysis of temporal variation in transmission during the 2019-nCoV outbreak using data from Wuhan and international cases](https://cmmid.github.io/ncov/wuhan_early_dynamics/index.html)
 
 • [Reporting delays and temporal variation in transmission in China during the 2019-nCoV outbreak](ncov/time-varying-r)
 
