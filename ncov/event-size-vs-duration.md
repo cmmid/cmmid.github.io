@@ -2,7 +2,7 @@
 
 *S. Abbott, J. Hellewell, J. Munday, CMMID nCoV working group, S. Funk*
 
-*Last updated: 29 January 2020*
+*Last updated: 30 January 2020*
 
 **Background:** The current novel coronavirus outbreak appears to have originated from a point-source exposure event at Huanan seafood wholesale market in Wuhan, China. There is still uncertainty around the scale and duration of this exposure event. This has implications for the estimated transmissibility of the coronavirus and as such, these potential scenarios should be explored.
 
