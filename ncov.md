@@ -2,13 +2,20 @@
 
 ## Current projects
 
-• [An online tool and study to assess the effectiveness of airport screening](ncov/airport-screening)
+#### Understanding early outbreak dynamics
 
-• [Analysis of temporal variation in transmission during the 2019-nCoV outbreak using data from Wuhan and international cases](https://cmmid.github.io/ncov/wuhan_early_dynamics/index.html)
+• [Understanding the duration and size of the spillover event at the start of the 2019-nCoV outbreak](ncov/event-size-vs-duration) 
+
+#### Estimating current patterns of transmission
+
+• [Analysis of early transmission of 2019-nCoV and implications for outbreaks in new locations](https://cmmid.github.io/ncov/wuhan_early_dynamics/index.html)
 
 • [Reporting delays and temporal variation in transmission in China during the 2019-nCoV outbreak](ncov/time-varying-r)
 
-• [Understanding the duration and size of the spillover event at the start of the 2019-nCoV outbreak](ncov/event-size-vs-duration) 
+#### Evaluating control measures
+
+• [An online tool and study to assess the effectiveness of airport screening](ncov/airport-screening)
+
 
 _Note that many of these projects are ongoing and have not yet been peer-reviewed_
 
