@@ -1,13 +1,13 @@
 Reporting delays and temporal variation in transmission in China during the 2019-nCoV outbreak
 ===
 
-30 January 2019
+*30 January 2019*
 
-S. Funk (1), S. Abbott (1), S. Flasche (1), CMMID nCoV team (1). Note:
+*S. Funk (1), S. Abbott (1), S. Flasche (1), CMMID nCoV team (1). Note:
 this is preliminary analysis and has not yet been peer-reviewed. It will
-be updated with new data as the epidemic progresses.
+be updated with new data as the epidemic progresses.*
 
-Correspondence to:
+*Correspondence to:*
 <a href="mailto:sebastian.funk@lshtm.ac.uk" class="email">sebastian.funk@lshtm.ac.uk</a>
 
 Aim
@@ -36,9 +36,9 @@ Limitations
 -   An apparent recent increase in the reproduction number may be a a
     result of outdated estimates in the delays from onset to
     confirmation if cases are now confirmed more rapidly.
--   This uses data from across China; diagnostic capabilities may vary
-    in different parts of the countries, adding uncertainty to the
-    reported numbers.
+-   This uses data from across China; both transmissibility and 
+    diagnostic capabilities may vary in different parts of the countries, adding
+    uncertainty to the reported numbers.
 -   The method is robust to under-reporting in general but susceptible
     to pronounced changes in the proprotion of cases reported; recent
     media attention could, for example, have led to changes in
