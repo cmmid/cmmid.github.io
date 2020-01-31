@@ -1,6 +1,6 @@
 # The transmissibility of novel Coronavirus in the early stages of the 2019-20 outbreak in Wuhan: Exploring initial point-source exposure sizes and durations using scenario analysis
 
-**S. Abbott, J. Hellewell, J. Munday, CMMID nCoV working group, S. Funk**
+*S. Abbott, J. Hellewell, J. Munday, CMMID nCoV working group, S. Funk*
 
 *Last updated: 29 January 2020*
 
