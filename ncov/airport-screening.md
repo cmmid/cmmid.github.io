@@ -1,7 +1,7 @@
 # Effectiveness of traveller screening
 
-**by Billy Quilty, Sam Clifford, CMMID nCoV team, Stefan Flasche, Rosalind Eggo**
+**by Billy J Quilty, Sam Clifford, CMMID 2019-nCoV working group, Stefan Flasche, Rosalind M Eggo**
 
 *Last updated: 27 January 2020*
 
-We have created an [interactive tool](https://cmmid-lshtm.shinyapps.io/traveller_screening/) to illustrate the effectiveness of traveller screening. The associated report is also available as a [pre-print.](airport_screening_report/airport_screening_preprint_2020_01_30.pdf)
+We have created an [interactive tool](https://cmmid-lshtm.shinyapps.io/traveller_screening/) to illustrate the effectiveness of traveller screening. The research has been published in [Eurosurveillance](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.5.2000080)
