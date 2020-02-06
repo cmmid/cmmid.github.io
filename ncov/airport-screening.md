@@ -2,7 +2,7 @@
 
 **by Billy J Quilty, Sam Clifford, CMMID 2019-nCoV working group, Stefan Flasche, Rosalind M Eggo**
 
-*Last updated: 27 January 2020*
+*Last updated: 6 February 2020*
 
 We have created an [interactive tool](https://cmmid-lshtm.shinyapps.io/traveller_screening/) to illustrate the effectiveness of traveller screening. 
 
