@@ -16,6 +16,7 @@
 
 • [An online tool and study to assess the effectiveness of airport screening](ncov/airport-screening)
 
+• [Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and contacts](ncov/isolation_contact_tracing)
 
 _Note that many of these projects are ongoing and have not yet been peer-reviewed_
 
