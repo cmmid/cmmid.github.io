@@ -3,10 +3,10 @@
 
 *7th February 2020*
 
-**Authors:** Joel Hellewell (1), Sam Abbott\dagger (1), Amy Gimma\dagger (1), Nikos I Bosse (1), Christopher I Jarvis (1), Timothy W Russell (1), James D Munday (1), Adam J Kucharski (1), W John Edmunds (1), CMMID nCoV working group, Sebastian Funk\* (1), Rosalind M Eggo\* (1)
+**Authors:** Joel Hellewell (1), Sam Abbott\* (1), Amy Gimma\* (1), Nikos I Bosse (1), Christopher I Jarvis (1), Timothy W Russell (1), James D Munday (1), Adam J Kucharski (1), W John Edmunds (1), CMMID nCoV working group, Sebastian Funk\*\* (1), Rosalind M Eggo\*\* (1)
 
-\dagger these authors contributed equally
 \* these authors contributed equally
+\*\* these authors contributed equally
 
 *Note: this is preliminary analysis and has not yet been peer-reviewed.*
 
