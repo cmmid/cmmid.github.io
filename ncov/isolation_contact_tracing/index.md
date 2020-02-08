@@ -48,6 +48,7 @@ An outbreak is defined as controlled if there are no cases after 3 months.
 -   Heterogeneity in individual-level number of secondary cases is the same as SARS.
 -   Traced contacts are isolated immediately on symptom onset (and not before).
 -   Isolation prevents all transmission. 
+-   No other interventions (R0 stays constant).
 
 
 <img src="figures/fig-1.png" width="65%" /> <br> *Figure: A) The percentage of outbreaks that are controlled for scenarios with varying reproduction number (R0), at each value of contacts traced. The baseline scenario is R0 of 2.5, 20 initial cases, a short delay to isolation, 15% of transmission before symptom onset, and 0% subclinical infection (black line). A simulated outbreak is defined as controlled if there are no cases between weeks 12 and 16 after the initial cases. See supplement for other scenarios. B) Effective reproduction number in the presence of case isolation and contact tracing. Median (line), and 50% and 95% intervals (shaded regions) are shown.*
