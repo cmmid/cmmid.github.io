@@ -53,5 +53,5 @@ An outbreak is defined as controlled if there are no cases after 3 months.
 <img src="figures/fig-1.png" width="65%" /> <br> *Figure: A) The percentage of outbreaks that are controlled for scenarios with varying reproduction number (R0), at each value of contacts traced. The baseline scenario is R0 of 2.5, 20 initial cases, a short delay to isolation, 15% of transmission before symptom onset, and 0% subclinical infection (black line). A simulated outbreak is defined as controlled if there are no cases between weeks 12 and 16 after the initial cases. See supplement for other scenarios. B) Effective reproduction number in the presence of case isolation and contact tracing. Median (line), and 50% and 95% intervals (shaded regions) are shown.*
 
 
-**A preprint of this work is available [here](report/report.pdf) and the supplement is available [here](report/si.pdf).**
+**A preprint of this work is available [here](report/isolation_contact_tracing_report.pdf) and the supplement is available [here](report/si.pdf).**
 
