@@ -1,4 +1,4 @@
-# Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV)
+# Interventions targeting air travellers early in the pandemic may delay local outbreaks of SARS-CoV-2
 
 *Sam Clifford, Petra Klepac, Kevin Van Zandvoort, Nicholas Davies, Billy Quilty, CMMID nCoV working group, Rosalind M. Eggo, Stefan Flasche*
 
