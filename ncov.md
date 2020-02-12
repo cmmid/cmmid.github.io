@@ -18,6 +18,8 @@
 
 • [Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and contacts](ncov/isolation_contact_tracing)
 
+• [Interventions targeting air travellers early in the pandemic may delay local outbreaks of SARS-CoV-2](ncov/screening-outbreak-delay)
+
 _Note that many of these projects are ongoing and have not yet been peer-reviewed_
 
 ## Contributors
