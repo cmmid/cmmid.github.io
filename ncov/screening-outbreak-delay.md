@@ -1,6 +1,6 @@
 # Interventions targeting air travellers early in the pandemic may delay local outbreaks of SARS-CoV-2
 
-*Sam Clifford, Petra Klepac, Kevin Van Zandvoort, Billy Quilty, CMMID nCoV working group, Rosalind M. Eggo, Stefan Flasche*
+*Sam Clifford, Petra Klepac, Kevin Van Zandvoort, Billy J. Quilty, CMMID nCoV working group, Rosalind M. Eggo, Stefan Flasche*
 
 *Last updated: 13 February 2020*
 
