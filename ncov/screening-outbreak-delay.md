@@ -4,7 +4,9 @@
 
 *Last updated: 13 February 2020*
 
-**[This study](screening_outbreak_delay/screening_outbreak_delay_preprint_202002130952.pdf) has not yet been peer reviewed.**
+**This study has not yet been peer reviewed.**
+
+You can download the current copy of the preprint [here](screening_outbreak_delay/screening_outbreak_delay_preprint_202002130952.pdf) or at [medR&chi;iv](https://doi.org/10.1101/2020.02.12.20022426)
 
 **Aim:** To determine if interventions aimed at air travellers can delay establishment of a SARS-CoV-2 outbreak in a previously unaffected country with no shared border with China.
 
