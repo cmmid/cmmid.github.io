@@ -1,3 +1,4 @@
+# COVID-2019 analysis
 
 ## Current projects
 
@@ -21,9 +22,8 @@
 
 _Note that many of these projects are ongoing and have not yet been peer-reviewed_
 
-# COVID-2019 analysis
-
-## [Interactive Visualisations](https://cmmid.github.io/visualisations.html)
+## Interactive visualisations
+We have made online tools to allow exploration of the models and results presented for some projects above. Those can be found on our [visualisations](https://cmmid.github.io/visualisations.html) page.
 
 ## Contributors
 These analyses were performed by members of Centre for Mathematical Modelling of Infectious Diseases at London School of Hygiene & Tropical Medicine.
