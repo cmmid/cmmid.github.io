@@ -14,7 +14,7 @@
 
 #### Evaluating control measures
 
-• [An online tool and study to assess the effectiveness of airport screening](ncov/airport-screening)
+• Published: [Effectiveness of airport screening at detecting travellers infected with novel coronavirus](ncov/airport-screening)
 
 • [Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and contacts](ncov/isolation_contact_tracing)
 
