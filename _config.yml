@@ -3,6 +3,8 @@ title: CMMID project repository
 github:
   is_project_page: false
 
+exclude: ["README.md"]
+
 collections:
   shinyapp:
     output: true
