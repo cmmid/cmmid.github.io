@@ -1,6 +1,3 @@
-# nCoV-2019 analysis
-
-## [All Interactive Visualisations](https://cmmid.github.io/visualisations.html)
 
 ## Current projects
 
@@ -23,6 +20,10 @@
 • [Interventions targeting air travellers early in the pandemic may delay local outbreaks of SARS-CoV-2](ncov/screening-outbreak-delay)
 
 _Note that many of these projects are ongoing and have not yet been peer-reviewed_
+
+# COVID-2019 analysis
+
+## [Interactive Visualisations](https://cmmid.github.io/visualisations.html)
 
 ## Contributors
 These analyses were performed by members of Centre for Mathematical Modelling of Infectious Diseases at London School of Hygiene & Tropical Medicine.
