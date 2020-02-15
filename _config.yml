@@ -2,3 +2,15 @@ theme: jekyll-theme-cayman
 title: CMMID project repository
 github:
   is_project_page: false
+
+collections:
+  shinyapp:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: shinyapp
+    values:
+      layout: shinyapp
