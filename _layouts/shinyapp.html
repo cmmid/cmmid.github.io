@@ -5,7 +5,6 @@
     <style type="text/css">
     html, body {
         margin: 0; padding: 0;
-        height: 100%; width: 100%;
     }
     iframe {
       width: 1px;
@@ -13,9 +12,10 @@
     }
     </style>
     <script type="text/javascript" src="/js/iframeResizer.min.js"></script>
-    <script>function resizer() { iFrameResize({log:true, scrolling:true }); }</script>
+    <script>function resizer() { iFrameResize({log:true, scrolling:true, heightCalculationMethod:'taggedElement'}); }</script>
   </head>
   <body onload="resizer()">
     <iframe frameborder="0" src="{{ page.shinyurl }}" />
+    <div>WTF</div>
   </body>
 </html>
