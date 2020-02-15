@@ -3,7 +3,7 @@ title: CMMID project repository
 github:
   is_project_page: false
 
-exclude: ["README.md"]
+exclude: ["README.md", "_shinyapp/template.md"]
 
 collections:
   shinyapp:
