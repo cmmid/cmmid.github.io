@@ -1,7 +1,9 @@
-## Welcome to the CMMID github page
+---
+layout: default
+---
 
-These pages are used to host on-going project work done within the [Centre for the Mathematical Modelling of Infectious Diseases](https://cmmid.lshtm.ac.uk) at the [London School of Hygiene & Tropical Medicine](https://www.lshtm.ac.uk). These pages are used to host work in progress. For more information on the Centre, its members and activities and contact information for general enquiries, visit its [main webpage](https://cmmid.lshtm.ac.uk).
+These pages are used to host on-going project work done within the <a href="//cmmid.lshtm.ac.uk" target="_blank">Centre for the Mathematical Modelling of Infectious Diseases</a> at the <a href="//www.lshtm.ac.uk" target="_blank">London School of Hygiene & Tropical Medicine</a>. These pages are used to host work in progress. For more information on the Centre, its members and activities and contact information for general enquiries, visit its main webpage.
 
 ### nCoV
 
-Work on the novel 2019- novel Coronavirus outbreak is hosted on the [nCoV pages](ncov).
+Work on the ongoing SARS-CoV-2 outbreak is hosted on the [Covid-19 pages](topics/covid19/).

@@ -1,4 +1,25 @@
-# The transmissibility of novel Coronavirus in the early stages of the 2019-20 outbreak in Wuhan: Exploring initial point-source exposure sizes and durations using scenario analysis
+---
+title: "Understanding the duration and size of the spillover event at the start of the 2019-nCoV outbreak"
+
+description: "The transmissibility of novel Coronavirus in the early stages of the 2019-20 outbreak in Wuhan: Exploring initial point-source exposure sizes and durations using scenario analysis"
+
+status: in-progress
+
+update: 2020-01-30
+
+authors:
+  - id: sam_abbott
+    corresponding: true
+  - id: james_munday
+  - id: ncov-group
+  - id: seb_funk
+
+#make sure old urls still work
+redirect_from:
+  - /ncov/event-size-vs-duration
+  - /ncov/event-size-vs-duration/
+
+---
 
 *S. Abbott, J. Hellewell, J. Munday, CMMID nCoV working group, S. Funk*
 
@@ -13,4 +34,4 @@
 **Conclusions:** Our results indicate that an R0 of less than 1 was highly unlikely unless the size of the initial exposure event was much greater than currently reported. We found that R0 estimates were comparable across scenarios with decreasing event size and increasing duration. Scenarios with a pre-intervention SARS-like serial interval resulted in a higher R0 and were equally plausible to scenarios with SARs-like serial intervals.
 
 
-The study can be read [here](https://doi.org/10.12688/wellcomeopenres.15718.1) and the package code can be found [here](https://github.com/epiforecasts/WuhanSeedingVsTransmission).
+The study can be read [here](https://epiforecasts.io/WuhanSeedingVsTransmission/articles/output.html) and the package code can be found [here](https://github.com/epiforecasts/WuhanSeedingVsTransmission).

@@ -1,0 +1,32 @@
+{% comment %}
+	- loop through all posts within current category
+	- save any category that is a subcategory
+	i.e. that is not current or parent category
+	- ignore any duplicate values
+{% endcomment %}
+{% assign subcategories = '' | split: '' %}
+
+{% for post in site.categories[page.tag] %}
+	{% assign use_category = false %}
+	{% for post_cat in post.categories %}
+		{{% post.title %}}
+		{% unless use_category == false or subcategories contains post_cat %}	
+			{% assign subcategories = subcategories | push: post_cat %}
+		{% endunless %}
+		{% if post_cat == page.tag %}
+			{% assign use_category = true %}
+		{% endif %}
+	{% endfor %}
+{% endfor %}
+
+{% unless subcategories.size == 0 %}
+	<h3>We have divided our work on this topic under the following categories:</h3>
+	{% for cat in subcategories %}
+		{% assign catdata = site.data.categories | where: "id", cat %}
+		{% if catdata.size == 1 %}
+			<p><a href="{{cat}}">{{ catdata | map: "name" }}</a></p>
+		{% else %}
+			<p><a href="{{cat}}">{{ cat }}</a></p>
+		{% endif %}			
+	{% endfor %}
+{% endunless %}

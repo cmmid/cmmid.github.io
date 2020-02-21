@@ -1,0 +1,96 @@
+- id: adam_kucharski	
+  name: Adam J Kucharski	
+  email: adam.kucharski@lshtm.ac.uk
+- id: seb_funk	
+  name: Sebastian Funk	
+  email: sebastian.funk@lshtm.ac.uk
+- id: roz_eggo	
+  name: Rosalind Eggo	
+  email: r.eggo@lshtm.ac.uk
+- id: petra_klepac	
+  name: Petra Klepac	
+  email: petra.klepac@lshtm.ac.uk
+- id: mark_jit	
+  name: Mark Jit	
+  email: mark.jit@lshtm.ac.uk
+- id: john_edmunds	
+  name: W John Edmunds	
+  email: john.edmunds@lshtm.ac.uk
+- id: amy_gimma	
+  name: Amy Gimma	
+  email: amy.gimma@lshtm.ac.uk
+- id: stefan_flasche	
+  name: Stefan Flasche	
+  email: stefan.flasche@lshtm.ac.uk
+- id: billy_quilty	
+  name: Billy J Quilty	
+  email: billy.quilty@lshtm.ac.uk
+- id: sam_clifford	
+  name: Sam Clifford	
+  email: sam.clifford@lshtm.ac.uk
+- id: sam_abbott	
+  name: Sam Abbott	
+  email: sam.abbott@lshtm.ac.uk
+- id: james_munday	
+  name: James D Munday	
+  email: james.munday@lshtm.ac.uk
+- id: nikos_bosse	
+  name: Nikos I Bosse	
+  email: nikos.bosse@lshtm.ac.uk
+- id: joel_hellewell	
+  name: Joel Hellewell	
+  email: joel.hellewell@lshtm.ac.uk
+- id: hamish_gibbs	
+  name: Hamish Gibbs	
+  email: hamish.gibbs@lshtm.ac.uk
+- id: yang_liu	
+  name: Yang Liu	
+  email: yang.liu@lshtm.ac.uk
+- id: nick_davies	
+  name: Nicholas Davies	
+  email: nicholas.davies@lshtm.ac.uk
+- id: charlie_diamond	
+  name: Charlie Diamond	
+  email: charlie.diamond@lshtm.ac.uk
+- id: tim_russell	
+  name: Timothy W Russell	
+  email: timothy.russell@lshtm.ac.uk
+- id: chris_jarvis	
+  name: Christopher I Jarvis	
+  email: christopher.jarvis@lshtm.ac.uk
+- id: kevin_vanzandvoort	
+  name: Kevin van Zandvoort	
+  email: kevin.van-zandvoort@lshtm.ac.uk
+- id: fiona_sun	
+  name: Fiona Sun	
+  email: fiona.sun@lshtm.ac.uk
+- id: alicia_rosello	
+  name: Alicia Rosello	
+  email: alicia.rosello@lshtm.ac.uk
+- id: ncov-group
+  name: CMMID nCov working group
+  type: group
+  members:
+   - adam_kucharski
+   - seb_funk
+   - roz_eggo
+   - petra_klepac
+   - mark_jit
+   - john_edmunds
+   - amy_gimma
+   - stefan_flasche
+   - billy_quilty
+   - sam_clifford
+   - sam_abbott
+   - james_munday
+   - nikos_bosse
+   - joel_hellewell
+   - hamish_gibbs
+   - yang_liu
+   - nick_davies
+   - charlie_diamond
+   - tim_russell
+   - chris_jarvis
+   - kevin_vanzandvoort
+   - fiona_sun
+   - alicia_rosello

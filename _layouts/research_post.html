@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% if page.status %}
+	{% assign post_status = page.status %}
+{% else %}
+	{% assign post_status = 'in-progress' %}
+{% endif %}
+
+<div class="post-status"><span class="status {{post_status}}">Status: {{post_status}}</span> | <span class="date">First online: {{page.date | date: "%d-%m-%Y"}}</span> {% if page.update%} | <span class="date">Last update: {{page.update | date: "%d-%m-%Y"}}</span>{% endif %}</div>
+
+{% if page.authors %}
+	{% include research_post_authors.html%}
+{% endif %}
+
+{% if post_status != "published" %}
+	<p><b>This study has not yet been peer reviewed.</b></p>
+{% endif %}
+
+{{ content }}

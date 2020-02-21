@@ -1,0 +1,123 @@
+{% if site.categories[page.tag].size > 0 %}
+	<div class="posts">
+	<div class="filter">
+		<div class="top">
+			<div class="row">
+				<div class="col-xs-6">
+					Posts
+				</div>
+				<div class="col-xs-6">
+					<button data-toggle="collapse" data-target="#filter-options"><span class="filter-icon" title="Filter posts"></span></button>
+				</div>
+			</div>
+		</div>
+		<div id="filter-options" class="bottom collapse">
+			<div class="wrapper">
+				{% assign statusses = 'in-progress' | split: '*' %}
+				{% for post in site.categories[page.tag] %}
+					{% unless statusses contains post.status %}
+						{% if post.status %}
+							{% assign statusses = statusses | push: post.status %}
+						{% endif %}
+					{% endunless %}
+				{% endfor %}
+				{% unless statusses.size == 0 %}
+					<p>Status:
+					{% for status in statusses %}
+						<label> {{status}} <input type="checkbox" checked="checked" class="filter-select" data-filter="status" value="{{status}}"></label>			
+					{% endfor %}
+					</p>
+				{% endunless %}
+				
+				{% assign subcategories = '' | split: '' %}
+				{% for post in site.categories[page.tag] %}
+					{% assign use_category = false %}
+					{% for post_cat in post.categories %}
+						{{% post.title %}}
+						{% unless use_category == false or subcategories contains post_cat %}	
+							{% assign subcategories = subcategories | push: post_cat %}
+						{% endunless %}
+						{% if post_cat == page.tag %}
+							{% assign use_category = true %}
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
+				{% unless subcategories.size == 0 %}
+					<p>Category:
+					{% for cat in subcategories %}
+						{% assign catdata = site.data.categories | where: "id", cat %}
+						{% if catdata.size == 1 %}
+							{% assign cat_name = catdata | map: "name" %}
+						{% else %}
+							{% assign cat_name = cat %}
+						{% endif %}
+						<label> {{cat_name}} <input type="checkbox" checked="checked" class="filter-select" data-filter="category" value="{{cat}}"></label>			
+					{% endfor %}
+					</p>
+				{% endunless %}
+			</div>
+		</div>
+	</div>
+	{% for post in site.categories[page.tag] %}
+		{% if post.status %}
+			{% assign post_status = post.status %}
+		{% else %}
+			{% assign post_status = 'in-progress' %}
+		{% endif %}
+		<article class="status_{{post_status}} {%for post_cat in post.categories%}category_{{post_cat}} {%endfor%}">
+			<div class="title">
+				<h4><a href="{{post.url}}">{{post.title}}</a></h4>
+			</div>
+			<div class="meta-information">
+				
+				<span class="status {{post.status}}">{{post_status}}</span> | <span class="date">First online: {{post.date | date: "%d-%m-%Y"}}</span>{% if post.update%} | <span class="date">Last update: {{post.update | date: "%d-%m-%Y"}}</span>{% endif %}
+			</div>
+			<div class="content">
+				<p>{{post.description}}</p>
+				<p class="read-more"><a href="{{post.url}}">Read more</a></p>
+				
+			</div>
+		</article>
+	{% endfor %}
+	<div class="no-articles" style="display:none;">No articles match the current filter.</div>
+	</div>
+{% else %}
+	<p>We haven't published any work on this topic yet.</p>
+{% endif %}
+
+<script>
+	$('.filter-select').click(
+		function(){
+			//make all visible
+			$('.posts article').css("display", "");
+			
+			//get unchecked boxes
+			var checked_classes = [];
+			$( '.filter input:not(:checked)' ).each(
+				function() {
+					checked_classes.push( $( this ).data("filter") +'_'+$( this ).val() );
+				}
+			);
+			
+			//hide those unchecked
+			$.each(checked_classes, function(i, val){
+				$( '.posts article.'+val ).css("display","none");
+			});
+			
+			//count number of articles visible
+			var count_articles = $(".posts article").not(
+					$(".posts article").filter(
+						function(){
+							return $(this).css("display") == "none"
+						}
+					)
+			).length;
+			//show no-articles block if no articles
+			if(count_articles == 0){
+				$('.no-articles').css("display","block");
+			} else {
+				$('.no-articles').css("display","none");
+			}
+		}
+	)
+</script>

@@ -1,12 +1,31 @@
-# Interventions targeting air travellers early in the pandemic may delay local outbreaks of SARS-CoV-2
+---
+title: Interventions targeting air travellers early in the pandemic may delay local outbreaks of SARS-CoV-2
 
-*Sam Clifford, Petra Klepac, Kevin Van Zandvoort, Billy J. Quilty, CMMID nCoV working group, Rosalind M. Eggo, Stefan Flasche*
+description: To determine if interventions aimed at air travellers can delay establishment of a SARS-CoV-2 outbreak in a previously unaffected country with no shared border with China.
 
-*Last updated: 13 February 2020*
+status: under-review
 
-**This study has not yet been peer reviewed.**
+update: 2020-02-18
 
-You can download the current copy of the preprint [here](screening_outbreak_delay/screening_outbreak_delay_preprint_202002130952.pdf) or at [medR&chi;iv](https://doi.org/10.1101/2020.02.12.20022426)
+authors:
+  - id: sam_clifford
+    corresponding: true
+  - id: petra_klepac
+  - id: kevin_vanzandvoort
+  - id: billy_quilty
+  - id: ncov-group
+  - id: roz_eggo
+    equal: 1
+  - id: stefan_flasche
+    equal: 1
+
+#make sure old urls still work
+redirect_from:
+  - /ncov/screening-outbreak-delay
+
+---
+
+You can download the current copy of the preprint [here](report/screening_outbreak_delay_preprint_202002130952.pdf) or at [medR&chi;iv](https://doi.org/10.1101/2020.02.12.20022426)
 
 **Aim:** To determine if interventions aimed at air travellers can delay establishment of a SARS-CoV-2 outbreak in a previously unaffected country with no shared border with China.
 

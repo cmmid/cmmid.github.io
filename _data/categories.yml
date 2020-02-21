@@ -1,0 +1,8 @@
+- id: covid19
+  name: Covid-19
+- id: control-measures
+  name: Control measures
+- id: early-outbreak-dynamics
+  name: Early outbreak dynamics
+- id: current-patterns-transmission
+  name: Current patterns of transmission

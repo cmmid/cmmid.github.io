@@ -1,21 +1,9 @@
-<!doctype html>
-<html>
-  <head>
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style type="text/css">
-    html, body {
-        margin: 0; padding: 0;
-    }
-    iframe {
-      width: 1px;
-      min-width: 100%;
-    }
-    </style>
-    <script type="text/javascript" src="/js/iframeResizer.min.js"></script>
-    <script>function resizer() { iFrameResize({log:true, scrolling:true }); }</script>
-  </head>
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+  {% include head-shinyapp.html %}
   <body onload="resizer()">
-    <iframe frameborder="0" src="{{ page.shinyurl }}" />
+	{% include header.html %}
+    <iframe frameborder="0" src="{{ page.shinyurl }}"></iframe>
+	{% include footer.html %}
   </body>
 </html>

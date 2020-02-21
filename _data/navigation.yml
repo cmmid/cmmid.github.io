@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Covid-19
+  link: /topics/covid19/
+- name: Visualisations
+  link: /visualisations
+- name: About
+  link: /about/

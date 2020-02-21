@@ -2,6 +2,24 @@
 
 The source for the [web page](https://cmmid.github.io/) advertising assorted [CMMID](https://cmmid.lshtm.ac.uk/) project work.
 
+# Adding posts
+
+To add a new post to the website, add a new markdown or html file to the correct category under /topic/category/subcategory
+
+Copy the [/topics/YYYY-MM-DD-post-template.md](https://github.com/cmmid/cmmid.github.io/blob/master/topics/YYYY-MM-DD-post-template.md) as a template to work on
+
+Front-matter variables are optional, but the following are available:
+
+title: Title of the post
+description: Short description of post
+status: in-progress, under-review, or published
+update: YYYY-MM-DD when post was updated
+
+authors:
+  - id: author_1
+  - id: author_2
+  - id: author_3
+  
 # Adding R Shiny Apps
 
 To add a new shiny app to the [visualisations page](https://cmmid.github.io/visualisations.html), all you need to do is copy a file, and change two fields.

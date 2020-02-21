@@ -1,4 +1,9 @@
-[See here for all our work on COVID-19.](ncov.html) 
+---
+layout: default
+permalink: /visualisations
+title: Visualisations
+---
+[See here for all our work on COVID-19.](/topics/covid19) 
 
 ## CMMID Interactive Applications
 {% for app in site.shinyapp %}

@@ -1,0 +1,50 @@
+{%- assign count_corresponding = 0 -%}
+{%- assign equal_types = '' | split: '' -%}
+<div class="post-authors"><p><span class="authors"><span style="font-weight:bold; font-style:normal;">Authors: </span>
+{%- for author in page.authors -%}
+	{%- assign author_data = site.data.authors | where: "id", author.id -%}
+	
+	{%- if author_data.size == 1 -%}
+		{%- assign author_name = author_data | map: "name" -%}
+	{%- else -%}
+		{%- assign author_name = author.id -%}
+	{%- endif -%}
+	
+	{%- assign author_type = (author_data | map: "type") -%}
+	{%- if author.corresponding == true -%}
+		<a href="mailto:{{author_data | map: 'email'}}" title="Email {{author_name}}">{{author_name}}</a>
+	{%- elsif author_type contains 'group' -%}
+		<a href="/groups/{{author.id}}" title="{{author_name}}" target="_blank">{{author_name}}</a>
+	{%- else -%}
+		{{author_name}}
+	{%- endif -%}
+
+	{%- if author.corresponding == true -%}
+		{%- assign count_corresponding = count_corresponding | plus: 1 -%}
+		*
+	{%- endif -%}
+	{%- if author.equal -%}
+		{%- unless equal_types contains author.equal -%}
+			{%- assign equal_types = equal_types | push: author.equal -%}
+		{%- endunless -%}
+		<sup>{{author.equal}}</sup>
+	{%- endif -%}
+	{%- assign second_to_last = page.authors.size | minus: 1 -%}
+	{%- if forloop.last -%}
+	.
+	{%- elsif forloop.index == second_to_last -%}
+	&nbsp;&&nbsp; 
+	{%- else -%}
+	,&nbsp;
+	{%- endif -%}
+{%- endfor -%}
+</span>
+{%- if count_corresponding > 0 -%}
+	<span class="author-type">* corresponding author</span>
+{%- endif -%}
+{%- if equal_types.size > 0 -%}
+	{%- for i in equal_types -%}
+		<span class="author-type">{{i}} contributed equally</span>
+	{%- endfor -%}
+{%- endif -%}
+</p></div>
