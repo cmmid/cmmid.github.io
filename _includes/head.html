@@ -1,7 +1,21 @@
 <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }} | {{ site.title }}</title>
+    <title>
+		{% if page.title %}
+			{{ page.title }}
+		{% elsif page.tag %}
+			{% assign catdata = site.data.categories | where: "id", page.tag %}
+			{% if catdata.size == 1 %}
+				{% assign catname = catdata | map: "name" %}
+			{% else %}
+				{% assign catname = page.tag %}
+			{% endif %}	
+			{{ catname }}
+		{% else %}
+			Centre for Mathematical Modelling of Infectious Diseases
+		{% endif %} | {{ site.title }}
+	</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>	
 	<!-- use bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
