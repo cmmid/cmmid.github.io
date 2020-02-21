@@ -13,4 +13,4 @@
 **Conclusions:** Our results indicate that an R0 of less than 1 was highly unlikely unless the size of the initial exposure event was much greater than currently reported. We found that R0 estimates were comparable across scenarios with decreasing event size and increasing duration. Scenarios with a pre-intervention SARS-like serial interval resulted in a higher R0 and were equally plausible to scenarios with SARs-like serial intervals.
 
 
-The study can be read [here](https://epiforecasts.io/WuhanSeedingVsTransmission/articles/output.html) and the package code can be found [here](https://github.com/epiforecasts/WuhanSeedingVsTransmission).
+The study can be read [here](https://doi.org/10.12688/wellcomeopenres.15718.1) and the package code can be found [here](https://github.com/epiforecasts/WuhanSeedingVsTransmission).
