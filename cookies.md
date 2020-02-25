@@ -18,7 +18,7 @@ Cookies used by the LSHTM website
 
 CMMID
 
-- Cookies: '__cmmid_repo_consent'
+- Cookies: 'cmmid_repo_consent'
 - Purpose: To save your preference regarding the use of cookies on this website, so we do not need to ask you again
 
 Google analytics (only if you consent for the use of cookies)
