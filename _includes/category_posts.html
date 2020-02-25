@@ -66,7 +66,7 @@
 		{% endif %}
 		<article class="status_{{post_status}} {%for post_cat in post.categories%}category_{{post_cat}} {%endfor%}">
 			<div class="title">
-				<h4><a href="{{post.url}}">{{post.title}}</a></h4>
+				<h4><a href="{{post.url}}" target="_blank">{{post.title}}</a></h4>
 			</div>
 			<div class="meta-information">
 				
@@ -74,7 +74,7 @@
 			</div>
 			<div class="content">
 				<p>{{post.description}}</p>
-				<p class="read-more"><a href="{{post.url}}">Read more</a></p>
+				<p class="read-more"><a href="{{post.url}}" target="_blank">Read more</a></p>
 				
 			</div>
 		</article>
