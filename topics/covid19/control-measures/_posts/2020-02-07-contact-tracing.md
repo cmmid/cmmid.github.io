@@ -5,6 +5,8 @@ description: To assess the viability of isolation and contact tracing to control
 
 status: in-progress
 
+update: 2020-02-07
+
 authors:
   - id: joel_hellewell
     equal: 1

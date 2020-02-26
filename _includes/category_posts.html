@@ -58,7 +58,10 @@
 			</div>
 		</div>
 	</div>
-	{% for post in site.categories[page.tag] %}
+	
+	{% assign posts_sorted = site.categories[page.tag] %}	
+	{% assign posts_sorted = (posts_sorted | sort: 'update') | reverse %}
+	{% for post in posts_sorted %}
 		{% if post.status %}
 			{% assign post_status = post.status %}
 		{% else %}
