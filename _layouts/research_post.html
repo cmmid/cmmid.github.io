@@ -14,7 +14,7 @@ layout: default
 	{% include research_post_authors.html%}
 {% endif %}
 
-{% if post_status != "published" %}
+{% if (post_status != "published") and (post_status != "accepted") %}
 	<p><b>This study has not yet been peer reviewed.</b></p>
 {% endif %}
 
