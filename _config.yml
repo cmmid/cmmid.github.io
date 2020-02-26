@@ -20,7 +20,7 @@
 
 title: CMMID Repository
 description: >- # this means to ignore newlines until "baseurl:"
-  Repository with previous and ongoing work from the Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene & Tropical Medicine.
+  Repository with previous and ongoing work on Covid-19 from the Centre for the Mathematical Modelling of Infectious Diseases (CMMID) at the London School of Hygiene & Tropical Medicine (LSHTM).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cmmid.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cmmid_lshtm
