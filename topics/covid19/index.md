@@ -7,5 +7,5 @@ redirect_from:
   - /ncov
 ---
 
-Multiple members of CMMID are working on the ongoing SARS-CoV-2 outbreak.
+Multiple members of CMMID are working on the ongoing Covid-19 (previously referred to as novel coronavirus or nCov) outbreak caused by the SARS-CoV-2 virus.
 This page shows an overview of our work. We regularly update this page with new and updated work.
