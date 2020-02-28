@@ -10,6 +10,7 @@ update: 2020-02-18
 authors:
   - id: sam_clifford
     corresponding: true
+  - id: carl_ab_pearson
   - id: petra_klepac
   - id: kevin_vanzandvoort
   - id: billy_quilty
