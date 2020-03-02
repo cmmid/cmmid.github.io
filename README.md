@@ -20,6 +20,10 @@ authors:
   - id: author_2
   - id: author_3
   
+If you want to use mathjax, tabs, or other objects regularly used in Rmarkdown html files:
+ 1. set 'output: html_fragment' in your rmarkdown file
+ 2. set rmarkdown_html_fragment: true in the front-matter of your post
+  
 # Adding R Shiny Apps
 
 To add a new shiny app to the [visualisations page](https://cmmid.github.io/visualisations.html), all you need to do is copy a file, and change two fields.
