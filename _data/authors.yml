@@ -73,6 +73,9 @@
 - id: kiesha_prem
   name: Kiesha Prem
   email: kiesha.prem@lshtm.ac.uk
+- id: thibaut_jombart
+  name: Tibaut Jombart
+  email: Thibaut.Jombart@lshtm.ac.uk
 - id: ncov-group
   name: CMMID nCov working group
   type: group
@@ -102,3 +105,4 @@
    - alicia_rosello
    - carl_ab_pearson
    - kiesha_prem
+   - thibaut_jombart
