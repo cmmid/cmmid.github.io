@@ -1,18 +1,19 @@
 ---
 title: "The Contribution of Pre-symptomatic Transmission to the COVID-19 Outbreak"
-description: We estimate the proportion of observed cases that may have been caused
-  by during the pre-symptomatic period of the corresponding primary cases.
+
+description: We estimate the proportion of observed cases that may have been caused by during the pre-symptomatic period of the corresponding primary cases.
+
 status: in-progress
+
 authors:
 - id: yang_liu
 - id: seb_funk
 - id: stefan_flasche
-update: '2020-03-02'
+
+update: 2020-03-02
 ---
 
-
 SARS-CoV-2 has been spreading rapidly, progressing from less than 300 cases in 4 countries to over 80,000 cases across 59 countries within the past month or so \[1\]. A major obstacle for outbreak control, which typically focuses on rapid syndromic identification and isolation of cases and their contacts, is pre-symptomatic transmission or transmission during an initial period of mild symptoms that could be suppressed by over-the-counter medicine \[2,3,4\]. 
-
 
 In their analysis of the epidemiological dynamics of the first 425 cases, Li Qun et al.\[5\] report early estimates for both the serial interval and the incubation period for Covid-19, the disease caused by SARS-CoV-2. This allows rough estimation of the probability for onward transmission of SARS-Cov-2 while being pre-symptomatic. The overlap between the incubation period and serial interval distributions suggest that up to about one quarter of SARS-CoV-2 secondary infections may be caused during the pre-symptomatic period of the primary case (Figure 1). Data from a cluster of cases in Germany \[2\] suggest the serial interval might be even shorter than the one reported by Li Qun et al. \[5\], in which case the proportion of secondary cases would be even greater than our estimates.
 
@@ -23,6 +24,7 @@ Such potentially high contribution of pre-symptomatic transmission would be a la
 *Figure 1:* The serial distribution stratified according to the probability of having completed the incubation period on that day. Assuming that serial interval and incubation period are independent (i.e., the length of the serial interval in an individual is independent of their incubation period), the overall probability of a transmission event to happen before the infector becomes symptomatic is 26%. If the periods are correlated, however, these probabilities change. The probability of a transmission event to happen before the infector becomes symptomatic is also compatible in principle with a range from  0% (perfect correlation) to 32% (perfect anti-correlation). The code to perform these calculations can be found at <https://github.com/yangclaraliu/2019nCoV_proportion_asym>.
 
 References
+----------
 
 1 World Health Organisation. Novel Coronavirus(2019-nCoV) Situation Report - 41 [Internet]. Available from: <https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200301-sitrep-41-covid-19.pdf?sfvrsn=6768306d_2>
 
