@@ -23,7 +23,6 @@ Such potentially high contribution of pre-symptomatic transmission would be a la
 *Figure 1:* The serial distribution stratified according to the probability of having completed the incubation period on that day. Assuming that serial interval and incubation period are independent (i.e., the length of the serial interval in an individual is independent of their incubation period), the overall probability of a transmission event to happen before the infector becomes symptomatic is 26%. If the periods are correlated, however, these probabilities change. The probability of a transmission event to happen before the infector becomes symptomatic is also compatible in principle with a range from  0% (perfect correlation) to 32% (perfect anti-correlation). The code to perform these calculations can be found at <https://github.com/yangclaraliu/2019nCoV_proportion_asym>.
 
 References
-----------
 
 1 World Health Organisation. Novel Coronavirus(2019-nCoV) Situation Report - 41 [Internet]. Available from: <https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200301-sitrep-41-covid-19.pdf?sfvrsn=6768306d_2>
 
