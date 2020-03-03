@@ -69,6 +69,8 @@ alternative control/mitigation strategies should be considered.
 
 
 
+
+
 ## Summary of the methods
 
 ### Outline
@@ -99,7 +101,15 @@ A single simulation involves the following steps:
 2. add epidemic trajectories from every deaths
 
 A typical run of our model involves several hundreds (by default, 200)
-simulations, which are concatenated, and from which summaries are then derived.
+simulations, which are concatenated, and from which summaries are then
+derived. Results from a single simulation are illustratred on the figure below.
+
+<img src="figures/deaths2cases_example.png" width="65%" /> <br>
+*Figure 1: Example of a single simulation for 3 deaths, showing 100 epidemic
+trajectories. Red lines indicate dates of deaths. Dark bars indicate the
+inferred concurrent cases, placed at the inferred date of onset. The blue ribbon
+and colored lines provide a visual summary of the resulting epidemic curves, in
+number of new cases daily.*
 
 
 
@@ -108,21 +118,20 @@ simulations, which are concatenated, and from which summaries are then derived.
 Inputs of the model are parametrised as follows:
 
 * **serial interval**: discretised log-normal distribution with a mean of 4.7
-  days and a standard deviation of 2.9 days; source:
-  https://www.medrxiv.org/content/10.1101/2020.02.03.20019497v2.full.pdf
+  days and a standard deviation of 2.9 days; 
+  [source](https://www.medrxiv.org/content/10.1101/2020.02.03.20019497v2.full.pdf)
 
 * **onset-to-death distribution**: discretised Gamma distribution with shape
-  4.726 and rate 0.3151; source: https://www.mdpi.com/2077-0383/9/2/538
+  4.726 and rate 0.3151; 
+  [source](https://www.mdpi.com/2077-0383/9/2/538)
 
 * **R$**: defaults to 2, in line with previous estimations, but different values
-  are investigated in a sensitivity study; source:
-  https://wellcomeopenresearch.org/articles/5-17
+  are investigated in a sensitivity study (R = 1.5, 2, 3); 
+  [source](https://wellcomeopenresearch.org/articles/5-17)
 
 * **CFR**: defaults to 2%, in line with previous estimations, but different values
-  are investigated in a sensitivity study; source:
-
-
-
+  are investigated in a sensitivity study (CFR = 1%, 2%, 3%, 10%); 
+  [source](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200219-sitrep-30-covid-19.pdf?sfvrsn=3346b04f_2)
 
 
 
@@ -130,7 +139,3 @@ Inputs of the model are parametrised as follows:
 
 ## Key assumptions and limitations
 
-
-
-
-## References
