@@ -1,7 +1,7 @@
 ---
 
 #add the title of your project
-title: Inferring cases from recent deaths
+title: "Inferring cases from recent deaths"
 
 description: We infer the number of COVID-19 cases based on recently reported deaths.
 
@@ -38,11 +38,6 @@ authors:
   - id: adam_kucharski
   - id: ncov-group
   - id: john_edmunds
-    corresponding: true
-
-#make sure old urls still work by redirecting to this post
-<!-- redirect_from: -->
-<!--   - /ncov/isolation_contact_tracing/ -->
 
 ---
 
