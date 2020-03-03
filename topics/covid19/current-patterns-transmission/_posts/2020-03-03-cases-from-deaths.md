@@ -67,6 +67,154 @@ alternative control/mitigation strategies should be considered.
 
 ## Summary of findings
 
+Simulations results ran for a range of parameter combinations and for a single
+death are summarised in Table 1. Whilst there is substantial uncertainty in the
+total numbers of cases, results under most settings suggest that hundreds to
+thousands of cases are likely. Higher reproduction numbers (*R*) and lower CFR
+give the largest estimates. The scenario leading to fewest cases (R = 1.5, CFR =
+10%), which may be pausible for deaths in elderly patients, still suggest that a
+few thousands of contacts (assuming a few 10s of contacts per case) would likely
+have to be followed in order to contain the outbreak.
+
+<table>
+<thead>
+<tr class="header">
+<th align="right">R</th>
+<th align="right">cfr</th>
+<th align="right">average</th>
+<th align="right">median</th>
+<th align="right">lower_95</th>
+<th align="right">lower_50</th>
+<th align="right">upper_50</th>
+<th align="right">upper_95</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1.5</td>
+<td align="right">0.01</td>
+<td align="right">1018</td>
+<td align="right">626</td>
+<td align="right">59</td>
+<td align="right">322</td>
+<td align="right">1319</td>
+<td align="right">3631</td>
+</tr>
+<tr class="even">
+<td align="right">2.0</td>
+<td align="right">0.01</td>
+<td align="right">5141</td>
+<td align="right">1476</td>
+<td align="right">62</td>
+<td align="right">670</td>
+<td align="right">3619</td>
+<td align="right">30799</td>
+</tr>
+<tr class="odd">
+<td align="right">3.0</td>
+<td align="right">0.01</td>
+<td align="right">26093</td>
+<td align="right">5238</td>
+<td align="right">201</td>
+<td align="right">1748</td>
+<td align="right">16561</td>
+<td align="right">240199</td>
+</tr>
+<tr class="even">
+<td align="right">1.5</td>
+<td align="right">0.02</td>
+<td align="right">472</td>
+<td align="right">298</td>
+<td align="right">32</td>
+<td align="right">151</td>
+<td align="right">584</td>
+<td align="right">2254</td>
+</tr>
+<tr class="odd">
+<td align="right">2.0</td>
+<td align="right">0.02</td>
+<td align="right">1951</td>
+<td align="right">763</td>
+<td align="right">60</td>
+<td align="right">266</td>
+<td align="right">2023</td>
+<td align="right">12278</td>
+</tr>
+<tr class="even">
+<td align="right">3.0</td>
+<td align="right">0.02</td>
+<td align="right">20387</td>
+<td align="right">3662</td>
+<td align="right">287</td>
+<td align="right">1279</td>
+<td align="right">13050</td>
+<td align="right">166783</td>
+</tr>
+<tr class="odd">
+<td align="right">1.5</td>
+<td align="right">0.03</td>
+<td align="right">300</td>
+<td align="right">192</td>
+<td align="right">25</td>
+<td align="right">100</td>
+<td align="right">382</td>
+<td align="right">1158</td>
+</tr>
+<tr class="even">
+<td align="right">2.0</td>
+<td align="right">0.03</td>
+<td align="right">923</td>
+<td align="right">430</td>
+<td align="right">35</td>
+<td align="right">172</td>
+<td align="right">926</td>
+<td align="right">5177</td>
+</tr>
+<tr class="odd">
+<td align="right">3.0</td>
+<td align="right">0.03</td>
+<td align="right">47899</td>
+<td align="right">2142</td>
+<td align="right">79</td>
+<td align="right">549</td>
+<td align="right">7140</td>
+<td align="right">189223</td>
+</tr>
+<tr class="even">
+<td align="right">1.5</td>
+<td align="right">0.10</td>
+<td align="right">104</td>
+<td align="right">65</td>
+<td align="right">3</td>
+<td align="right">30</td>
+<td align="right">130</td>
+<td align="right">415</td>
+</tr>
+<tr class="odd">
+<td align="right">2.0</td>
+<td align="right">0.10</td>
+<td align="right">248</td>
+<td align="right">120</td>
+<td align="right">9</td>
+<td align="right">49</td>
+<td align="right">268</td>
+<td align="right">1348</td>
+</tr>
+<tr class="even">
+<td align="right">3.0</td>
+<td align="right">0.10</td>
+<td align="right">4945</td>
+<td align="right">488</td>
+<td align="right">13</td>
+<td align="right">121</td>
+<td align="right">1764</td>
+<td align="right">49745</td>
+</tr>
+</tbody>
+</table>
+<br>
+*Table 1: summaries of the total number of cases inferred for a single death,
+based on 200 simulations for each parameter combination.*
 
 
 
