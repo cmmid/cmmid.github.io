@@ -249,7 +249,7 @@ span.authors {
     font-style: italic;
     width: 100%;
     display: block;
-    line-height: 1.8em;
+    line-height: 1.1em;
 }
 span.author-type {
     font-size: 0.8em;
@@ -267,41 +267,7 @@ span.author-type {
     margin-top: 2.1%;
     border-bottom: 1px solid #ccc;
 }
-.nav.nav-tabs {
-    position: relative;
-    bottom: -2px;
-    border-bottom: 0;
-}
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-    background-color: unset;
-    border: 1px solid transparent;
-}
-.container .nav-tabs > li {
-  background-color: #EEEEEE;
-  margin-left: 1%;
-  margin-bottom: 2px;
-  border: 1px solid #ddd;
-  border-bottom: 0;
-  border-radius: 5px 5px 0px 0;
-}
-.container .tab-content {
-  border-top: 1px solid #ddd;
-}
-.container li {
-  font-size: 1.1em;
-  line-height: 1.5em;
-  margin-bottom: 0.5em;
-}
-.container li.active {
-  background-color: #fff !important;
-}
-.container .tab-content {
-  border: 1px solid #ddd;
-  padding: 1% 1% 1% 2%;
-}
-table tr:hover {
-    background-color: #eee;
-}
+
 /* rmarkdown html styles */
 .container .table th:not([align]) {
   text-align: left;
