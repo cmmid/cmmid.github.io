@@ -41,6 +41,44 @@ authors:
 
 ---
 
+<style>
+
+table.blueTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #93A2BC;
+  background-color: #FFFFFF;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #CACBDD;
+}
+table.blueTable thead {
+  background: #66676F;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #FFFFFF;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot td {
+  font-size: 10px;
+}
+
+</style>
 
 
 ## Aim
@@ -71,7 +109,7 @@ give the largest estimates. The scenario leading to fewest cases (R = 1.5, CFR =
 few thousands of contacts (assuming a few 10s of contacts per case) would likely
 have to be followed in order to contain the outbreak.
 
-<table>
+<table class="blueTable">
 <thead>
 <tr class="header">
 <th align="right">R</th>
