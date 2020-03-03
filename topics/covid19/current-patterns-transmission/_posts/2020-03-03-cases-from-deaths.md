@@ -92,8 +92,8 @@ To infer the number of cases of COVID-19 based on recent deaths.
 
 By the time a COVID-19 death is reported in a newly affected country, it is
 likely that there are already hundreds or thousands of cases in the population.
-This means containment through contact tracing will be very challenging, and
-alternative control/mitigation strategies should be considered.
+This means containment through contact tracing will likely be very challenging,
+and alternative control/mitigation strategies should probably be considered.
 
 
 
@@ -104,7 +104,7 @@ Simulations results ran for a range of parameter combinations and for a single
 death are summarised in Table 1. Whilst there is substantial uncertainty in the
 total numbers of cases, results under most settings suggest that hundreds to
 thousands of cases are likely. Higher reproduction numbers (*R*) and lower CFR
-give the largest estimates. The scenario leading to fewest cases (R = 1.5, CFR =
+give the largest estimates. The scenario leading to fewest cases (*R* = 1.5, CFR =
 10%), which may be pausible for deaths in elderly patients, still suggest that a
 few thousands of contacts (assuming a few 10s of contacts per case) would likely
 have to be followed in order to contain the outbreak.
@@ -125,7 +125,7 @@ have to be followed in order to contain the outbreak.
 <tbody>
 <tr class="odd">
 <td align="right">1.5</td>
-<td align="right">0.01</td>
+<td align="right">1 %</td>
 <td align="right">1018</td>
 <td align="right">626</td>
 <td align="right">59</td>
@@ -135,7 +135,7 @@ have to be followed in order to contain the outbreak.
 </tr>
 <tr class="even">
 <td align="right">2.0</td>
-<td align="right">0.01</td>
+<td align="right">1 %</td>
 <td align="right">5141</td>
 <td align="right">1476</td>
 <td align="right">62</td>
@@ -145,7 +145,7 @@ have to be followed in order to contain the outbreak.
 </tr>
 <tr class="odd">
 <td align="right">3.0</td>
-<td align="right">0.01</td>
+<td align="right">1 %</td>
 <td align="right">26093</td>
 <td align="right">5238</td>
 <td align="right">201</td>
@@ -155,7 +155,7 @@ have to be followed in order to contain the outbreak.
 </tr>
 <tr class="even">
 <td align="right">1.5</td>
-<td align="right">0.02</td>
+<td align="right">2 %</td>
 <td align="right">472</td>
 <td align="right">298</td>
 <td align="right">32</td>
@@ -165,7 +165,7 @@ have to be followed in order to contain the outbreak.
 </tr>
 <tr class="odd">
 <td align="right">2.0</td>
-<td align="right">0.02</td>
+<td align="right">2 %</td>
 <td align="right">1951</td>
 <td align="right">763</td>
 <td align="right">60</td>
@@ -175,7 +175,7 @@ have to be followed in order to contain the outbreak.
 </tr>
 <tr class="even">
 <td align="right">3.0</td>
-<td align="right">0.02</td>
+<td align="right">2 %</td>
 <td align="right">20387</td>
 <td align="right">3662</td>
 <td align="right">287</td>
@@ -185,7 +185,7 @@ have to be followed in order to contain the outbreak.
 </tr>
 <tr class="odd">
 <td align="right">1.5</td>
-<td align="right">0.03</td>
+<td align="right">3 %</td>
 <td align="right">300</td>
 <td align="right">192</td>
 <td align="right">25</td>
@@ -195,7 +195,7 @@ have to be followed in order to contain the outbreak.
 </tr>
 <tr class="even">
 <td align="right">2.0</td>
-<td align="right">0.03</td>
+<td align="right">3 %</td>
 <td align="right">923</td>
 <td align="right">430</td>
 <td align="right">35</td>
@@ -205,7 +205,7 @@ have to be followed in order to contain the outbreak.
 </tr>
 <tr class="odd">
 <td align="right">3.0</td>
-<td align="right">0.03</td>
+<td align="right">3 %</td>
 <td align="right">47899</td>
 <td align="right">2142</td>
 <td align="right">79</td>
@@ -215,7 +215,7 @@ have to be followed in order to contain the outbreak.
 </tr>
 <tr class="even">
 <td align="right">1.5</td>
-<td align="right">0.10</td>
+<td align="right">10 %</td>
 <td align="right">104</td>
 <td align="right">65</td>
 <td align="right">3</td>
@@ -225,7 +225,7 @@ have to be followed in order to contain the outbreak.
 </tr>
 <tr class="odd">
 <td align="right">2.0</td>
-<td align="right">0.10</td>
+<td align="right">10 %</td>
 <td align="right">248</td>
 <td align="right">120</td>
 <td align="right">9</td>
@@ -235,7 +235,7 @@ have to be followed in order to contain the outbreak.
 </tr>
 <tr class="even">
 <td align="right">3.0</td>
-<td align="right">0.10</td>
+<td align="right">10 %</td>
 <td align="right">4945</td>
 <td align="right">488</td>
 <td align="right">13</td>
@@ -285,12 +285,25 @@ A typical run of our model involves several hundreds (by default, 200)
 simulations, which are concatenated, and from which summaries are then
 derived. Results from a single simulation are illustratred on the figure below.
 
+<br>
+
 <img src="figures/deaths2cases_example.png" width="65%"> <br>
 *Figure 1: Example of a single simulation for 3 deaths, showing 100 epidemic
 trajectories. Red lines indicate dates of deaths. Dark bars indicate the
 inferred concurrent cases, placed at the inferred date of onset. The blue ribbon
 and colored lines provide a visual summary of the resulting epidemic curves, in
 number of new cases daily.*
+
+<br>
+
+<img src="figures/deaths2cases_example_cumul.png" width="65%"> <br>
+*Figure 2: Example of a single simulation for 3 deaths, showing 100 epidemic
+trajectories. Red lines indicate dates of deaths. Dark bars indicate the
+inferred concurrent cases, placed at the inferred date of onset. The blue ribbon
+and colored lines provide a visual summary of the resulting epidemic curves, in
+total (cumulated) numbers cases.*
+
+<br>
 
 
 
