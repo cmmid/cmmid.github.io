@@ -43,7 +43,7 @@ collections:
   shinyapp:
     output: true
 
-exclude: ["README.md", "topics/YYYY-MM-DD-post-template.md", "_shinyapp/template.md", "ncov/readme.md", "ncov"]
+exclude: ["README.md", "topics/YYYY-MM-DD-post-template.md", "_shinyapp/template.md", "ncov/readme.md", "ncov", "/translations/*/topics/YYYY-MM-DD-post-template.md"]
 
 permalink: /:categories/:title:output_ext
 
