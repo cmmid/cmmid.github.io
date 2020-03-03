@@ -4,7 +4,7 @@
 		<div class="top">
 			<div class="row">
 				<div class="col-xs-6">
-					Posts
+					{% include fn_gettranslation string="Posts" lang=page.language %}
 				</div>
 				<div class="col-xs-6">
 					<button data-toggle="collapse" data-target="#filter-options"><span class="filter-icon" title="Filter posts"></span></button>
@@ -14,23 +14,31 @@
 		<div id="filter-options" class="bottom collapse">
 			<div class="wrapper">
 				{% assign statusses = 'in-progress' | split: '*' %}
-				{% for post in site.categories[page.tag] %}
+				
+				{% if page.language %}
+					{% assign posts = site.categories[page.tag] | where: "language", page.language %}
+				{% else %}
+					{% assign posts = site.categories[page.tag] | where: "language", blank %}
+				{% endif %}
+
+				{% for post in posts %}
 					{% unless statusses contains post.status %}
 						{% if post.status %}
+							{% assign translated_status = include fn_gettranslation string=post.status lang=page.language %}
 							{% assign statusses = statusses | push: post.status %}
 						{% endif %}
 					{% endunless %}
 				{% endfor %}
 				{% unless statusses.size == 0 %}
-					<p>Status:
+					<p>{% include fn_gettranslation string="Status" lang=page.language %}:
 					{% for status in statusses %}
-						<label> {{status}} <input type="checkbox" checked="checked" class="filter-select" data-filter="status" value="{{status}}"></label>			
+						<label> {% include fn_gettranslation string=status lang=page.language %} <input type="checkbox" checked="checked" class="filter-select" data-filter="status" value="{{status}}"></label>			
 					{% endfor %}
 					</p>
 				{% endunless %}
 				
 				{% assign subcategories = '' | split: '' %}
-				{% for post in site.categories[page.tag] %}
+				{% for post in posts %}
 					{% assign use_category = false %}
 					{% for post_cat in post.categories %}
 						{{% post.title %}}
@@ -43,23 +51,16 @@
 					{% endfor %}
 				{% endfor %}
 				{% unless subcategories.size == 0 %}
-					<p>Category:
+					<p>{% include fn_gettranslation string="Category" lang=page.language %}:
 					{% for cat in subcategories %}
-						{% assign catdata = site.data.categories | where: "id", cat %}
-						{% if catdata.size == 1 %}
-							{% assign cat_name = catdata | map: "name" %}
-						{% else %}
-							{% assign cat_name = cat %}
-						{% endif %}
-						<label> {{cat_name}} <input type="checkbox" checked="checked" class="filter-select" data-filter="category" value="{{cat}}"></label>			
+						<label> {% include fn_getcatname cat=cat lang=page.language %} <input type="checkbox" checked="checked" class="filter-select" data-filter="category" value="{{cat}}"></label>			
 					{% endfor %}
 					</p>
 				{% endunless %}
 			</div>
 		</div>
 	</div>
-	
-	{% assign posts_sorted = site.categories[page.tag] %}	
+	{% assign posts_sorted = posts %}	
 	{% assign posts_sorted = (posts_sorted | sort: 'update') | reverse %}
 	{% for post in posts_sorted %}
 		{% if post.status %}
@@ -72,20 +73,19 @@
 				<h4><a href="{{post.url}}" target="_blank">{{post.title}}</a></h4>
 			</div>
 			<div class="meta-information">
-				
-				<span class="status {{post.status}}">{{post_status}}</span> | <span class="date">First online: {{post.date | date: "%d-%m-%Y"}}</span>{% if post.update%} | <span class="date">Last update: {{post.update | date: "%d-%m-%Y"}}</span>{% endif %}
+				<span class="status {{post.status}}">{% include fn_gettranslation string=post_status lang=page.language %}</span> | <span class="date">{% include fn_gettranslation string='First online' lang=page.language %}: {{post.date | date: "%d-%m-%Y"}}</span>{% if post.update%} | <span class="date">{% include fn_gettranslation string="Last update" lang=page.language %}: {{post.update | date: "%d-%m-%Y"}}</span>{% endif %}
 			</div>
 			<div class="content">
 				<p>{{post.description}}</p>
-				<p class="read-more"><a href="{{post.url}}" target="_blank">Read more</a></p>
+				<p class="read-more"><a href="{{post.url}}" target="_blank">{% include fn_gettranslation string="Read more" lang=page.language %}</a></p>
 				
 			</div>
 		</article>
 	{% endfor %}
-	<div class="no-articles" style="display:none;">No articles match the current filter.</div>
+	<div class="no-articles" style="display:none;">{% include fn_gettranslation string="No articles match the current filter" lang=page.language %}.</div>
 	</div>
 {% else %}
-	<p>We haven't published any work on this topic yet.</p>
+	<p>{% include fn_gettranslation string="We haven't published any work on this topic yet" lang=page.language %}.</p>
 {% endif %}
 
 <script>

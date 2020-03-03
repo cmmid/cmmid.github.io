@@ -55,6 +55,12 @@ defaults:
       layout: "post"
   -
     scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
       path: "topics"
       type: "posts"
     values:
@@ -65,6 +71,18 @@ defaults:
       type: "pages"
     values:
       layout: "category"
+  -
+    scope:
+      path: "translations/*/topics"
+      type: "pages"
+    values:
+      layout: "category"
+  -
+    scope:
+      path: "translations/*/topics"
+      type: "posts"
+    values:
+      layout: "research_post"    
   -
     scope:
       path: ""
