@@ -113,13 +113,13 @@ have to be followed in order to contain the outbreak.
 <thead>
 <tr class="header">
 <th align="right">R</th>
-<th align="right">cfr</th>
-<th align="right">average</th>
-<th align="right">median</th>
-<th align="right">lower_95</th>
-<th align="right">lower_50</th>
-<th align="right">upper_50</th>
-<th align="right">upper_95</th>
+<th align="right">CFR</th>
+<th align="right">Average</th>
+<th align="right">Median</th>
+<th align="right">Lower 95%</th>
+<th align="right">Lower 50%</th>
+<th align="right">Upper 50%</th>
+<th align="right">Upper 95%</th>
 </tr>
 </thead>
 <tbody>
@@ -306,7 +306,7 @@ Inputs of the model are parametrised as follows:
   4.726 and rate 0.3151; 
   [source](https://www.mdpi.com/2077-0383/9/2/538)
 
-* **R$**: defaults to 2, in line with previous estimations, but different values
+* **R**: defaults to 2, in line with previous estimations, but different values
   are investigated in a sensitivity study (R = 1.5, 2, 3); 
   [source](https://wellcomeopenresearch.org/articles/5-17)
 
