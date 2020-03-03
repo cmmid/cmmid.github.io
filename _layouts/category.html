@@ -9,7 +9,7 @@ layout: default
 	{% else %}
 		{% assign catname = page.tag %}
 	{% endif %}	
-    <h1>{% include fn_getcatname cat=page.tag %}</h1>
+    <h1>{{ catname }}</h1>
 	
 	{{content}}
 	
@@ -18,7 +18,7 @@ layout: default
 	{% endunless %}
 	
 	{% unless page.show_posts == false %}
-		<h3>{% include fn_gettranslation string="The list below shows all our work on this topic" lang=page.language %}</h3>
+		<h3>The list below shows all our work on {{ catname }}</h3>
 		{% include category_posts.html %}
 	{% endunless %}
 	

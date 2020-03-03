@@ -1,6 +1,6 @@
 {%- assign count_corresponding = 0 -%}
 {%- assign equal_types = '' | split: '' -%}
-<div class="post-authors"><p><span class="authors"><span style="font-weight:bold; font-style:normal;">{% include fn_gettranslation string="Authors" lang=page.language %}: </span>
+<div class="post-authors"><p><span class="authors"><span style="font-weight:bold; font-style:normal;">Authors: </span>
 {%- for author in page.authors -%}
 	{%- assign author_data = site.data.authors | where: "id", author.id -%}
 	
@@ -40,11 +40,11 @@
 {%- endfor -%}
 </span>
 {%- if count_corresponding > 0 -%}
-	<span class="author-type">* {% include fn_gettranslation string="corresponding author" lang=page.language %}</span>
+	<span class="author-type">* corresponding author</span>
 {%- endif -%}
 {%- if equal_types.size > 0 -%}
 	{%- for i in equal_types -%}
-		<span class="author-type">{{i}} {% include fn_gettranslation string="contributed equally" lang=page.language %}</span>
+		<span class="author-type">{{i}} contributed equally</span>
 	{%- endfor -%}
 {%- endif -%}
 </p></div>

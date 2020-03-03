@@ -1,12 +1,7 @@
 <div class="collapse navbar-collapse" id="myNavbar">
 	<ul class="nav navbar-nav">
 		{% assign page_categories = page.url | split:'/' %}
-		{% if page.language == "zh-cn" %}
-			{% assign navs = site.data.navigation-zhcn %}
-		{% else %}
-			{% assign navs = site.data.navigation %}
-		{% endif %}
-		{% for item in navs %}
+		{% for item in site.data.navigation %}
 			{% assign item_categories = item.link | split:'/' %}
 			{% assign in_current=false %}
 				{% for i in item_categories %}

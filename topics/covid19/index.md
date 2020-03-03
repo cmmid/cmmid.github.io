@@ -11,5 +11,3 @@ Multiple members of CMMID are working on the ongoing Covid-19 (previously referr
 This page shows an overview of our work. We regularly update this page with new and updated work.
 
 Our group has made multiple <a href="/visualisations" target="_blank">interactive applications</a> where some of our work can be explored further.
-
-We also translated some of our posts in Chinese: <a style="color: #00BF6F;" title="中文版" href="/translations/zh-cn/topics/covid19/">中文版</a>
