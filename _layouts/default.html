@@ -1,5 +1,9 @@
 <!doctype html>
+{% if page.language %}
+<html lang="{{ page.language | split: '-' | first }}">
+{% else %}
 <html lang="{{ site.locale }}">
+{% endif %}
   {% include head.html%}
   <body>
     {% include header.html %}

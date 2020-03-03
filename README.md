@@ -2,7 +2,7 @@
 
 The source for the [web page](https://cmmid.github.io/) advertising assorted [CMMID](https://cmmid.lshtm.ac.uk/) project work.
 
-# Adding posts
+# Adding NEW posts
 
 To add a new post to the website, add a new markdown or html file to the correct category under /topic/category/subcategory
 
@@ -23,7 +23,12 @@ authors:
 If you want to use mathjax, tabs, or other objects regularly used in Rmarkdown html files:
  1. set 'output: html_fragment' in your rmarkdown file
  2. set rmarkdown_html_fragment: true in the front-matter of your post
-  
+ 
+# Adding TRANSLATED posts
+Post translations should be added in the corresponding folder under /translations/xx-yy/topics/ similar to /topics/
+
+Currently, only zh-cn is available
+ 
 # Adding R Shiny Apps
 
 To add a new shiny app to the [visualisations page](https://cmmid.github.io/visualisations.html), all you need to do is copy a file, and change two fields.
