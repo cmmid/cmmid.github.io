@@ -19,24 +19,44 @@ update: 2020-03-03
 # can set corresponding: true to indicate corresponding author 
 authors:
   - id: thibaut_jombart
-  - id: tim_russell
+    corresponding: true
   - id: sam_abbott
+    equal: 1
   - id: amy_gimma
-  - id: sam_clifford
+    equal: 1
   - id: chris_jarvis
+    equal: 1
+  - id: tim_russell
+    equal: 1
+  - id: sam_clifford
   - id: seb_funk
+  - id: adam_kucharski
   - id: hamish_gibbs
   - id: yang_liu
   - id: roz_eggo
   - id: ncov-group
-  - id: adam_kucharski
   - id: john_edmunds
-    corresponding: true#permalinks have changed
+    corresponding: true
 
 #make sure old urls still work by redirecting to this post
-redirect_from:
-  - /ncov/isolation_contact_tracing/
+<!-- redirect_from: -->
+<!--   - /ncov/isolation_contact_tracing/ -->
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat nunc sit amet ullamcorper mollis. Duis mollis nisi eu nulla condimentum efficitur. Donec congue, dolor non aliquam pharetra, arcu orci lacinia arcu, non viverra justo massa id lorem. Morbi dignissim luctus risus, id viverra nunc lacinia vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum iaculis metus at lacus maximus ultricies. Aenean arcu ligula, euismod sit amet lobortis id, rutrum in quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ut justo pulvinar, facilisis nisi nec, porta urna. Integer consectetur ante enim, ac hendrerit augue tristique ac. Etiam tincidunt fermentum luctus. Nunc quis placerat ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur nulla nec mauris rhoncus vehicula. In tincidunt sapien at urna suscipit, non mattis lectus fermentum. 
+## Aim
+
+
+## Key findings
+
+
+## Summary of the methods
+
+
+## Summary of findings
+
+
+## Key assumptions and limitations
+
+
+## References
