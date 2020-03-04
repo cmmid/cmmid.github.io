@@ -95,6 +95,9 @@ likely that there are already hundreds or thousands of cases in the population.
 This means containment through contact tracing will likely be very challenging,
 and alternative control/mitigation strategies should probably be considered.
 
+## App
+
+We also created an [interactive tool](/visualisations/inferring-covid19-cases-from-deaths) where users can run the model themselves under different assumptions.
 
 
 
