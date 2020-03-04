@@ -10,7 +10,7 @@ description: We infer the number of COVID-19 cases based on recently reported de
 status: in-progress
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-03-03
+update: 2020-03-04
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -338,6 +338,11 @@ Inputs of the model are parametrised as follows:
 
 * this model assumes that the death reported relates to a case infected
   in-country
+  
+* this model assumes no change in transmissibility (*R*) over time; it is only
+  suitable in the early stages of epidemic growth, before intervention, changes
+  in behaviour, or the depletion of susceptibles start having a significant
+  effect on transmission
 
 * the model does not account for over-dispersion in the offspring distribution
   which could result from super-spreading events (e.g. negative binomial
