@@ -3,7 +3,7 @@
 #add the title of your project
 title: "Inferring cases from recent deaths"
 
-description: We infer the number of COVID-19 cases based on recently reported deaths.
+description: We infer the number of COVID-19 cases based on recently reported deaths. Results suggest that by the time a single COVID-19 death is reported, hundreds to thousands of cases may already be present in the population.
 
 #add a status: in-progress, under-review, published
 #defaults to in-progress if not set
