@@ -82,6 +82,9 @@
 - id: june_chun
   name: June Young Chun
   email: june.y.chun@gmail.com
+- id: ruwan_ratnayake
+  name: Ruwan Ratnayake
+  email: Ruwan.Ratnayake@lshtm.ac.uk
 - id: ncov-group
   name: CMMID nCov working group
   type: group
@@ -112,3 +115,4 @@
    - carl_ab_pearson
    - kiesha_prem
    - thibaut_jombart
+   - ruwan_ratnayake
