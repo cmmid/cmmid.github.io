@@ -85,6 +85,9 @@
 - id: ruwan_ratnayake
   name: Ruwan Ratnayake
   email: Ruwan.Ratnayake@lshtm.ac.uk
+- id: robin_thompson
+  name: Robin N. Thompson
+  email: robin.thompson1988@gmail.com
 - id: ncov-group
   name: CMMID nCov working group
   type: group
