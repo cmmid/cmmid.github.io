@@ -10,7 +10,16 @@ layout: default
 
 <ul>
 {% for author in group_data.members %}
-		{% assign author_data = site.data.authors | where: "id", author | first %}
-		<li>{{ author_data.name }}</li>
+	{% assign author_data = site.data.authors | where: "id", author | first %}
+  <li>
+    {% if author_data.url %}
+      <a href="{{ author_data.url }}">{{ author_data.name }}</a>
+    {% else %}
+		  {{ author_data.name }}
+    {% endif %}
+    {% if author_data.twitter %}
+      (<a href="https://twitter.com/{{ author_data.twitter }}">@{{ author_data.twitter }}</a>)
+    {% endif %}
+  </li>
 {% endfor %}
 </ul>

@@ -1,93 +1,144 @@
 - id: adam_kucharski
   name: Adam J Kucharski
   email: adam.kucharski@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/kucharski.adam
+  twitter: adamjkucharski
 - id: seb_funk
   name: Sebastian Funk
   email: sebastian.funk@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/funk.sebastian
+  twitter: sbfnk
 - id: roz_eggo
   name: Rosalind Eggo
   email: r.eggo@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/eggo.rosalind
+  twitter: rozeggo
 - id: petra_klepac
   name: Petra Klepac
   email: petra.klepac@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/klepac.petra
+  twitter: petrakle
 - id: mark_jit
   name: Mark Jit
   email: mark.jit@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/jit.mark
 - id: john_edmunds
   name: W John Edmunds
   email: john.edmunds@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/edmunds.john
 - id: amy_gimma
   name: Amy Gimma
   email: amy.gimma@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/gimma.amy
+  twitter: amyg225
 - id: stefan_flasche
   name: Stefan Flasche
   email: stefan.flasche@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/flasche.stefan
+  twitter: StfnFlsch
 - id: billy_quilty
   name: Billy J Quilty
   email: billy.quilty@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/quilty.billy
+  twitter: BQuilty
 - id: sam_clifford
   name: Sam Clifford
   email: sam.clifford@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/clifford.sam
+  twitter: samclifford
 - id: sam_abbott
   name: Sam Abbott
   email: sam.abbott@lshtm.ac.uk
+  url:
+  twitter: seabbs
 - id: james_munday
   name: James D Munday
   email: james.munday@lshtm.ac.uk
+  url:
+  twitter: JDMunday
 - id: nikos_bosse
   name: Nikos I Bosse
   email: nikos.bosse@lshtm.ac.uk
+  url:
+  twitter: ftargument
 - id: joel_hellewell
   name: Joel Hellewell
   email: joel.hellewell@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/hellewell.joel
 - id: hamish_gibbs
   name: Hamish Gibbs
   email: hamish.gibbs@lshtm.ac.uk
+  url:
 - id: yang_liu
   name: Yang Liu
   email: yang.liu@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/liu.yang
+  twitter: yangliubeijing
 - id: nick_davies
   name: Nicholas Davies
   email: nicholas.davies@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/davies.nicholas
+  twitter: _nikdavies
 - id: charlie_diamond
   name: Charlie Diamond
   email: charlie.diamond@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/diamond.charlie
 - id: tim_russell
   name: Timothy W Russell
   email: timothy.russell@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/russell.timothy
+  twitter: realtimothyruss
 - id: chris_jarvis
   name: Christopher I Jarvis
   email: christopher.jarvis@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/jarvis.christopher
+  twitter: jarvis_stats
 - id: kevin_vanzandvoort
   name: Kevin van Zandvoort
   email: kevin.van-zandvoort@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/van-zandvoort.kevin
+  twitter: kevinvzandvoort
 - id: fiona_sun
   name: Fiona Sun
   email: fiona.sun@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/sun.fiona
+  twitter: yueqianfionasun
 - id: alicia_rosello
   name: Alicia Rosello
   email: alicia.rosello@lshtm.ac.uk
+  url:
+  twitter: rmjlros
 - id: carl_ab_pearson
   name: Carl A.B. Pearson
   email: carl.pearson@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/pearson.carl
+  twitter: cap1024
 - id: kiesha_prem
   name: Kiesha Prem
   email: kiesha.prem@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/prem.kiesha
+  twitter: kiesha_prem
 - id: thibaut_jombart
   name: Thibaut Jombart
   email: thibautjombart@gmail.com
+  url:
+  twitter: teebzR
 - id: yung_wai
   name: Yung-Wai Desmond Chan
   email: yung-wai.chan@lshtm.ac.uk
+  url:
 - id: june_chun
   name: June Young Chun
   email: june.y.chun@gmail.com
+  url:
 - id: ruwan_ratnayake
   name: Ruwan Ratnayake
   email: Ruwan.Ratnayake@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/ratnayake.ruwan
 - id: robin_thompson
   name: Robin N. Thompson
   email: robin.thompson1988@gmail.com
+  url:
 - id: ncov-group
   name: CMMID nCov working group
   type: group
