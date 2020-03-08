@@ -8,7 +8,7 @@ layout: default
 
 <p>The {{ group_data.name }} consists of the following members:</p>
 
-<ul>
+<ul id="author-group">
 {% for author in group_data.members %}
 	{% assign author_data = site.data.authors | where: "id", author | first %}
   <li>
@@ -23,3 +23,10 @@ layout: default
   </li>
 {% endfor %}
 </ul>
+
+<script>
+  var list = document.getElementById("author-group");
+  for (var i = list.children.length; i >= 0; i--) {
+    list.appendChild(list.children[Math.random() * i | 0]);
+  }
+</script>
