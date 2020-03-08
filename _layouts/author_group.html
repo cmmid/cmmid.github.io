@@ -1,17 +1,16 @@
 ---
 layout: default
 ---
-{% assign group_data = site.data.authors | where: "id", page.tag %}
-<h1>{{group_data | map: "name"}}</h1>
+{% assign group_data = site.data.authors | where: "id", page.tag | first %}
+<h1>{{ group_data.name }}</h1>
 
 {{ content }}
 
-<p>The {{group_data | map: "name"}} consists of the following members:</p>
+<p>The {{ group_data.name }} consists of the following members:</p>
 
-{% assign group_members = group_data | map: "members" | remove: '[[' | remove: ']]' | remove: '"' | remove: ' ' | split: ',' %}
 <ul>
-{% for author in group_members %}
-		{% assign author_data = site.data.authors | where: "id", author %}
-		<li>{{ author_data | map: 'name' }}</li>
+{% for author in group_data.members %}
+		{% assign author_data = site.data.authors | where: "id", author | first %}
+		<li>{{ author_data.name }}</li>
 {% endfor %}
 </ul>
