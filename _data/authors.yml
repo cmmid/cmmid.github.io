@@ -139,6 +139,11 @@
   name: Robin N. Thompson
   email: robin.thompson1988@gmail.com
   url:
+- id: akira_endo
+  name: Akira Endo
+  email: akira.endo@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/endo.akira
+  twitter: _akiraendo
 - id: ncov-group
   name: CMMID nCov working group
   type: group
