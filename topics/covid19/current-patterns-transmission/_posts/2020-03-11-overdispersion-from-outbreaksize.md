@@ -12,7 +12,7 @@ description: We evaluated the overdispersion in the number of secondary transmis
 status: in-progress
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-03-11
+update: 2020-03-12
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -44,11 +44,18 @@ To estimate the level of overdispersion in COVID-19 transmission from the worldw
 * Joint estimation of *R*0 and *k* indicated it is likely that *R*0 > 1.4 and *k* < 0.2. The current data and model did not provide evidence on the upper bound of *R*0.
 
 
-![Fig1A](figures/outbreaksize-fig1.png)
+![Fig1](figures/outbreaksize-fig1.png)
 
 Figure 1. MCMC estimates given assumed *R*0 values.
 (A) Estimated overestimation parameter for various basic reproduction number *R*0. (B) Proportion of infected individuals responsible for 80% of the total secondary transmissions (*p*80%).
 The black lines show the median estimates given fixed *R*0 values and the grey shaded areas indicate 95% CrIs. The regions corresponding to the likely range of *R*0 (2-3) are indicated by colour.
+
+
+![Fig2](figures/outbreaksize-fig2.png)
+
+Figure 2. Possible offspring distributions of COVID-19.
+(A) Offspring distribution corresponding to *R*0 = 2.5 and *k* = 0.1 (median estimate). (B) Offspring distribution corresponding to *R*0 = 2.5 and *k* = 0.05 (95% CrI lower bound), 0.2 (upper bound). The probability mass functions of negative-binomial distributions are shown.
+
 
 Table 1. Credible intervals from a joint estimation
 <table>
