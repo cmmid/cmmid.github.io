@@ -7,33 +7,33 @@ status: in-progress
 
 authors:
 - id: yang_liu
+- id: ncov-group
 - id: seb_funk
 - id: stefan_flasche
-
-update: 2020-03-02
+update: '2020-03-16'
 ---
+**Background:** Pre-symptomatic transmission can be a key determinant of the effectiveness of containment and mitigation strategies for infectious diseases, particularly if interventions rely on syndromic case finding. For COVID-19, infections in the absence of apparent symptoms have been reported frequently alongside circumstantial evidence for asymptomatic or pre-symptomatic transmission. We estimated the potential contribution of pre-symptomatic cases to COVID transmission.
 
-SARS-CoV-2 has been spreading rapidly, progressing from less than 300 cases in 4 countries to over 80,000 cases across 59 countries within the past month or so \[1\]. A major obstacle for outbreak control, which typically focuses on rapid syndromic identification and isolation of cases and their contacts, is pre-symptomatic transmission or transmission during an initial period of mild symptoms that could be suppressed by over-the-counter medicine \[2,3,4\]. 
+**Methods:** Using the probability for symptom onset on a given day inferred from the incubation period, we attributed the serial interval reported from Shenzen, China, into likely pre-symptomatic and symptomatic transmission. We used the serial interval derived for cases isolated more than 6 days after symptom onset as the no active case finding scenario and the unrestricted serial interval as the active case finding scenario. We reported the estimate assuming no correlation between the incubation period and the serial interval alongside a range indicating alternative assumptions of positive and negative correlation.
 
-In their analysis of the epidemiological dynamics of the first 425 cases, Li Qun et al.\[5\] report early estimates for both the serial interval and the incubation period for Covid-19, the disease caused by SARS-CoV-2. This allows rough estimation of the probability for onward transmission of SARS-Cov-2 while being pre-symptomatic. The overlap between the incubation period and serial interval distributions suggest that up to about one quarter of SARS-CoV-2 secondary infections may be caused during the pre-symptomatic period of the primary case (Figure 1). Data from a cluster of cases in Germany \[2\] suggest the serial interval might be even shorter than the one reported by Li Qun et al. \[5\], in which case the proportion of secondary cases would be even greater than our estimates.
+**Results:** We estimated that 23% (range accounting for correlation: 12 - 28%) of transmissions in Shenzen may have originated from pre-symptomatic infections. Through accelerated case isolation following symptom onset, this percentage increased to 46% (21 - 46%), implying that about 35% of secondary infections among symptomatic cases have been prevented. These results were robust to using reported incubation periods and serial intervals from other settings.
 
+**Conclusions:** Pre-symptomatic transmission may be essential to consider for containment and mitigation strategies for COVID-19.
 
-Such potentially high contribution of pre-symptomatic transmission would be a large dent in the hope for controlling the outbreak. It implies that limiting pre-symptomatic transmission, for example, via public health messages that encourage self-isolation even with mild symptoms and (self-)quarantine of asymptomatic contacts of a confirmed case, will need to be an integral part of control efforts.
 
 <img src="figures/Prob_Asym_Stacked.png" width="65%"/> 
-*Figure 1:* The serial distribution stratified according to the probability of having completed the incubation period on that day. Assuming that serial interval and incubation period are independent (i.e., the length of the serial interval in an individual is independent of their incubation period), the overall probability of a transmission event to happen before the infector becomes symptomatic is 26%. If the periods are correlated, however, these probabilities change. The probability of a transmission event to happen before the infector becomes symptomatic is also compatible in principle with a range from  0% (perfect correlation) to 32% (perfect anti-correlation). The code to perform these calculations can be found at <https://github.com/yangclaraliu/2019nCoV_proportion_asym>.
+*Figure 1:* Estimated attribution of the serial interval into pre-symptomatic transmission and symptomatic transmission for (A) no active case finding and (B) active case finding and accelerated case isolation. These estimates assume uncorrelated incubation period and serial interval estimates from Shenzen. 
+
+This study works with secondary data already collected by existing studies:
+- Li, Qun, et al. "Early transmission dynamics in Wuhan, China, of novel coronavirus–infected pneumonia." New England Journal of Medicine (2020).
+- Nishiura, Hiroshi, Natalie M. Linton, and Andrei R. Akhmetzhanov. "Serial interval of novel coronavirus (COVID-19) infections." International Journal of Infectious Diseases (2020).
+- Bi, Qifang, et al. "Epidemiology and Transmission of COVID-19 in Shenzhen China: Analysis of 391 cases and 1,286 of their close contacts". MedRXiv (2020).
+
+Data available @ Zenodo: yangclaraliu/2019nCoV_proportion_asym: WOR Submission. https://doi.org/10.5281/zenodo.3709942  \[1\].
+
+Source code available @ GitHub: <https://github.com/yangclaraliu/2019nCoV_proportion_asym>
+
 
 References
 ----------
-
-1 World Health Organisation. Novel Coronavirus(2019-nCoV) Situation Report - 41 [Internet]. Available from: <https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200301-sitrep-41-covid-19.pdf?sfvrsn=6768306d_2>
-
-2 Rothe C, Schunk M, Sothmann P, et al. Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany. N Engl J Med 2020;0(0).
-
-3 Fraser C, Riley S, Anderson RM, Ferguson NM. Factors that make an infectious disease outbreak controllable. Proc Natl Acad Sci 2004;101(16):6146–51.
-
-4 Kupferschmidt, K. (2020). Study claiming new coronavirus can be transmitted by people without symptoms was flawed. [online] Available at: <https://www.sciencemag.org/news/2020/02/paper-non-symptomatic-patient-transmitting-coronavirus-wrong>
-
-5 Li Q, Guan X, Wu P, et al. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia. N Engl J Med 2020;0(0).
-
-
+1 Liu Y, Centre for the Mathematical Modelling of Infectious Disease COVID-19 Working Group, Funk S, Flasche S. yangclaraliu/2019nCoV_proportion_asym: WOR Submission. Version 1.0 Zenodo. <https://zenodo.org/record/3709942#.XmwDN877SUk>
