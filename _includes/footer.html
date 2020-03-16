@@ -1,4 +1,7 @@
 <footer class="site-footer" role="banner">
+	{%- if page.rmarkdown_html_fragment == true -%}
+		{%- include research_post_rmarkdown_scripts_footer.html -%}
+	{%- endif -%}
 	{% include cookie_modal.html %}
 	<div class="row">
 		<div class="col-sm-4">

@@ -249,7 +249,7 @@ span.authors {
     font-style: italic;
     width: 100%;
     display: block;
-    line-height: 1.1em;
+    line-height: 1.8em;
 }
 span.author-type {
     font-size: 0.8em;
@@ -266,6 +266,117 @@ span.author-type {
     margin-bottom: 2%;
     margin-top: 2.1%;
     border-bottom: 1px solid #ccc;
+}
+.nav.nav-tabs {
+    position: relative;
+    bottom: -2px;
+    border-bottom: 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: unset;
+    border: 1px solid transparent;
+}
+.container .nav-tabs > li {
+  background-color: #EEEEEE;
+  margin-left: 1%;
+  margin-bottom: 2px;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  border-radius: 5px 5px 0px 0;
+}
+.container .tab-content {
+  border-top: 1px solid #ddd;
+}
+.container li {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+}
+.container li.active {
+  background-color: #fff !important;
+}
+.container .tab-content {
+  border: 1px solid #ddd;
+  padding: 1% 1% 1% 2%;
+}
+table tr:hover {
+    background-color: #eee;
+}
+/* rmarkdown html styles */
+.container .table th:not([align]) {
+  text-align: left;
+}
+.container code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.container img {
+  max-width:100%;
+}
+.container .tabbed-pane {
+  padding-top: 12px;
+}
+.container .html-widget {
+  margin-bottom: 20px;
+}
+.container button.code-folding-btn:focus {
+  outline: none;
+}
+.container summary {
+  display: list-item;
+}
+
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
 }
 
 /* responsive */

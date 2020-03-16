@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cmmid.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cmmid_lshtm
+locale: 'en'
 
 github:
   is_project_page: false
@@ -42,7 +43,7 @@ collections:
   shinyapp:
     output: true
 
-exclude: ["README.md", "topics/YYYY-MM-DD-post-template.md", "_shinyapp/template.md", "ncov/readme.md", "ncov"]
+exclude: ["README.md", "topics/YYYY-MM-DD-post-template.md", "_shinyapp/template.md", "ncov/readme.md", "ncov", "/translations/*/topics/YYYY-MM-DD-post-template.md"]
 
 permalink: /:categories/:title:output_ext
 
@@ -55,6 +56,12 @@ defaults:
       layout: "post"
   -
     scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
       path: "topics"
       type: "posts"
     values:
@@ -65,6 +72,18 @@ defaults:
       type: "pages"
     values:
       layout: "category"
+  -
+    scope:
+      path: "translations/*/topics"
+      type: "pages"
+    values:
+      layout: "category"
+  -
+    scope:
+      path: "translations/*/topics"
+      type: "posts"
+    values:
+      layout: "research_post"    
   -
     scope:
       path: ""

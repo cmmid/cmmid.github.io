@@ -35,4 +35,7 @@
 	<link rel="icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96">
 	{%- feed_meta -%}
 	{%- seo -%}
+	{%- if page.rmarkdown_html_fragment == true -%}
+		{%- include research_post_rmarkdown_scripts_head.html -%}
+	{%- endif -%}
 </head>

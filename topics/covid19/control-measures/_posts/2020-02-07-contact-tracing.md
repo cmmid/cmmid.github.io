@@ -9,10 +9,10 @@ update: 2020-03-01
 
 authors:
   - id: joel_hellewell
-    equal: 1
   - id: sam_abbott
     equal: 1
   - id: amy_gimma
+    equal: 1
   - id: nikos_bosse
   - id: chris_jarvis
   - id: tim_russell

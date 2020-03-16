@@ -1,8 +1,10 @@
 ---
 title: "The Contribution of Pre-symptomatic Transmission to the COVID-19 Outbreak"
-description: We estimate the proportion of observed cases that may have been caused
-  by during the pre-symptomatic period of the corresponding primary cases.
+
+description: We estimate the proportion of observed cases that may have been caused by during the pre-symptomatic period of the corresponding primary cases.
+
 status: in-progress
+
 authors:
 - id: yang_liu
 - id: ncov-group
@@ -10,7 +12,6 @@ authors:
 - id: stefan_flasche
 update: '2020-03-16'
 ---
-
 **Background:** Pre-symptomatic transmission can be a key determinant of the effectiveness of containment and mitigation strategies for infectious diseases, particularly if interventions rely on syndromic case finding. For COVID-19, infections in the absence of apparent symptoms have been reported frequently alongside circumstantial evidence for asymptomatic or pre-symptomatic transmission. We estimated the potential contribution of pre-symptomatic cases to COVID transmission.
 
 **Methods:** Using the probability for symptom onset on a given day inferred from the incubation period, we attributed the serial interval reported from Shenzen, China, into likely pre-symptomatic and symptomatic transmission. We used the serial interval derived for cases isolated more than 6 days after symptom onset as the no active case finding scenario and the unrestricted serial interval as the active case finding scenario. We reported the estimate assuming no correlation between the incubation period and the serial interval alongside a range indicating alternative assumptions of positive and negative correlation.
@@ -18,6 +19,7 @@ update: '2020-03-16'
 **Results:** We estimated that 23% (range accounting for correlation: 12 - 28%) of transmissions in Shenzen may have originated from pre-symptomatic infections. Through accelerated case isolation following symptom onset, this percentage increased to 46% (21 - 46%), implying that about 35% of secondary infections among symptomatic cases have been prevented. These results were robust to using reported incubation periods and serial intervals from other settings.
 
 **Conclusions:** Pre-symptomatic transmission may be essential to consider for containment and mitigation strategies for COVID-19.
+
 
 <img src="figures/Prob_Asym_Stacked.png" width="65%"/> 
 *Figure 1:* Estimated attribution of the serial interval into pre-symptomatic transmission and symptomatic transmission for (A) no active case finding and (B) active case finding and accelerated case isolation. These estimates assume uncorrelated incubation period and serial interval estimates from Shenzen. 
