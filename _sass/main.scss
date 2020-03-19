@@ -166,6 +166,10 @@ article > div {
 .posts h4 {
     margin: 0;
 }
+.h4, h4 {
+    font-size: 18px;
+    line-height: 2pc;
+}
 .posts {
     max-width: 900px;
 }
@@ -256,6 +260,10 @@ span.author-type {
     line-height: 1.5em;
     margin-right: 2%;
 }
+span.author-type.affiliation {
+    width: 100%;
+    display: block;
+}
 .post-status {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
@@ -298,6 +306,9 @@ span.author-type {
 .container .tab-content {
   border: 1px solid #ddd;
   padding: 1% 1% 1% 2%;
+}
+thead {
+    font-weight: bold;
 }
 table tr:hover {
     background-color: #eee;
