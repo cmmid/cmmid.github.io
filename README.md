@@ -15,6 +15,9 @@ description: Short description of post
 status: in-progress, under-review, or published
 update: YYYY-MM-DD when post was updated
 
+Posts without the status 'accepted' or 'published' will automatically show the "Ths study is not peer-reviewed" message.
+To suppress this message, set suppress_peerreviewed: true
+
 authors:
   - id: author_1
   - id: author_2
