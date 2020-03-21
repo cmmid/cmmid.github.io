@@ -1,7 +1,7 @@
 ---
 
 #add the title of your project
-title: "Nowcasting the COVID-19 ICU demand in England"
+title: "Nowcasting critical care bed requirements for COVID-19 patients in England"
 
 description: We estimate critical care bed demand for COVID-19 cases in England for the next two weeks. Results suggest that current capacity might be challenged by as soon as the end of this month.
 
@@ -20,95 +20,131 @@ update: 2020-03-20
 authors:
   - id: thibaut_jombart
     corresponding: true
-  - id: mark_jit
   - id: emily_nightingale
-  - id: adam_kucharski
+  - id: mark_jit
+  - id: olivier_lepolain
+  - id: gwen_knight
+  - id: stefan_flasche
   - id: roz_eggo
+  - id: adam_kucharski
+  - id: carl_pearson
   - id: ncov-group
   - id: john_edmunds
 
 ---
 
-## Aim
+
+<style>
+
+table.blueTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #93A2BC;
+  background-color: #FFFFFF;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #CACBDD;
+}
+table.blueTable thead {
+  background: #66676F;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #FFFFFF;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot td {
+  font-size: 10px;
+}
+
+</style>
+
+
+# Aim
 
 To estimate critical care bed demand for COVID-19 cases in England for the next two weeks.
 
 
-## Key findings
-
-We estimate that there will be an average of 87-726 new COVID-19 patients every day requiring ICU/HDU in England by the end of March. Combining results using two different estimates of length of stay in ICU/HDU, we estimate that this will translate to a need for 630-3,337 ICU/HDU beds.
-
-
-## Summary of findings
-
-+ As of 17th March there were 163 COVID-19 patients in critical care beds (ICU/HDU) in England. 70 new COVID-19 patients were admitted to ICU/HDU on the 18th March.
-+ We estimate that the epidemic doubling time is currently about 7 days (CI: 4 to 40)  in the UK.
-+ We assume that despite recently upscaled social distancing measures the care demand will keep increasing at a similar rate for another 2 weeks because of the delay between infection and hospitalisation.
-+ We estimate that there will be an average of 87-726 new patients every day requiring ICU/HDU by the end of March.
-+ Combining results using two different estimates of length of stay in ICU/HDU, we estimate that 630-3,337 beds would be needed for COVID-19 cases in ICU/HDU in England by the end of March.
-+ A key source of uncertainty in our predictions is the doubling time. We believe that we use the currently most robust data to estimate the doubling time for COVID in the UK but there is substantial uncertainty attached which largely drives the large uncertainty in the estimated ICU/HDU bed demand for late March.
-
-
 ## Background
+The COVID-19 epidemic in the UK has reached the point of widespread, sustained transmission. An urgent concern is the availability of intensive care beds to accommodate a rapidly increasing number of patients and limit avoidable mortality. Bed demand in intensive care and high dependency units (ICU/HDU) will depend on two essential factors: the number of admissions of COVID-19 patients to ICU/HDU, and the duration of their hospitalisation.
 
-Due to the absence of systematic testing of symptomatic COVID-19 cases, and because of the substantial fraction of asymptomatic cases and mild disease, estimation of the current number of COVID-19 infections in England is challenging. To understand current transmission patterns, we focused on cases in Intensive Care Units (ICU), which are far less likely to be subject to under-reporting, albeit with the limitation that admission to ICU occurs later than onset of symptoms, meaning that this measurement provides information on infections than occurred further in the past than newly symptomatic cases. We first examine recent hospital and ICU admissions for COVID-19 patients and other Acute Respiratory Infections (ARI) in England. Then, we predict the number of COVID-19 cases who will need hospitalisation in ICU over the next 14 days, alongside projected bed occupancy.
+## Methods and Key Findings
 
+To anticipate the increasing demand for ICU/HDU beds, we first quantified the epidemic growth  considering 'sporadic' cases identified through sentinel or hospital-based surveillance (i.e. excluding imported and secondary cases because these largely reflect entry screening and contact tracing policies rather than the actual growth of the epidemic locally) reported in the First Few Hundreds (FF100) linelist collected by Public Health England. Reporting delays were estimated using maximum-likelihood (ML) fitting of a discretised Gamma distribution (mean: 7.6 days, coefficient of variation: 0.5), and used to define the 'trusted' time period, in which we expect at least 95% of symptom onsets to have been reported. A growth rate of 0.1(CI<sub>95%</sub>: 0.02 ; 0.18) corresponding to a doubling time of 7 days (CI<sub>95%</sub>: 3.8 ; 41.4) was estimated by ML fitting of a log-linear model to daily incidence of symptom onset within the trusted period. Note that this growth rateestimate is generally lower than other estimates [ref] so that our results may under-estimate future admissions and bed requirements.
 
-## Methods
+Assuming the proportion of COVID-19 cases needing critical care remains constant over time, we applied this growth rate to current hospital and ICU/HDU admission data to forecast new admissions for the next two weeks, using admissions reported up to the 18th March 2020 as a starting point. We took into account potential underreporting of case admissions by considering three scenarios assuming 100%, 90% and 80% of admissions were reported. For each admission thus predicted, we simulated durations of hospitalisation using two recently estimated distributions with median length of stay of 8 days<sup>1</sup> (discretised Weibull: shape = 2, scale = 10) and 10 days<sup>2</sup> (discretised Weibull: shape = 2.2, scale = 12). This allowed us to forecast daily critical care bed needs (Figure 1). Despite substantial uncertainty, all scenarios forecast a marked increase in bed needs in ICU/HDU, with average demand ranging from 1,931 (CI<sub>95%</sub>: 921 ; 4,361) to 4,364 (CI<sub>95%</sub>: 2,099 ; 9,568) new admissions every day by the end of March 2020 (Table 1). These results imply that unless transmissibility is strongly reduced in the coming days, ICU/HDU capacity in England may be challenged by the end of March. These concerns add to increased risks of nosocomial transmission in a context of reduced bed and isolation capacity, which may put additional pressure on ICU/HDU capacity as the epidemic grows.
 
-### Admissions to ICU
-
-We used the COVID-19 Hospitalisations in England Surveillance System (CHESS) (as of: 18th March 2020) to examine current patterns of COVID-19 admissions. This dataset records daily admissions to hospital as well as to Intensive Care and High Dependency Units (ICU and HDU, all termed ICU in this report) for 109 NHS trusts, stratified by age group and two types of infections: acute respiratory infections (ARI), and confirmed COVID-19 cases. The total number of COVID-19 cases in ICU on the 18th March 2020 was used as a starting point in our forecasting of ICU admissions. Non-ICU admissions will just be referred to as 'hospital admissions'.
-
-### Estimation of growth rate
-
-The First Few Hundred (FF100) data (as of: 17th March 2020) was used to estimate the recent COVID-19 epidemic growth rate. We restricted the analysis to sporadic cases (i.e. those that cannot be traced to another confirmed case or importation), which are detected through either the Royal College of General Practitioners (RCGP) sentinel surveillance network, or through hospital-based critical care surveillance, which reflects cases in ICU. All but 3 of the cases were detected through the ICU system. The growth rate was estimated by fitting a log-linear model to daily incidence of "sporadic" cases (almost all of them picked up through the ICU system) using maximum likelihood. To account for delays between onset and report, the model was fitted to the "trusted" data only, i.e. data that were collected sufficiently far back in time that we are at least 95% sure that all data on that same day have been reported by the time of analysis. This is calculated by accounting for delay from onset to report, characterised as a discretised Gamma distribution, which was fitted using maximum likelihood. 
-
-### Prediction of ICU admissions and bed occupancy
-
-The log-linear model was used to predict cases admitted to ICU over time, based on the current number of COVID-19 admissions in ICU/HDU in England (n = 70 on the 18th March 2020). Bed occupancy was derived by combining these predictions with simulated duration of hospitalisation, drawn for each predicted case. Two discretised Weibull distributions were used to match recent estimations of the length of stay in ICU, with medians of 8 days (IQR: 4 - 12, 1), and 10 days (IQR: 5 - 14, 2), respectively. Predictions of ICU admissions and bed occupancy were made for 14 days ahead from the most recent data point (31st March 2020).
-
-
-## Results
-
-<!-- Figure 1A shows daily hospital and ICU admissions for ARI and COVID-19 cases by age class in the CHESS dataset. -->
-
-The increase of ARI admissions over time until 16th March points to an increase in the number of trusts reporting to CHESS, so that temporal trends of COVID-19 cannot be assessed from this data yet. While COVID-19 infections represent a small fraction of regular hospital admission compared to other ARI, it forms a large fraction of ARI admissions in ICU. Importantly, COVID-19 admissions in ICU do not consist mostly of older age groups, with a large number of admissions in 25+ patients as well as several 1-4 children. 
 
 <br>
 
-<img src="figures/hosp_adm_CHESS.png" width="65%"> <br>
-*Figure 1: Hospital admissions recorded in CHESS data (database as of 18th March 2020). A) Admissions reported over time. B) Breakdown of admissions by age class and COVID-19 status. Hospitals started reporting on 11th March. By 16th March almost all hospitals were reporting.
-*
+<table class="blueTable">
+<thead>
+<tr class="header">
+<th align="right"></th>
+<th align="right">100% Reporting</th>
+<th align="right">90% Reporting</th>
+<th align="right">80% Reporting</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">Shorter duration of hospitalisation</td>
+<td align="right"> 1,931 (921 ; 4,361) </td>
+<td align="right"> 2,194 (1,007 ; 4,864)	</td>
+<td align="right"> 3,936 (1,869 ; 8,791) </td>
+</tr>
+<tr class="even">
+<td align="right">Longer duration of hospitalisation</td>
+<td align="right"> 2,171 (1,104 ; 4,772) </td>
+<td align="right"> 2,426 (1,192 ; 5,342) </td>
+<td align="right"> 4,364 (2,099 ; 9,568) </td>
+</tr>
+</tbody>
+</table>
+*Table 1. Predictions of critical care bed needs. This table provides predicted demand for critical care bed for COVID-19 patients needing ICU/HDU admission on the 31st March 2020 in England. Numbers indicate the mean number of beds needed, with associated 95% confidence intervals representing uncertainty in both reporting delays and projected cases needing admission. Shorter and longer duration of hospitalisation correspond to two different assumed distributions with medians of 81 and 10 days2. 'Reporting' refers to the assumed percentage of COVID-19 cases admitted in ICU/HDU reported in current databases.*
 
 <br>
 
-<img src="figures/cases_by_onset.png" width="65%"> <br>
-*Figure 2: reported cases of COVID-19 by date of onset in FF100 (database from the 17th March 2020) A) Log-linear model fitted on sporadic cases (brown); the red line indicates trusted data (not impacted by reporting delays); plain and dashed lines indicate mean predictions and their confidence B) Projection of COVID-19 ICU admissions using the growth rate estimated in A, with a starting point of 70 COVID-19 patients in ICU on the 18th March 2020.*
-
-<br>
-
-Figure 2A shows reported sporadic cases and the associated log-linear model. The mean reporting delay was 7 days (IQR: 4 - 9), with a 95th percentile of 14 days used to define the trusted time period. We estimate a doubling time of 7 days with substantial uncertainty (IC95%: 3.8 - 41.4), corresponding to a daily growth rate of 0.1 (IC95%: 0.02 - 0.18). Applied to ICU data, our model predicts an average of 251 ICU admissions on 31 March 2020 (IC95%: 88 - 868, Figure 2B).
-
-### Undereporting
-
-As demand increases there is the potential for underreporting of cases presenting to each trust, yet based on the evidence so far the possible extent of this is unclear. We therefore assess three scenarios - 100%, 75% and 50% reporting - to understand how this could affect ICU demand estimates.
-
-<br>
-
-<img src="figures/proj_by_reporting.png" width="65%"> <br>
-*Figure 3: Projected ICU demand in each of three possible reporting scenarios - 100%, 75% and 50% of cases reported.*
+<!--- <img src="figures/critical_care_beds.png" width="65%"> <br> -->
+*Figure 1. Predictions of critical care bed needs.This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days1) and 'long' (median: 10 days2).*
 
 <br>
 
 
-## Limitations
-Log-linear models are very sensitive to changes in the growth rate, so that these results are likely to vary over the coming days. However, this uncertainty is largely reflected by the wide confidence intervals we reported.
+## Acknowledgements 
+The named authors (TJ, ESN, MJ, OP, GK, RME, AJK, CABP, WJE) had the following sources of funding: 
+TJ receives funding from the Global Challenges Research Fund (GCRF) project 'RECAP' managed through RCUK and ESRC (ES/P010873/1), the UK Public Health Rapid Support Team funded by the United Kingdom Department of Health and Social Care and from the National Institute for Health Research (NIHR) - Health Protection Research Unit for Modelling Methodology. ESN receives funding from the Bill and Melinda Gates Foundation (grant number: OPP1183986). MJ receives funding from the Bill and Melinda Gates foundation (grant number: INV-003174) and the NIHR (grant numbers: 16/137/109 and HPRU-2012-10096). RME receives funding from HDR UK (grant number: MR/S003975/1). AJK receives funding from the Wellcome Trust (grant number: 206250/Z/17/Z). 
+ 
+The UK Public Health Rapid Support Team is funded by UK aid from the Department of Health and Social Care and is jointly run by Public Health England and the London School of Hygiene & Tropical Medicine. The University of Oxford and King's College London are academic partners. The views expressed in this publication are those of the authors and not necessarily those of the National Health Service, the National Institute for Health Research or the Department of Health and Social Care.
 
 
-## References
+### Authors' contributions
+In alphabetic order:
+JE, MJ, TJ developed the methodology. 
+ESN, MJ, TJ contributed code.
+TJ performed the analyses.
+. contributed data.
+ESN, TJ reviewed code.
+ESN, TJ wrote the first draft of the manuscript.
+AK, CP, ESN, JE, MJ, OlP, RE, SF, TJ contributed to the manuscript and interpretation of results.
 
-1.	Zhou, F. et al. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. Lancet (2020) doi:10.1016/S0140-6736(20)30566-3.
+CMMID COVID-19 Working Group gave input on the method, contributed data and provided elements of discussion. The following authors were part of the Centre for Mathematical Modelling of Infectious Disease 2019-nCoV working group: Billy J Quilty, Christopher I Jarvis, Petra Klepac, Charlie Diamond, Joel Hellewell, Timothy W Russell, Alicia Rosello, Yang Liu, James D Munday, Sam Abbott, Kevin van Zandvoort, Graham Medley, Samuel Clifford, Kiesha Prem, Nicholas Davies, Fiona Sun, Hamish Gibbs, Amy Gimma, Nikos I Bosse, Sebastian Funk. Each contributed in processing, cleaning and interpretation of data, interpreted findings, contributed to the manuscript, and approved the work for publication.
 
-2.	Madruga, J. V. et al. Efficacy and safety of darunavir-ritonavir compared with that of lopinavir-ritonavir at 48 weeks in treatment-experienced, HIV-infected patients in TITAN: a randomised controlled phase III trial. Lancet 370, 49-58 (2007).
 
+## References 
+1. Zhou F, Yu T, Du R, et al. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. Lancet 2020; published online March 11. DOI:10.1016/S0140-6736(20)30566-3.
+2. Cao B, Wang Y, Wen D, et al. A Trial of Lopinavir-Ritonavir in Adults Hospitalized with Severe Covid-19. N Engl J Med 2020; published online March 18. DOI:10.1056/NEJMoa2001282.
