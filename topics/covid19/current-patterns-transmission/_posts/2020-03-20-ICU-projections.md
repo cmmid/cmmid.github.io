@@ -120,7 +120,7 @@ Assuming the proportion of COVID-19 cases needing critical care remains constant
 <br>
 
 <!--- <img src="figures/critical_care_beds.png" width="65%"> <br> -->
-*Figure 1. Predictions of critical care bed needs.This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days1) and 'long' (median: 10 days2).*
+*Figure 1. Predictions of critical care bed needs.This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>1</sup) and 'long' (median: 10 days<sup>2</sup).*
 
 <br>
 
