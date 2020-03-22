@@ -27,7 +27,7 @@ authors:
   - id: stefan_flasche
   - id: roz_eggo
   - id: adam_kucharski
-  - id: carl_pearson
+  - id: carl_ab_pearson
   - id: simon_procter
   - id: ncov-group
   - id: john_edmunds
