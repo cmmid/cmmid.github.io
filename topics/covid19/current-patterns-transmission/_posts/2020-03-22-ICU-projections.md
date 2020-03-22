@@ -3,14 +3,14 @@
 #add the title of your project
 title: "Nowcasting critical care bed requirements for COVID-19 patients in England"
 
-description: We estimate critical care bed demand for COVID-19 cases in England for the next two weeks. Results suggest that current capacity might be challenged by as soon as the end of this month.
+description: We estimate critical care bed demand for COVID-19 cases in England for the next two weeks. Results suggest that current capacity might be reached or exceeded by the end of March 2020.
 
 #add a status: in-progress, under-review, published
 #defaults to in-progress if not set
 status: in-progress
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-03-20
+update: 2020-03-22
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -115,15 +115,27 @@ Assuming the proportion of COVID-19 cases needing critical care remains constant
 </tr>
 </tbody>
 </table>
-*Table 1. Predictions of critical care bed needs. This table provides predicted demand for critical care bed for COVID-19 patients needing ICU/HDU admission on the 31st March 2020 in England. Numbers indicate the mean number of beds needed, with associated 95% confidence intervals representing uncertainty in both reporting delays and projected cases needing admission. Shorter and longer duration of hospitalisation correspond to two different assumed distributions with medians of 8<sup>2</sup and 10 days<sup>3</sup. 'Reporting' refers to the assumed percentage of COVID-19 cases admitted in ICU/HDU reported in current databases.*
+**Table 1: Predictions of critical care bed needs.** This table provides predicted demand for critical care bed for COVID-19 patients needing ICU/HDU admission on the 31st March 2020 in England. Numbers indicate the mean number of beds needed, with associated 95% confidence intervals representing uncertainty in both reporting delays and projected cases needing admission. Shorter and longer duration of hospitalisation correspond to two different assumed distributions with medians of 8<sup>2</sup> and 10 days<sup>3</sup>. 'Reporting' refers to the assumed percentage of COVID-19 cases admitted in ICU/HDU reported in current databases.
 
 <br>
 
 <img src="figures/ICU-projections.png" width="65%"> <br>
-*Figure 1. Predictions of critical care bed needs.This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup) and 'long' (median: 10 days<sup>3</sup).*
+*Figure 1. Predictions of critical care bed needs.This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).*
 
 <br>
 
+
+
+
+## References 
+1. Grasselli G, Pesenti A, Cecconi M. Critical Care Utilization for the COVID-19 Outbreak in Lombardy, Italy: Early Experience and Forecast During an Emergency Response. JAMA 2020; published online March 13. DOI:10.1001/jama.2020.4031.
+2. Zhou F, Yu T, Du R, et al. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. Lancet 2020; published online March 11. DOI:10.1016/S0140-6736(20)30566-3.
+3. Cao B, Wang Y, Wen D, et al. A Trial of Lopinavir-Ritonavir in Adults Hospitalized with Severe Covid-19. N Engl J Med 2020; published online March 18. DOI:10.1056/NEJMoa2001282.
+4. NHS. Critical Care Bed Capacity and Urgent Operations. NHS Statistics. https://www.england.nhs.uk/statistics/statistical-work-areas/critical-care-capacity/critical-care-bed-capacity-and-urgent-operations-cancelled-2019-20-data/ (accessed March 21, 2020).
+
+
+<br>
+<br>
 
 ## Acknowledgements 
 The named authors (TJ, ESN, MJ, OLPDW, GK, RME, AJK, CABP, WJE) had the following sources of funding: 
@@ -143,11 +155,3 @@ ESN, TJ wrote the first draft of the manuscript.
 AK, CP, ESN, JE, MJ, OlP, RE, SF, TJ contributed to the manuscript.
 
 CMMID COVID-19 Working Group gave input on the method, contributed data and provided elements of discussion. The following authors were part of the Centre for Mathematical Modelling of Infectious Disease 2019-nCoV working group: Billy J Quilty, Christopher I Jarvis, Petra Klepac, Charlie Diamond, Joel Hellewell, Timothy W Russell, Alicia Rosello, Yang Liu, James D Munday, Sam Abbott, Kevin van Zandvoort, Graham Medley, Samuel Clifford, Kiesha Prem, Nicholas Davies, Fiona Sun, Hamish Gibbs, Amy Gimma, Nikos I Bosse, Sebastian Funk. Each contributed in processing, cleaning and interpretation of data, interpreted findings, contributed to the manuscript, and approved the work for publication.
-
-
-
-## References 
-1. Grasselli G, Pesenti A, Cecconi M. Critical Care Utilization for the COVID-19 Outbreak in Lombardy, Italy: Early Experience and Forecast During an Emergency Response. JAMA 2020; published online March 13. DOI:10.1001/jama.2020.4031.
-2. Zhou F, Yu T, Du R, et al. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. Lancet 2020; published online March 11. DOI:10.1016/S0140-6736(20)30566-3.
-3. Cao B, Wang Y, Wen D, et al. A Trial of Lopinavir-Ritonavir in Adults Hospitalized with Severe Covid-19. N Engl J Med 2020; published online March 18. DOI:10.1056/NEJMoa2001282.
-4. NHS. Critical Care Bed Capacity and Urgent Operations. NHS Statistics. https://www.england.nhs.uk/statistics/statistical-work-areas/critical-care-capacity/critical-care-bed-capacity-and-urgent-operations-cancelled-2019-20-data/ (accessed March 21, 2020).
