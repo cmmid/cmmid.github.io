@@ -156,6 +156,7 @@
 - id: gwen_knight
   name: Gwen Knight
   email: gwen.knight@lshtm.ac.uk
+- id: ncov-group
   name: CMMID nCov working group
   type: group
   members:
