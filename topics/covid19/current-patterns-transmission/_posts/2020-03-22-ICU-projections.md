@@ -1,7 +1,7 @@
 ---
 
 #add the title of your project
-title: "Nowcasting critical care bed requirements for COVID-19 patients in England"
+title: "Forecasting critical care bed requirements for COVID-19 patients in England"
 
 description: We estimate critical care bed demand for COVID-19 cases in England for the next two weeks. Results suggest that current capacity might be reached or exceeded by the end of March 2020.
 
