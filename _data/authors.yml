@@ -144,7 +144,18 @@
   email: akira.endo@lshtm.ac.uk
   url: https://www.lshtm.ac.uk/aboutus/people/endo.akira
   twitter: _akiraendo
-- id: ncov-group
+- id: emily_nightingale
+  name: Emily S Nightingale
+  email: emily.nightingale@lshtm.ac.uk
+  url: 
+- id: simon_procter
+  name: Simon R Procter
+- id: olivier_lepolain
+  name: Olivier le Polain de Waroux
+  email: olivier.lepolain@phe.gov.uk
+- id: gwen_knight
+  name: Gwen Knight
+  email: gwen.knight@lshtm.ac.uk
   name: CMMID nCov working group
   type: group
   members:
@@ -174,3 +185,6 @@
    - carl_ab_pearson
    - kiesha_prem
    - thibaut_jombart
+   - emily_nightingale
+   - simon_procter
+   - gwen_knight
