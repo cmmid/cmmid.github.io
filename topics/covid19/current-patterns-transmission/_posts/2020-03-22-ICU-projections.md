@@ -85,6 +85,12 @@ The COVID-19 epidemic in the UK has reached the point of widespread, sustained t
 
 To anticipate the increasing demand for ICU/HDU beds, we first quantified the epidemic growth using the First Few Hundreds (FF100) linelist data collected by Public Health England. We only considered 'sporadic' cases identified through sentinel or hospital-based surveillance, i.e. excluding imported and secondary cases because these largely reflect entry screening and contact tracing policies rather than the actual growth of the epidemic locally. Reporting delays were estimated using maximum-likelihood (ML) fitting of a discretised Gamma distribution (mean: 7.6 days, coefficient of variation: 0.5), and used to define the 'trusted' time period, in which we expect at least 95% of symptom onsets to have been reported. A  daily growth rate of 0.1(CI<sub>95%</sub>: 0.02 ; 0.18) corresponding to a doubling time of 7 days (CI<sub>95%</sub>: 3.8 ; 41.4) was estimated by ML fitting of a log-linear model to daily incidence of symptom onset within the trusted period. Note that this growth rate is generally lower than other estimates<sup>1</sup>, which may reflect underreporting in an ICU surveillance system still being scaled up, or impact of early interventions. As a result, we may under-estimate future admissions and bed requirements.
 
+
+<img src="figures/ICU-projections.png" width="75%"> <br>
+**Figure 1: Predictions of critical care bed needs.** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
+
+<br>
+
 Assuming the proportion of COVID-19 cases needing critical care remains constant over time, we applied this growth rate to current admission data to forecast ICU/HDU admissions for the next two weeks, using admissions reported up to the 18th March 2020 as a starting point. We took into account potential underreporting of case admissions by considering three scenarios assuming 100%, 90% and 80% of admissions were reported. For each admission thus predicted, we simulated durations of hospitalisation using two recently estimated distributions with median length of stay of 8 days<sup>2</sup> (discretised Weibull: shape = 2, scale = 10) and 10 days<sup>3</sup> (discretised Weibull: shape = 2.2, scale = 12). This allowed us to forecast daily critical care bed needs (Figure 1). Despite substantial uncertainty, all scenarios forecast a marked increase in bed needs in ICU/HDU, with average demand ranging from 1,931 (CI<sub>95%</sub>: 921 ; 4,361) to 4,364 (CI<sub>95%</sub>: 2,099 ; 9,568) critical care beds every day by the end of March 2020 (Table 1). These results imply that unless transmissibility is strongly reduced in the coming days, ICU/HDU capacity for COVID-19 in England (in January 2020: 4,123 critical beds for adults, 312 in paediatrics<sup>4</sup>) may be challenged by the end of March, without even considering capacity requirements for other conditions. These concerns add to increased risks of nosocomial transmission, which may put additional pressure on bed capacity as the epidemic grows.
 
 <br>
@@ -117,24 +123,15 @@ Assuming the proportion of COVID-19 cases needing critical care remains constant
 
 <br>
 
-<img src="figures/ICU-projections.png" width="75%"> <br>
-**Figure 1: Predictions of critical care bed needs.** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
-
-<br>
 
 
-## Regional Results
 
-### NHS regions (excl. London)
+# Regional Results
 
-For the analysis excluding London, the starting point for admissions projections is taken from the *18th March 2020*.  Average predicted demand ranges from 1,835 (CI<sub>95%</sub>: 862 ; 4,193) to 4,155 (CI<sub>95%</sub>: 2,028 ; 9,099	) critical care beds every day on the 31st March 2020.
+The previous analyses are repeated for London, and other NHS regions separately.
 
-<img src="figures/ICU-projections-excLondon.png" width="75%"> <br>
-**Figure 2: Predictions of critical care bed needs - NHS regions excluding London.** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
 
-<br>
-
-### London
+## London
 
 For the analysis of London specifically, the starting point for admissions projections is taken from the *20th March 2020*. Average predicted demand ranges from 198 (CI<sub>95%</sub>: 130 ; 315) to 548 (CI<sub>95%</sub>: 312 ; 1,056) critical care beds every day on the 31st March 2020.
 
@@ -142,6 +139,17 @@ For the analysis of London specifically, the starting point for admissions proje
 
 <img src="figures/ICU-projections-London.png" width="75%"> <br>
 **Figure 3: Predictions of critical care bed needs - London only** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
+
+<br>
+
+
+
+## NHS regions (excl. London)
+
+For the analysis excluding London, the starting point for admissions projections is taken from the *18th March 2020*.  Average predicted demand ranges from 1,835 (CI<sub>95%</sub>: 862 ; 4,193) to 4,155 (CI<sub>95%</sub>: 2,028 ; 9,099	) critical care beds every day on the 31st March 2020.
+
+<img src="figures/ICU-projections-excLondon.png" width="75%"> <br>
+**Figure 2: Predictions of critical care bed needs - NHS regions excluding London.** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
 
 <br>
 
@@ -163,6 +171,8 @@ TJ receives funding from the Global Challenges Research Fund (GCRF) project 'REC
 The UK Public Health Rapid Support Team is funded by UK aid from the Department of Health and Social Care and is jointly run by Public Health England and the London School of Hygiene & Tropical Medicine. The University of Oxford and King's College London are academic partners. The views expressed in this publication are those of the authors and not necessarily those of the National Health Service, the National Institute for Health Research or the Department of Health and Social Care.
 
 
+
+<br>
 
 ### Authors' contributions
 In alphabetic order:
