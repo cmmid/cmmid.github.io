@@ -123,7 +123,7 @@ Assuming the proportion of COVID-19 cases needing critical care remains constant
 <br>
 
 
-## Regional Results {.tabset .tabset-fade .tabset-pills}
+## Regional Results
 
 ### NHS regions (excl. London)
 
