@@ -18,7 +18,7 @@ authors:
 - id: simon_procter
 - id: ncov-group
 - id: john_edmunds
-update: '2020-03-22'
+update: '2020-03-23'
 ---
 
 <style>
