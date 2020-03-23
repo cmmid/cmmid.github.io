@@ -123,8 +123,7 @@ For the analysis excluding London, the starting point for admissions projections
 
 ### London
 
-For the analysis of London specifically, the starting point for admissions projections is taken from the *20th March 2020*.
-Average predicted demand ranges from 198 (CI<sub>95%</sub>: 130 ; 315) to 548 (CI<sub>95%</sub>: 312 ; 1,056) critical care beds every day on the 31st March 2020.
+For the analysis of London specifically, the starting point for admissions projections is taken from the *20th March 2020*. Average predicted demand ranges from 198 (CI<sub>95%</sub>: 130 ; 315) to 548 (CI<sub>95%</sub>: 312 ; 1,056) critical care beds every day on the 31st March 2020.
 
 <br>
 
