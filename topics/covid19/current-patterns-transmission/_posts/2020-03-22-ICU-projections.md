@@ -95,6 +95,7 @@ Assuming the proportion of COVID-19 cases needing critical care remains constant
 
 <br>
 
+**Table 1: Predictions of critical care bed needs.** This table provides predicted demand for critical care bed for COVID-19 patients needing ICU/HDU admission on the 31st March 2020 in England. Numbers indicate the mean number of beds needed, with associated 95% confidence intervals representing uncertainty in both reporting delays and projected cases needing admission. Shorter and longer duration of hospitalisation correspond to two different assumed distributions with medians of 8<sup>2</sup> and 10 days<sup>3</sup>. 'Reporting' refers to the assumed percentage of COVID-19 cases admitted in ICU/HDU reported in current databases.
 <table class="blueTable">
 <thead>
 <tr class="header">
@@ -119,7 +120,6 @@ Assuming the proportion of COVID-19 cases needing critical care remains constant
 </tr>
 </tbody>
 </table>
-**Table 1: Predictions of critical care bed needs.** This table provides predicted demand for critical care bed for COVID-19 patients needing ICU/HDU admission on the 31st March 2020 in England. Numbers indicate the mean number of beds needed, with associated 95% confidence intervals representing uncertainty in both reporting delays and projected cases needing admission. Shorter and longer duration of hospitalisation correspond to two different assumed distributions with medians of 8<sup>2</sup> and 10 days<sup>3</sup>. 'Reporting' refers to the assumed percentage of COVID-19 cases admitted in ICU/HDU reported in current databases.
 
 <br>
 
