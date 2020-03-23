@@ -104,7 +104,7 @@ Assuming the proportion of COVID-19 cases needing critical care remains constant
 
 <br>
 
-<img src="figures/ICU-projections.png" width="75%"> <br>
+<!--- <img src="figures/ICU-projections.png" width="75%"> <br> -->
 **Figure 1: Predictions of critical care bed needs.** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
 
 <br>
@@ -114,9 +114,9 @@ Assuming the proportion of COVID-19 cases needing critical care remains constant
 
 ### NHS regions (excl. London)
 
-For the analysis excluding London, the starting point for admissions projections is taken from the *18th March 2020*.
+For the analysis excluding London, the starting point for admissions projections is taken from the *18th March 2020*.  Average predicted demand ranges from 1,835 (CI<sub>95%</sub>: 862 ; 4,193) to 4,155 (CI<sub>95%</sub>: 2,028 ; 9,099	) critical care beds every day on the 31st March 2020.
 
-<img src="figures/ICU-projections-excLondon.png" width="75%"> <br>
+<!--- <img src="figures/ICU-projections-excLondon.png" width="75%"> <br> -->
 **Figure 2: Predictions of critical care bed needs - NHS regions excluding London.** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
 
 <br>
@@ -124,10 +124,11 @@ For the analysis excluding London, the starting point for admissions projections
 ### London
 
 For the analysis of London specifically, the starting point for admissions projections is taken from the *20th March 2020*.
+Average predicted demand ranges from 198 (CI<sub>95%</sub>: 130 ; 315) to 548 (CI<sub>95%</sub>: 312 ; 1,056) critical care beds every day on the 31st March 2020.
 
 <br>
 
-<img src="figures/ICU-projections-London.png" width="75%"> <br>
+<!--- <img src="figures/ICU-projections-London.png" width="75%"> <br> -->
 **Figure 3: Predictions of critical care bed needs - London only** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
 
 <br>
