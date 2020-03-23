@@ -1,39 +1,25 @@
 ---
-
-#add the title of your project
 title: "Forecasting critical care bed requirements for COVID-19 patients in England"
-
-description: We estimate critical care bed demand for COVID-19 cases in England for the next two weeks. Results suggest that current capacity might be reached or exceeded by the end of March 2020.
-
-#add a status: in-progress, under-review, published
-#defaults to in-progress if not set
+description: We estimate critical care bed demand for COVID-19 cases in England for
+  the next two weeks. Results suggest that current capacity might be reached or exceeded
+  by the end of March 2020.
 status: in-progress
-
-#add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-03-22
-
-#add optional hash-array with authors
-# see /_data/authors.yml for list of ids, or to add/edit an author
-# can add ncov-group as one author, will link to list of members
-# can set equal: X to show 'contributed equally'
-# can set corresponding: true to indicate corresponding author 
 authors:
-  - id: thibaut_jombart
-    corresponding: true
-  - id: emily_nightingale
-  - id: mark_jit
-  - id: olivier_lepolain
-  - id: gwen_knight
-  - id: stefan_flasche
-  - id: roz_eggo
-  - id: adam_kucharski
-  - id: carl_ab_pearson
-  - id: simon_procter
-  - id: ncov-group
-  - id: john_edmunds
-
+- corresponding: yes
+  id: thibaut_jombart
+- id: emily_nightingale
+- id: mark_jit
+- id: olivier_lepolain
+- id: gwen_knight
+- id: stefan_flasche
+- id: roz_eggo
+- id: adam_kucharski
+- id: carl_ab_pearson
+- id: simon_procter
+- id: ncov-group
+- id: john_edmunds
+update: '2020-03-23'
 ---
-
 
 <style>
 
@@ -88,7 +74,6 @@ To anticipate the increasing demand for ICU/HDU beds, we first quantified the ep
 
 Assuming the proportion of COVID-19 cases needing critical care remains constant over time, we applied this growth rate to current admission data to forecast ICU/HDU admissions for the next two weeks, using admissions reported up to the 18th March 2020 as a starting point. We took into account potential underreporting of case admissions by considering three scenarios assuming 100%, 90% and 80% of admissions were reported. For each admission thus predicted, we simulated durations of hospitalisation using two recently estimated distributions with median length of stay of 8 days<sup>2</sup> (discretised Weibull: shape = 2, scale = 10) and 10 days<sup>3</sup> (discretised Weibull: shape = 2.2, scale = 12). This allowed us to forecast daily critical care bed needs (Figure 1). Despite substantial uncertainty, all scenarios forecast a marked increase in bed needs in ICU/HDU, with average demand ranging from 1,931 (CI<sub>95%</sub>: 921 ; 4,361) to 4,364 (CI<sub>95%</sub>: 2,099 ; 9,568) critical care beds every day by the end of March 2020 (Table 1). These results imply that unless transmissibility is strongly reduced in the coming days, ICU/HDU capacity for COVID-19 in England (in January 2020: 4,123 critical beds for adults, 312 in paediatrics<sup>4</sup>) may be challenged by the end of March, without even considering capacity requirements for other conditions. These concerns add to increased risks of nosocomial transmission, which may put additional pressure on bed capacity as the epidemic grows.
 
-
 <br>
 
 <table class="blueTable">
@@ -119,15 +104,36 @@ Assuming the proportion of COVID-19 cases needing critical care remains constant
 
 <br>
 
-<img src="figures/ICU-projections.png" width="75%"> <br>
+<!--- <img src="figures/ICU-projections.png" width="75%"> <br> -->
 **Figure 1: Predictions of critical care bed needs.** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
 
 <br>
 
 
+## Regional Results {.tabset .tabset-fade .tabset-pills}
+
+### NHS regions (excl. London)
+
+For the analysis excluding London, the starting point for admissions projections is taken from the *18th March 2020*.  Average predicted demand ranges from 1,835 (CI<sub>95%</sub>: 862 ; 4,193) to 4,155 (CI<sub>95%</sub>: 2,028 ; 9,099	) critical care beds every day on the 31st March 2020.
+
+<!--- <img src="figures/ICU-projections-excLondon.png" width="75%"> <br> -->
+**Figure 2: Predictions of critical care bed needs - NHS regions excluding London.** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
+
+<br>
+
+### London
+
+For the analysis of London specifically, the starting point for admissions projections is taken from the *20th March 2020*. Average predicted demand ranges from 198 (CI<sub>95%</sub>: 130 ; 315) to 548 (CI<sub>95%</sub>: 312 ; 1,056) critical care beds every day on the 31st March 2020.
+
+<br>
+
+<!--- <img src="figures/ICU-projections-London.png" width="75%"> <br> -->
+**Figure 3: Predictions of critical care bed needs - London only** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
+
+<br>
 
 
-## References 
+# References 
 1. Grasselli G, Pesenti A, Cecconi M. Critical Care Utilization for the COVID-19 Outbreak in Lombardy, Italy: Early Experience and Forecast During an Emergency Response. JAMA 2020; published online March 13. DOI:10.1001/jama.2020.4031.
 2. Zhou F, Yu T, Du R, et al. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. Lancet 2020; published online March 11. DOI:10.1016/S0140-6736(20)30566-3.
 3. Cao B, Wang Y, Wen D, et al. A Trial of Lopinavir-Ritonavir in Adults Hospitalized with Severe Covid-19. N Engl J Med 2020; published online March 18. DOI:10.1056/NEJMoa2001282.
@@ -137,7 +143,7 @@ Assuming the proportion of COVID-19 cases needing critical care remains constant
 <br>
 <br>
 
-## Acknowledgements 
+# Acknowledgements 
 The named authors (TJ, ESN, MJ, OLPDW, GK, RME, AJK, CABP, WJE) had the following sources of funding: 
 TJ receives funding from the Global Challenges Research Fund (GCRF) project 'RECAP' managed through RCUK and ESRC (ES/P010873/1), the UK Public Health Rapid Support Team funded by the United Kingdom Department of Health and Social Care and from the National Institute for Health Research (NIHR) - Health Protection Research Unit for Modelling Methodology. ESN receives funding from the Bill and Melinda Gates Foundation (grant number: OPP1183986). MJ receives funding from the Bill and Melinda Gates foundation (grant number: INV-003174) and the NIHR (grant numbers: 16/137/109 and HPRU-2012-10096). SRP receives funding  from the Bill and Melinda Gates Foundation (grant number: OPP1180644). RME receives funding from HDR UK (grant number: MR/S003975/1). SF is supported by a Sir Henry Dale Fellowship jointly funded by the Wellcome Trust and the Royal Society (Grant number 208812/Z/17/Z). AJK receives funding from the Wellcome Trust (grant number: 206250/Z/17/Z).  
  
