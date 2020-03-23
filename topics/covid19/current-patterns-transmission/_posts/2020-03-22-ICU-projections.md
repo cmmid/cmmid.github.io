@@ -1,23 +1,21 @@
 ---
 title: "Forecasting critical care bed requirements for COVID-19 patients in England"
-description: We estimate critical care bed demand for COVID-19 cases in England for
-  the next two weeks. Results suggest that current capacity might be reached or exceeded
-  by the end of March 2020.
+description: We estimate critical care bed demand for COVID-19 cases in England for the next two weeks. Results suggest that current capacity might be reached or exceeded by the end of March 2020.
 status: in-progress
 authors:
-- corresponding: yes
-  id: thibaut_jombart
-- id: emily_nightingale
-- id: mark_jit
-- id: olivier_lepolain
-- id: gwen_knight
-- id: stefan_flasche
-- id: roz_eggo
-- id: adam_kucharski
-- id: carl_ab_pearson
-- id: simon_procter
-- id: ncov-group
-- id: john_edmunds
+  - id: thibaut_jombart
+    corresponding: true
+  - id: emily_nightingale
+  - id: mark_jit
+  - id: olivier_lepolain
+  - id: gwen_knight
+  - id: stefan_flasche
+  - id: roz_eggo
+  - id: adam_kucharski
+  - id: carl_ab_pearson
+  - id: simon_procter
+  - id: ncov-group
+  - id: john_edmunds
 update: '2020-03-23'
 ---
 
@@ -104,7 +102,7 @@ Assuming the proportion of COVID-19 cases needing critical care remains constant
 
 <br>
 
-<!--- <img src="figures/ICU-projections.png" width="75%"> <br> -->
+<img src="figures/ICU-projections.png" width="75%"> <br>
 **Figure 1: Predictions of critical care bed needs.** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
 
 <br>
@@ -116,7 +114,7 @@ Assuming the proportion of COVID-19 cases needing critical care remains constant
 
 For the analysis excluding London, the starting point for admissions projections is taken from the *18th March 2020*.  Average predicted demand ranges from 1,835 (CI<sub>95%</sub>: 862 ; 4,193) to 4,155 (CI<sub>95%</sub>: 2,028 ; 9,099	) critical care beds every day on the 31st March 2020.
 
-<!--- <img src="figures/ICU-projections-excLondon.png" width="75%"> <br> -->
+<img src="figures/ICU-projections-excLondon.png" width="75%"> <br>
 **Figure 2: Predictions of critical care bed needs - NHS regions excluding London.** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
 
 <br>
@@ -127,7 +125,7 @@ For the analysis of London specifically, the starting point for admissions proje
 
 <br>
 
-<!--- <img src="figures/ICU-projections-London.png" width="75%"> <br> -->
+<img src="figures/ICU-projections-London.png" width="75%"> <br>
 **Figure 3: Predictions of critical care bed needs - London only** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
 
 <br>
