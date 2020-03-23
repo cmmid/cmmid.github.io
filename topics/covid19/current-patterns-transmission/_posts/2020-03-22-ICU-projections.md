@@ -1,7 +1,22 @@
 ---
+
+#add the title of your project
 title: "Forecasting critical care bed requirements for COVID-19 patients in England"
+
 description: We estimate critical care bed demand for COVID-19 cases in England for the next two weeks. Results suggest that current capacity might be reached or exceeded by the end of March 2020.
+
+#add a status: in-progress, under-review, published
+#defaults to in-progress if not set
 status: in-progress
+
+#add the date at which post is updated (if applicable), in YYYY-MM-DD
+update: 2020-03-22
+
+#add optional hash-array with authors
+# see /_data/authors.yml for list of ids, or to add/edit an author
+# can add ncov-group as one author, will link to list of members
+# can set equal: X to show 'contributed equally'
+# can set corresponding: true to indicate corresponding author 
 authors:
   - id: thibaut_jombart
     corresponding: true
@@ -16,7 +31,7 @@ authors:
   - id: simon_procter
   - id: ncov-group
   - id: john_edmunds
-update: '2020-03-23'
+
 ---
 
 <style>
