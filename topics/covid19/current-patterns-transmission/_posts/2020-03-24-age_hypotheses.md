@@ -1,7 +1,7 @@
 ---
 
 #add the title of your project
-title: Age-dependent effects in the transmission and control of COVID-19 epidemics
+title: "Age-dependent effects in the transmission and control of COVID-19 epidemics"
 
 description: We evaluated hypotheses for the age-distribution of COVID-19 cases reported.
 
@@ -22,7 +22,7 @@ authors:
   - id: petra_klepac
     equal: 1
   - id: yang_liu
-      equal: 1
+    equal: 1
   - id: kiesha_prem
   - id: mark_jit
   - id: ncov-group
