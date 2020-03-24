@@ -10,7 +10,7 @@ description: We evaluated hypotheses for the age-distribution of COVID-19 cases 
 status: under-review
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-02-24
+update: 2020-03-24
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
