@@ -156,6 +156,23 @@
 - id: gwen_knight
   name: Gwen Knight
   email: gwen.knight@lshtm.ac.uk
+- id: kath_oreilly
+  name: Kathleen O\'Reilly
+  email: kathleen.oreilly@lshtm.ac.uk
+  twitter: kathmoreilly
+  url: https://www.lshtm.ac.uk/aboutus/people/oreilly.kathleen
+- id: megan_auzenbergs
+  name: Megan Auzenbergs
+  email: megan.auzenbergs@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/auzenbergs.megan
+- id: yalda_jafari
+  name: Yalda Jafari
+  email: yalda.jafari@lshtm.ac.uk
+- id: rachel_lowe
+  name: Rachel Lowe
+  email: rachel.lowe@lshtm.ac.uk
+  twitter: drrachellowe
+  url: https://www.lshtm.ac.uk/aboutus/people/lowe.rachel
 - id: ncov-group
   name: CMMID nCov working group
   type: group
@@ -189,3 +206,8 @@
    - emily_nightingale
    - simon_procter
    - gwen_knight
+   - kath_oreilly
+   - megan_auzenbergs
+   - yalda_jafari
+   - rachel_lowe
+   
