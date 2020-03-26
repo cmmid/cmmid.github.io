@@ -332,6 +332,11 @@ Inputs of the model are parametrised as follows:
 
 
 
+### Code availability
+
+The code implementing the model and the app is distributed under MIT license,
+and available from [github](https://github.com/thibautjombart/covid19_cases_from_deaths).
+
 
 
 ## Key assumptions and limitations
