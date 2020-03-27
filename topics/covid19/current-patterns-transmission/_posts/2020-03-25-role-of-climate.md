@@ -1,7 +1,7 @@
 ---
 
 #add the title of your project
-title: Effective transmission across the globe: the role of climate in COVID-19 mitigation strategies 
+title: "Effective transmission across the globe: the role of climate in COVID-19 mitigation strategies" 
 
 description: We discussed the current evidence on the role of climate on COVID-19 transmission.
 
