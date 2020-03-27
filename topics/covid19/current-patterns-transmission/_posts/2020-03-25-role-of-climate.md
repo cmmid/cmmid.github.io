@@ -1,7 +1,7 @@
 ---
 
 #add the title of your project
-title: Effective transmission across the globe: the role of climate in COVID-19 mitigation strategies 
+title: Effective transmission across the globe&#58; the role of climate in COVID-19 mitigation strategies 
 
 description: We discussed the current evidence on the role of climate on COVID-19 transmission.
 
@@ -26,6 +26,7 @@ authors:
   - id: rachel_lowe
 
 ---
+
 COVID-19 has been declared a pandemic by the World Health Organization (WHO), owing to its rapid global spread and alarming ability to quickly overwhelm healthcare services with patients requiring critical care \[1\]. A pertinent question for COVID-19 mitigation strategies is whether the SARS-CoV-2 virus is less transmissible in hot and humid climates. Some studies support that notion. Sajadi et al.found that regions with established community outbreaks had a lower average temperature and specific humidity compared to areas that did not report significant community transmission \[2\] and similar findings have been observed using ecological niche modelling \[3\]. Similarly, Wang et al. reported a decrease in transmission intensity associated with an increase in temperature and relative humidity \[4\]. An environmental study of SARS-CoV-1 reported reduced survival of the virus at higher temperatures and humidity \[5\] . Such studies have been interpreted by some as sufficient evidence to assume that rising temperatures in boreal summer will likely facilitate COVID-19 control. However, these findings are prone to confounding, including the delay in spread to warmer regions of the world due to travel patterns \[6\] . Hence, it is essential to contextualize these with the current global spread of COVID-19.
 
 As of 24 March 2020, 117 countries and territories across the globe have reported local SARS-CoV-2 transmission, 71 have reported imported cases only, six are under investigation and the remainder has not yet reported any cases (Figure 1A) \[7\]. All WHO regions have at least six countries with confirmed local transmission, effectively spanning all climatic zones, from cold and dry to hot and humid regions. Notably, countries reporting local transmission include Malaysia, the Philippines, Indonesia and Thailand, with much movement between them and China. However other countries outside of Asia including Burkina Faso, Democratic Republic of Congo, Panama and Paraguay, with mean ambient temperatures between 1 January 2020 - 14 March 2020 greater than 25 oC (Figure 1B) also report local transmission. 
