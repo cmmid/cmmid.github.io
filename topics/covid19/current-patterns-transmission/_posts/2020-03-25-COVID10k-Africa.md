@@ -37,3 +37,4 @@ Based on current trends, we find almost all African countries are likely to pass
 another few weeks; alarmingly, these are largely synchronised continent-wide, and real burdens are certainly higher than
 reports. This calls for urgent action across Africa.
 
+*Note: this version includes a typo correction: replacing 0.38 with 0.58 dispersion for new cases.*
