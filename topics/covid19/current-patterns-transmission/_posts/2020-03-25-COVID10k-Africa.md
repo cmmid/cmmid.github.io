@@ -6,7 +6,7 @@ description: We estimate timing of hitting particular case numbers by country in
 status: in-progress
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-# update: 2020-02-07
+update: 2020-03-25
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -30,7 +30,7 @@ redirect_from:
 
 # Summary
 
-[Projection of early spread of COVID-19 in Africa as of 25 March 2020](COVID10k_Africa.pdf)
+[Projection of early spread of COVID-19 in Africa as of 25 March 2020](reports/COVID10k_Africa.pdf)
 
 We prepared a report for several African stakeholders estimating the time countries would reach 1000 and 10000 reported cases.
 Based on current trends, we find almost all African countries are likely to pass 1000 reported cases by 1 May, and 10000 within
