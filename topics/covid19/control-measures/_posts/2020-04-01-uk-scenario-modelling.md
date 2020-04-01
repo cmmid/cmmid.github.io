@@ -24,7 +24,8 @@ authors:
 
 **Interpretation:** The characteristics of SARS-CoV-2 mean that extreme measures are likely required to bring the epidemic under control and to prevent very large numbers of deaths and an excess of demand on hospital beds, especially those in ICUs. 
 
-Read the full report [here](report/uk_scenario_modelling_preprint_2020_04_01.pdf).
+**Read the full report [here](report/uk_scenario_modelling_preprint_2020_04_01.pdf)**.
+
 
 <img src="figures/fig-lockdown.png" width="100%"/> 
 *Figure:* Projected impact of intensive control measures with reactive lockdowns. (a) Dynamics of the epidemic under different triggers for introduction and lifting of lockdowns (median timing of lockdowns shown as grey shaded areas). Bolded lines show ICU bed occupancy in the median run under each scenario. Horizontal guides show the estimated number of ICU beds in the UK as of January 2020 (solid line) and with a hypothetical doubling of capacity (dashed line). Blue shaded regions show school closures, while the pink shaded region shows a background period of intensive interventions. (b) Summary of epidemic runs. (c) Estimated distribution of R0 under three different interventions: intensive social distancing with schools open and closed, and lockdown.
