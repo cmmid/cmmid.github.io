@@ -78,7 +78,7 @@
   name: Nicholas Davies
   email: nicholas.davies@lshtm.ac.uk
   url: https://www.lshtm.ac.uk/aboutus/people/davies.nicholas
-  twitter: _nikdavies
+  twitter: _nickdavies
 - id: charlie_diamond
   name: Charlie Diamond
   email: charlie.diamond@lshtm.ac.uk
@@ -147,7 +147,7 @@
 - id: emily_nightingale
   name: Emily S Nightingale
   email: emily.nightingale@lshtm.ac.uk
-  url: 
+  url:
 - id: simon_procter
   name: Simon R Procter
 - id: olivier_lepolain
@@ -156,6 +156,33 @@
 - id: gwen_knight
   name: Gwen Knight
   email: gwen.knight@lshtm.ac.uk
+- id: kath_oreilly
+  name: Kathleen O'Reilly
+  email: kathleen.oreilly@lshtm.ac.uk
+  twitter: kathmoreilly
+  url: https://www.lshtm.ac.uk/aboutus/people/oreilly.kathleen
+- id: megan_auzenbergs
+  name: Megan Auzenbergs
+  email: megan.auzenbergs@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/auzenbergs.megan
+- id: yalda_jafari
+  name: Yalda Jafari
+  email: yalda.jafari@lshtm.ac.uk
+- id: rachel_lowe
+  name: Rachel Lowe
+  email: rachel.lowe@lshtm.ac.uk
+  twitter: drrachellowe
+  url: https://www.lshtm.ac.uk/aboutus/people/lowe.rachel
+- id: cari_v_schalkwyk
+  name: Cari Van Schalkwyk
+- id: juliet_pulliam
+  name: Juliet R C Pulliam
+- id: anna_foss
+  name: Anna Foss
+- id: james_rubin
+  name: G James Rubin
+- id: smart-group
+  name: SACEMA Modelling and Analysis Response Team
 - id: ncov-group
   name: CMMID nCov working group
   type: group
@@ -189,3 +216,7 @@
    - emily_nightingale
    - simon_procter
    - gwen_knight
+   - kath_oreilly
+   - megan_auzenbergs
+   - yalda_jafari
+   - rachel_lowe

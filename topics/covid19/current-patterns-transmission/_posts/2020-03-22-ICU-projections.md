@@ -10,7 +10,7 @@ description: We estimate critical care bed demand for COVID-19 cases in England 
 status: in-progress
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-03-22
+update: 2020-03-28
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -153,6 +153,16 @@ For the analysis excluding London, the starting point for admissions projections
 <img src="figures/ICU-projections-excLondon.png" width="75%"> <br>
 **Figure 3: Predictions of critical care bed needs - NHS regions excluding London.** This figure shows the numbers of new patients requiring beds in critical care for COVID-19 projected from current admissions data in ICU/HDU in England. Mean needs and their 95% confidence intervals are indicated by the plain lines and ribbons, respectively. Columns and colors present results for different assumed reporting of admissions, from full reporting (100%, left), 90% (middle), and 80% (right) reporting. Rows indicate results for different assumed distributions of the duration of hospitalisation: 'short' (median: 8 days<sup>2</sup>) and 'long' (median: 10 days<sup>3</sup>).
 
+
+
+
+<br>
+
+# App
+
+Since the initial post, the model has been generalised to any type of
+hospitalisation and implmented in a
+[web-app](https://cmmid-lshtm.shinyapps.io/hospital_bed_occupancy_projections/).
 
 
 
