@@ -147,7 +147,7 @@
 - id: emily_nightingale
   name: Emily S Nightingale
   email: emily.nightingale@lshtm.ac.uk
-  url: 
+  url:
 - id: simon_procter
   name: Simon R Procter
 - id: olivier_lepolain
@@ -179,6 +179,8 @@
   name: Juliet R C Pulliam
 - id: anna_foss
   name: Anna Foss
+- id: james_rubin
+  name: G James Rubin
 - id: smart-group
   name: SACEMA Modelling and Analysis Response Team
 - id: ncov-group
@@ -218,4 +220,3 @@
    - megan_auzenbergs
    - yalda_jafari
    - rachel_lowe
-   
