@@ -181,6 +181,11 @@
   name: Anna Foss
 - id: james_rubin
   name: G James Rubin
+ - id: quentin_leclerc
+  name: Quentin Leclerc
+  email: quentin.leclerc@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/leclerc.quentin
+  twitter: QuentinLclrc
 - id: smart-group
   name: SACEMA Modelling and Analysis Response Team
 - id: ncov-group
@@ -220,3 +225,4 @@
    - megan_auzenbergs
    - yalda_jafari
    - rachel_lowe
+   - quentin_leclerc
