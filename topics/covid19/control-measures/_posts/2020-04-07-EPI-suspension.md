@@ -20,3 +20,5 @@ authors:
 **Limitations:** By approximating the benefit of sustaining routine vaccination with the risk of acquiring coronavirus infections through visiting vaccination services, we make a number of simplifying assumptions: (i) we assume that the potential cohort of unvaccinated children during the Covid-19 risk period would be at similar risk for infection with any of the included vaccine preventable disease as children in a completely unvaccinated cohort would be; (ii) we assume that no catch-up would be administered once the pandemic ends and (iii) we assume that the contact reducing measures in place to flatten the pandemic curve will have limited effect on at least the highly transmissible pathogens, measles and pertussis. Addressing these shortcomings systematically will need a more extensive dynamic modelling framework, however, this is unlikely to qualitatively change our findings. 
 
 **Read the full report [here](report/EPI_suspension_report_7Apr2020.pdf)**.
+
+Source code available @ GitHub: <https://github.com/vaccine-impact/epi_covid/>
