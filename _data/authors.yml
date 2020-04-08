@@ -186,6 +186,8 @@
   email: quentin.leclerc@lshtm.ac.uk
   url: https://www.lshtm.ac.uk/aboutus/people/leclerc.quentin
   twitter: QuentinLclrc
+- id: nick_golding
+  name: Nick Golding
 - id: smart-group
   name: SACEMA Modelling and Analysis Response Team
 - id: ncov-group
