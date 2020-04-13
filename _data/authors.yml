@@ -188,6 +188,10 @@
   twitter: QuentinLclrc
 - id: nick_golding
   name: Nick Golding
+- id: andy_clark
+  name: Andrew Clark
+- id: other_collaborators
+  name: LSHTM and external collaborators
 - id: smart-group
   name: SACEMA Modelling and Analysis Response Team
 - id: ncov-group
