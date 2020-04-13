@@ -36,8 +36,6 @@ The COVID-19 pandemic has shown a markedly low proportion of cases among childre
 
 The role of age in transmission is critical to designing interventions aiming to decrease transmission in the population as a whole, and to projecting the expected global burden. Early evidence, including presented here, suggests that there is age dependence in the risk of clinical symptoms following infection. Understanding if and by how much subclinical infections contribute to transmission has implications for predicted global burden and the impact of control interventions. This question must be resolved to effectively forecast and control COVID-19 epidemics.
 
-A pre-print copy of the [main text](reports/age_hypotheses/Main%20text%20-%20COVID-19%20dynamics%20in%20children_%20implications%20for%20policy%20-%20no_line_numbers.pdf) is here.
+A pre-print copy of the [main text](https://www.medrxiv.org/content/10.1101/2020.03.24.20043018v1) is on medrxiv.
 
-A pre-print copy of the [supplementary information](reports/age_hypotheses/Supplement%20-%20COVID-19%20dynamics%20in%20children_%20implications%20for%20policy%20-%20no_line_numbers.pdf) is here.
-
-The manuscript has been submitted to medrxiv and we will update the links when it is available there.
+A pre-print copy of the [supplementary information](https://www.medrxiv.org/content/10.1101/2020.03.24.20043018v1.supplementary-material) is also available on medrxiv.
