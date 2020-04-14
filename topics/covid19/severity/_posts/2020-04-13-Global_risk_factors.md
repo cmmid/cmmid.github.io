@@ -20,7 +20,8 @@ update: 2020-04-14
 authors:
   - id: andy_clark
     corresponding: true#permalinks have changed
-  - id: other_collaborators
+  - id: mark_jit
+  - id: other_collaborators_global_risk_factors
   - id: hamish_gibbs
   - id: ncov-group
   - id: roz_eggo
