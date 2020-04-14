@@ -190,8 +190,8 @@
   name: Nick Golding
 - id: andy_clark
   name: Andrew Clark
-- id: other_collaborators
-  name: LSHTM and external collaborators
+- id: other_collaborators_global_risk_factors
+  name: Charlotte Warren-Gash, Bruce Guthrie, Harry HX Wang, Stewart W Mercer, Colin Sanderson, Martin McKee, Christopher Troeger, Kanyin I Ong, Francesco Checchi, Pablo Perel, Sarah Joseph,
 - id: smart-group
   name: SACEMA Modelling and Analysis Response Team
 - id: ncov-group
