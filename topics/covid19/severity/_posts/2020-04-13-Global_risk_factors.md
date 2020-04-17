@@ -47,6 +47,6 @@ Based on current guidelines and prevalence data from GBD, we estimate that one i
 
 A pre-print copy of the [manuscript](reports/Global_shielding_LSHTM_pre_print3.pdf) is here.
 
-The spreadsheet tool is available [here](https://ln2.sync.com/dl/a11170170#g7q4a9iq-da5pkt4m-p5fi73v6-ascg79ue).
+The spreadsheet tool is available [here](https://ln2.sync.com/dl/83d381f90#s7irjzat-p9detzcj-wbp9rfuc-gm8kvz8z).
 
 The manuscript has been submitted to medrxiv and we will update the links when it is available there.
