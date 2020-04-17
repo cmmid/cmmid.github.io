@@ -9,10 +9,10 @@ description: We evaluated the overdispersion in the number of secondary transmis
 
 #add a status: in-progress, under-review, published
 #defaults to in-progress if not set
-status: in-progress
+status: under-review
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-03-12
+update: 2020-04-15
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
