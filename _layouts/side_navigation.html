@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+{% if page.tag_filter %}
+{% assign page_title = page.tag_filter %}
+{% else %}
+{% assign page_title = page.title %}
+{% endif %}
+
+<div class="row" >
+  <div class="col-xs-10 col-xs-offset-2">
+    <h1>{% include fn_getcatname cat=page_title %}</h1>
+  </div>
+</div>
+
+<div class="row" >
+  <div class="col-xs-2">
+    {% assign site_tags = '' | split: '*' %}
+    {% if page.hide_tags_with_no_posts %}
+    {% assign posts_with_tags = posts %}
+    {% else %}
+    {% assign posts_with_tags = site.posts %}
+    {% endif %}
+    {% for post in posts_with_tags %}
+      {% for post_tag in post.tags %}
+        {% unless site_tags contains post_tag %}
+          {% assign site_tags = site_tags | push: post_tag %}
+        {% endunless %}
+      {% endfor %}
+    {% endfor %}
+
+    <ul class="nav nav-pills nav-stacked">
+      <li role="presentation" {% if page.url == "/topics/covid19/" %}class="active"{% endif %}><a href="/topics/covid19" >All Covid19</a></li>
+      {% for tag in site_tags %}
+      <li role="presentation" {% if tag == page.tag_filter %}class="active"{% endif %}><a href="/topics/covid19/{{tag}}">{% include fn_getcatname cat=tag %}</a></li>
+      {% endfor %}
+      <li role="presentation" {% if page.url == "/visualisations" %}class="active"{% endif %}><a href="/visualisations" >Apps</a></li>
+    </ul>
+  </div>
+  <div class="col-xs-10" >
+    {{ content }}
+  </div>
+</div>

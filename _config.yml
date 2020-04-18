@@ -76,13 +76,13 @@ defaults:
       path: "topics"
       type: "pages"
     values:
-      layout: "category"
+      layout: "post_list"
   -
     scope:
       path: "translations/*/topics"
       type: "pages"
     values:
-      layout: "category"
+      layout: "post_list"
   -
     scope:
       path: "translations/*/topics"

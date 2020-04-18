@@ -1,5 +1,4 @@
 ---
-layout: category
 tag_filter: current-patterns-transmission
 hide_tags_with_no_posts: true
 ---

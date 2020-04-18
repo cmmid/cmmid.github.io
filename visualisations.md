@@ -1,11 +1,9 @@
 ---
-layout: default
+layout: side_navigation
 permalink: /visualisations
-title: Visualisations
+title: CMMID Interactive Applications
 ---
-[See here for all our work on COVID-19.](/topics/covid19) 
 
-## CMMID Interactive Applications
 {% for app in site.shinyapp %}
  - [{{ app.title }}]({{ app.url }})
 {% endfor %}

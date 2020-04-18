@@ -1,5 +1,4 @@
 ---
-layout: category
 tag_filter: current-patterns-transmission
 ---
 
