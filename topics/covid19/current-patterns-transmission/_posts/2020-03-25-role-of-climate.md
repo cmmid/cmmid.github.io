@@ -25,6 +25,7 @@ authors:
   - id: stefan_flasche
   - id: rachel_lowe
 
+tags: [current-patterns-transmission]
 ---
 
 COVID-19 has been declared a pandemic by the World Health Organization (WHO), owing to its rapid global spread and alarming ability to quickly overwhelm healthcare services with patients requiring critical care \[1\]. A pertinent question for COVID-19 mitigation strategies is whether the SARS-CoV-2 virus is less transmissible in hot and humid climates. Some studies support that notion. Sajadi et al.found that regions with established community outbreaks had a lower average temperature and specific humidity compared to areas that did not report significant community transmission \[2\] and similar findings have been observed using ecological niche modelling \[3\]. Similarly, Wang et al. reported a decrease in transmission intensity associated with an increase in temperature and relative humidity \[4\]. An environmental study of SARS-CoV-1 reported reduced survival of the virus at higher temperatures and humidity \[5\] . Such studies have been interpreted by some as sufficient evidence to assume that rising temperatures in boreal summer will likely facilitate COVID-19 control. However, these findings are prone to confounding, including the delay in spread to warmer regions of the world due to travel patterns \[6\] . Hence, it is essential to contextualize these with the current global spread of COVID-19.

@@ -28,6 +28,7 @@ authors:
 #set this to true for MathJax to work
 rmarkdown_html_fragment: true
 
+tags: [current-patterns-transmission]
 ---
 
 ## Aim

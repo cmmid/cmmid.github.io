@@ -31,6 +31,7 @@ authors:
   - id: james_rubin
   - id: john_edmunds
 
+tags: [current-patterns-transmission, severity]
 ---
 
 <a target = "_blank" href="reports/LSHTM-CMMID-20200401-CoMix-social-contacts.pdf" title="CoMix full report">Click here to read our full report.</a>

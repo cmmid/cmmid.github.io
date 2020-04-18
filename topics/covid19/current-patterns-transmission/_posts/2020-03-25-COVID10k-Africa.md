@@ -26,6 +26,7 @@ authors:
 redirect_from:
   - /ncov/isolation_contact_tracing/
 
+tags: [current-patterns-transmission]
 ---
 
 # Summary

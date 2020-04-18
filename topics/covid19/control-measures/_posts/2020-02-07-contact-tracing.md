@@ -30,6 +30,7 @@ authors:
 redirect_from:
   - /ncov/isolation_contact_tracing/
 
+tags: [control-measures]
 ---
 
 ## Aim

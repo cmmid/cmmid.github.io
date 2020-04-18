@@ -1,7 +1,6 @@
 ---
-tag: covid19
 language: zh-cn
-show_subcategories: false
+hide_tags_with_no_posts: true
 ---
 
 传染病数学建模研究中心的多个研究人员都在进行与COVID-19疫情或SARS-CoV-2相关的工作。本页将展示一些研究成果的中文版。

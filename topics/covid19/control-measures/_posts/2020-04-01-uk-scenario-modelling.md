@@ -16,6 +16,8 @@ authors:
   - id: john_edmunds
 
 update: 2020-04-01
+
+tags: [control-measures]
 ---
 **Background:** Non-pharmaceutical interventions have been implemented to reduce transmission of SARS-CoV-2 in the UK. Projecting the size of an unmitigated epidemic and the potential effect of different control measures has been critical to support evidence-based policymaking during the early stages of the epidemic. 
 

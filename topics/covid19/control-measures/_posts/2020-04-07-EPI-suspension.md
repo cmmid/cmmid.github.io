@@ -10,6 +10,7 @@ update: 2020-04-20
 authors:
   - id: ncov-group
 
+tags: [control-measures]
 ---
 **Background:** National immunisation programmes globally are at risk of suspension due to the severe health system constraints and physical distancing measures in place to mitigate the ongoing COVID-19 pandemic. Our aim is to compare the health benefits of sustaining routine childhood immunisation in Africa against the risk of acquiring SARS-CoV-2 infections through visiting routine vaccination service delivery points. 
 

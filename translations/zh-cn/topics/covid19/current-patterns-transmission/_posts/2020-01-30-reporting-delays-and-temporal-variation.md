@@ -16,6 +16,7 @@ authors:
   - id: stefan_flasche
   - id: ncov-group
   
+tags: [current-patterns-transmission]
 ---
 
 翻译人: <a href="https://www.linkedin.com/in/hongyu-vivian-liu-a41ab4194" target="_blank">Hongyu (Vivian) Liu</a>

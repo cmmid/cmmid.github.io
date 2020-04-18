@@ -37,7 +37,7 @@
           {% unless use_category == false or subcategories contains post_cat %}
             {% assign subcategories = subcategories | push: post_cat %}
           {% endunless %}
-          {% if post_cat == page.category_filter %}
+          {% if post_cat == page.tag_filter %}
             {% assign use_category = true %}
           {% endif %}
         {% endfor %}

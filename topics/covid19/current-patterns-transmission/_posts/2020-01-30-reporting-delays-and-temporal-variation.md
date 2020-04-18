@@ -19,6 +19,7 @@ redirect_from:
   - /ncov/time-varying-r/
   - /ncov/time-varying-r
 
+tags: [current-patterns-transmission]
 ---
 
 * This analysis will be updated with new data as the epidemic progresses. *

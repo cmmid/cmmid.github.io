@@ -49,6 +49,10 @@ exclude: ["README.md", "topics/YYYY-MM-DD-post-template.md", "_shinyapp/template
 permalink: /:categories/:title:output_ext
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      language: "en-GB"
   -
     scope:
       path: ""

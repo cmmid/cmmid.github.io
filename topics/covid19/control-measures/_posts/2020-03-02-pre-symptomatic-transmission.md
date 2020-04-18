@@ -12,6 +12,8 @@ authors:
 - id: stefan_flasche
 
 update: 2020-03-16
+
+tags: [control-measures]
 ---
 **Background:** Pre-symptomatic transmission can be a key determinant of the effectiveness of containment and mitigation strategies for infectious diseases, particularly if interventions rely on syndromic case finding. For COVID-19, infections in the absence of apparent symptoms have been reported frequently alongside circumstantial evidence for asymptomatic or pre-symptomatic transmission. We estimated the potential contribution of pre-symptomatic cases to COVID transmission.
 

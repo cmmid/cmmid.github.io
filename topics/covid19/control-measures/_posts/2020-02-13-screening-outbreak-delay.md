@@ -24,6 +24,7 @@ authors:
 redirect_from:
   - /ncov/screening-outbreak-delay
 
+tags: [control-measures]
 ---
 
 You can download the current copy of the preprint [here](report/screening_outbreak_delay_preprint_202002130952.pdf) or at [medR&chi;iv](https://doi.org/10.1101/2020.02.12.20022426)

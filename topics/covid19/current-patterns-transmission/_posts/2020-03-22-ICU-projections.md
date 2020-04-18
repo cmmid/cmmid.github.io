@@ -32,6 +32,7 @@ authors:
   - id: ncov-group
   - id: john_edmunds
 
+tags: [current-patterns-transmission]
 ---
 
 <style>

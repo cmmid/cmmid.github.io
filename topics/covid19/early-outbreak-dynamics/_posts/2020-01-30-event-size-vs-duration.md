@@ -20,6 +20,7 @@ redirect_from:
   - /ncov/event-size-vs-duration
   - /ncov/event-size-vs-duration/
 
+tags: [early-outbreak-dynamics]
 ---
 
 *S. Abbott, J. Hellewell, J. Munday, CMMID nCoV working group, S. Funk*
