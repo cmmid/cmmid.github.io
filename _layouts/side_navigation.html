@@ -17,12 +17,8 @@ layout: default
 <div class="row" >
   <div class="col-xs-2">
     {% assign site_tags = '' | split: '*' %}
-    {% if page.hide_tags_with_no_posts %}
-    {% assign posts_with_tags = posts %}
-    {% else %}
-    {% assign posts_with_tags = site.posts %}
-    {% endif %}
-    {% for post in posts_with_tags %}
+    {% assign posts_in_language = site.posts | where: "language", page.language %}
+    {% for post in posts_in_language %}
       {% for post_tag in post.tags %}
         {% unless site_tags contains post_tag %}
           {% assign site_tags = site_tags | push: post_tag %}
