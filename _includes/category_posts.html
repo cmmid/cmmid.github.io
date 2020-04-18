@@ -13,8 +13,7 @@
 	<div class="posts">
     {% include posts_filter.html posts=posts %}
 
-    {% assign posts_sorted = posts %}
-    {% assign posts_sorted = (posts_sorted | sort: 'update') | reverse %}
+    {% assign posts_sorted = (posts | sort: 'update') | reverse %}
 
     {% for post in posts_sorted %}
 
