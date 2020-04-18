@@ -3,12 +3,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{%- if page.title -%}
 			{{ page.title }}
-		{%- elsif page.tag -%}
-			{%- assign catdata = site.data.categories | where: "id", page.tag -%}
+		{%- elsif page.category_filter -%}
+			{%- assign catdata = site.data.categories | where: "id", page.category_filter -%}
 			{%- if catdata.size == 1 -%}
 				{%- assign catname = catdata | map: "name" -%}
 			{%- else -%}
-				{%- assign catname = page.tag -%}
+				{%- assign catname = page.category_filter -%}
 			{%- endif -%}	
 			{{ catname }}
 		{%- else -%}

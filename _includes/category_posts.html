@@ -1,8 +1,8 @@
 {% if page.language %}
-	{% assign posts = site.categories[page.tag] | where: "language", page.language %}
+	{% assign posts = site.categories[page.category_filter] | where: "language", page.language %}
 {% else %}
 	{% assign posts = '' | split: '*' %}
-	{% for post in site.categories[page.tag] %}
+	{% for post in site.categories[page.category_filter] %}
 		{% if post.language.size == %}
 			{% assign posts = posts | push:post %}
 		{% endif %}

@@ -1,5 +1,5 @@
 ---
-tag: covid19
+category_filter: covid19
 show_subcategories: true
 
 redirect_from:

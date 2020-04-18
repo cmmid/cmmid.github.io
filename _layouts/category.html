@@ -3,14 +3,14 @@ layout: default
 ---
 
 <div class="blog list">
-	{% assign catdata = site.data.categories | where: "id", page.tag %}
+	{% assign catdata = site.data.categories | where: "id", page.category_filter %}
 	{% if catdata.size == 1 %}
 		{% assign catname = catdata | map: "name" %}
 	{% else %}
-		{% assign catname = page.tag %}
+		{% assign catname = page.category_filter %}
 	{% endif %}
 
-  <h1>{% include fn_getcatname cat=page.tag %}</h1>
+  <h1>{% include fn_getcatname cat=page.category_filter %}</h1>
 
   <div class="row" >
     <div class="col-xs-12" >

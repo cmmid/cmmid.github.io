@@ -7,10 +7,10 @@
 {% assign subcategories = '' | split: '' %}
 
 {% if page.language %}
-	{% assign posts = site.categories[page.tag] | where: "language", page.language %}
+	{% assign posts = site.categories[page.category_filter] | where: "language", page.language %}
 {% else %}
 	{% assign posts = '' | split: '*' %}
-	{% for post in site.categories[page.tag] %}
+	{% for post in site.categories[page.category_filter] %}
 		{% if post.language.size == %}
 			{% assign posts = posts | push:post %}
 		{% endif %}
@@ -21,10 +21,10 @@
 	{% assign use_category = false %}
 	{% for post_cat in post.categories %}
 		{{% post.title %}}
-		{% unless use_category == false or subcategories contains post_cat %}	
+		{% unless use_category == false or subcategories contains post_cat %}
 			{% assign subcategories = subcategories | push: post_cat %}
 		{% endunless %}
-		{% if post_cat == page.tag %}
+		{% if post_cat == page.category_filter %}
 			{% assign use_category = true %}
 		{% endif %}
 	{% endfor %}

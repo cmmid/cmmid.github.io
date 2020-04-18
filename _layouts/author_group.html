@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign group_data = site.data.authors | where: "id", page.tag | first %}
+{% assign group_data = site.data.authors | where: "id", page.group_id | first %}
 <h1>{{ group_data.name }}</h1>
 
 {{ content }}
