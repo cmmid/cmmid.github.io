@@ -11,83 +11,97 @@
 
 {% if posts.size > 0 %}
 	<div class="posts">
-	<div class="filter">
-		<div class="top">
-			<div class="row">
-				<div class="col-xs-6">
-					{% include fn_gettranslation string="Posts" lang=page.language %}
-				</div>
-				<div class="col-xs-6">
-					<button data-toggle="collapse" data-target="#filter-options"><span class="filter-icon" title="Filter posts"></span></button>
-				</div>
-			</div>
-		</div>
-		<div id="filter-options" class="bottom collapse">
-			<div class="wrapper">
-				{% assign statusses = 'in-progress' | split: '*' %}
+    <div class="filter">
+      <div class="top">
+        <div class="row">
+          <div class="col-xs-6">
+            {% include fn_gettranslation string="Posts" lang=page.language %}
+          </div>
+          <div class="col-xs-6">
+            <button data-toggle="collapse" data-target="#filter-options"><span class="filter-icon" title="Filter posts"></span></button>
+          </div>
+        </div>
+      </div>
+      <div id="filter-options" class="bottom collapse">
+        <div class="wrapper">
+          {% assign statusses = 'in-progress' | split: '*' %}
 
-				{% for post in posts %}
-					{% unless statusses contains post.status %}
-						{% if post.status %}
-							{% assign translated_status = include fn_gettranslation string=post.status lang=page.language %}
-							{% assign statusses = statusses | push: post.status %}
-						{% endif %}
-					{% endunless %}
-				{% endfor %}
-				{% unless statusses.size == 0 %}
-					<p>{% include fn_gettranslation string="Status" lang=page.language %}:
-					{% for status in statusses %}
-						<label> {% include fn_gettranslation string=status lang=page.language %} <input type="checkbox" checked="checked" class="filter-select" data-filter="status" value="{{status}}"></label>			
-					{% endfor %}
-					</p>
-				{% endunless %}
-				
-				{% assign subcategories = '' | split: '' %}
-				{% for post in posts %}
-					{% assign use_category = false %}
-					{% for post_cat in post.categories %}
-						{{% post.title %}}
-						{% unless use_category == false or subcategories contains post_cat %}	
-							{% assign subcategories = subcategories | push: post_cat %}
-						{% endunless %}
-						{% if post_cat == page.tag %}
-							{% assign use_category = true %}
-						{% endif %}
-					{% endfor %}
-				{% endfor %}
-				{% unless subcategories.size == 0 %}
-					<p>{% include fn_gettranslation string="Category" lang=page.language %}:
-					{% for cat in subcategories %}
-						<label> {% include fn_getcatname cat=cat lang=page.language %} <input type="checkbox" checked="checked" class="filter-select" data-filter="category" value="{{cat}}"></label>			
-					{% endfor %}
-					</p>
-				{% endunless %}
-			</div>
-		</div>
-	</div>
-	{% assign posts_sorted = posts %}	
-	{% assign posts_sorted = (posts_sorted | sort: 'update') | reverse %}
-	{% for post in posts_sorted %}
-		{% if post.status %}
-			{% assign post_status = post.status %}
-		{% else %}
-			{% assign post_status = 'in-progress' %}
-		{% endif %}
-		<article class="status_{{post_status}} {%for post_cat in post.categories%}category_{{post_cat}} {%endfor%}">
-			<div class="title">
-				<h4><a href="{{post.url}}">{{post.title}}</a></h4>
-			</div>
-			<div class="meta-information">
-				<span class="status {{post.status}}">{% include fn_gettranslation string=post_status lang=page.language %}</span> | <span class="date">{% include fn_gettranslation string='First online' lang=page.language %}: {{post.date | date: "%d-%m-%Y"}}</span>{% if post.update%} | <span class="date">{% include fn_gettranslation string="Last update" lang=page.language %}: {{post.update | date: "%d-%m-%Y"}}</span>{% endif %}
-			</div>
-			<div class="content">
-				<p>{{post.description}}</p>
-				<p class="read-more"><a href="{{post.url}}">{% include fn_gettranslation string="Read more" lang=page.language %}</a></p>
-				
-			</div>
-		</article>
-	{% endfor %}
-	<div class="no-articles" style="display:none;">{% include fn_gettranslation string="No articles match the current filter" lang=page.language %}.</div>
+          {% for post in posts %}
+            {% unless statusses contains post.status %}
+              {% if post.status %}
+                {% assign translated_status = include fn_gettranslation string=post.status lang=page.language %}
+                {% assign statusses = statusses | push: post.status %}
+              {% endif %}
+            {% endunless %}
+          {% endfor %}
+          {% unless statusses.size == 0 %}
+            <p>{% include fn_gettranslation string="Status" lang=page.language %}:
+            {% for status in statusses %}
+              <label> {% include fn_gettranslation string=status lang=page.language %} <input type="checkbox" checked="checked" class="filter-select" data-filter="status" value="{{status}}"></label>
+            {% endfor %}
+            </p>
+          {% endunless %}
+
+          {% assign subcategories = '' | split: '' %}
+          {% for post in posts %}
+            {% assign use_category = false %}
+            {% for post_cat in post.categories %}
+              {{% post.title %}}
+              {% unless use_category == false or subcategories contains post_cat %}
+                {% assign subcategories = subcategories | push: post_cat %}
+              {% endunless %}
+              {% if post_cat == page.tag %}
+                {% assign use_category = true %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+          {% unless subcategories.size == 0 %}
+            <p>{% include fn_gettranslation string="Category" lang=page.language %}:
+            {% for cat in subcategories %}
+              <label> {% include fn_getcatname cat=cat lang=page.language %} <input type="checkbox" checked="checked" class="filter-select" data-filter="category" value="{{cat}}"></label>
+            {% endfor %}
+            </p>
+          {% endunless %}
+        </div>
+      </div>
+    </div>
+
+    {% assign posts_sorted = posts %}
+    {% assign posts_sorted = (posts_sorted | sort: 'update') | reverse %}
+
+    {% for post in posts_sorted %}
+
+      {% if post.status %}
+        {% assign post_status = post.status %}
+      {% else %}
+        {% assign post_status = 'in-progress' %}
+      {% endif %}
+      <article class="status_{{post_status}} {%for post_cat in post.categories%}category_{{post_cat}} {%endfor%}">
+        <header>
+          <dl class="meta-information">
+            <dt>Type</dt>
+            <dd class="status {{post.status}}">{% include fn_gettranslation string=post_status lang=page.language %}</dd>
+          </dl>
+          <div class="title-and-dates" >
+            <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+            <dl class="publishing-dates">
+              <dt>{% include fn_gettranslation string='First online' lang=page.language %}</dt>
+              <dd>{{post.date | date: "%d-%m-%Y"}}</dd>
+              {% if post.update %}
+                <dt>{% include fn_gettranslation string="Last update" lang=page.language %}</dt>
+                <dd>{{post.update | date: "%d-%m-%Y"}}</dd>
+              {% endif %}
+            </dl>
+          </div>
+        </header>
+        <div class="content">
+          <p>{{post.description}}</p>
+          <p class="read-more"><a href="{{post.url}}">{% include fn_gettranslation string="Read more" lang=page.language %}</a></p>
+        </div>
+      </article>
+    {% endfor %}
+
+    <div class="no-articles" style="display:none;">{% include fn_gettranslation string="No articles match the current filter" lang=page.language %}.</div>
 	</div>
 {% else %}
 	<p>{% include fn_gettranslation string="We haven't published any work on this topic yet" lang=page.language %}.</p>
@@ -98,7 +112,7 @@
 		function(){
 			//make all visible
 			$('.posts article').css("display", "");
-			
+
 			//get unchecked boxes
 			var checked_classes = [];
 			$( '.filter input:not(:checked)' ).each(
@@ -106,12 +120,12 @@
 					checked_classes.push( $( this ).data("filter") +'_'+$( this ).val() );
 				}
 			);
-			
+
 			//hide those unchecked
 			$.each(checked_classes, function(i, val){
 				$( '.posts article.'+val ).css("display","none");
 			});
-			
+
 			//count number of articles visible
 			var count_articles = $(".posts article").not(
 					$(".posts article").filter(

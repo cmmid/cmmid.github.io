@@ -8,18 +8,23 @@ layout: default
 		{% assign catname = catdata | map: "name" %}
 	{% else %}
 		{% assign catname = page.tag %}
-	{% endif %}	
-    <h1>{% include fn_getcatname cat=page.tag %}</h1>
-	
-	{{content}}
-	
+	{% endif %}
+
+  <h1>{% include fn_getcatname cat=page.tag %}</h1>
+
+  <div class="row" >
+    <div class="col-xs-12" >
+      {{content}}
+    </div>
+  </div>
+
 	{% unless page.show_subcategories == false %}
 		{% include category_subcategories.html %}
 	{% endunless %}
-	
+
 	{% unless page.show_posts == false %}
 		<h3>{% include fn_gettranslation string="The list below shows all our work on this topic" lang=page.language %}</h3>
 		{% include category_posts.html %}
 	{% endunless %}
-	
+
 </div>
