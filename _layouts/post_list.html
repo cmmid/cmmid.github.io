@@ -28,15 +28,15 @@ layout: side_navigation
           <header>
             <dl class="meta-information">
               <dt>Type</dt>
-              <dd class="status {{post.status}}">{% include fn_gettranslation string=post_status lang=page.language %}</dd>
+              <dd class="status {{post.status}}">{% include fn_translate id=post_status %}</dd>
             </dl>
             <div class="title-and-dates" >
               <h4><a href="{{post.url}}">{{post.title}}</a></h4>
               <dl class="publishing-dates">
-                <dt>{% include fn_gettranslation string='First online' lang=page.language %}</dt>
+                <dt>{% include fn_translate id='first-online' %}</dt>
                 <dd>{{post.date | date: "%d-%m-%Y"}}</dd>
                 {% if post.update %}
-                  <dt>{% include fn_gettranslation string="Last update" lang=page.language %}</dt>
+                  <dt>{% include fn_translate id="last-update" %}</dt>
                   <dd>{{post.update | date: "%d-%m-%Y"}}</dd>
                 {% endif %}
               </dl>
@@ -44,14 +44,14 @@ layout: side_navigation
           </header>
           <div class="content">
             <p>{{post.description}}</p>
-            <p class="read-more"><a href="{{post.url}}">{% include fn_gettranslation string="Read more" lang=page.language %}</a></p>
+            <p class="read-more"><a href="{{post.url}}">{% include fn_translate id="read-more" %}</a></p>
           </div>
         </article>
       {% endfor %}
 
-      <div class="no-articles" style="display:none;">{% include fn_gettranslation string="No articles match the current filter" lang=page.language %}.</div>
+      <div class="no-articles" style="display:none;">{% include fn_translate id="no-matching-posts" %}.</div>
     </div>
   {% else %}
-    <p>{% include fn_gettranslation string="We haven't published any work on this topic yet" lang=page.language %}.</p>
+    <p>{% include fn_translate id="no-posts" %}.</p>
   {% endif %}
 </div>

@@ -14,4 +14,4 @@ Our group has made multiple <a href="/visualisations" target="_blank">interactiv
 
 We also translated some of our posts in Chinese: <a style="color: #00BF6F;" title="中文版" href="/translations/zh-cn/topics/covid19/">中文版</a>
 
-<h3>{% include fn_gettranslation string="The list below shows all our work on this topic" lang=page.language %}</h3>
+<h3>{% include fn_translate id="post-list-heading" %}</h3>

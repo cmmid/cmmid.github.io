@@ -2,7 +2,7 @@
   <div class="top">
     <div class="row">
       <div class="col-xs-6">
-        {% include fn_gettranslation string="Posts" lang=page.language %}
+        {% include fn_translate id="posts" %}
       </div>
       <div class="col-xs-6">
         <button data-toggle="collapse" data-target="#filter-options"><span class="filter-icon" title="Filter posts"></span></button>
@@ -16,15 +16,15 @@
       {% for post in posts %}
         {% unless statusses contains post.status %}
           {% if post.status %}
-            {% assign translated_status = include fn_gettranslation string=post.status lang=page.language %}
+            {% assign translated_status = include fn_translate id=post.status %}
             {% assign statusses = statusses | push: post.status %}
           {% endif %}
         {% endunless %}
       {% endfor %}
       {% unless statusses.size == 0 %}
-        <p>{% include fn_gettranslation string="Status" lang=page.language %}:
+        <p>{% include fn_translate id="status" %}:
         {% for status in statusses %}
-          <label> {% include fn_gettranslation string=status lang=page.language %} <input type="checkbox" checked="checked" class="filter-select" data-filter="status" value="{{status}}"></label>
+          <label> {% include fn_translate string=status %} <input type="checkbox" checked="checked" class="filter-select" data-filter="status" value="{{status}}"></label>
         {% endfor %}
         </p>
       {% endunless %}
@@ -43,9 +43,9 @@
         {% endfor %}
       {% endfor %}
       {% unless subcategories.size == 0 %}
-        <p>{% include fn_gettranslation string="Category" lang=page.language %}:
+        <p>{% include fn_translate id="category" %}:
         {% for cat in subcategories %}
-          <label> {% include fn_getcatname cat=cat lang=page.language %} <input type="checkbox" checked="checked" class="filter-select" data-filter="category" value="{{cat}}"></label>
+          <label> {% include fn_translate id=cat %} <input type="checkbox" checked="checked" class="filter-select" data-filter="category" value="{{cat}}"></label>
         {% endfor %}
         </p>
       {% endunless %}

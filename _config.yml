@@ -25,6 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cmmid.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cmmid_lshtm
 locale: 'en'
+default_language: 'en-gb'
 
 github:
   is_project_page: false
@@ -52,7 +53,7 @@ defaults:
   - scope:
       path: ""
     values:
-      language: "en-GB"
+      language: "en-gb"
   -
     scope:
       path: ""
