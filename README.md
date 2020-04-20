@@ -10,28 +10,41 @@ Copy the [/topics/YYYY-MM-DD-post-template.md](https://github.com/cmmid/cmmid.gi
 
 Front-matter variables are optional, but the following are available:
 
+```
 title: Title of the post
 description: Short description of post
 status: in-progress, under-review, or published
 update: YYYY-MM-DD when post was updated
+```
 
 Posts without the status 'accepted' or 'published' will automatically show the "Ths study is not peer-reviewed" message.
 To suppress this message, set suppress_peerreviewed: true
 
+```
+tags: [severity, current-patterns-transmission, control-measures, early-outbreak-dynamics]
+```
+
+Posts can appear in multiple sections; delete the tags as appropriate
+
+```
 authors:
   - id: author_1
   - id: author_2
   - id: author_3
+```
   
 If you want to use mathjax, tabs, or other objects regularly used in Rmarkdown html files:
  1. set 'output: html_fragment' in your rmarkdown file
  2. set rmarkdown_html_fragment: true in the front-matter of your post
  
+
 # Adding TRANSLATED posts
+
 Post translations should be added in the corresponding folder under /translations/xx-yy/topics/ similar to /topics/
 
 Currently, only zh-cn is available
  
+
 # Adding R Shiny Apps
 
 To add a new shiny app to the [visualisations page](https://cmmid.github.io/visualisations.html), all you need to do is copy a file, and change two fields.
