@@ -4,6 +4,7 @@ title: Covid-19
 redirect_from:
   - /ncov/
   - /ncov
+  - /
 ---
 
 Multiple members of CMMID are working on the ongoing Covid-19 (previously referred to as novel coronavirus or nCov) outbreak caused by the SARS-CoV-2 virus.
