@@ -37,8 +37,9 @@ authors:
     equal: 2
   - id: roz_eggo
     equal: 2
-    corresponding: true#permalinks have changed
+    corresponding: true
 
+# permalinks have changed
 # make sure old urls still work by redirecting to this post
 redirect_from:
   - /ncov/isolation_contact_tracing/
