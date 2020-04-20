@@ -27,11 +27,11 @@ layout: default
     {% endfor %}
 
     <ul class="nav nav-pills nav-stacked">
-      <li role="presentation" {% if page.url == "/topics/covid19/" %}class="active"{% endif %}><a href="/topics/covid19" >All Covid19</a></li>
+      <li role="presentation" {% if page.url == "/topics/covid19/" %}class="active"{% endif %}><a href="/topics/covid19" >{% include fn_gettranslation string="Home" lang=page.language %}</a></li>
       {% for tag in site_tags %}
       <li role="presentation" {% if tag == page.tag_filter %}class="active"{% endif %}><a href="/topics/covid19/{{tag}}">{% include fn_getcatname cat=tag %}</a></li>
       {% endfor %}
-      <li role="presentation" {% if page.url == "/visualisations" %}class="active"{% endif %}><a href="/visualisations" >Apps</a></li>
+      <li role="presentation" {% if page.url == "/visualisations" %}class="active"{% endif %}><a href="/visualisations" >{% include fn_gettranslation string="Apps" lang=page.language %}</a></li>
     </ul>
   </div>
   <div class="col-xs-10" >
