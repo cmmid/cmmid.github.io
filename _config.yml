@@ -80,18 +80,6 @@ defaults:
       layout: "post_list"
   -
     scope:
-      path: "translations/*/topics"
-      type: "pages"
-    values:
-      layout: "post_list"
-  -
-    scope:
-      path: "translations/*/topics"
-      type: "posts"
-    values:
-      layout: "research_post"    
-  -
-    scope:
       path: ""
       type: shinyapp
     values:

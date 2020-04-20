@@ -40,9 +40,15 @@ If you want to use mathjax, tabs, or other objects regularly used in Rmarkdown h
 
 # Adding TRANSLATED posts
 
-Post translations should be added in the corresponding folder under /translations/xx-yy/topics/ similar to /topics/
+Post translations can be added alongside their English versions, but with the language variable set in the front-matter:
 
-Currently, only zh-cn is available
+```
+language: zh-cn
+```
+
+These posts can share the same images as the English versions.
+
+Currently, only zh-cn is available. If unspecified, the language of the post will be set to `en-gb` automatically.
  
 
 # Adding R Shiny Apps

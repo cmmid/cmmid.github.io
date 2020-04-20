@@ -12,6 +12,6 @@ This page shows an overview of our work. Specific sub-topics can be viewed using
 
 Our group has made multiple <a href="/visualisations" target="_blank">interactive applications</a> where some of our work can be explored further.
 
-We also translated some of our posts in Chinese: <a style="color: #00BF6F;" title="中文版" href="/translations/zh-cn/topics/covid19/">中文版</a>
+We also translated some of our posts in Chinese: <a style="color: #00BF6F;" title="中文版" href="zh-cn">中文版</a>
 
 <h3>{% include fn_translate id="post-list-heading" %}</h3>

@@ -15,8 +15,12 @@ authors:
   - id: sam_abbott
   - id: stefan_flasche
   - id: ncov-group
-  
+
 tags: [current-patterns-transmission]
+
+redirect_from:
+- /translations/zh-cn/topics/covid19/current-patterns-transmission/reporting-delays-and-temporal-variation.html
+- /translations/zh-cn/topics/covid19/current-patterns-transmission/reporting-delays-and-temporal-variation
 ---
 
 翻译人: <a href="https://www.linkedin.com/in/hongyu-vivian-liu-a41ab4194" target="_blank">Hongyu (Vivian) Liu</a>
