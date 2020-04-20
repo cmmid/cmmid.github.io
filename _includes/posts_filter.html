@@ -1,56 +1,50 @@
+{% assign statusses = posts | map: "status" | uniq %}
+
 <div class="filter">
   <div class="top">
     <div class="row">
       <div class="col-xs-6">
         {% include fn_translate id="posts" %}
       </div>
+      {% if statusses.size > 1 %}
       <div class="col-xs-6">
         <button data-toggle="collapse" data-target="#filter-options"><span class="filter-icon" title="Filter posts"></span></button>
       </div>
+      {% endif %}
     </div>
   </div>
-  <div id="filter-options" class="bottom collapse">
-    <div class="wrapper">
-      {% assign statusses = 'in-progress' | split: '*' %}
-
-      {% for post in posts %}
-        {% unless statusses contains post.status %}
-          {% if post.status %}
-            {% assign translated_status = include fn_translate id=post.status %}
-            {% assign statusses = statusses | push: post.status %}
-          {% endif %}
-        {% endunless %}
-      {% endfor %}
-      {% unless statusses.size == 0 %}
+  {% if statusses.size > 1 %}
+    <div id="filter-options" class="bottom collapse">
+      <div class="wrapper">
         <p>{% include fn_translate id="status" %}:
         {% for status in statusses %}
           <label> {% include fn_translate string=status %} <input type="checkbox" checked="checked" class="filter-select" data-filter="status" value="{{status}}"></label>
         {% endfor %}
         </p>
-      {% endunless %}
 
-      {% assign subcategories = '' | split: '' %}
-      {% for post in posts %}
-        {% assign use_category = false %}
-        {% for post_cat in post.categories %}
-          {{% post.title %}}
-          {% unless use_category == false or subcategories contains post_cat %}
-            {% assign subcategories = subcategories | push: post_cat %}
-          {% endunless %}
-          {% if post_cat == page.tag_filter %}
-            {% assign use_category = true %}
-          {% endif %}
+        {% assign subcategories = '' | split: '' %}
+        {% for post in posts %}
+          {% assign use_category = false %}
+          {% for post_cat in post.categories %}
+            {{% post.title %}}
+            {% unless use_category == false or subcategories contains post_cat %}
+              {% assign subcategories = subcategories | push: post_cat %}
+            {% endunless %}
+            {% if post_cat == page.tag_filter %}
+              {% assign use_category = true %}
+            {% endif %}
+          {% endfor %}
         {% endfor %}
-      {% endfor %}
-      {% unless subcategories.size == 0 %}
-        <p>{% include fn_translate id="category" %}:
-        {% for cat in subcategories %}
-          <label> {% include fn_translate id=cat %} <input type="checkbox" checked="checked" class="filter-select" data-filter="category" value="{{cat}}"></label>
-        {% endfor %}
-        </p>
-      {% endunless %}
+        {% unless subcategories.size == 0 %}
+          <p>{% include fn_translate id="category" %}:
+          {% for cat in subcategories %}
+            <label> {% include fn_translate id=cat %} <input type="checkbox" checked="checked" class="filter-select" data-filter="category" value="{{cat}}"></label>
+          {% endfor %}
+          </p>
+        {% endunless %}
+      </div>
     </div>
-  </div>
+  {% endif %}
 </div>
 
 
