@@ -4,21 +4,15 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-{% if page.status %}
-	{% assign post_status = page.status %}
-{% else %}
-	{% assign post_status = 'in-progress' %}
-{% endif %}
-
-<div class="post-status"><span class="status {{post_status}}">{% include fn_translate id="status" %}: {% include fn_translate id=post_status %}</span> | <span class="date">{% include fn_translate id="first-online" %}: {{page.date | date: "%d-%m-%Y"}}</span> {% if page.update%} | <span class="date">{% include fn_translate id="last-update" %}: {{page.update | date: "%d-%m-%Y"}}</span>{% endif %}</div>
+<div class="post-status"><span class="status {{post.status}}">{% include fn_translate id="status" %}: {% include fn_translate id=post.status %}</span> | <span class="date">{% include fn_translate id="first-online" %}: {{page.date | date: "%d-%m-%Y"}}</span> {% if page.update%} | <span class="date">{% include fn_translate id="last-update" %}: {{page.update | date: "%d-%m-%Y"}}</span>{% endif %}</div>
 
 {% if page.authors %}
 	{% include research_post_authors.html%}
 {% endif %}
 
 {% unless page.suppress_peerreviewed %}
-  {% if post_status != "published" %}
-    {% if post_status != "accepted" %}
+  {% if post.status != "published" %}
+    {% if post.status != "accepted" %}
       <p><b>{% include fn_translate id="not-peer-reviewed" %}</b></p>
     {% endif %}
   {% endif %}

@@ -4,16 +4,11 @@
   {% endunless %}
 
   {% for post in include.posts %}
-    {% if post.status %}
-      {% assign post_status = post.status %}
-    {% else %}
-      {% assign post_status = 'in-progress' %}
-    {% endif %}
     <article class="status_{{post_status}} {%for post_cat in post.categories%}category_{{post_cat}} {%endfor%}">
       <header>
         <dl class="meta-information">
           <dt>Type</dt>
-          <dd class="status {{post.status}}">{% include fn_translate id=post_status %}</dd>
+          <dd class="status {{post.status}}">{% include fn_translate id=post.status %}</dd>
         </dl>
         <div class="title-and-dates" >
           <h4><a href="{{post.url}}">{{post.title}}</a></h4>

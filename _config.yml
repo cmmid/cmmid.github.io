@@ -60,6 +60,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      status: 'in-progress'
   -
     scope:
       path: ""
