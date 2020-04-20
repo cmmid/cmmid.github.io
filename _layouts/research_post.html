@@ -1,13 +1,11 @@
 ---
-layout: default
+layout: full_page_content
 ---
 
-<h1>{{ page.title }}</h1>
-
-<div class="post-status"><span class="status {{post.status}}">{% include fn_translate id="status" %}: {% include fn_translate id=post.status %}</span> | <span class="date">{% include fn_translate id="first-online" %}: {{page.date | date: "%d-%m-%Y"}}</span> {% if page.update%} | <span class="date">{% include fn_translate id="last-update" %}: {{page.update | date: "%d-%m-%Y"}}</span>{% endif %}</div>
+<div class="post-status"><span class="status {{page.status}}">{% include fn_translate id="status" %}: {% include fn_translate id=page.status %}</span> | <span class="date">{% include fn_translate id="first-online" %}: {{page.date | date: "%d-%m-%Y"}}</span> {% if page.update%} | <span class="date">{% include fn_translate id="last-update" %}: {{page.update | date: "%d-%m-%Y"}}</span>{% endif %}</div>
 
 {% if page.authors %}
-	{% include research_post_authors.html%}
+  {% include research_post_authors.html%}
 {% endif %}
 
 {% unless page.suppress_peerreviewed %}

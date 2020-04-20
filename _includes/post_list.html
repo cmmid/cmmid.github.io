@@ -1,26 +1,22 @@
-<div class="posts">
+<div class="posts post-list">
   {% unless include.disable_filter %}
     {% include posts_filter.html posts=include.posts %}
   {% endunless %}
 
   {% for post in include.posts %}
-    <article class="status_{{post_status}} {%for post_cat in post.categories%}category_{{post_cat}} {%endfor%}">
+    <article class="status_{{post.status}} {%for post_tag in post.tags%}category_{{post_tag}} {%endfor%}">
       <header>
-        <dl class="meta-information">
-          <dt>Type</dt>
+        <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+        <dl>
+          <dt class="status">Status</dt>
           <dd class="status {{post.status}}">{% include fn_translate id=post.status %}</dd>
+          <dt class="date">{% include fn_translate id='first-online' %}</dt>
+          <dd class="date">{{post.date | date: "%d-%m-%Y"}}</dd>
+          {% if post.update %}
+            <dt class="date">{% include fn_translate id="last-update" %}</dt>
+            <dd class="date">{{post.update | date: "%d-%m-%Y"}}</dd>
+          {% endif %}
         </dl>
-        <div class="title-and-dates" >
-          <h4><a href="{{post.url}}">{{post.title}}</a></h4>
-          <dl class="publishing-dates">
-            <dt>{% include fn_translate id='first-online' %}</dt>
-            <dd>{{post.date | date: "%d-%m-%Y"}}</dd>
-            {% if post.update %}
-              <dt>{% include fn_translate id="last-update" %}</dt>
-              <dd>{{post.update | date: "%d-%m-%Y"}}</dd>
-            {% endif %}
-          </dl>
-        </div>
       </header>
       <div class="content">
         <p>{{post.description}}</p>

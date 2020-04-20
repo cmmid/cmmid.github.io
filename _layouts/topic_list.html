@@ -8,7 +8,10 @@ layout: side_navigation
   {% assign filtered_posts = site.posts %}
 {% endif %}
 
-{% assign posts = filtered_posts | where: "language", page.language | sort: 'update' | reverse %}
+{% assign posts = filtered_posts | where: "language", page.language %}
+{% if posts.size > 0 %}
+{% assign posts = posts | sort: 'update' | reverse %}
+{% endif %}
 
 <div class="blog list">
   {{content}}
