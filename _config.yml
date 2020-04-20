@@ -77,7 +77,7 @@ defaults:
       path: "topics"
       type: "pages"
     values:
-      layout: "post_list"
+      layout: "topic_list"
   -
     scope:
       path: ""
