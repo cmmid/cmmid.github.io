@@ -47,3 +47,9 @@ redirect_from:
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat nunc sit amet ullamcorper mollis. Duis mollis nisi eu nulla condimentum efficitur. Donec congue, dolor non aliquam pharetra, arcu orci lacinia arcu, non viverra justo massa id lorem. Morbi dignissim luctus risus, id viverra nunc lacinia vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum iaculis metus at lacus maximus ultricies. Aenean arcu ligula, euismod sit amet lobortis id, rutrum in quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla ut justo pulvinar, facilisis nisi nec, porta urna. Integer consectetur ante enim, ac hendrerit augue tristique ac. Etiam tincidunt fermentum luctus. Nunc quis placerat ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur nulla nec mauris rhoncus vehicula. In tincidunt sapien at urna suscipit, non mattis lectus fermentum.
+
+Figures can be included using the following markup:
+
+![Alternative text for figure, used by screen readers](figures/sample-figures/sample-figure-1.png)
+
+You can also [link to a reports](reports/sample-reports/report.pdf) like this.
