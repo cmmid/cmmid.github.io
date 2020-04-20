@@ -17,15 +17,8 @@ layout: default
 
   <section>
     <div class="navigation">
-      {% assign site_tags = '' | split: '*' %}
-      {% assign posts_in_language = site.posts | where: "language", page.language %}
-      {% for post in posts_in_language %}
-        {% for post_tag in post.tags %}
-          {% unless site_tags contains post_tag %}
-            {% assign site_tags = site_tags | push: post_tag %}
-          {% endunless %}
-        {% endfor %}
-      {% endfor %}
+
+      {% assign site_tags = site.posts | where: "language", page.language | map: "tags" | uniq %}
 
       <ul class="nav nav-pills nav-stacked">
         <li role="presentation" {% if page.url == "/topics/covid19/" %}class="active"{% endif %}><a href="/topics/covid19" >{% include fn_translate id="home" %}</a></li>
