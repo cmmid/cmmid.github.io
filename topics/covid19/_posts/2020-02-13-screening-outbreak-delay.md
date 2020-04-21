@@ -5,7 +5,7 @@ description: To determine if interventions aimed at air travellers can delay est
 
 status: under-review
 
-update: 2020-02-18
+update: 2020-04-20
 
 authors:
   - id: sam_clifford
@@ -28,8 +28,10 @@ redirect_from:
 tags: [control-measures]
 ---
 
-You can download the current copy of the preprint [here](reports/screening_outbreak_delay_preprint_202002130952.pdf) or at [medR&chi;iv](https://doi.org/10.1101/2020.02.12.20022426)
+You can download the current copy of the preprint [here](reports/screening_outbreak_delay_preprint_202004164400.pdf) or at [medR&chi;iv](https://doi.org/10.1101/2020.02.12.20022426)
 
 **Aim:** To determine if interventions aimed at air travellers can delay establishment of a SARS-CoV-2 outbreak in a previously unaffected country with no shared border with China.
 
-**Results summary:** We evaluated sensitisation effectiveness of 30, 50 and 70%, assuming either 1, 10, or 100 infected travellers per week. We found that early in the outbreak when only few infected travellers arrive, traveller sensitisation can delay a major outbreak in a previously unaffected region. For 50% effectiveness, and assuming 1 infected traveller per week, we find that in 75% of simulations the outbreak is delayed by at least 11 days (97.5% probability: at least 7 days). The possible delay decreases rapidly for more travellers, lower effectiveness of sensitisation, higher R0 or lower heterogeneity thereof. However, syndromic traveller screening at departure and/or arrival can further enhance impact. In combination with sensitisation, syndromic screening can delay an outbreak substantially longer. In 75% of simulations we find an outbreak delay of at least 120 days (97.5% simulations: at least 24 days) for 1 infected traveller per week and at least 9 days (97.5% probability: at least 4 days) for 10 infected travellers per week.
+**Method:** We simulated infected air travellers arriving into countries with no sustained SARS-CoV-2 transmission or other introduction routes from affected regions. We assessed the effectiveness of syndromic screening at departure and/or arrival & traveller sensitisation to the COVID-2019-like symptoms with the aim to trigger rapid self-isolation and reporting on symptom onset to enable contact tracing. We assumed that syndromic screening would reduce the number of infected arrivals and that traveller sensitisation reduces the average number of secondary cases. We use stochastic simulations to account for uncertainty in both arrival and secondary infections rates, and present sensitivity analyses on arrival rates of infected travellers and the effectiveness of traveller sensitisation. We report the median expected delay achievable in each scenario and an inner 50% interval.
+
+**Results summary:** Under baseline assumptions, introducing exit and entry screening in combination with traveller sensitisation can delay a local SARS-CoV-2 outbreak by 8 days (50% interval: 3-14 days) when the rate of importation is 1 infected traveller per week at time of introduction. The additional benefit of entry screening is small if exit screening is effective: the combination of only exit screening and traveller sensitisation can delay an outbreak by 7 days (50% interval: 2-13 days). In the absence of screening, with less effective sensitisation, or a higher rate of importation, these delays shrink rapidly to less than 4 days.
