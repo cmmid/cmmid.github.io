@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% if page.tag_filter %}
+{% assign page_title = page.tag_filter %}
+{% else %}
+{% assign page_title = page.title %}
+{% endif %}
+
+<div class="sidenav">
+  <section>
+    <div class="page_title">
+      <h1>{% include fn_translate string=page_title %}</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="navigation">
+      <ul class="nav nav-pills nav-stacked">
+        {% include nav_link url="/topics/covid19/" id="home" %}
+
+        {% assign site_tags = site.posts | where: "language", page.language | map: "tags" | uniq %}
+        {% for tag in site_tags %}
+          {% assign tag_url = "/topics/covid19/" | append: tag | append: ".html" %}
+          {% include nav_link url=tag_url id=tag %}
+        {% endfor %}
+
+        {% include nav_link url="/visualisations" id="apps" %}
+      </ul>
+    </div>
+    <div class="nav-content">
+      {{ content }}
+    </div>
+  </section>
+</div>

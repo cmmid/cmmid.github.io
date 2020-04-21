@@ -25,6 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cmmid.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cmmid_lshtm
 locale: 'en'
+default_language: 'en-gb'
 
 github:
   is_project_page: false
@@ -48,12 +49,17 @@ exclude: ["README.md", "topics/YYYY-MM-DD-post-template.md", "_shinyapp/template
 permalink: /:categories/:title:output_ext
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      language: "en-gb"
   -
     scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+      status: 'in-progress'
   -
     scope:
       path: ""
@@ -71,19 +77,7 @@ defaults:
       path: "topics"
       type: "pages"
     values:
-      layout: "category"
-  -
-    scope:
-      path: "translations/*/topics"
-      type: "pages"
-    values:
-      layout: "category"
-  -
-    scope:
-      path: "translations/*/topics"
-      type: "posts"
-    values:
-      layout: "research_post"    
+      layout: "topic_list"
   -
     scope:
       path: ""

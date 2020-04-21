@@ -1,0 +1,32 @@
+.site-footer {
+  overflow:hidden;
+  background-color: $color_lshtm_lightgrey;
+  padding: 2em 0;
+
+  .row div {
+    margin-bottom: 3em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: $screen-sm) {
+    .row div {
+      margin-bottom: 0;
+    }
+
+    .row div:nth-child(2) {
+      text-align: center;
+    }
+
+    .row div:nth-child(3) {
+      text-align: right;
+    }
+  }
+
+  img.social {
+    display: inline;
+    max-width: 25px;
+  }
+}

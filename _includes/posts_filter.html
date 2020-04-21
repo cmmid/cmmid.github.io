@@ -1,0 +1,87 @@
+{% assign statusses = posts | map: "status" | uniq %}
+
+<div class="filter">
+  <div class="top">
+    <div class="row">
+      <div class="col-xs-6">
+        {% include fn_translate id="posts" %}
+      </div>
+      {% if statusses.size > 1 %}
+      <div class="col-xs-6">
+        <button data-toggle="collapse" data-target="#filter-options"><span class="filter-icon" title="Filter posts"></span></button>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% if statusses.size > 1 %}
+    <div id="filter-options" class="bottom collapse">
+      <div class="wrapper">
+        <p>{% include fn_translate id="status" %}:
+        {% for status in statusses %}
+          <label> {% include fn_translate string=status %} <input type="checkbox" checked="checked" class="filter-select" data-filter="status" value="{{status}}"></label>
+        {% endfor %}
+        </p>
+
+        {% assign subcategories = '' | split: '' %}
+        {% for post in posts %}
+          {% assign use_category = false %}
+          {% for post_cat in post.categories %}
+            {{% post.title %}}
+            {% unless use_category == false or subcategories contains post_cat %}
+              {% assign subcategories = subcategories | push: post_cat %}
+            {% endunless %}
+            {% if post_cat == page.tag_filter %}
+              {% assign use_category = true %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        {% unless subcategories.size == 0 %}
+          <p>{% include fn_translate id="category" %}:
+          {% for cat in subcategories %}
+            <label> {% include fn_translate id=cat %} <input type="checkbox" checked="checked" class="filter-select" data-filter="category" value="{{cat}}"></label>
+          {% endfor %}
+          </p>
+        {% endunless %}
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+<div class="no-articles" style="display:none;">{% include fn_translate id="no-matching-posts" %}.</div>
+
+<script>
+	$('.filter-select').click(
+		function(){
+			//make all visible
+			$('.posts article').css("display", "");
+
+			//get unchecked boxes
+			var checked_classes = [];
+			$( '.filter input:not(:checked)' ).each(
+				function() {
+					checked_classes.push( $( this ).data("filter") +'_'+$( this ).val() );
+				}
+			);
+
+			//hide those unchecked
+			$.each(checked_classes, function(i, val){
+				$( '.posts article.'+val ).css("display","none");
+			});
+
+			//count number of articles visible
+			var count_articles = $(".posts article").not(
+				$(".posts article").filter(
+					function(){
+						return $(this).css("display") == "none"
+					}
+				)
+			).length;
+			//show no-articles block if no articles
+			if(count_articles == 0){
+				$('.no-articles').css("display","block");
+			} else {
+				$('.no-articles').css("display","none");
+			}
+		}
+	)
+</script>

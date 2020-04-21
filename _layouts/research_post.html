@@ -1,21 +1,19 @@
 ---
-layout: default
+layout: full_page_content
 ---
 
-{% if page.status %}
-	{% assign post_status = page.status %}
-{% else %}
-	{% assign post_status = 'in-progress' %}
-{% endif %}
-
-<div class="post-status"><span class="status {{post_status}}">{% include fn_gettranslation string="Status" lang=page.language %}: {% include fn_gettranslation string=post_status lang=page.language %}</span> | <span class="date">{% include fn_gettranslation string="First online" lang=page.language %}: {{page.date | date: "%d-%m-%Y"}}</span> {% if page.update%} | <span class="date">{% include fn_gettranslation string="Last update" lang=page.language %}: {{page.update | date: "%d-%m-%Y"}}</span>{% endif %}</div>
+<div class="post-status"><span class="status {{page.status}}">{% include fn_translate id="status" %}: {% include fn_translate id=page.status %}</span> | <span class="date">{% include fn_translate id="first-online" %}: {{page.date | date: "%d-%m-%Y"}}</span> {% if page.update%} | <span class="date">{% include fn_translate id="last-update" %}: {{page.update | date: "%d-%m-%Y"}}</span>{% endif %}</div>
 
 {% if page.authors %}
-	{% include research_post_authors.html%}
+  {% include research_post_authors.html%}
 {% endif %}
 
-{% if (post_status != "published") and (post_status != "accepted") and (page.suppress_peerreviewed == false) %}
-	<p><b>{% include fn_gettranslation string="This study has not yet been peer reviewed." lang=page.language %}</b></p>
-{% endif %}
+{% unless page.suppress_peerreviewed %}
+  {% if post.status != "published" %}
+    {% if post.status != "accepted" %}
+      <p><b>{% include fn_translate id="not-peer-reviewed" %}</b></p>
+    {% endif %}
+  {% endif %}
+{% endunless %}
 
 {{ content }}
