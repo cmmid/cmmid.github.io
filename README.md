@@ -21,7 +21,8 @@ Posts without the status 'accepted' or 'published' will automatically show the "
 To suppress this message, set suppress_peerreviewed: true
 
 ```
-tags: [severity, current-patterns-transmission, control-measures, early-outbreak-dynamics]
+tags: [transmission-dynamics, severity, lmic-considerations, control-measures, mixing-patterns, healthcare-settings, comments-opinions, forecasts-and-projections]
+
 ```
 
 Posts can appear in multiple sections; delete the tags as appropriate
@@ -68,3 +69,13 @@ Detailed instructions:
  5. **DON'T** edit the `---`s.
  6. if using the Github web editing interface, you can check the preview to ensure proper entry. Should see a table-like thing
  7. commit your changes
+
+
+# Adding new tags
+
+To add a new tag, two things are required:
+
+1. a topic page with the `tag_filter` matching that tag (see existing ones for an example)
+2. an entry in `_data/translations.yml` (only the id, matching the tag, and an `en-gb` version are required).
+
+Both of these must be in place before the new tag will be visible on the site.

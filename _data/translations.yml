@@ -65,3 +65,15 @@
 - id: current-patterns-transmission
   en-gb: Current patterns of transmission
   zh-cn: 当前传播规律
+- id: transmission-dynamics
+  en-gb: Transmission dynamics
+- id: lmic-considerations
+  en-gb: LMIC considerations
+- id: mixing-patterns
+  en-gb: Mixing patterns
+- id: healthcare-settings
+  en-gb: Healthcare settings
+- id: comments-opinions
+  en-gb: Comments / Opinions
+- id: forecasts-and-projections
+  en-gb: Forecasts and projections

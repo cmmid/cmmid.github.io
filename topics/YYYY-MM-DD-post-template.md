@@ -6,7 +6,8 @@ title: New project on Covid work#add a description
 description: We evaluated the effectiveness of control measure X for 2019-nCoV infection
 
 # delete any tags which aren't appropriate
-tags: [severity, control-measures, current-patterns-transmission, early-outbreak-dynamics]
+# if you need more tags, they can be created! Please discuss.
+tags: [transmission-dynamics, severity, lmic-considerations, control-measures, mixing-patterns, healthcare-settings, comments-opinions, forecasts-and-projections] 
 
 # add a status: in-progress, under-review, accepted, published
 #defaults to in-progress if not set
