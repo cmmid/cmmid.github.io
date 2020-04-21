@@ -3,7 +3,9 @@ title: Interventions targeting air travellers early in the pandemic may delay lo
 
 description: To determine if interventions aimed at air travellers can delay establishment of a SARS-CoV-2 outbreak in a previously unaffected country with no shared border with China.
 
-status: under-review
+status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
 
 update: 2020-04-20
 

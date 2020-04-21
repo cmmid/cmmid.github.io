@@ -25,6 +25,20 @@
 - id: published
   en-gb: Published
   zh-cn: 已发表
+- id: paper-under-peer-review
+  en-gb: Paper under peer review
+- id: paper-accepted-at-journal
+  en-gb: Paper accepted at journal
+- id: paper-published-at-journal
+  en-gb: Paper published at journal
+- id: real-time-report
+  en-gb: Real time report
+- id: report
+  en-gb: report
+- id: comment-opinion-online
+  en-gb: Comment/Opinion (Online)
+- id: comment-opinion-journal
+  en-gb: Comment/Opinion (Journal)
 - id: corresponding-author
   en-gb: corresponding author
   zh-cn: 通讯作者
@@ -65,3 +79,15 @@
 - id: current-patterns-transmission
   en-gb: Current patterns of transmission
   zh-cn: 当前传播规律
+- id: transmission-dynamics
+  en-gb: Transmission dynamics
+- id: lmic-considerations
+  en-gb: LMIC considerations
+- id: mixing-patterns
+  en-gb: Mixing patterns
+- id: healthcare-settings
+  en-gb: Healthcare settings
+- id: comments-opinions
+  en-gb: Comments / Opinions
+- id: forecasts-and-projections
+  en-gb: Forecasts and projections

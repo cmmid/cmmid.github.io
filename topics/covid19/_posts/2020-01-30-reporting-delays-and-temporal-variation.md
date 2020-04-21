@@ -3,6 +3,16 @@ title: "Reporting delays and temporal variation in transmission in China during 
 
 description: To identify changes in the reproduction number during the course of the outbreak. This analysis will be updated with new data as the epidemic progresses.
 
+# this is a legacy status and should be changed to one of the newer ones
+status: in-progress
+# status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
+# status: real-time-report
+# status: report
+# status: comment-opinion-online
+# status: comment-opinion-journal
+
 status: in-progress
 
 update: 2019-01-30

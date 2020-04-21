@@ -3,7 +3,9 @@ title: "Benefit-risk analysis of health benefits of routine childhood immunisati
 
 description: To compare the health benefits of sustaining routine childhood immunisation in Africa against the risk of acquiring SARS-CoV-2 infections through visiting routine vaccination service delivery points.
 
-status: under-review
+status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
 
 update: 2020-04-20
 

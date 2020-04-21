@@ -3,7 +3,15 @@ title: "The Contribution of Pre-symptomatic Transmission to the COVID-19 Outbrea
 
 description: We estimate the proportion of observed cases that may have been caused by during the pre-symptomatic period of the corresponding primary cases.
 
+# this is a legacy status and should be changed to one of the newer ones
 status: in-progress
+# status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
+# status: real-time-report
+# status: report
+# status: comment-opinion-online
+# status: comment-opinion-journal
 
 authors:
 - id: yang_liu

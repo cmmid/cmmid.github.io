@@ -5,9 +5,15 @@ title: "Response strategies for COVID-19 epidemics in African settings: a mathem
 
 description: "We simulated potential response strategies to assess their effectiveness in three African countries: Niger, Nigeria, and Mauritius."
 
-#add a status: in-progress, under-review, published
-#defaults to in-progress if not set
+# this is a legacy status and should be changed to one of the newer ones
 status: in-progress
+# status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
+# status: real-time-report
+# status: report
+# status: comment-opinion-online
+# status: comment-opinion-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-04-19

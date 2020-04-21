@@ -5,9 +5,9 @@ title: Effective transmission across the globe&#58; the role of climate in COVID
 
 description: We discussed the current evidence on the role of climate on COVID-19 transmission.
 
-#add a status: in-progress, under-review, published
-#defaults to in-progress if not set
-status: under-review
+status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-03-26

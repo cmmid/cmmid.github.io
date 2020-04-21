@@ -3,7 +3,15 @@ title: "报告Covid-19疫情爆发中中国确诊所需时间的延迟和变化"
 
 description: 确定在疫情爆发过程中传染力（再生数）的变化. 本文还未经过同行评审。分析内容将会根据最新数据进行更新。
 
+# this is a legacy status and should be changed to one of the newer ones
 status: in-progress
+# status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
+# status: real-time-report
+# status: report
+# status: comment-opinion-online
+# status: comment-opinion-journal
 
 update: 2019-01-30
 

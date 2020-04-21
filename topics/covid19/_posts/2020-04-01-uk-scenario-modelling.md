@@ -3,7 +3,15 @@ title: "The effect of non-pharmaceutical interventions on COVID-19 cases, deaths
 
 description: We use a stochastic age-structured transmission model to explore a range of COVID-19 intervention scenarios in the UK, including the introduction of school closures, social distancing, shielding of elderly groups, self-isolation of symptomatic cases, and extreme "lockdown"-type restrictions.
 
+# this is a legacy status and should be changed to one of the newer ones
 status: in-progress
+# status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
+# status: real-time-report
+# status: report
+# status: comment-opinion-online
+# status: comment-opinion-journal
 
 authors:
   - id: nick_davies

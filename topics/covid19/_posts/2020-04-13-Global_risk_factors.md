@@ -5,9 +5,9 @@ title: How many are at increased risk of severe COVID-19 disease? Rapid global, 
 
 description: The risk of severe COVID-19 disease is known to be higher in older individuals and those with underlying health conditions. Understanding the number of individuals at increased risk of severe COVID-19 illness, and how this varies between countries is needed to inform the design of possible strategies to shield those at highest risk. We evaluated the global prevalence of underlying conditions associated with severe COVID-19 disease.
 
-#add a status: in-progress, under-review, published
-#defaults to in-progress if not set
-status: under-review
+status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-04-14

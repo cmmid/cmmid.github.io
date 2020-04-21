@@ -5,9 +5,9 @@ title: "The effect of inter-city travel restrictions on geographical spread of C
 
 description: "We evaluated the effectiveness of the cordon sanitaire in Wuhan to delay or prevent outbreaks of COVID-19 in other major cities in mainland China."
 
-#add a status: in-progress, under-review, published
-#defaults to in-progress if not set
-status: under-review
+status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-04-21

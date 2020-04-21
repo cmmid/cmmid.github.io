@@ -5,9 +5,15 @@ title: "Inferring cases from recent deaths"
 
 description: We infer the number of COVID-19 cases based on recently reported deaths. Results suggest that by the time a single COVID-19 death is reported, hundreds to thousands of cases may already be present in the population.
 
-#add a status: in-progress, under-review, published
-#defaults to in-progress if not set
+# this is a legacy status and should be changed to one of the newer ones
 status: in-progress
+# status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
+# status: real-time-report
+# status: report
+# status: comment-opinion-online
+# status: comment-opinion-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-03-04

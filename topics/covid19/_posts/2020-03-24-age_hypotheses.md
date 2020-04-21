@@ -5,9 +5,9 @@ title: "Age-dependent effects in the transmission and control of COVID-19 epidem
 
 description: We evaluated hypotheses for the age-distribution of COVID-19 cases reported.
 
-#add a status: in-progress, under-review, published
-#defaults to in-progress if not set
-status: under-review
+status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-03-24

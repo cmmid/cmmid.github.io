@@ -3,7 +3,9 @@ title: "Understanding the duration and size of the spillover event at the start 
 
 description: "The transmissibility of novel Coronavirus in the early stages of the 2019-20 outbreak in Wuhan: Exploring initial point-source exposure sizes and durations using scenario analysis"
 
-status: under-review
+status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
 
 update: 2020-01-30
 
