@@ -33,7 +33,7 @@ authors:
 redirect_from:
 - /topics/covid19/current-patterns-transmission/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html
 
-tags: [current-patterns-transmission, severity]
+tags: [transmission-dynamics, severity]
 ---
 
 <a target = "_blank" href="reports/LSHTM-CMMID-20200401-CoMix-social-contacts.pdf" title="CoMix full report">Click here to read our full report.</a>

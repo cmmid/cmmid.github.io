@@ -35,7 +35,7 @@ redirect_from:
   - /ncov/isolation_contact_tracing/
   - /topics/covid19/current-patterns-transmission/COVID10k-Africa.html
 
-tags: [current-patterns-transmission]
+tags: [transmission-dynamics]
 ---
 
 # Summary

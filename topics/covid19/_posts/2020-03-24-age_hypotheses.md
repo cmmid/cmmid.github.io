@@ -32,7 +32,7 @@ authors:
 redirect_from:
 - /topics/covid19/current-patterns-transmission/age_hypotheses.html
 
-tags: [current-patterns-transmission]
+tags: [transmission-dynamics]
 ---
 
 The COVID-19 pandemic has shown a markedly low proportion of cases among children. Age disparities in observed cases could be explained by assortative mixing patterns and reactive school closures which decrease mixing between children, or by children exhibiting lower susceptibility to infection, or by children having a lower propensity to show clinical symptoms. We formally test these hypotheses by fitting an age-structured mathematical model to epidemic data from six countries, finding strong age dependence in the probability of developing clinical symptoms, rising from around 20% in under 10s to over 70% in older adults. We find that interventions aimed at halting transmission in children may have minimal effects on preventing cases depending on the relative transmissibility of subclinical infections. Our estimated age-specific clinical fraction has implications for the expected global burden of clinical cases because of demographic differences across settings. In younger populations, the expected clinical attack rate would be lower, although it is likely that comorbidities in low-income countries will affect disease severity. Without effective control measures, regions with older populations may see disproportionally more clinical cases, particularly in the later stages of the pandemic.

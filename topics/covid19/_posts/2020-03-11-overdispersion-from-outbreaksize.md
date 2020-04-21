@@ -31,7 +31,7 @@ rmarkdown_html_fragment: true
 redirect_from:
 - /topics/covid19/current-patterns-transmission/overdispersion-from-outbreaksize.html
 
-tags: [current-patterns-transmission]
+tags: [transmission-dynamics]
 ---
 
 ## Aim
