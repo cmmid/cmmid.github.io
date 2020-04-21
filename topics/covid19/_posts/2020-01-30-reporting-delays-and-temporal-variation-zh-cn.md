@@ -24,7 +24,7 @@ authors:
   - id: stefan_flasche
   - id: ncov-group
 
-tags: [current-patterns-transmission]
+tags: [transmission-dynamics]
 
 redirect_from:
 - /translations/zh-cn/topics/covid19/current-patterns-transmission/reporting-delays-and-temporal-variation.html

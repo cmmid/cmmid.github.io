@@ -48,7 +48,7 @@ authors:
 redirect_from:
 - /topics/covid19/current-patterns-transmission/cases-from-deaths.html
 
-tags: [current-patterns-transmission]
+tags: [transmission-dynamics]
 ---
 
 <style>

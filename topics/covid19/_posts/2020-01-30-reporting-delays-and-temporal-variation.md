@@ -30,7 +30,7 @@ redirect_from:
   - /ncov/time-varying-r
   - /topics/covid19/current-patterns-transmission/reporting-delays-and-temporal-variation.html
 
-tags: [current-patterns-transmission]
+tags: [transmission-dynamics]
 ---
 
 * This analysis will be updated with new data as the epidemic progresses. *
