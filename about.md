@@ -1,5 +1,5 @@
 ---
-layout: full_page_content
+layout: default
 title: About
 permalink: /about/
 ---

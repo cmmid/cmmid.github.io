@@ -1,21 +1,25 @@
 <footer class="site-footer" role="banner">
-{%- if page.rmarkdown_html_fragment == true -%}
-  {%- include research_post_rmarkdown_scripts_footer.html -%}
-{%- endif -%}
-  <div class="container" >
-    <div class="row">
-      <div class="col-sm-4">
-        <p>Centre for Mathematical Modelling of Infectious Diseases</p>
-        <p><a href="/cookies" title="Cookie policy">Cookie policy</a></p>
-      </div>
-      <div class="col-sm-4">
-        <p><a href="//twitter.com/cmmid_lshtm" target="_blank"><img class="social twitter" src="/assets/images/twitter_social.svg" title="Follow CMMID on twitter" /></a> Follow us on Twitter</p>
-      </div>
-      <div class="col-sm-4">
-        <p><img src="/assets/images/lshtm_logo.svg" title="London School of Hygiene & Tropical Medicine"/></p>
-      </div>
-    </div>
-  </div>
-  {% include cookie_modal.html %}
-  <script src="/assets/js/cookie_consent.js"></script>
+	{%- if page.rmarkdown_html_fragment == true -%}
+		{%- include research_post_rmarkdown_scripts_footer.html -%}
+	{%- endif -%}
+	{% include cookie_modal.html %}
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="wrapper">
+				<p>Centre for Mathematical Modelling of Infectious Diseases</p>
+				<p><a href="/cookies" title="Cookie policy">Cookie policy</a></p>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="wrapper">
+				<a href="//twitter.com/cmmid_lshtm" target="_blank"><img class="social twitter" src="/assets/images/twitter_social.svg" title="Follow CMMID on twitter" /></a> Follow us on Twitter
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="wrapper">
+				<img src="/assets/images/lshtm_logo.svg" title="London School of Hygiene & Tropical Medicine"/>
+			</div>
+		</div>
+	</div>
+	<script src="/assets/js/cookie_consent.js"></script>
 </footer>

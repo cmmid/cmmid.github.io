@@ -1,67 +1,32 @@
-- id: first-online
-  en-gb: First online
+- name: First online
   zh-cn: 线上发表于
-- id: last-update
-  en-gb: Last update
+- name: Last update
   zh-cn: 最近更新
-- id: read-more
-  en-gb: Read more
+- name: Read more
   zh-cn: 阅读更多
-- id: status
-  en-gb: Status
+- name: Status
   zh-cn: 状态
-- id: category
-  en-gb: Category
+- name: Category
   zh-cn: 分类
-- id: in-progress
-  en-gb: In Progress
+- name: in-progress
   zh-cn: 进行中
-- id: under-review
-  en-gb: Under Review
+- name: under-review
   zh-cn: 评审中
-- id: accepted
-  en-gb: Accepted
+- name: accepted
   zh-cn: 已收录
-- id: published
-  en-gb: Published
+- name: published
   zh-cn: 已发表
-- id: corresponding-author
-  en-gb: corresponding author
+- name: corresponding author
   zh-cn: 通讯作者
-- id: contributed-equally
-  en-gb: contributed equally
-- id: posts
-  en-gb: Studies
+- name: Posts
   zh-cn: 符合当前条件的全部文章
-- id: category-list
-  en-gb: We have divided our work on this topic under the following categories
+- name: We have divided our work on this topic under the following categories
   zh-cn: 我们将目前的研究工作进行了以下分类
-- id: no-matching-posts
-  en-gb: No articles match the current filter
+- name: No articles match the current filter
   zh-cn: 当前目录内尚无文章
-- id: no-posts
-  en-gb: We haven't published any work on this topic yet
-- id: post-list-heading
-  en-gb: The list below shows all our work on this topic
+- name: The list below shows all our work on this topic
   zh-cn: 以下为与话题相关的所有项目：
-- id: not-peer-reviewed
-  en-gb: This study has not yet been peer reviewed.
+- name: This study has not yet been peer reviewed.
   zh-cn: 本文还未经过同行评审。分析内容将会根据最新数据进行更新。
-- id: authors
-  en-gb: Authors
+- name: Authors
   zh-cn: 作者
-- id: home
-  en-gb: Home
-- id: apps
-  en-gb: Apps
-- id: covid19
-  en-gb: Covid-19
-- id: control-measures
-  en-gb: Control measures
-- id: early-outbreak-dynamics
-  en-gb: Early outbreak dynamics
-- id: severity
-  en-gb: Severity of Covid-19
-- id: current-patterns-transmission
-  en-gb: Current patterns of transmission
-  zh-cn: 当前传播规律
