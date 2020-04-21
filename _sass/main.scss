@@ -86,7 +86,9 @@
       margin-right: 10px;
 
       &.published,
-      &.accepted {
+      &.accepted,
+      &.paper-accepted-at-journal,
+      &.paper-published-at-journal {
         background-color: $color_lshtm_lightblue;
       }
     }

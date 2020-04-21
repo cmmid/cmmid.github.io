@@ -59,7 +59,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      status: 'in-progress'
+      status: 'paper-under-peer-review'
   -
     scope:
       path: ""

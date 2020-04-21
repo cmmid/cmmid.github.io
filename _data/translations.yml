@@ -25,6 +25,20 @@
 - id: published
   en-gb: Published
   zh-cn: 已发表
+- id: paper-under-peer-review
+  en-gb: Paper under peer review
+- id: paper-accepted-at-journal
+  en-gb: Paper accepted at journal
+- id: paper-published-at-journal
+  en-gb: Paper published at journal
+- id: real-time-report
+  en-gb: Real time report
+- id: report
+  en-gb: report
+- id: comment-opinion-online
+  en-gb: Comment/Opinion (Online)
+- id: comment-opinion-journal
+  en-gb: Comment/Opinion (Journal)
 - id: corresponding-author
   en-gb: corresponding author
   zh-cn: 通讯作者

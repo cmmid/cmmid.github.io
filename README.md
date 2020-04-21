@@ -13,11 +13,11 @@ Front-matter variables are optional, but the following are available:
 ```
 title: Title of the post
 description: Short description of post
-status: in-progress, under-review, or published
+status: paper-under-peer-review, paper-accepted-at-journal, paper-published-at-journal, etc (see template for full list)
 update: YYYY-MM-DD when post was updated
 ```
 
-Posts without the status 'accepted' or 'published' will automatically show the "Ths study is not peer-reviewed" message.
+Posts without the status 'paper-accepted-at-journal' or 'paper-published-at-journal' will automatically show the "Ths study is not peer-reviewed" message.
 To suppress this message, set suppress_peerreviewed: true
 
 ```

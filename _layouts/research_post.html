@@ -11,7 +11,11 @@ layout: full_page_content
 {% unless page.suppress_peerreviewed %}
   {% if post.status != "published" %}
     {% if post.status != "accepted" %}
-      <p><b>{% include fn_translate id="not-peer-reviewed" %}</b></p>
+      {% if post.status != "paper-published-at-journal" %}
+        {% if post.status != "paper-accepted-at-journal" %}
+          <p><b>{% include fn_translate id="not-peer-reviewed" %}</b></p>
+        {% endif %}
+      {% endif %}
     {% endif %}
   {% endif %}
 {% endunless %}

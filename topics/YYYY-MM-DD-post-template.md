@@ -9,9 +9,15 @@ description: We evaluated the effectiveness of control measure X for 2019-nCoV i
 # if you need more tags, they can be created! Please discuss.
 tags: [transmission-dynamics, severity, lmic-considerations, control-measures, mixing-patterns, healthcare-settings, comments-opinions, forecasts-and-projections] 
 
-# add a status: in-progress, under-review, accepted, published
-#defaults to in-progress if not set
-status: in-progress
+# these are the statuses you can choose from; delete/uncomment as necessary
+# defaults to paper-under-peer-review if not set
+status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
+# status: real-time-report
+# status: report
+# status: comment-opinion-online
+# status: comment-opinion-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-02-07
