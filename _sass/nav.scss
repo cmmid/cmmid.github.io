@@ -1,0 +1,70 @@
+body > header,
+body > header .navbar {
+  background-color: $color_lshtm_darkgreen;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: $color_lshtm_lightgreen !important;
+  color: #000 !important;
+}
+
+body > header .navbar {
+	margin-bottom: 0;
+  min-height: 78px;
+
+  .navbar-brand,
+  h1 {
+    font-family: $font-title;
+  }
+
+  img.logo {
+    height: 65px;
+    top: 6px;
+    position: relative;
+  }
+
+  .navbar-brand,
+  .navbar-nav > li > a {
+    color: #fff !important;
+  }
+
+  .navbar-nav > li:hover > a {
+    color: $color_lshtm_lightgreen !important;
+  }
+
+  .navbar-brand:hover {
+    color: $color_lshtm_lightgreen !important;
+  }
+
+  .navbar li.active:hover a {
+    color: #fff !important;
+  }
+
+  .navbar-brand {
+    padding: 0 15px;
+    height: 78px;
+    line-height: 78px;
+  }
+
+  .navbar-toggle {
+    /* (78px - button height 34px) / 2 = 22px */
+    margin-top: 22px;
+    padding: 9px 10px !important;
+  }
+
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      /* (78px - line-height of 27px) / 2 = 25.5px */
+      padding-top: 25.5px;
+      padding-bottom: 25.5px;
+      line-height: 27px;
+    }
+  }
+  @media (max-width: 480px) {
+    .navbar-brand.text {
+      display: none;
+    }
+  }
+}

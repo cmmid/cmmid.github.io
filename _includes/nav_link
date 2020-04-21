@@ -1,0 +1,1 @@
+<li role="presentation" data-debug="{{page.url}} vs {{include.url}}" {% if page.url == include.url %}class="active"{% endif %}><a href="{{ include.url }}" >{% include fn_translate id=include.id %}</a></li>

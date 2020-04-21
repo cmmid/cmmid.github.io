@@ -1,0 +1,24 @@
+---
+layout: side_navigation
+---
+
+{% if page.tag_filter %}
+  {% assign filtered_posts = site.tags[page.tag_filter] %}
+{% else %}
+  {% assign filtered_posts = site.posts %}
+{% endif %}
+
+{% assign posts = filtered_posts | where: "language", page.language %}
+{% if posts.size > 0 %}
+{% assign posts = posts | sort: 'update' | reverse %}
+{% endif %}
+
+<div class="blog list">
+  {{content}}
+
+  {% if posts.size > 0 %}
+  {% include post_list.html posts=posts %}
+  {% else %}
+  <p>{% include fn_translate id="no-posts" %}.</p>
+  {% endif %}
+</div>
