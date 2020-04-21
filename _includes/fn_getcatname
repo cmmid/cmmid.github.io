@@ -1,0 +1,21 @@
+{%- comment -%}
+  *
+  * function to return category name value from _data/categories.yml
+  * takes arg 'cat'
+  * returns translated string or input-string if empty
+  *
+{%- endcomment -%}
+{% assign catdata = site.data.categories | where: "id", include.cat %}
+{% if catdata.size == 1 %}
+	{% if page.language %}
+		{% assign cat_name = catdata | map: page.language %}
+		{% if cat_name.first == nil %}
+			{% assign cat_name = catdata | map: "name" %}
+		{% endif %}
+	{% else %}
+		{% assign cat_name = catdata | map: "name" %}
+	{% endif %}
+{% else %}
+	{% assign cat_name = include.cat %}
+{% endif %}
+{{ cat_name }}
