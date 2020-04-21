@@ -181,6 +181,19 @@
   name: Anna Foss
 - id: james_rubin
   name: G James Rubin
+- id: quentin_leclerc
+  name: Quentin Leclerc
+  email: quentin.leclerc@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/leclerc.quentin
+  twitter: QuentinLclrc
+- id: nick_golding
+  name: Nick Golding
+- id: andy_clark
+  name: Andrew Clark
+- id: francesco_checchi
+  name: Francesco Checchi
+- id: other_collaborators_global_risk_factors
+  name: Charlotte Warren-Gash, Bruce Guthrie, Harry HX Wang, Stewart W Mercer, Colin Sanderson, Martin McKee, Christopher Troeger, Kanyin I Ong, Francesco Checchi, Pablo Perel, Sarah Joseph, Amitava Banerjee
 - id: smart-group
   name: SACEMA Modelling and Analysis Response Team
 - id: ncov-group
@@ -220,3 +233,5 @@
    - megan_auzenbergs
    - yalda_jafari
    - rachel_lowe
+   - quentin_leclerc
+   - akira_endo

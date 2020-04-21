@@ -7,10 +7,10 @@ description: We present the first results of an ongoing survey (CoMix) to track 
 
 #add a status: in-progress, under-review, published
 #defaults to in-progress if not set
-status: in-progress
+status: accepted
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-04-01
+update: 2020-04-20
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
