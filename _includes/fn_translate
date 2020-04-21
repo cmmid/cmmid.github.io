@@ -1,0 +1,30 @@
+{%- comment -%}
+  *
+  * function to return value from _data/translations.yml
+  * takes args 'id' or 'string'
+  * returns translated string, or the default string, or a warning if no translation exists
+  * uses the page language to infer the language
+  * if the parameter is given as "id", then a translation _must_ exist, or an error will be
+  * rendered instead. If the parameter is given as "string", then if no translation exists
+  * for that string (used as an id), then the string itself will be used. This is useful when
+  * potentially translated page titles.
+  *
+{%- endcomment -%}
+{%- if include.id -%}
+{%- assign key = include.id %}
+{%- elsif include.string -%}
+{%- assign key = include.string -%}
+{%- endif -%}
+{%- assign translation = site.data.translations | where: "id", key | map: page.language -%}
+{%- if translation and translation != blank and translation.first.size > 0 -%}
+{{ translation.first }}
+{%- else -%}
+{%- assign translation = site.data.translations | where: "id", key | map: site.default_language -%}
+{%- if translation and translation != blank and translation.first.size > 0 -%}
+{{ translation.first }}
+{%- elsif include.string -%}
+{{ include.string }}
+{%- else -%}
+<em>missing translation for '{{ key }}'</em>
+{%- endif -%}
+{%- endif -%}

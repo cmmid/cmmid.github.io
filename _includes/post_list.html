@@ -1,0 +1,27 @@
+<div class="posts post-list">
+  {% unless include.disable_filter %}
+    {% include posts_filter.html posts=include.posts %}
+  {% endunless %}
+
+  {% for post in include.posts %}
+    <article class="status_{{post.status}} {%for post_tag in post.tags%}category_{{post_tag}} {%endfor%}">
+      <header>
+        <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+        <dl>
+          <dt class="status">Status</dt>
+          <dd class="status {{post.status}}">{% include fn_translate id=post.status %}</dd>
+          <dt class="date">{% include fn_translate id='first-online' %}</dt>
+          <dd class="date">{{post.date | date: "%d-%m-%Y"}}</dd>
+          {% if post.update %}
+            <dt class="date">{% include fn_translate id="last-update" %}</dt>
+            <dd class="date">{{post.update | date: "%d-%m-%Y"}}</dd>
+          {% endif %}
+        </dl>
+      </header>
+      <div class="content">
+        <p>{{post.description}}</p>
+        <p class="read-more"><a href="{{post.url}}">{% include fn_translate id="read-more" %}</a></p>
+      </div>
+    </article>
+  {% endfor %}
+</div>
