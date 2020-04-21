@@ -5,9 +5,8 @@ title: Impact of physical distance measures on transmission in the UK
 
 description: We present the first results of an ongoing survey (CoMix) to track social contact behaviour during the Covid-19 pandemic, and compare social mixing to patterns found in a previous survey.
 
-#add a status: in-progress, under-review, published
-#defaults to in-progress if not set
-status: accepted
+status: paper-accepted-at-journal
+# status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-04-20

@@ -3,7 +3,7 @@ title: Effectiveness of airport screening at detecting travellers infected with 
 
 description: We evaluated effectiveness of thermal passenger screening for 2019-nCoV infection at airport exit and entry to inform public health decision-making.
 
-status: published
+status: paper-published-at-journal
 
 update: 2020-02-07
 

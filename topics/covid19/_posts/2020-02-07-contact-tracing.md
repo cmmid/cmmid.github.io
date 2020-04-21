@@ -3,7 +3,7 @@ title: Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and 
 
 description: To assess the viability of isolation and contact tracing to control transmission from imported cases of 2019-nCoV.
 
-status: published
+status: paper-published-at-journal
 
 update: 2020-03-01
 

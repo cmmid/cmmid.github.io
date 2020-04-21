@@ -3,7 +3,15 @@ title: Projection of early spread of COVID-19 in Africa
 
 description: We estimate timing of hitting particular case numbers by country in Africa.
 
+# this is a legacy status and should be changed to one of the newer ones
 status: in-progress
+# status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
+# status: real-time-report
+# status: report
+# status: comment-opinion-online
+# status: comment-opinion-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-03-25
