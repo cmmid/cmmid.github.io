@@ -9,10 +9,10 @@ layout: full_page_content
 {% endif %}
 
 {% unless page.suppress_peerreviewed %}
-  {% if post.status != "published" %}
-    {% if post.status != "accepted" %}
-      {% if post.status != "paper-published-at-journal" %}
-        {% if post.status != "paper-accepted-at-journal" %}
+  {% if page.status != "published" %}
+    {% if page.status != "accepted" %}
+      {% if page.status != "paper-published-at-journal" %}
+        {% if page.status != "paper-accepted-at-journal" %}
           <p><b>{% include fn_translate id="not-peer-reviewed" %}</b></p>
         {% endif %}
       {% endif %}
