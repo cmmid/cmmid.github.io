@@ -123,6 +123,36 @@
   email: thibautjombart@gmail.com
   url:
   twitter: teebzR
+- id: graham_medley
+  name: Graham Medley
+  email: Graham.Medley@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/medley.graham
+  twitter: GrahamMedley
+- id: emily_nightingale
+  name: Emily S Nightingale
+  email: emily.nightingale@lshtm.ac.uk
+  url:
+- id: rein_houben
+  name: Rein M G J Houben
+  email: Rein.Houben@LSHTM.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/houben.rein
+- id: jon_c_emery
+  name: Jon C Emery
+  email: Jon.Emery@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/emery.jon
+- id: akira_endo
+  name: Akira Endo
+  email: akira.endo@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/endo.akira
+  twitter: _akiraendo
+- id: arminder_deol
+  name: Arminder K Deol
+  email: Arminder.Deol@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/deol.arminder
+  twitter: Arminder_
+- id: simon_procter
+  name: Simon R Procter
+  twitter: mert0248
 - id: yung_wai
   name: Yung-Wai Desmond Chan
   email: yung-wai.chan@lshtm.ac.uk
@@ -139,17 +169,6 @@
   name: Robin N. Thompson
   email: robin.thompson1988@gmail.com
   url:
-- id: akira_endo
-  name: Akira Endo
-  email: akira.endo@lshtm.ac.uk
-  url: https://www.lshtm.ac.uk/aboutus/people/endo.akira
-  twitter: _akiraendo
-- id: emily_nightingale
-  name: Emily S Nightingale
-  email: emily.nightingale@lshtm.ac.uk
-  url:
-- id: simon_procter
-  name: Simon R Procter
 - id: olivier_lepolain
   name: Olivier le Polain de Waroux
   email: olivier.lepolain@phe.gov.uk
@@ -179,6 +198,8 @@
   name: Juliet R C Pulliam
 - id: anna_foss
   name: Anna Foss
+  url: https://www.lshtm.ac.uk/aboutus/people/foss.anna
+  email: Anna.Foss@lshtm.ac.uk
 - id: james_rubin
   name: G James Rubin
 - id: quentin_leclerc
@@ -186,6 +207,33 @@
   email: quentin.leclerc@lshtm.ac.uk
   url: https://www.lshtm.ac.uk/aboutus/people/leclerc.quentin
   twitter: QuentinLclrc
+- id: stephane_hue
+  name: Stéphane Hué
+  email: stephane.hue@lshtm.ac.uk
+  url:
+- id: julian_villabona_arenas
+  name: Julian Villabona-Arenas
+  email: Julian.Villabona-Arenas@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/villabona-arenas.julian
+  twitter: chjulian
+- id: damien_tully
+  name: Damien C Tully
+  email: Damien.Tully@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/tully.damien
+- id: katherine_atkins
+  name: Katherine E Atkins
+  email: Katherine.Atkins@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/atkins.katherine
+  twitter: katito
+- id: eleanor_rees
+  name: Eleanor M Rees
+  email: Eleanor.Rees1@student.lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/rees.eleanor
+  twitter: EleanorMRees
+- id: sophie_meakin
+  name: Sophie R Meakin
+  email:
+  url:
 - id: nick_golding
   name: Nick Golding
 - id: andy_clark
@@ -226,12 +274,21 @@
    - carl_ab_pearson
    - kiesha_prem
    - thibaut_jombart
+   - graham_medley
    - emily_nightingale
-   - simon_procter
+   - rein_houben
+   - jon_c_emery
    - gwen_knight
    - kath_oreilly
    - megan_auzenbergs
-   - yalda_jafari
-   - rachel_lowe
-   - quentin_leclerc
    - akira_endo
+   - arminder_deol
+   - simon_procter
+   - quentin_leclerc
+   - stephane_hue
+   - julian_villabona_arenas
+   - damien_tully
+   - katherine_atkins
+   - eleanor_rees
+   - sophie_meakin
+   - anna_foss

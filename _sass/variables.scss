@@ -1,0 +1,20 @@
+$font-main: 'Open Sans', sans-serif;
+$font-title: 'Merriweather', serif;
+
+$color_lshtm_darkgreen: #0D5257;
+$color_lshtm_lightgreen: #00BF6F;
+$color_lshtm_lightgrey: #eee;
+$color_lshtm_darkgrey: #b9b9b9;
+$color_lshtm_blue: #1E22AA;
+$color_lshtm_lightblue: #00AEC7;
+
+$brand-primary: $color_lshtm_darkgreen;
+
+$link-color: $color_lshtm_blue;
+$link-hover-color: $color_lshtm_lightgreen;
+// $font-family-serif: $font-main;
+// $font-family-sans-serif: $font-main;
+$headings-font-family: $font-title;
+
+$body-bg: #f9f9f9;
+$body-bg: $color_lshtm_lightgrey;
