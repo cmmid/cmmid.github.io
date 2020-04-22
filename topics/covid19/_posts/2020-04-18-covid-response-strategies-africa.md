@@ -43,6 +43,8 @@ tags: [lmic-considerations, transmission-dynamics, control-measures]
 #make sure old urls still work by redirecting to this post
 redirect_from:
   - /topics/covid19/control-measures/covid-response-strategies-africa.html
+  - /topics/covid19/control-measures/report/LSHTM-CMMID-20200419-Covid19-Africa-strategies.pdf
+
 ---
 
 **These are preliminary results. This report will be updated.**
