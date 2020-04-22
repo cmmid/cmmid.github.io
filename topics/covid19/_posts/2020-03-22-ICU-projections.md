@@ -6,7 +6,7 @@ title: "Forecasting critical care bed requirements for COVID-19 patients in Engl
 description: We estimate critical care bed demand for COVID-19 cases in England for the next two weeks. Results suggest that current capacity might be reached or exceeded by the end of March 2020.
 
 # this is a legacy status and should be changed to one of the newer ones
-status: in-progress
+status: report
 # status: paper-under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
@@ -41,7 +41,7 @@ authors:
 redirect_from:
 - /topics/covid19/current-patterns-transmission/ICU-projections.html
 
-tags: [transmission-dynamics]
+tags: [transmission-dynamics, forecasts-and-projections]
 ---
 
 <style>
