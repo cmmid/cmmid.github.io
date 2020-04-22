@@ -39,6 +39,10 @@ authors:
   - id: francesco_checchi
 
 tags: [lmic-considerations, transmission-dynamics, control-measures]
+
+#make sure old urls still work by redirecting to this post
+redirect_from:
+  - /topics/covid19/control-measures/covid-response-strategies-africa.html
 ---
 
 **These are preliminary results. This report will be updated.**
