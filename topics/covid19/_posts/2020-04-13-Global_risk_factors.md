@@ -31,7 +31,7 @@ redirect_from:
   - /ncov/isolation_contact_tracing/
   - /topics/covid19/severity/Global_risk_factors.html
 
-tags: [severity]
+tags: [severity, lmic-considerations]
 ---
 
 Background:
