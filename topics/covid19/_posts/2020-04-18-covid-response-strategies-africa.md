@@ -9,7 +9,7 @@ description: "We simulated potential response strategies to assess their effecti
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 # status: real-time-report
- status: report
+status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
@@ -38,7 +38,7 @@ authors:
   - id: roz_eggo
   - id: francesco_checchi
 
-tags: [control-measures, transmission-dynamics, lmic-considerations]
+tags: [lmic-considerations, transmission-dynamics, control-measures]
 ---
 
 **These are preliminary results. This report will be updated.**
