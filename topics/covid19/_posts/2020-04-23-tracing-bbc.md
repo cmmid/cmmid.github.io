@@ -21,11 +21,11 @@ authors:
   - id: adam_kucharski
     corresponding: true#permalinks have changed
   - id: petra_klepac
-  - id: Andrew Conlan
-  - id: Stephen Kissler
+  - id: Andrew JK Conlan
+  - id: Stephen M Kissler
   - id: Maria Tang
   - id: Hannah Fry
-  - id: Julia Gog
+  - id: Julia R Gog
   - id: john_edmunds
   - id: ncov-group
 
@@ -40,4 +40,4 @@ tags: [transmission-dynamics, control-measures]
 
 **Conclusions:** Consistent with previous modelling studies and country-specific COVID-19 responses to date, our analysis estimates that a high proportion of cases would need to self-isolate and a high proportion of their contacts to be successfully traced to ensure an effective reproduction number that is below one in the absence of other measures. If combined with moderate physical distancing measures, self-isolation and contact tracing would be more likely to achieve control. 
 
-[Read the full preprint here:](reports/bbc_contact_tracing.pdf)
+[Read the full preprint here](reports/bbc_contact_tracing.pdf)
