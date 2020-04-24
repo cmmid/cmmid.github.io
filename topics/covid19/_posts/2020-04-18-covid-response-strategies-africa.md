@@ -14,7 +14,7 @@ status: report
 # status: comment-opinion-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-04-19
+update: 2020-04-24
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -49,7 +49,7 @@ redirect_from:
 
 **These are preliminary results. This report will be updated.**
 
-<a target = "_blank" href="reports/LSHTM-CMMID-20200419-Covid19-Africa-strategies.pdf" title="Full report">Click here to read our full report.</a>
+<a target = "_blank" href="reports/LSHTM-CMMID-20200424-Covid19-Africa-strategies.pdf" title="Full report">Click here to read our full report.</a>
 
 *Background*
 
