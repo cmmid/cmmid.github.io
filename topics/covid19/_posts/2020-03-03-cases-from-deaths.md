@@ -6,7 +6,7 @@ title: "Inferring cases from recent deaths"
 description: We infer the number of COVID-19 cases based on recently reported deaths. Results suggest that by the time a single COVID-19 death is reported, hundreds to thousands of cases may already be present in the population.
 
 # this is a legacy status and should be changed to one of the newer ones
-status: in-progress
+status: paper-under-peer-review
 # status: paper-under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
@@ -48,7 +48,7 @@ authors:
 redirect_from:
 - /topics/covid19/current-patterns-transmission/cases-from-deaths.html
 
-tags: [transmission-dynamics]
+tags: [transmission-dynamics, forecasts-and-projections]
 ---
 
 <style>

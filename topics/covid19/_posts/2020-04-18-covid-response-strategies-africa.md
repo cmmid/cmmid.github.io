@@ -5,13 +5,11 @@ title: "Response strategies for COVID-19 epidemics in African settings: a mathem
 
 description: "We simulated potential response strategies to assess their effectiveness in three African countries: Niger, Nigeria, and Mauritius."
 
-# this is a legacy status and should be changed to one of the newer ones
-status: in-progress
 # status: paper-under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 # status: real-time-report
-# status: report
+status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
@@ -39,6 +37,13 @@ authors:
   - id: stefan_flasche
   - id: roz_eggo
   - id: francesco_checchi
+
+tags: [lmic-considerations, transmission-dynamics, control-measures]
+
+#make sure old urls still work by redirecting to this post
+redirect_from:
+  - /topics/covid19/control-measures/covid-response-strategies-africa.html
+  - /topics/covid19/control-measures/report/LSHTM-CMMID-20200419-Covid19-Africa-strategies.pdf
 
 ---
 

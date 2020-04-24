@@ -4,8 +4,8 @@ title: Projection of early spread of COVID-19 in Africa
 description: We estimate timing of hitting particular case numbers by country in Africa.
 
 # this is a legacy status and should be changed to one of the newer ones
-status: in-progress
-# status: paper-under-peer-review
+#status: in-progress
+status: paper-under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 # status: real-time-report
@@ -35,7 +35,7 @@ redirect_from:
   - /ncov/isolation_contact_tracing/
   - /topics/covid19/current-patterns-transmission/COVID10k-Africa.html
 
-tags: [transmission-dynamics]
+tags: [transmission-dynamics, lmic-considerations, forecasts-and-projections]
 ---
 
 # Summary

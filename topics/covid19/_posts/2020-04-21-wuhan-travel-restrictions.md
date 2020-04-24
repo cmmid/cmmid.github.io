@@ -39,6 +39,7 @@ authors:
   - id: mark_jit
     equal: 2
 
+tags: [transmission-dynamics, control-measures]
 ---
 
 **Background:** To contain the spread of COVID-19, a cordon sanitaire was put in place in Wuhan prior to the Lunar New Year, on 23 January 2020, restricting travel to other parts of China. We assess the efficacy of the cordon sanitaire to delay the introduction and onset of local transmission of COVID-19 in other major cities in mainland China.
@@ -50,4 +51,4 @@ The cordon sanitaire alone did not substantially affect the epidemic progression
 
 **Interpretation:** Our results indicate that the cordon sanitaire may not have prevented COVID-19 spread in major Chinese cities; local non-pharmaceutical interventions were likely more important for this.
 
-[Read the full report here](reports/wuhan-travel_restrictions-preprint-2020_04_21.pdf)
+[Read the full preprint here](reports/wuhan-travel_restrictions-preprint-2020_04_21.pdf)
