@@ -28,7 +28,15 @@ update: 2020-04-30
 # can set equal: X to show 'contributed equally'
 # can set corresponding: true to indicate corresponding author
 authors:
+  - id: carl_pearson
+  - id: kevin_vanzandvoort
+  - id: chris_jarvis
+  - id: nick_davies
+  - id: francesco_checchi
   - id: ncov-group
+  - id: mark_jit
+  - id: roz_eggo
+
 
 # permalinks have changed
 # make sure old urls still work by redirecting to this post
