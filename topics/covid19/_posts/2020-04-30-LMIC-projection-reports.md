@@ -29,6 +29,7 @@ update: 2020-04-30
 # can set corresponding: true to indicate corresponding author
 authors:
   - id: carl_ab_pearson
+    corresponding: true
   - id: kevin_vanzandvoort
   - id: chris_jarvis
   - id: nick_davies
