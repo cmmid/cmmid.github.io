@@ -15,7 +15,7 @@ tags: [lmic-considerations, control-measures, forecasts-and-projections]
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 # status: real-time-report
- status: report
+status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
@@ -54,6 +54,6 @@ These simulation results will likely change as we learn more about spread in LMI
 - All numerical results are reported to two significant figures only, and are reported as interquartile (IQR) and 95% intervals.
 - Detailed modelling methods are given at the end of the report.
 
-Reports can be downloaded [from here](rhttps://www.dropbox.com/sh/m3n6qjesd7v3rd0/AAC0OblfX-8sVyIuGCsqSZjMa?dl=0).
+Reports can be downloaded [from here](https://www.dropbox.com/sh/m3n6qjesd7v3rd0/AAC0OblfX-8sVyIuGCsqSZjMa?dl=0).
 The source code for the generation of these reports is maintained at [Github](https://github.com/cmmid/covidm_reports/)
 The raw simulation outputs (R binary files) can be made available upon request, to be used in other analyses, please contact Carl Pearson.
