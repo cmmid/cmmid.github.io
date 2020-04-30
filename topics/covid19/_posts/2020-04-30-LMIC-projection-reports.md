@@ -28,7 +28,7 @@ update: 2020-04-30
 # can set equal: X to show 'contributed equally'
 # can set corresponding: true to indicate corresponding author
 authors:
-  - id: carl_pearson
+  - id: carl_ab_pearson
   - id: kevin_vanzandvoort
   - id: chris_jarvis
   - id: nick_davies
