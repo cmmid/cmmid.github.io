@@ -37,6 +37,6 @@ tags: [transmission-dynamics]
 
 The COVID-19 pandemic has shown a markedly low proportion of cases among children1,23,4. Age disparities in observed cases could be explained by children having lower susceptibility to infection, lower propensity to show clinical symptoms, or both. We evaluate these possibilities by fitting an age-structured mathematical model to epidemic data from six countries. We estimate that clinical symptoms occur in 25% (95% CrI: 19–32%) of infections in 10–19-year-olds, rising to 76% (68–82%) in over-70s, and that susceptibility to infection in under-20s is approximately half that of older adults. Accordingly, we find that interventions aimed at children may have a relatively small impact on total cases, particularly if the transmissibility of subclinical infections is low. The age-specific clinical fraction and susceptibility we have estimated has implications for the expected global burden of COVID-19 because of demographic differences across settings: in younger populations, the expected clinical attack rate would be lower, although it is likely that comorbidities in low-income countries will affect disease severity. Without effective control measures, regions with older populations may see disproportionally more clinical cases, particularly in the later stages of the pandemic.
 
-A pre-print copy of the [revised paper](reports/20200426 - Main - Age dependence_v2_BUNDLED.pdf) is available here
+A pre-print copy of the [revised paper](reports/20200426-Main-Age_dependence_v2_BUNDLED.pdf) is available here
 
 
