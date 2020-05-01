@@ -37,6 +37,7 @@ authors:
   - id: ncov-group
   - id: mark_jit
   - id: roz_eggo
+    corresponding: true
 
 
 # permalinks have changed
