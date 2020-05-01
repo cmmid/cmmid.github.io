@@ -27,4 +27,4 @@ tags: [lmic-considerations]
 
 **Interpretation:** Our analysis suggests that the health benefits of deaths prevented by sustaining routine childhood immunisation in Africa far outweighs the excess risk of Covid-19 deaths associated with vaccination clinic visits. However, there are other factors that must be considered for strategic decision making to sustain routine childhood immunisation in African countries during the Covid-19 pandemic. These include logistical constraints of vaccine supply chain problems caused by the Covid-19 pandemic, reallocation of immunisation providers to other prioritised health services, healthcare staff shortages caused by SARS-CoV-2 infections among the staff, decreased demand for vaccination arising from community reluctance to visit vaccination clinics for fear of contracting SARS-CoV-2 infections, and infection risk to healthcare staff providing immunisation services as well as to their households and onward SARS-CoV-2 transmission into the wider community. 
 
-**Read the full report [here](reports/EPI_suspension_preprint_20Apr2020.pdf)**.
+**Read the full report [here](reports/EPI_suspension_preprint_1May2020.pdf)**.
