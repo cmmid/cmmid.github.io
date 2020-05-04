@@ -5,7 +5,7 @@ title: "Response strategies for COVID-19 epidemics in African settings: a mathem
 
 description: "We simulated potential response strategies to assess their effectiveness in three African countries: Niger, Nigeria, and Mauritius."
 
- status: paper-under-peer-review
+status: paper-under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 # status: real-time-report
