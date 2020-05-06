@@ -57,7 +57,7 @@ authors:
 
 **Interpretation:** Asymptomatic SARS-CoV-2 infections may contribute substantially to transmission. This is essential to consider for countries when easing lockdowns and adopting new policies to contain COVID-19 while limiting the damage to social lives and the economy.
 
-[Full pre-print](reports/asymp-transmission/Emery_Transmission from asymptomatic SARS-CoV-2.pdf), [supplementary material](Emery_Transmission from asymptomatic SARS-CoV-2 - Supplementary materials.pdf), and [code used](https://github.com/thimotei/covid19_asymptomatic_trans) are all available.
+[Full pre-print](reports/Emery_Transmission from asymptomatic SARS-CoV-2.pdf), [supplementary material](reports/Emery_Transmission from asymptomatic SARS-CoV-2 - Supplementary materials-compressed.pdf), and [code used](https://github.com/thimotei/covid19_asymptomatic_trans) are all available.
 
 <img src="figures/asymp-transmission.png" width="80%" />
 ***Figure: A)** Prior (blue) and posterior (red) probability distribution for the proportion progressing to asymptomatic infections. **B)** Prior (blue) and posterior (red) probability distribution for the relative infectiousness of asymptomatic infections. **C)** number of asymptomatic infections and symptomatic cases detected (dark red) and not detected (light red) in the outbreak. Error bars indicate 95% posterior intervals). **D)** Posterior probability distribution for proportion of transmission that is from asymptomatic individuals. Dotted lines show median and interquartile range.*
