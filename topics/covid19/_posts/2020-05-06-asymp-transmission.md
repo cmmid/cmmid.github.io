@@ -55,7 +55,7 @@ authors:
 
 **Findings:** On the Diamond Princess 74% (70-78%) of infections proceeded asymptomatically, i.e. a 1:3.8 case-to-infection ratio. Despite the intense testing 53%, (51-56%) of infections remained undetected, most of them asymptomatic. Asymptomatic individuals were the source for 69% (20-85%) of all infections. While the data did not allow identification of the infectiousness of asymptomatic infections, assuming no or low infectiousness resulted in posterior estimates for the net reproduction number of an individual progressing through presymptomatic and symptomatic stages in excess of 15. 
 
-**Interpretation:** Asymptomatic SARS-CoV-2 infections may contribute substantially to transmission. This is essential to consider for countries when easing lockdowns and adopting new policies to contain COVID-19 while limiting the damage to social lives and the economy.
+**Interpretation:** Asymptomatic SARS-CoV-2 infections may contribute substantially to transmission. This is essential to consider for countries when assessing the potential effectiveness of ongoing control measures to contain COVID-19.
 
 [Full pre-print](reports/Emery_Transmission from asymptomatic SARS-CoV-2.pdf), [supplementary material](reports/Emery_Transmission from asymptomatic SARS-CoV-2 - Supplementary materials-compressed.pdf), and [code used](https://github.com/thimotei/covid19_asymptomatic_trans) are all available.
 
