@@ -56,13 +56,13 @@ authors:
 **Conclusion** Patients with COVID-19 in China appeared to remain in hospital for longer than elsewhere. This may be explained by differences in criteria for admission and discharge between countries, and different timing within the pandemic. In the absence of local data, the combined summary LoS distributions provided here can be used to model bed demands for contingency planning and then updated, with the novel method presented here, as more studies with aggregated statistics emerge outside China.
 
 
-<img src="figures/fig2_outcomes_bysetting.png" width="75%"> <br>
+<img src="figures/losreview_gen.png" width="75%"> <br>
 **Figure 1: Hospital length of stay, by discharge status.** Medians (square) are presented with interquartile range (IQR). Where estimates were reported as mean and standard deviation, equivalent quantiles have been calculated assuming a Weibull distribution (triangle); if no measure of variation was reported, only the original mean is presented (circle). The grey dashed lines represent the mean value across all point estimates within that setting, weighted by sample size.The studies are ordered by the study start date, with most recent at the top. Two studies (Shi et al. (2020-02-02) and Shi et al. (2020-01-23)) have multiple estimates for the same outcome which represent multiple treatment and comorbidity subgroups, respectively. Details of these are included in Table 1.
 
-<img src="figures/fig3_icu_outcomes_bysetting.png" width="75%"> <br>
+<img src="figures/losreview_icu.png" width="75%"> <br>
 **Figure 2: ICU length of stay, by discharge status.** Medians (square) are presented with interquartile range (IQR). Where estimates were reported as mean and standard deviation, equivalent quantiles have been calculated assuming a Weibull distribution (triangle); if no measure of variation was reported, only the original mean is presented (circle). The grey dashed lines represent the mean value across all point estimates within that setting, weighted by sample size. Studies are ordered by the study start date.
 
-<img src="figures/fig4_distributions.png" width="75%"> <br>
+<img src="figures/losreview_distributions.png" width="75%"> <br>
 **Figure 3: Combined LOS distributions.** Samples from the overall LoS distributions, split by location (China or rest of world) and type (ICU vs General). For each subset, 100000 draws were taken. The x-axis was cut at days = 60.
 
 Preprint available at medRxiv: <https://www.medrxiv.org/content/10.1101/2020.04.30.20084780v1.article-info>
