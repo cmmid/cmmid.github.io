@@ -272,6 +272,8 @@
   name: Charlotte Warren-Gash, Bruce Guthrie, Harry HX Wang, Stewart W Mercer, Colin Sanderson, Martin McKee, Christopher Troeger, Kanyin I Ong, Francesco Checchi, Pablo Perel, Sarah Joseph, Amitava Banerjee
 - id: smart-group
   name: SACEMA Modelling and Analysis Response Team
+- id: collaborators_settings_transmission
+  name: Naomi M Fuller, Lisa E Knight
 - id: ncov-group
   name: CMMID nCov working group
   type: group
