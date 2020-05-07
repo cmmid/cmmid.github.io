@@ -40,4 +40,4 @@ authors:
 
 An exponential growth model was fitted to critical care admissions from two surveillance databases to determine likely coronavirus disease (COVID-19) case numbers, critical care admissions and epidemic growth in the United Kingdom before the national lockdown. We estimate, on 23 March, a median of 114,000 (95% credible interval (CrI): 78,000–173,000) new cases and 258 (95% CrI: 220–319) new critical care reports, with 527,000 (95% CrI: 362,000–797,000) cumulative cases since 16 February.
 
-Paper available @ Eurosurveillance: https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.18.2000632
+Paper available: <https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.18.2000632>
