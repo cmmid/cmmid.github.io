@@ -5,16 +5,16 @@ title: "Response strategies for COVID-19 epidemics in African settings: a mathem
 
 description: "We simulated potential response strategies to assess their effectiveness in three African countries: Niger, Nigeria, and Mauritius."
 
-# status: paper-under-peer-review
+status: paper-under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 # status: real-time-report
-status: report
+#status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-04-24
+update: 2020-05-04
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -47,9 +47,7 @@ redirect_from:
 
 ---
 
-**These are preliminary results. This report will be updated.**
-
-<a target = "_blank" href="reports/LSHTM-CMMID-20200424-Covid19-Africa-strategies.pdf" title="Full report">Click here to read our full report.</a>
+<a target = "_blank" href="https://www.medrxiv.org/content/10.1101/2020.04.27.20081711v1" title="Full report">The full report is available as a preprint here.</a>
 
 *Background*
 
