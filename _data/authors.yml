@@ -207,6 +207,30 @@
   email: quentin.leclerc@lshtm.ac.uk
   url: https://www.lshtm.ac.uk/aboutus/people/leclerc.quentin
   twitter: QuentinLclrc
+- id: finn_mcquaid
+  name: C Finn McQuaid
+  email: finn.mcquaid@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/mcquaid.finn
+  twitter: cfmcquaid
+- id: nicky_mccreesh
+  name: Nicky McCreesh
+  email: nicky.mccreesh@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/mccreesh.nicky
+- id: richard_white
+  name: Richard G White
+  email: richard.white@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/white.richard
+  twitter: richardwhite321
+- id: jon_read
+  name: Jonathan M Read
+  email: jonathan.read@lancaster.ac.uk
+  twitter: jonread15
+- id: tom_sumner
+  name: Tom Sumner
+  email: tom.sumner@lshtm.ac.uk
+- id: rebecca_harris
+  name: Rebecca Harris
+  email: rebecca.harris@lshtm.ac.uk
 - id: stephane_hue
   name: Stéphane Hué
   email: stephane.hue@lshtm.ac.uk
@@ -248,6 +272,8 @@
   name: Charlotte Warren-Gash, Bruce Guthrie, Harry HX Wang, Stewart W Mercer, Colin Sanderson, Martin McKee, Christopher Troeger, Kanyin I Ong, Francesco Checchi, Pablo Perel, Sarah Joseph, Amitava Banerjee
 - id: smart-group
   name: SACEMA Modelling and Analysis Response Team
+- id: collaborators_settings_transmission
+  name: Naomi M Fuller, Lisa E Knight
 - id: ncov-group
   name: CMMID nCov working group
   type: group
@@ -296,3 +322,4 @@
    - eleanor_rees
    - sophie_meakin
    - anna_foss
+   - rachel_lowe

@@ -37,6 +37,7 @@ authors:
   - id: ncov-group
   - id: mark_jit
   - id: roz_eggo
+    corresponding: true
 
 
 # permalinks have changed
@@ -63,6 +64,6 @@ These simulation results will likely change as we learn more about spread in LMI
 - All numerical results are reported to two significant figures only, and are reported as interquartile (IQR) and 95% intervals.
 - Detailed modelling methods are given at the end of the report.
 
-Reports can be downloaded [from here](https://www.dropbox.com/sh/m3n6qjesd7v3rd0/AAC0OblfX-8sVyIuGCsqSZjMa?dl=0).
+Reports can be downloaded [from here](https://ln2.sync.com/dl/b3fc9ebc0#36ipcgk3-5mghvhh4-vi29b9yy-8e688twu).
 The source code for the generation of these reports is maintained at [Github](https://github.com/cmmid/covidm_reports/). 
 The raw simulation outputs (R binary files) can be made available upon request, to be used in other analyses, please contact Carl Pearson.

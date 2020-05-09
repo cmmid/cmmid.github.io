@@ -4,21 +4,26 @@ The source for the [web page](https://cmmid.github.io/) advertising assorted [CM
 
 # Adding NEW posts
 
-To add a new post to the website, add a new markdown or html file to the correct category under `/topic/category/_posts`, e.g. `/topic/covid19/_posts`
-
-Copy the [/topics/YYYY-MM-DD-post-template.md](https://github.com/cmmid/cmmid.github.io/blob/master/topics/YYYY-MM-DD-post-template.md) as a template to work on.
+To add a new post to the website, add a new markdown or html file to `/topics/covid19/_posts` using the template [/topics/YYYY-MM-DD-post-template.md](https://github.com/cmmid/cmmid.github.io/blob/master/topics/YYYY-MM-DD-post-template.md)..
 
 Front-matter variables are optional, but the following are available:
 
 ```
 title: Title of the post
 description: Short description of post
-status: paper-under-peer-review, paper-accepted-at-journal, paper-published-at-journal, etc (see template for full list)
+
+# these are the statuses you can choose from; delete/uncomment as necessary
+# defaults to paper-under-peer-review if not set
+status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
+# status: real-time-report
+# status: report
+# status: comment-opinion-online
+# status: comment-opinion-journal
+
 update: YYYY-MM-DD when post was updated
 ```
-
-Posts without the status 'paper-accepted-at-journal' or 'paper-published-at-journal' will automatically show the "Ths study is not peer-reviewed" message.
-To suppress this message, set suppress_peerreviewed: true
 
 ```
 tags: [transmission-dynamics, severity, lmic-considerations, control-measures, mixing-patterns, healthcare-settings, comments-opinions, forecasts-and-projections]
