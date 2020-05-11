@@ -7,7 +7,7 @@ description: We examined human movement on multiple geographic scales to provide
 
 # delete any tags which aren't appropriate
 # if you need more tags, they can be created! Please discuss.
-tags: [transmission-dynamics, lmic-considerations, control-measures, mixing-patterns] 
+tags: [transmission-dynamics, lmic-considerations, control-measures] 
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
@@ -29,10 +29,10 @@ update: 2020-05-11
 # can set corresponding: true to indicate corresponding author
 authors:
 - id: hamish_gibbs
-equal: 1
-corresponding: true
+  equal: 1
+  corresponding: true
 - id: yang_liu
-equal: 1
+  equal: 1
 - id: carl_ab_pearson
 - id: chris_jarvis
 - id: chris_grundy
@@ -43,7 +43,6 @@ equal: 1
 
 ---
 **Abstract:** Understanding changes in human mobility in the early stages of the COVID-19 pandemic is crucial for assessing the impacts of travel restrictions designed to reduce disease spread. Here, we investigated the spatio-temporal characteristics of human mobility between 1st January and 1st March 2020. Relying on a range of techniques from trajectory clustering to network analysis, we examined human movement on multiple geographic scales to provide a complete picture of the overall dynamics while drawing links to their public health implications. An outbound travel surge from Wuhan before travel restrictions were implemented was also observed across China due to the Lunar New Year, indicating that holiday travel may have played a larger role in mobility changes compared to impending travel restrictions. Holiday travel also shifted healthcare pressure related to COVID-19 towards locations with lower access to care. Network analyses showed no sign of major changes in the transportation network after Lunar New Year. Changes observed were temporary and have not yet led to structural reorganisation of the transportation network at the time of this study.
-
 
 <img src="figures/pandemic_travel_china_fig1.png" width="80%"/>
 **Figure 1. Travel patterns between Wuhan and its neighbors.** The identified patterns of outbound travel from Wuhan: a), the daily outbound travel from Wuhan in 2019 and 2020; b), relative timing of first case detection stratified by clusters of similar trajectories, using Cluster A as the baseline. The distribution shows the mean effect size adjusted for surveillance intensity; c), distribution of resident population sizes of individual prefectures (points); d), map of prefectures and province-level cities showing the spatial distribution of trajectory clusters; e), outbound travel trends from Wuhan to the most connected prefectures in China, stratified by clusters of similar trajectories. The trajectories have been normalised by the total flow of each, to allow comparison of the profile. The pie charts show the total flux out of Wuhan prefecture by destinations in each cluster.
