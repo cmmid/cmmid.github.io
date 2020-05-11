@@ -10,7 +10,7 @@ status: paper-under-peer-review
 # status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-04-14
+update: 2020-05-11
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -47,7 +47,7 @@ Conclusion:
 Based on current guidelines and prevalence data from GBD, we estimate that one in five individuals worldwide has a condition that is on the list of those at increased risk of severe COVID-19 disease. However, for many of these individuals the underlying condition will be undiagnosed or not severe enough to be captured in health systems, and in some cases the increase in risk may be quite modest. There is an urgent need for robust analyses of the risks associated with different underlying conditions so that countries can identify the highest risk groups and develop targeted shielding policies to mitigate the effects of the COVID-19 pandemic.
 
 
-A pre-print copy of the [manuscript](reports/Global_shielding_LSHTM_pre_print3.pdf) is here.
+A pre-print copy of the [manuscript](reports/Global_Shielding_v4.pdf) and [supplementary information](reports/Global_Shielding_v4_appendix.pdf) are here.
 
 The spreadsheet tool is available [here](https://ln2.sync.com/dl/83d381f90#s7irjzat-p9detzcj-wbp9rfuc-gm8kvz8z).
 
