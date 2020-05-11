@@ -11,15 +11,15 @@ tags: [severity, healthcare-settings, forecasts-and-projections]
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
 # status: paper-under-peer-review
-status: paper-accepted-at-journal
-# status: paper-published-at-journal
+# status: paper-accepted-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-04-28
+update: 2020-05-07
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -38,6 +38,6 @@ authors:
 
 ---
 
-An exponential growth model was fitted to critical care admissions from multiple surveillance databases to determine likely COVID-19 case numbers and growth in the United Kingdom from 16 February - 23 March 2020, after which a national lockdown occurred. We estimate that on 23 March, there were a median of 114,000 (95% credible interval (CrI): 78,000–173,000) new cases and 258 (95% CrI: 220–319) new critical care reports, with 527,000 (95% CrI: 362,000–797,000) cumulative cases since 16 February.
+An exponential growth model was fitted to critical care admissions from two surveillance databases to determine likely coronavirus disease (COVID-19) case numbers, critical care admissions and epidemic growth in the United Kingdom before the national lockdown. We estimate, on 23 March, a median of 114,000 (95% credible interval (CrI): 78,000–173,000) new cases and 258 (95% CrI: 220–319) new critical care reports, with 527,000 (95% CrI: 362,000–797,000) cumulative cases since 16 February.
 
-Preprint available @ medRxiv: <https://www.medrxiv.org/content/10.1101/2020.04.05.20054528v1>
+Paper available: <https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.18.2000632>
