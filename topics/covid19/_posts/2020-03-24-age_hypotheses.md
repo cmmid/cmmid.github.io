@@ -5,12 +5,12 @@ title: "Age-dependent effects in the transmission and control of COVID-19 epidem
 
 description: We evaluated hypotheses for the age-distribution of COVID-19 cases reported.
 
-status: paper-under-peer-review
-# status: paper-accepted-at-journal
+#status: paper-under-peer-review
+status: paper-accepted-at-journal
 # status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-04-30
+update: 2020-05-13
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
