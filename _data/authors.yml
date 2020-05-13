@@ -268,6 +268,14 @@
   name: Deus Thindwa
   email: deus.thindwa@lshtm.ac.uk
   twitter: deusthindwa
+- id: chris_grundy
+  name: Chris Grundy
+  email: chris.grundy@lshtm.ac.uk
+- id: naomi_waterlow
+  name: Naomi R Waterlow
+  email: naomi.waterlow1@lshtm.ac.uk
+  twitter: n_r_waterlow
+  url: https://www.lshtm.ac.uk/aboutus/people/waterlow.naomi
 - id: other_collaborators_global_risk_factors
   name: Charlotte Warren-Gash, Bruce Guthrie, Harry HX Wang, Stewart W Mercer, Colin Sanderson, Martin McKee, Christopher Troeger, Kanyin I Ong, Francesco Checchi, Pablo Perel, Sarah Joseph, Amitava Banerjee
 - id: smart-group

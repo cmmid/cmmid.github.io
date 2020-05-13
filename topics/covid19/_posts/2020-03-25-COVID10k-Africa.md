@@ -4,17 +4,17 @@ title: Projection of early spread of COVID-19 in Africa
 description: We estimate timing of hitting particular case numbers by country in Africa.
 
 # this is a legacy status and should be changed to one of the newer ones
-#status: in-progress
-status: paper-under-peer-review
+# status: in-progress
+# status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-03-25
+update: 2020-05-11
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -40,11 +40,8 @@ tags: [transmission-dynamics, lmic-considerations, forecasts-and-projections]
 
 # Summary
 
-[Projection of early spread of COVID-19 in Africa as of 25 March 2020](reports/COVID10k_Africa.pdf)
+Using a branching process model, initiate from case data in the [WHO SITREPs](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/), we estimated the date countries would reach 1000 and 10000 reported cases without any interventions present. We found that, if countries had not initiated interventions, almost all of Africa would now be reporting greating than 1000 cases. Most had as of the end of March, and only roughly a third are now reporting >1000 cases.
 
-We prepared a report for several African stakeholders estimating the time countries would reach 1000 and 10000 reported cases.
-Based on current trends, we find almost all African countries are likely to pass 1000 reported cases by 1 May, and 10000 within
-another few weeks; alarmingly, these are largely synchronised continent-wide, and real burdens are certainly higher than
-reports. This calls for urgent action across Africa.
+**Initial Report:** [Projection of early spread of COVID-19 in Africa as of 25 March 2020](reports/COVID10k_Africa.pdf)
 
-*Note: this version includes a typo correction: replacing 0.38 with 0.58 dispersion for new cases.*
+**Published in Eurosurveillance:** [Projected early spread of COVID-19 in Africa through 1 June 2020](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.18.2000543)
