@@ -3,7 +3,7 @@ title: Analysis of temporal trends in potential COVID-19 cases reported through 
 description: We analyse publicly available data on self-reported COVID-19 symptoms and deaths in England
 tags: transmission-dynamics
 status: real-time-report
-update: 2020-05-16
+update: 2020-05-18
 authors:
   - id: quentin_leclerc
     equal: 1
@@ -223,35 +223,35 @@ and distributed under the MIT license.
 References
 ----------
 
-1. Potential Coronavirus (COVID-19) symptoms reported through NHS
+1 - Potential Coronavirus (COVID-19) symptoms reported through NHS
 Pathways and 111 online - NHS Digital \[Internet\]. \[cited 2020 May
 5\]. Available from:
 <https://digital.nhs.uk/data-and-information/publications/statistical/mi-potential-covid-19-symptoms-reported-through-nhs-pathways-and-111-online/latest>
 
-2. Clinical Commissioning Group to NHS England (Region, Local Office)
+2 - Clinical Commissioning Group to NHS England (Region, Local Office)
 and NHS England (Region) (April 2019) Lookup in England | Open Geography
 portal \[Internet\]. \[cited 2020 May 5\]. Available from:
 <http://geoportal.statistics.gov.uk/datasets/clinical-commissioning-group-to-nhs-england-region-local-office-and-nhs-england-region-april-2019-lookup-in-england?page=6>
 
-3. McCullagh P, Nelder J. Generalized Linear Models Second edition
+3 - McCullagh P, Nelder J. Generalized Linear Models Second edition
 Chapman & Hall. 1989.
 
-4. Wallinga J, Lipsitch M. How generation intervals shape the
+4 - Wallinga J, Lipsitch M. How generation intervals shape the
 relationship between growth rates and reproductive numbers. Proceedings
 of the Royal Society B: Biological Sciences. 2007 Feb;274(1609):599–604.
 
-5. Jombart T, Cori A. Epitrix: Small helpers and tricks for epidemics
+5 - Jombart T, Cori A. Epitrix: Small helpers and tricks for epidemics
 analysis \[Internet\]. 2019. Available from:
 <https://CRAN.R-project.org/package=epitrix>
 
-6. Nishiura H, Linton NM, Akhmetzhanov AR. Serial interval of novel
+6 - Nishiura H, Linton NM, Akhmetzhanov AR. Serial interval of novel
 coronavirus (COVID-19) infections. International Journal of Infectious
 Diseases. 2020 Apr;93:284–6.
 
-7. Statistics » COVID-19 Daily Deaths \[Internet\]. \[cited 2020 May
+7 - Statistics » COVID-19 Daily Deaths \[Internet\]. \[cited 2020 May
 14\]. Available from:
 <https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-daily-deaths/>
 
-8. R Core Team. R: A language and environment for statistical computing
-\[Internet\]. Vienna, Austria: R Foundation for Statistical Computing;
-2020. Available from: <https://www.R-project.org/>
+8 - R Core Team. R: A language and environment for statistical computing
+\[Internet\]. Vienna, Austria: R Foundation for Statistical Computing; 2020.
+Available from: <https://www.R-project.org/>
