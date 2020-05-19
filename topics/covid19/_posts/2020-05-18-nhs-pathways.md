@@ -3,7 +3,7 @@ title: Analysis of temporal trends in potential COVID-19 cases reported through 
 description: We analyse publicly available data on self-reported COVID-19 symptoms and deaths in England
 tags: transmission-dynamics
 status: real-time-report
-update: 2020-05-18
+update: 2020-05-19
 authors:
   - id: quentin_leclerc
     equal: 1
@@ -20,7 +20,7 @@ authors:
 
 ***This is a summary of the latest trends seen in potential COVID-19
 cases reported through NHS Pathways. The results presented here include
-data up to 2020-05-17.***
+data up to 2020-05-18.***
 
 Introduction
 ------------
@@ -41,7 +41,7 @@ better reflect milder cases and be less biased by different severity
 profiles than hospital admission data, which by definition reflect the
 most acute cases.
 
-Here, we analyse NHS Pathways data until 2020-05-17 to assess the
+Here, we analyse NHS Pathways data until 2020-05-18 to assess the
 temporal dynamics of COVID-19 in England. Specifically, we investigated
 potential changes in the growth rate of the epidemic over time, and
 compared the observed patterns across NHS regions. We derived
@@ -58,7 +58,7 @@ an early detection system.
 Latest results
 --------------
 
-***The results below were generated with data up to 2020-05-17.***
+***The results below were generated with data up to 2020-05-18.***
 
 ### Numbers of daily NHS Pathways report and NHS COVID-19 deaths
 
@@ -103,17 +103,17 @@ of 0.627 (95% CI: 0.488 ; 0.788).
 
 The most recent estimate of
 *r*
-averaged over all NHS regions is -0.025 (95% CI: -0.061 ; 0.012),
+averaged over all NHS regions is -0.018 (95% CI: -0.053 ; 0.017),
 corresponding to an
 *R*<sub>*e*</sub>
-of 0.889 (95% CI: 0.737 ; 1.059).
+of 0.918 (95% CI: 0.771 ; 1.082).
 
 ### Correlation between NHS Pathways reports and deaths
 
 Figure 3 illustrates the observed trend in correlation across all tested
 lags. The strongest correlation between NHS Pathways reports and deaths
-was obtained with a lag of 16 days (Pearson’s correlation = 0.94; 95%
-CI: 0.88 ; 0.97).
+was obtained with a lag of 16 days (Pearson’s correlation = 0.95; 95%
+CI: 0.89 ; 0.97).
 
 Estimates become increasingly unstable for longer lags as the number of
 points within the overlapping time window becomes small.
@@ -128,13 +128,13 @@ replicates.*
 
 <br>
 
-Fitting a quasi-Poisson GLM, we found that over 86.5% of the deviance in
+Fitting a quasi-Poisson GLM, we found that over 87.7% of the deviance in
 daily reported deaths could potentially be explained by NHS Pathways
-reports 16 days prior, with an average of 2.01 (bootstrap 95% CI: 1.5 ;
-2.61) additional deaths for every 1,000 potential COVID-19 cases
-reported in NHS Pathways 16 days before (intercept = 358, 95% CI: 321 ;
-398; % increase per 1000 notifications = 0.01, 95% CI: 0.47 ; 0.66))
-(Figure 4).
+reports 16 days prior, with an average of 2.03 (bootstrap 95% CI: 1.54 ;
+2.6) additional deaths for every 1,000 potential COVID-19 cases reported
+in NHS Pathways 16 days before (intercept = 348, 95% CI: 314 ; 386; %
+increase per 1000 notifications = 0.01, 95% CI: 0.49 ; 0.67)) (Figure
+4).
 
 <br>
 
@@ -156,7 +156,7 @@ Methods
 
 ### Data extraction
 
-We extracted the NHS Pathways data up to 2020-05-17 through the NHS
+We extracted the NHS Pathways data up to 2020-05-18 through the NHS
 Digital website \[1\], where they are updated daily, every weekday. The
 number of reports are stratified by Clinical Commissioning Group (CCG),
 gender and age group (0-18, 19-69 and 70-120 years old) of the patients.
@@ -181,7 +181,7 @@ maximum-likelihood.
 
 To assess potential changes of the growth rate over time, analyses were
 performed over rolling windows of 14 days from the earliest available
-date (2020-03-18) to the latest available one (2020-05-17). Growth rates
+date (2020-03-18) to the latest available one (2020-05-18). Growth rates
 and associated confidence intervals were calculated for each time
 window. Whenever the upper bound of *r* was negative, corresponding
 halving times were calculated as *l**o**g*(0.5)/*r*. Growth rates were
@@ -220,6 +220,48 @@ and distributed under the MIT license.
 <!-- ======================================================= -->
 <!-- ======================================================= -->
 
+Limitations
+-----------
+
+A number of caveats may affect our results. Firstly, the data we
+considered are at best a proxy for the true incidence of COVID-19 in the
+country as they rely on self-reported symptoms interpreted by an
+algorithm, and were not confirmed by virological tests. This is further
+exacerbated by the fact that individuals might access NHS Pathways more
+than once to report their symptoms, which could artificially increase
+the numbers of potential COVID-19 cases.
+
+As NHS Pathways is based on self-reporting, several biases could affect
+the data, such as changes in service availability and delays in the
+uptake of the 111-online reporting system. When estimating growth rates
+over time and geographic regions, we implicitly assume that
+self-reporting behaviours have not substantially changed over time, and
+have been similar across different NHS regions. In reality,
+self-reporting could be strongly biased by behavioural issues, such as
+the effect of news coverage which might lead individuals to pay more
+attention to their symptoms and report them. Inversely, individuals
+could reduce their perception of the risk of the disease over time as
+they become used to hearing about it daily, which would decrease their
+likelihood of noticing and reporting symptoms. Similarly, differences in
+self-reporting behaviours across various age groups would likely bias
+the age composition of the potential COVID-19 cases reported here.
+
+While NHS Pathways data may better capture the epidemic in the community
+than hospitalisation data, these data do not only reflect community
+cases. In fact, a fraction of cases reported through 999 are likely to
+be hospitalised, as well as smaller proportions of cases reported
+through 111 calls and 111-online. Therefore, the data we considered here
+most likely reflect the epidemic as a whole, rather than just in the
+community. We also note that all results presented rely on dates of
+calls or online reports, so that estimates of transmissibility are
+likely lagged by a few days compared to the true, underlying epidemic.
+Unfortunately, the delays from exposure to notification through NHS
+Pathways cannot be estimated from current publicly available data.
+
+<!-- ======================================================= -->
+<!-- ======================================================= -->
+<!-- ======================================================= -->
+
 References
 ----------
 
@@ -238,7 +280,7 @@ Chapman & Hall. 1989.
 
 4 - Wallinga J, Lipsitch M. How generation intervals shape the
 relationship between growth rates and reproductive numbers. Proceedings
-of the Royal Society B: Biological Sciences. 2007 Feb;274(1609):599–604.
+of the Royal Society B: Biological Sciences. 2007 Feb.274(1609):599–604.
 
 5 - Jombart T, Cori A. Epitrix: Small helpers and tricks for epidemics
 analysis \[Internet\]. 2019. Available from:
@@ -246,12 +288,11 @@ analysis \[Internet\]. 2019. Available from:
 
 6 - Nishiura H, Linton NM, Akhmetzhanov AR. Serial interval of novel
 coronavirus (COVID-19) infections. International Journal of Infectious
-Diseases. 2020 Apr;93:284–6.
+Diseases. 2020 Apr.93:284–6.
 
 7 - Statistics » COVID-19 Daily Deaths \[Internet\]. \[cited 2020 May
 14\]. Available from:
 <https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-daily-deaths/>
 
 8 - R Core Team. R: A language and environment for statistical computing
-\[Internet\]. Vienna, Austria: R Foundation for Statistical Computing; 2020.
-Available from: <https://www.R-project.org/>
+\[Internet\]. Vienna, Austria: R Foundation for Statistical Computing; 2020. Available from: <https://www.R-project.org/>
