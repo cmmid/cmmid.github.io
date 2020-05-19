@@ -175,6 +175,8 @@
 - id: gwen_knight
   name: Gwen Knight
   email: gwen.knight@lshtm.ac.uk
+  twitter: gmknght
+  url: https://www.lshtm.ac.uk/aboutus/people/knight.gwen
 - id: kath_oreilly
   name: Kathleen O'Reilly
   email: kathleen.oreilly@lshtm.ac.uk
@@ -282,6 +284,11 @@
   name: SACEMA Modelling and Analysis Response Team
 - id: collaborators_settings_transmission
   name: Naomi M Fuller, Lisa E Knight
+- id: david_simons
+  name: David Simons
+  twitter: David_Simons_UK
+- id: georgia_langton
+  name: Georgia Langton
 - id: ncov-group
   name: CMMID nCov working group
   type: group
@@ -331,3 +338,5 @@
    - sophie_meakin
    - anna_foss
    - rachel_lowe
+   - david_simons
+   - georgia_langton
