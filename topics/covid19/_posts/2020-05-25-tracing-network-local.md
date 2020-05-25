@@ -27,7 +27,7 @@ authors:
   - id: Lewis G Spurgin
 
 
-tags: [contact-tracing, control-measures]
+tags: [mixing-patterns, control-measures]
 
 ---
 
