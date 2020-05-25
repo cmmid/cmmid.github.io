@@ -3,7 +3,7 @@ title: Analysis of temporal trends in potential COVID-19 cases reported through 
 description: We analyse publicly available data on self-reported COVID-19 symptoms and deaths in England
 tags: transmission-dynamics
 status: real-time-report
-update: 2020-05-20 
+update: 2020-05-25 
 authors:
   - id: quentin_leclerc
     equal: 1
@@ -20,7 +20,7 @@ authors:
 
 ***This is a summary of the latest trends seen in potential COVID-19
 cases reported through NHS Pathways. The results presented here include
-data up to 2020-05-19. For a full discussion of this analysis, please
+data up to 2020-05-21. For a full discussion of this analysis, please
 refer to our paper available
 [here](https://www.medrxiv.org/content/10.1101/2020.05.16.20103820v1)***
 
@@ -43,7 +43,7 @@ better reflect milder cases and be less biased by different severity
 profiles than hospital admission data, which by definition reflect the
 most acute cases.
 
-Here, we analyse NHS Pathways data until 2020-05-19 to assess the
+Here, we analyse NHS Pathways data until 2020-05-21 to assess the
 temporal dynamics of COVID-19 in England. Specifically, we investigated
 potential changes in the growth rate of the epidemic over time, and
 compared the observed patterns across NHS regions. We derived
@@ -60,7 +60,7 @@ an early detection system.
 Latest results
 --------------
 
-***The results below were generated with data up to 2020-05-19.***
+***The results below were generated with data up to 2020-05-21.***
 
 ### Numbers of daily NHS Pathways report and NHS COVID-19 deaths
 
@@ -105,17 +105,17 @@ of 0.627 (95% CI: 0.488 ; 0.788).
 
 The most recent estimate of
 *r*
-averaged over all NHS regions is -0.009 (95% CI: -0.046 ; 0.027),
+averaged over all NHS regions is 0.002 (95% CI: -0.035 ; 0.038),
 corresponding to an
 *R*<sub>*e*</sub>
-of 0.956 (95% CI: 0.797 ; 1.135).
+of 1.009 (95% CI: 0.846 ; 1.192).
 
 ### Correlation between NHS Pathways reports and deaths
 
 Figure 3 illustrates the observed trend in correlation across all tested
 lags. The strongest correlation between NHS Pathways reports and deaths
 was obtained with a lag of 16 days (Pearson’s correlation = 0.96; 95%
-CI: 0.92 ; 0.98).
+CI: 0.93 ; 0.98).
 
 Estimates become increasingly unstable for longer lags as the number of
 points within the overlapping time window becomes small.
@@ -130,12 +130,12 @@ replicates.*
 
 <br>
 
-Fitting a quasi-Poisson GLM, we found that over 88.7% of the deviance in
+Fitting a quasi-Poisson GLM, we found that over 87.9% of the deviance in
 daily reported deaths could potentially be explained by NHS Pathways
-reports 16 days prior, with an average of 2.07 (bootstrap 95% CI: 1.6 ;
-2.62) additional deaths for every 1,000 potential COVID-19 cases
-reported in NHS Pathways 16 days before (intercept = 329, 95% CI: 298 ;
-363; % increase per 1000 notifications = 0.01, 95% CI: 0.54 ; 0.72))
+reports 16 days prior, with an average of 2.13 (bootstrap 95% CI: 1.65 ;
+2.69) additional deaths for every 1,000 potential COVID-19 cases
+reported in NHS Pathways 16 days before (intercept = 294, 95% CI: 264 ;
+326; % increase per 1000 notifications = 0.01, 95% CI: 0.62 ; 0.82))
 (Figure 4).
 
 <br>
@@ -158,7 +158,7 @@ Methods
 
 ### Data extraction
 
-We extracted the NHS Pathways data up to 2020-05-19 through the NHS
+We extracted the NHS Pathways data up to 2020-05-21 through the NHS
 Digital website \[1\], where they are updated daily, every weekday. The
 number of reports are stratified by Clinical Commissioning Group (CCG),
 gender and age group (0-18, 19-69 and 70-120 years old) of the patients.
@@ -183,7 +183,7 @@ maximum-likelihood.
 
 To assess potential changes of the growth rate over time, analyses were
 performed over rolling windows of 14 days from the earliest available
-date (2020-03-18) to the latest available one (2020-05-19). Growth rates
+date (2020-03-18) to the latest available one (2020-05-21). Growth rates
 and associated confidence intervals were calculated for each time
 window. Whenever the upper bound of *r* was negative, corresponding
 halving times were calculated as *l**o**g*(0.5)/*r*. Growth rates were
