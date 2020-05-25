@@ -37,5 +37,5 @@ Case isolation and contact tracing can contribute to the control of COVID-19 out
 
 _Epidemic model predictions of outbreak size and number of people isolated/quarantined under different non-pharmaceutical intervention scenarios in the Haslemere network. A) Cumulative number of cases, number of people isolated per day, and number of people quarantined per day under each scenario. Lines and shaded areas represent median and interquartile range from 1000 simulations. B) Example networks from a single simulation of each scenario at day 20 of the outbreak._
 
-[Read the full preprint here](reports/2020_05_25_firth_et_al_manuscript.pdf) and [supporting information here](reports/2020_05_25_firth_et_al_SI.pdf)
+**[Read the full preprint here](reports/2020_05_25_firth_et_al_manuscript.pdf) and the accompanying [supporting information here](reports/2020_05_25_firth_et_al_SI.pdf).**
 
