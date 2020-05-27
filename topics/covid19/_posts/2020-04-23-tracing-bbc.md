@@ -1,7 +1,7 @@
 ---
 
 #add the title of your project
-title: "Effectiveness of isolation, testing, contact tracing and physical distancing on reducing transmission of SARS-CoV-2 in different settings"
+title: "Effectiveness of isolation, testing, contact tracing and physical distancing on reducing transmission of SARS-CoV-2 in different settings: a mathematical modelling study"
 
 description: "Combining novel setting-specific social contact data from over 40,000 individuals in the UK with a mathematical model of COVID transmission, we compare the potential effects of isolation, contact tracing and physical distancing measures on epidemic control. "
 
@@ -36,8 +36,8 @@ tags: [transmission-dynamics, control-measures]
  
 **Methods:** Using a model of individual-level transmission stratified by setting (household, work, school, other) based on BBC Pandemic data from 40,162 UK participants, we simulated the impact of a range of different testing, isolation, tracing and physical distancing scenarios. As well as estimating reduction in effective reproduction number, we estimated, for a given level of COVID-19 incidence, the number of contacts that would be newly quarantined each day under different strategies.
 
-**Results:** Under optimistic but plausible assumptions, we estimated that combined testing and tracing strategies would reduce transmission more than mass testing or self-isolation alone (50–65% compared to 2–30%). If limits are placed on gatherings outside of home/school/work (e.g. maximum of 4 daily contacts in other settings), then manual contact tracing of acquaintances only could have a similar effect on transmission reduction as detailed contact tracing. In a scenario where there were 10,000 new symptomatic cases per day, we estimated in most contact tracing strategies, 140,000 to 390,000 contacts would be newly quarantined each day. 
+**Results:** Under optimistic but plausible assumptions, we estimated that combined isolation and tracing strategies would reduce transmission more than mass testing or self-isolation alone (50–60% compared to 2–30%). If limits are placed on gatherings outside of home/school/work, then manual contact tracing of acquaintances only could have a similar effect on transmission reduction as detailed contact tracing. In a scenario where there were 1,000 new symptomatic cases that met the definition to trigger contact tracing per day, we estimated in most contact tracing strategies, 15,000– 40,000 contacts would be newly quarantined each day.
 
-**Conclusions:** Consistent with previous modelling studies and country-specific COVID-19 responses to date, our analysis estimates that a high proportion of cases would need to self-isolate and a high proportion of their contacts to be successfully traced to ensure an effective reproduction number that is below one in the absence of other measures. If combined with moderate physical distancing measures, self-isolation and contact tracing would be more likely to achieve control. 
+**Conclusions:** Consistent with previous modelling studies and country-specific COVID-19 responses to date, our analysis estimates that a high proportion of cases would need to self-isolate and a high proportion of their contacts to be successfully traced to ensure an effective reproduction number that is below one in the absence of other measures. If combined with moderate physical distancing measures, self-isolation and contact tracing would be more likely to achieve control.
 
 [Read the full preprint here](reports/bbc_contact_tracing.pdf)
