@@ -3,7 +3,7 @@ title: Analysis of temporal trends in potential COVID-19 cases reported through 
 description: We analyse publicly available data on self-reported COVID-19 symptoms and deaths in England
 tags: transmission-dynamics
 status: real-time-report
-update: 2020-05-25 
+update: 2020-05-29
 authors:
   - id: quentin_leclerc
     equal: 1
@@ -13,14 +13,13 @@ authors:
   - id: ncov-group
   - id: thibaut_jombart
 ---
-
 <!-- ======================================================= -->
 <!-- ======================================================= -->
 <!-- ======================================================= -->
 
 ***This is a summary of the latest trends seen in potential COVID-19
 cases reported through NHS Pathways. The results presented here include
-data up to 2020-05-21. For a full discussion of this analysis, please
+data up to 2020-05-28. For a full discussion of this analysis, please
 refer to our paper available
 [here](https://www.medrxiv.org/content/10.1101/2020.05.16.20103820v1)***
 
@@ -43,7 +42,7 @@ better reflect milder cases and be less biased by different severity
 profiles than hospital admission data, which by definition reflect the
 most acute cases.
 
-Here, we analyse NHS Pathways data until 2020-05-21 to assess the
+Here, we analyse NHS Pathways data until 2020-05-28 to assess the
 temporal dynamics of COVID-19 in England. Specifically, we investigated
 potential changes in the growth rate of the epidemic over time, and
 compared the observed patterns across NHS regions. We derived
@@ -60,7 +59,7 @@ an early detection system.
 Latest results
 --------------
 
-***The results below were generated with data up to 2020-05-21.***
+***The results below were generated with data up to 2020-05-28.***
 
 ### Numbers of daily NHS Pathways report and NHS COVID-19 deaths
 
@@ -73,9 +72,9 @@ Pathways and reported COVID-19-related deaths, by NHS region.***
 reports. Dates correspond to the date of case report and death report,
 respectively, with x-axis labels corresponding to Mondays. The solid
 black line and grey ribbon correspond to a lowess smoother and its 95%
-confidence interval. The start of the lockdown in England (23/03/2020)
+confidence interval. The start of the lockdown in England (2020-03-23)
 and date at which death data were truncated to avoid bias from reporting
-delay (20/04/202) are highlighted by vertical lines.*
+delay (2020-05-07) are highlighted by vertical lines.*
 
 <br>
 
@@ -105,16 +104,16 @@ of 0.627 (95% CI: 0.488 ; 0.788).
 
 The most recent estimate of
 *r*
-averaged over all NHS regions is 0.002 (95% CI: -0.035 ; 0.038),
+averaged over all NHS regions is -0.061 (95% CI: -0.127 ; 0.005),
 corresponding to an
 *R*<sub>*e*</sub>
-of 1.009 (95% CI: 0.846 ; 1.192).
+of 0.74 (95% CI: 0.51 ; 1.027).
 
 ### Correlation between NHS Pathways reports and deaths
 
 Figure 3 illustrates the observed trend in correlation across all tested
 lags. The strongest correlation between NHS Pathways reports and deaths
-was obtained with a lag of 16 days (Pearson’s correlation = 0.96; 95%
+was obtained with a lag of 16 days (Pearson’s correlation = 0.97; 95%
 CI: 0.93 ; 0.98).
 
 Estimates become increasingly unstable for longer lags as the number of
@@ -130,13 +129,12 @@ replicates.*
 
 <br>
 
-Fitting a quasi-Poisson GLM, we found that over 87.9% of the deviance in
+Fitting a quasi-Poisson GLM, we found that over 87.5% of the deviance in
 daily reported deaths could potentially be explained by NHS Pathways
-reports 16 days prior, with an average of 2.13 (bootstrap 95% CI: 1.65 ;
-2.69) additional deaths for every 1,000 potential COVID-19 cases
-reported in NHS Pathways 16 days before (intercept = 294, 95% CI: 264 ;
-326; % increase per 1000 notifications = 0.01, 95% CI: 0.62 ; 0.82))
-(Figure 4).
+reports 16 days prior, with an average of 2.14 (bootstrap 95% CI: 1.67 ;
+2.7) additional deaths for every 1,000 potential COVID-19 cases reported
+in NHS Pathways 16 days before (intercept = 268, 95% CI: 240 ; 298; %
+increase per 1000 notifications = 0.01, 95% CI: 0.7 ; 0.91)) (Figure 4).
 
 <br>
 
@@ -158,7 +156,7 @@ Methods
 
 ### Data extraction
 
-We extracted the NHS Pathways data up to 2020-05-21 through the NHS
+We extracted the NHS Pathways data up to 2020-05-28 through the NHS
 Digital website \[1\], where they are updated daily, every weekday. The
 number of reports are stratified by Clinical Commissioning Group (CCG),
 gender and age group (0-18, 19-69 and 70-120 years old) of the patients.
@@ -183,7 +181,7 @@ maximum-likelihood.
 
 To assess potential changes of the growth rate over time, analyses were
 performed over rolling windows of 14 days from the earliest available
-date (2020-03-18) to the latest available one (2020-05-21). Growth rates
+date (2020-03-18) to the latest available one (2020-05-28). Growth rates
 and associated confidence intervals were calculated for each time
 window. Whenever the upper bound of *r* was negative, corresponding
 halving times were calculated as *l**o**g*(0.5)/*r*. Growth rates were
@@ -297,4 +295,5 @@ Diseases. 2020 Apr.93:284–6.
 <https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-daily-deaths/>
 
 8 - R Core Team. R: A language and environment for statistical computing
-\[Internet\]. Vienna, Austria: R Foundation for Statistical Computing; 2020. Available from: <https://www.R-project.org/>
+\[Internet\]. Vienna, Austria: R Foundation for Statistical Computing;
+2020. Available from: <https://www.R-project.org/>
