@@ -5,7 +5,7 @@ title: "Effectiveness of isolation, testing, contact tracing and physical distan
 
 description: "Combining novel setting-specific social contact data from over 40,000 individuals in the UK with a mathematical model of COVID transmission, we compare the potential effects of isolation, contact tracing and physical distancing measures on epidemic control. "
 
-status: paper-under-peer-review
+status: paper-accepted-at-journal
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 
