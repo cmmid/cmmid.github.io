@@ -295,5 +295,4 @@ Diseases. 2020 Apr.93:284–6.
 <https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-daily-deaths/>
 
 8 - R Core Team. R: A language and environment for statistical computing
-\[Internet\]. Vienna, Austria: R Foundation for Statistical Computing;
-2020. Available from: <https://www.R-project.org/>
+\[Internet\]. Vienna, Austria: R Foundation for Statistical Computing; 2020. Available from: <https://www.R-project.org/>
