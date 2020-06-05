@@ -289,6 +289,11 @@
   twitter: David_Simons_UK
 - id: georgia_langton
   name: Georgia R Gore-Langton
+  - id: matthew_quaife
+  name: Matthew Quaife
+  email: matthew.quaife@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/quaife.matthew
+  twitter: matthew_quaife
 - id: ncov-group
   name: CMMID nCov working group
   type: group
