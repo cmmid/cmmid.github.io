@@ -1,7 +1,7 @@
 ---
 title: "The effectiveness of social bubbles as part of a Covid-19 lockdown exit strategy, a modelling study" 
 
-description: "We estimate the impact of various social bubble scenarios on epidemic and mortality risks."
+description: "We consider expanding the social bubble of either all households or only single occupance households or households with young children. We assess how the implementation of these strategies during lockdown impacts on the risk for Covid-19 resugence."
 
 # this is a legacy status and should be changed to one of the newer ones
 # status: in-progress
