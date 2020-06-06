@@ -31,7 +31,7 @@ authors:
   - id: chris_jarvis
   - id: karen_austrian
 
-tags: [lmic-considerations,transmission-dynamics, mixing-patterns, control-measures]
+tags: [lmic-considerations, transmission-dynamics, mixing-patterns, control-measures]
 ---
 
 #<a target = "_blank" href="reports/LSHTM-CMMID-20200605-kenya_mixing.pdf" title="Full report">Click here to read our full report.</a>
