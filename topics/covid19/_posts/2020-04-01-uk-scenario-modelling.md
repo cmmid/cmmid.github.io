@@ -4,10 +4,10 @@ title: "The effect of non-pharmaceutical interventions on COVID-19 cases, deaths
 description: We use a stochastic age-structured transmission model to explore a range of COVID-19 intervention scenarios in the UK, including the introduction of school closures, social distancing, shielding of elderly groups, self-isolation of symptomatic cases, and extreme "lockdown"-type restrictions.
 
 # this is a legacy status and should be changed to one of the newer ones
-status: paper-accepted-at-journal
+# status: paper-accepted-at-journal
 # status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
@@ -23,7 +23,7 @@ authors:
   - id: ncov-group
   - id: john_edmunds
 
-update: 2020-04-01
+update: 2020-06-06
 
 redirect_from:
 - /topics/covid19/control-measures/uk-scenario-modelling.html
@@ -38,7 +38,7 @@ tags: [control-measures]
 
 **Interpretation:** The characteristics of SARS-CoV-2 mean that extreme measures are likely required to bring the epidemic under control and to prevent very large numbers of deaths and an excess of demand on hospital beds, especially those in ICUs.
 
-**Read the full report [here](reports/uk_scenario_modelling_preprint_2020_04_01.pdf)**.
+**Read the published paper [here](https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(20)30133-X/fulltext)**.
 
 <img src="figures/fig-lockdown.png" width="100%"/>
 *Figure:* Projected impact of intensive control measures with reactive lockdowns. (a) Dynamics of the epidemic under different triggers for introduction and lifting of lockdowns (median timing of lockdowns shown as grey shaded areas). Bolded lines show ICU bed occupancy in the median run under each scenario. Horizontal guides show the estimated number of ICU beds in the UK as of January 2020 (solid line) and with a hypothetical doubling of capacity (dashed line). Blue shaded regions show school closures, while the pink shaded region shows a background period of intensive interventions. (b) Summary of epidemic runs. (c) Estimated distribution of R0 under three different interventions: intensive social distancing with schools open and closed, and lockdown.

@@ -20,7 +20,7 @@ status: report
 # status: comment-opinion-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-04-30
+update: 2020-06-05
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -49,7 +49,7 @@ We have generated country-specific reports of projected COVID-19 epidemics with 
 
 These reports are based on a model developed in CMMID at LSHTM, first used [here](https://cmmid.github.io/topics/covid19/age_hypotheses.html), and used to show the effect of mitigation measures [in the UK](https://cmmid.github.io/topics/covid19/uk-scenario-modelling.html). A paper on the shielding methodology is available [here](https://cmmid.github.io/topics/covid19/covid-response-strategies-africa.html).
 
-These simulation results will likely change as we learn more about spread in LMIC settings and update the reports accordingly.
+These simulation results will likely change as we learn more about spread in LMIC settings and update the reports accordingly. This is version 3, from 5-June-2020.
 
 - This report provides simulation-based estimates for COVID-19 epidemic scenarios in each country. 
 - The model accounts for the local age structure, as well as uncertainty in transmission due to uncertainty in R0.
