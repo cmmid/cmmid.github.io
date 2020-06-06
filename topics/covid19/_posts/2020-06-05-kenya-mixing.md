@@ -1,4 +1,5 @@
 ---
+
 #add the title of your project
 title: The impact of COVID-19 control measures on social contacts and transmission in Kenyan informal settlements 
 
@@ -26,7 +27,7 @@ authors:
   - id: daniel_mwanga
   - id: beth_kangwana
   - id: jessie_pinchoff
-  - id: ncov_group
+  - id: ncov-group
   - id: john_edmunds
   - id: chris_jarvis
   - id: karen_austrian
