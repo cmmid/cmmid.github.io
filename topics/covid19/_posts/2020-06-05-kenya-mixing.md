@@ -1,6 +1,4 @@
 ---
-#need to - add fig and legend in code and to files, add pdf report in link and code
-
 #add the title of your project
 title: The impact of COVID-19 control measures on social contacts and transmission in Kenyan informal settlements 
 
