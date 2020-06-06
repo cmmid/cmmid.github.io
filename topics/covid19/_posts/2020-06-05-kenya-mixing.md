@@ -19,7 +19,7 @@ authors:
     corresponding: true
   - id: kevin_vanzandvoort
   - id: amy_gimma
-  - id: kashvi-shah
+  - id: kashvi_shah
   - id: nicky_mccreesh
   - id: kiesha_prem
   - id: edwine_barasa
