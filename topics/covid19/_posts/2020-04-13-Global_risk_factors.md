@@ -49,6 +49,6 @@ Based on current guidelines and prevalence data from GBD, we estimate that one i
 
 A pre-print copy of the [manuscript](reports/Global_Shielding_v4.pdf) and [supplementary information](reports/Global_Shielding_v4_appendix.pdf) are here.
 
-The spreadsheet tool is available [here](https://www.dropbox.com/s/mlzvki574r7d39l/Covid-19%20analysis%20v1.45_release.xlsb?dl=0).
+The spreadsheet tool is available [here](https://www.dropbox.com/s/t38koure6qn19lp/Covid-19%20analysis%20v1.50%20release.xlsb?dl=0).
 
 The manuscript has been submitted to medrxiv and we will update the links when it is available there.
