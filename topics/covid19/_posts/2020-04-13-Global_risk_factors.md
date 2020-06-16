@@ -10,7 +10,7 @@ description: The risk of severe COVID-19 disease is known to be higher in older 
 status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-06-03
+update: 2020-06-16
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
