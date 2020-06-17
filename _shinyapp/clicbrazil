@@ -1,0 +1,5 @@
+---
+shinyurl: https://felipejcolon-lshtm.shinyapps.io/lacpt/
+title: COVID-19 Local Information Comparison (CLIC Brazil)
+permalink: /visualisations/lacpt
+---
