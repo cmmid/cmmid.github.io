@@ -289,6 +289,23 @@
   twitter: David_Simons_UK
 - id: georgia_langton
   name: Georgia R Gore-Langton
+- id: matthew_quaife
+  name: Matthew Quaife
+  email: matthew.quaife@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/quaife.matthew
+  twitter: matthew_quaife
+- id: kashvi_shah
+  name: Kashvi Shah
+- id: daniel_mwanga
+  name: Daniel Mwanga
+- id: karen_austrian
+  name: Karen Austrian
+- id: beth_kangwana
+  name: Beth Kangwana
+- id: jessie_pinchoff
+  name: Jessie Pinchoff
+- id: edwine_barasa
+  name: Edwine Barasa
 - id: ncov-group
   name: CMMID nCov working group
   type: group
@@ -340,3 +357,4 @@
    - rachel_lowe
    - david_simons
    - georgia_langton
+   - matthew_quaife
