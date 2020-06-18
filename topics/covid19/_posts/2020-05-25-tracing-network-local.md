@@ -5,7 +5,7 @@ title: "Combining fine-scale social contact data with epidemic modelling reveals
 
 description: "Simulated isolation, tracing and quarantine control strategies for SARS-CoV-2 in a real-world social network generated from high resolution GPS data."
 
-status: report
+status: under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 
