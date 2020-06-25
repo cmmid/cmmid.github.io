@@ -64,6 +64,6 @@ These simulation results will likely change as we learn more about spread in LMI
 - All numerical results are reported to two significant figures only, and are reported as interquartile (IQR) and 95% intervals.
 - Detailed modelling methods are given at the end of the report.
 
-Reports can be downloaded [from here](https://ln2.sync.com/dl/b3fc9ebc0#36ipcgk3-5mghvhh4-vi29b9yy-8e688twu).
+Reports can be downloaded [from here](https://ln2.sync.com/dl/b3fc9ebc0#36ipcgk3-5mghvhh4-vi29b9yy-8e688twu). A guidance document for interpreting the reports is [here](reports/LSHTM_country_report_annotation_V3_16Jun2020.pdf).
 The source code for the generation of these reports is maintained at [Github](https://github.com/cmmid/covidm_reports/). 
 The raw simulation outputs (R binary files) can be made available upon request, to be used in other analyses, please contact Carl Pearson.
