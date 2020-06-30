@@ -115,6 +115,10 @@ var global_mouseval;
 */
 const render = function(data, outcome_nicename, intervention, intervention_data){
 
+  svg.selectAll("*").remove();
+  //svg.selectAll(".tick").remove();
+  //svg.selectAll(".no_data").remove();
+
   const xValue = function(d){
     return d.t / (365/12);
   }
@@ -273,6 +277,7 @@ function toggleData(){
   svg.selectAll("*").remove();
   svg.append('text')
     .attr('x', width / 2)
+    .attr('class', "no_data")
     .attr('y', innerHeight/2)
     .text("Please select data...");
 
