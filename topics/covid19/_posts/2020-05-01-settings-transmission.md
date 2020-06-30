@@ -7,10 +7,10 @@ tags: [transmission-dynamics]
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
-status: paper-under-peer-review
+status: paper-published-at-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-05-01
+update: 2020-06-30
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -37,5 +37,6 @@ authors:
 
 **Conclusions:** We identified possible places that are linked to clusters of COVID-19 cases and could be closely monitored and/or remain closed in the first instance following the progressive removal of lockdown restrictions. However, in part due to the limits in surveillance capacities in many settings, the gathering of information such as cluster sizes and attack rates is limited in several ways: inherent recall bias, biased media reporting and missing data.
 
+This published study is available [here](https://wellcomeopenresearch.org/articles/5-83).
 
-A pre-print copy of the study is available [here](https://wellcomeopenresearch.org/articles/5-83/v1).
+The regularly updated accompanying database of clusters of COVID-19 is available [here](https://docs.google.com/spreadsheets/d/16wtnHe4hM6I7TFHXVpLXY8R4GAUzAJ-7NWbKIVvsVuA).
