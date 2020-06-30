@@ -1,0 +1,42 @@
+---
+layout: lmic_dashboard
+permalink: /visualisations/lmic-dashboard
+title: MENA dashboard
+---
+
+<div class="row">
+  <div class="col-sm-12">
+    <p>This dashboard is complementary to the MENA estimates from our <a href="/topics/covid19/LMIC-projection-reports.html" title="country reports">country reports</a>, which project COVID-19 epidemics and potential impact of interventions to multiple LMICs.</p>
+    <p>Please see the original post for more information. Individual reports can be downloaded <a href="//ln2.sync.com/dl/b3fc9ebc0#36ipcgk3-5mghvhh4-vi29b9yy-8e688twu" title="download country reports" target="_blank">here</a>.</p>
+    <div class="divider"></div>
+  </div>
+  <div class="col-sm-7">
+    <div class="country_select">
+      <h5>Please select countries to be included</h5>
+    </div>
+  </div>
+  <div class="col-sm-5">
+    <div class="outcome_select">
+      <h5>Please select outcome to show</h5>
+      <select class="outcome_select" name="outcome" id="outcome"></select>
+    </div>
+    <div class="age_select">
+      <h5>Please select age to show</h5>
+      <select class="age_select" name="age" id="age"></select>
+    </div>
+    <div class="intervention_select">
+      <h5>Please select intervention to show</h5>
+      <select class="intervention_select" name="intervention" id="intervention"></select>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="plot">
+    <div class="svg-wrapper"></div>
+    <div class="svg-legend-wrapper"></div>
+    <!--<svg class="unmitigated" width="900" height="400"></svg>-->
+    <!--<div class="graph_tooltip">tt</div>-->
+  </div>
+</div>
+
+<script src="/shinyapp/lmic_dashboard/dashboard.js?123" charset="utf-8"></script>

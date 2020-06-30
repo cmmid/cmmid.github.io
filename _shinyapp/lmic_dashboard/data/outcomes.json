@@ -1,0 +1,17 @@
+[
+ {"name":"Cases (incidence)",
+  "key":"cases"
+ },
+ {"name":"Hospitalised cases (all; prevalence)",
+  "key":"hosp_p"
+ },
+ {"name":"Hospitalised cases (non-ICU; prevalence)",
+  "key":"nonicu_p"
+ },
+ {"name":"Severe cases (ICU; prevalence)",
+  "key":"icu_p"
+ },
+ {"name":"Deaths",
+ "key":"death_o"
+ }
+]
