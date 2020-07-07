@@ -38,7 +38,7 @@ tags: [transmission-dynamics, control-measures]
 ---
 
 
-**[Read the full preprint here](../reports/UnderReporting.pdf).**
+**[Read the full preprint here](reports/UnderReporting.pdf).**
 
 **Background:** Asymptomatic or subclinical SARS-CoV-2 infections are often unreported, which means that confirmed case counts may not accurately reflect
 underlying epidemic dynamics. Understanding the level of ascertainment (the ratio of confirmed symptomatic cases to the true number of symptomatic
@@ -65,7 +65,7 @@ Reported case counts will therefore likely underestimate the rate of outbreak gr
 epidemic. Although there was considerable under-reporting in many locations, our estimates were consistent with emerging serological data, suggesting that
 the proportion of each country's population infected with SARS-CoV-2 worldwide is generally low.
 
-<img src="../reports/under_reporting.png" width="70%" style="display: block; margin: auto;" />
+<img src="reports/under_reporting.png" width="70%" style="display: block; margin: auto;" />
 ***Figure 2: Confirmed case curves adjusted for temporal under-ascertainment. Panel A: Confirmed cases (left) and adjusted cases (right) for the ten
 countries with the highest number of confirmed cases. Panel B: Confirmed cases (left) and adjusted cases (right) for the ten countries with the highest number
 of confirmed cases after adjusting for under-ascertainment. There are two countries which change between panels A and B: France and Mexico are replaced
