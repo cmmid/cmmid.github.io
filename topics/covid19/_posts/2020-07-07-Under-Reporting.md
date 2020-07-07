@@ -1,18 +1,13 @@
 ---
 
+#add the title of your project
 title: "Reconstructing the global dynamics of unreported COVID-19 cases and infections"
 
 description: "Using reported data on COVID-19 cases and fatalities globally, we estimated the proportion of symptomatic cases that were reported in 210 countries and territories. We then use these estimates to attempt to reconstruct the pandemic."
 
-# this is a legacy status and should be changed to one of the newer ones
-# status: in-progress
-status: paper-under-peer-review
+status: under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
-# status: real-time-report
-# status: report
-# status: comment-opinion-online
-# status: comment-opinion-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-07-07
@@ -21,7 +16,7 @@ update: 2020-07-07
 # see /_data/authors.yml for list of ids, or to add/edit an author
 # can add ncov-group as one author, will link to list of members
 # can set equal: X to show 'contributed equally'
-# can set corresponding: true to indicate corresponding author
+# can set corresponding: true to indicate corresponding author 
 authors:
   - id: tim_russell
     corresponding: true
@@ -37,9 +32,11 @@ authors:
   - id: john_edmunds
   - id: adam_kucharski 
 
-tags:[transmission-dynamics, control-measures]
+
+tags: [transmission-dynamics, control-measures]
 
 ---
+
 
 **[Read the full preprint here](../reports/UnderReporting.pdf).**
 
