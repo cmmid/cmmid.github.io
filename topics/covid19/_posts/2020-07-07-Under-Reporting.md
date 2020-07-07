@@ -5,7 +5,7 @@ title: "Reconstructing the global dynamics of unreported COVID-19 cases and infe
 
 description: "Using reported data on COVID-19 cases and fatalities globally, we estimated the proportion of symptomatic cases that were reported in 210 countries and territories. We then use these estimates to attempt to reconstruct the pandemic."
 
-status: under-peer-review
+status: paper-under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 
