@@ -43,15 +43,58 @@ authors:
 tags: [transmission-dynamics, control-measures]
 ---
 
-**Background:** During the Covid-19 lockdown, contact clustering in social bubbles may allow extending contacts beyond the household at minimal additional risk and hence has been considered as part of modified lockdown policy or a gradual lockdown exit strategy. We estimated the impact of such strategies on epidemic and mortality risk using the UK as a case study.
- 
-**Methods:** We used an individual based model for a synthetic population similar to the UK, that is stratified into transmission risks from the community, within the household and from other households in the same social bubble. The base case considers a situation where non-essential shops and schools are closed, the secondary household attack rate is 20% and the initial reproduction number is 0.8. We simulate a number of strategies including variations of social bubbles, i.e. the forming of exclusive pairs of households, for particular subsets of households (households including children and single occupancy households), as well as for all households. We test the sensitivity of the results to a range of alternative model assumptions and parameters.
+**Background:** Asymptomatic or subclinical SARS-CoV-2 infections are often
+unreported, which means that confirmed case counts may not accurately reflect
+underlying epidemic dynamics. Understanding the level of ascertainment (the
+ratio of confirmed symptomatic cases to the true number of symptomatic
+individuals) and undetected epidemic progression is crucial to informing
+COVID-19 response planning, including the introduction and relaxation of
+control measures. Estimating case ascertainment over time allows for accurate
+estimates of specific outcomes such as seroprevalence, which is essential for
+planning control measures.
 
-**Results:** Clustering contacts outside the household into exclusive social bubbles is an effective strategy of increasing contacts while limiting some of the associated increase in epidemic risk. In the base case scenario social bubbles reduced cases and fatalities by 17% compared to an unclustered increase of contacts. We find that if all households were to form social bubbles the reproduction number would likely increase to 1.1 and therefore beyond the epidemic threshold of one. However, strategies that allow households with young children or single occupancy households to form social bubbles only increased the reproduction number by less than 10%. The corresponding increase in morbidity and mortality is proportional to the increase in the epidemic risk but is largely focussed in older adults independently of whether these are included in the social bubbles.
+**Methods:** Using reported data on COVID-19 cases and fatalities globally, we
+estimated the proportion of symptomatic cases (i.e. any person with any of
+fever >= 37.5°C, cough, shortness of breath, sudden onset of anosmia, ageusia
+or dysgeusia illness) that were reported in 210 countries and territories,
+given those countries had experienced more than ten deaths. We used published
+estimates of the baseline case fatality ratio (CFR), which was adjusted for
+delays and under-ascertainment, then calculated the ratio of this baseline CFR
+to an estimated local delay-adjusted CFR to estimate the level of
+under-ascertainment in a particular location. We then fit a Bayesian Gaussian
+process model to estimate the temporal pattern of under-ascertainment.
 
-**Conclusions:** Social bubbles can be an effective way of extending contacts beyond the household limiting the increase in epidemic risk, if managed appropriately.
 
-**[Read the full preprint here](reports/SocialBubbles.pdf).**
+**Results:** We estimate that, during March 2020, the median percentage of
+symptomatic cases detected across the 84 countries which experienced more than
+ten deaths ranged from 2.38% (Bangladesh) to 99.6% (Chile). Across the ten
+countries with the highest number of total confirmed cases as of 6th July 2020,
+we estimated that the peak number of symptomatic cases ranged from 1.4 times
+(Chile) to 17.8 times (France) larger than reported. Comparing our model with
+national and regional seroprevalence data where available, we find that our
+estimates are consistent with observed values. Finally, we estimated
+seroprevalence for each country. Despite low case detection in some countries,
+our results that adjust for this still suggest that all countries have had only
+a small fraction of their populations infected as of July 2020.
 
-<img src="figures/SocialBubbles.png" width="70%" style="display: block; margin: auto;" />
-***Figure 1. top panel: schematic of model structure and its stratification into different household sizes with three components of transmission dynamics, community transmission, bubble transmission and household transmission; left panel: household size distribution for all households in England and Wales, for those households with at least one child younger than 20 years old and for those with at least one child younger than 10 years old (about primary school age and younger). Right panel: illustrative transmission probability matrix A, composed of household and bubble contacts and including community transmission.*
+**Conclusions:** We found substantial under-ascertainment of symptomatic cases, particularly at
+the peak of the first wave of the SARS-CoV-2 pandemic, in many countries.
+Reported case counts will therefore likely underestimate the rate of outbreak
+growth initially and underestimate the decline in the later stages of an
+epidemic. Although there was considerable under-reporting in many locations,
+our estimates were consistent with emerging serological data, suggesting that
+the proportion of each country's population infected with SARS-CoV-2 worldwide
+is generally low.
+**[Read the full preprint here](reports/UnderReporting.pdf).**
+
+<img src="figures/under_reporting.png" width="70%" style="display: block; margin: auto;" />
+***Figure 2: Confirmed case curves adjusted for temporal under-ascertainment.
+Panel A: Confirmed cases (left) and adjusted cases (right) for the ten
+countries with the highest number of confirmed cases. Panel B: Confirmed cases
+(left) and adjusted cases (right) for the ten countries with the highest number
+of confirmed cases after adjusting for under-ascertainment. There are two
+countries which change between panels A and B: France and Mexico are replaced
+by Chile and Peru respectively. Panel C: The same curves plotted in panel A,
+but with a plot per country. Blue shaded region corresponds to the 95% CrI of
+the adjusted curves. Panels A and B highlight between country variation whereas
+panel C highlights within country variation.*
