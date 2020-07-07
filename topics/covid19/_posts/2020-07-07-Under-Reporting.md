@@ -1,10 +1,8 @@
 ---
 title: Reconstructing the global dynamics of unreported COVID-19 cases and infections
 
-description: Using reported data on COVID-19 cases and fatalities globally, we
-estimated the proportion of symptomatic cases that were reported in 210
-countries and territories. We then use these estimates to attempt to
-reconstruct the pandemic.
+description: Using reported data on COVID-19 cases and fatalities globally, we estimated the proportion of symptomatic cases that were reported in 210
+countries and territories. We then use these estimates to attempt to reconstruct the pandemic.
 
 # this is a legacy status and should be changed to one of the newer ones
 # status: in-progress
