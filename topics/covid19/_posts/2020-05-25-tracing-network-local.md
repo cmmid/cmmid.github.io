@@ -5,7 +5,7 @@ title: "Combining fine-scale social contact data with epidemic modelling reveals
 
 description: "Simulated isolation, tracing and quarantine control strategies for SARS-CoV-2 in a real-world social network generated from high resolution GPS data."
 
-status: under-review
+status: paper-under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 
@@ -35,7 +35,7 @@ Case isolation and contact tracing can contribute to the control of COVID-19 out
 
 <img src="figures/tracing_network_local.png" alt="Network epidemics" style="max-width:600px; margin: auto; width:100%;" />
 
-_Epidemic model predictions of outbreak size and number of people isolated/quarantined under different non-pharmaceutical intervention scenarios in the Haslemere network. A) Cumulative number of cases, number of people isolated per day, and number of people quarantined per day under each scenario. Lines and shaded areas represent median and interquartile range from 1000 simulations. B) Example networks from a single simulation of each scenario at day 20 of the outbreak._
+_Epidemic model predictions of outbreak size and number of people isolated/quarantined under different non-pharmaceutical intervention scenarios in the Haslemere network. A cumulative number of cases, number of people isolated, and number of people quarantined at a given point in time under each scenario. Lines and shaded areas represent median and interquartile range from 1000 simulations. B Example networks from a single simulation of each scenario at day 20 of the outbreak._
 
 **[Read the full preprint here](reports/2020_07_01_firth_et_al_manuscript.pdf) and the accompanying [supporting information here](reports/2020_07_01_firth_et_al_SI.pdf).**
 
