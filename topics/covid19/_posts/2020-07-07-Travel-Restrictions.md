@@ -19,7 +19,7 @@ update: 2020-13-07
 # can set corresponding: true to indicate corresponding author 
 authors:
   - id: tim_russell
-  - id: Joesph Wu
+  - id: joesph_wu
   - id: sam_clifford
   - id: ncov-group
   - id: john_edmunds
