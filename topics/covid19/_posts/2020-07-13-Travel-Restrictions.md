@@ -10,7 +10,7 @@ status: paper-under-peer-review
 # status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-07-13
+#update: 2020-07-13
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
