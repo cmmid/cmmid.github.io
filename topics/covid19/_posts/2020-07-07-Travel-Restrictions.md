@@ -3,7 +3,7 @@
 #add the title of your project
 title: "The effect of international travel restrictions on internal spread of COVID-19"
 
-description: "Using flight data, prevalence estimates and incidence estimates combined, we calculate the ratio of expected imported cases and local incidence."
+description: "Using flight data, prevalence estimates and incidence estimates combined, we calculate the ratio of expected imported cases and local incidence globally."
 
 status: paper-under-peer-review
 # status: paper-accepted-at-journal
