@@ -57,11 +57,11 @@ COVID-19 prevalence and incidence were estimated using a modelling framework tha
 cases likely contribute little to local COVID-19 epidemics. Stringent travel restrictions may have limited impact on epidemic dynamics except in 
 countries with low COVID-19 incidence and large numbers of arrivals from other countries.
 
-<img src="reports/global_travel_restrictions/figure_2_main.png" width="80%" style="display: block; margin: auto;" />
+<img src="reports/global_travel_restrictions/figure_2.png" width="80%" style="display: block; margin: auto;" />
 ***Figure 2: Percentage reduction in passenger numbers required for countries in scenario B where imported cases account for more than 1% of local 
 incidence to bring that proportion below 1%. Countries are grouped by United Nations Region (Oc. is Oceania).*
 
-<img src="reports/global_travel_restrictions/figure_3_main.png" width="80%" style="display: block; margin: auto;" />
+<img src="reports/global_travel_restrictions/figure_3.png" width="80%" style="display: block; margin: auto;" />
 ***Figure 3: Scatter plot showing the percentage of local daily incidence that daily imported cases represent, where the expected number of imported cases is at 
 least 1% of local incidence. The dashed line represents 10% of local incidence from imported cases. NB: For New Zealand (NZL) and China (CHN),
  imported cases represent at least 100% of local incidence.
