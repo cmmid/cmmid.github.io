@@ -23,7 +23,7 @@ authors:
   - id: john_edmunds
   - id: adam_kucharski
   - id: mark_jit
-      corresponding: true
+    corresponding: true
 
 tags: [transmission-dynamics, control-measures]
 ---
