@@ -36,6 +36,12 @@ tags: [transmission-dynamics, control-measures]
 **[Read the full preprint here](reports/global_travel_restrictions/manuscript.pdf).**
 **[and the supplementary information here](reports/global_travel_restrictions/supplementary.pdf).**
 
+<img src="reports/global_travel_restrictions/figure_1_main.png" width="80%" style="display: block; margin: auto;" />
+***Figure 1: Risk rating by country, in the absence of international travel restrictions, in each of the four scenarios about international travellers in May 2020. 
+(A) Travel assumed to be at the same levels as May 2019. (B) Traveller numbers scaled downwards based on the reduction in flights in May 2020 reported by OpenSky. 
+(C) Traveller numbers scaled down by 25%. (D) Traveller numbers scaled down by 50%.*
+
+
 **Background:** Countries have restricted international arrivals to delay the spread of COVID-19. These measures carry a high economic and social cost. 
 They may have little impact on COVID-19 epidemics if there are many more cases resulting from local transmission compared to imported cases.
 
@@ -50,11 +56,6 @@ COVID-19 prevalence and incidence were estimated using a modelling framework tha
 **Interpretation:** While countries can expect infected travellers to arrive inthe absence of travel restrictions, in most countries these imported 
 cases likely contribute little to local COVID-19 epidemics. Stringent travel restrictions may have limited impact on epidemic dynamics except in 
 countries with low COVID-19 incidence and large numbers of arrivals from other countries.
-
-<img src="reports/global_travel_restrictions/figure_1_main.png" width="80%" style="display: block; margin: auto;" />
-***Figure 1: Risk rating by country, in the absence of international travel restrictions, in each of the four scenarios about international travellers in May 2020. 
-(A) Travel assumed to be at the same levels as May 2019. (B) Traveller numbers scaled downwards based on the reduction in flights in May 2020 reported by OpenSky. 
-(C) Traveller numbers scaled down by 25%. (D) Traveller numbers scaled down by 50%.*
 
 <img src="reports/global_travel_restrictions/figure_2_main.png" width="80%" style="display: block; margin: auto;" />
 ***Figure 2: Percentage reduction in passenger numbers required for countries in scenario B where imported cases account for more than 1% of local 
