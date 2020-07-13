@@ -1,6 +1,4 @@
 ---
-
-#add the title of your project
 title: "The effect of international travel restrictions on internal spread of COVID-19"
 
 description: "Using flight data, prevalence estimates and incidence estimates combined, we calculate the ratio of expected imported cases and local incidence globally."
@@ -10,7 +8,7 @@ status: paper-under-peer-review
 # status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-#update: 2020-07-13
+update: 2020-07-13
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -27,9 +25,7 @@ authors:
   - id: mark_jit
       corresponding: true
 
-
 tags: [transmission-dynamics, control-measures]
-
 ---
 
 <img src="reports/global_travel_restrictions/figure_1_main.png" width="80%" style="display: block; margin: auto;" />
