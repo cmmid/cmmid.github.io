@@ -1,7 +1,7 @@
 ---
 
 #add the title of your project
-title: "The Effect of Travel Restrictions on the Geographical Spread of COVID-19 Between Large Cities in China: A Modelling Study"
+title: "The effect of travel restrictions on the geographical spread of COVID-19 between large cities in China: a modelling study"
 
 description: "We evaluated the effectiveness of the cordon sanitaire in Wuhan to delay or prevent outbreaks of COVID-19 in other major cities in mainland China."
 
