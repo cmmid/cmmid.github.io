@@ -52,7 +52,7 @@ redirect_from:
 
 ---
 
-You can [download a copy of the full report here](reports/pcr_entry_screening/2020-07-24-pcr-entry-screening.pdf) or [read the preprint here] (https://www.medrxiv.org/content/10.1101/2020.07.24.20161281v2).
+You can [download a copy of the full report here](reports/pcr_entry_screening/2020-07-24-pcr-entry-screening.pdf) or [read the preprint here](https://www.medrxiv.org/content/10.1101/2020.07.24.20161281v2).
 
 *Note: this report was last updated on 23 July 2020, using prevalence estimates from 20 July 2020.*
 
