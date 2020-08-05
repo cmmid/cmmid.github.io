@@ -1,7 +1,7 @@
 ---
 
 #add the title of your project
-title: "Implication of backward contact tracing in the presence of overdispersed transmission in COVID-19 outbreak"
+title: "Implication of backward contact tracing in the presence of overdispersed transmission in COVID-19 outbreaks"
 
 description: "We explored the potential of combining backward contact tracing with more conventional forward contact tracing for control of COVID-19."
 
