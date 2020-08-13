@@ -312,6 +312,8 @@
   name: Edwine Barasa
 - id: yungwai_chan
   name: Yung-Wai Desmond Chan
+- id: alex_cook
+  name: Alex R Cook
 - id: ncov-group
   name: CMMID nCov working group
   type: group
