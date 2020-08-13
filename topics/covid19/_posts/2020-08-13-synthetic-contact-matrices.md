@@ -1,7 +1,7 @@
 ---
   
-  # add the title of your project
-  title: "Projecting contact matrices in 177 geographical regions: an update and comparison with empirical data for the COVID-19 era"
+# add the title of your project
+title: "Projecting contact matrices in 177 geographical regions: an update and comparison with empirical data for the COVID-19 era"
 
 description: "We update the synthetic contact matrices with the most recent data, comparing them to measured contact matrices, and develop customised contact matrices for rural and urban settings. We use these to explore the effects of physical distancing interventions for the COVID-19 pandemic in a transmission model."
 
