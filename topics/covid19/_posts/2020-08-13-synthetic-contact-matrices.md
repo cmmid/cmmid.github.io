@@ -1,9 +1,9 @@
 ---
   
   # add the title of your project
-  title: Projecting contact matrices in 177 geographical regions: an update and comparison with empirical data for the COVID-19 era
+  title: "Projecting contact matrices in 177 geographical regions: an update and comparison with empirical data for the COVID-19 era"
 
-description: We update the synthetic contact matrices with the most recent data, comparing them to measured contact matrices, and develop customised contact matrices for rural and urban settings. We use these to explore the effects of physical distancing interventions for the COVID-19 pandemic in a transmission model.
+description: "We update the synthetic contact matrices with the most recent data, comparing them to measured contact matrices, and develop customised contact matrices for rural and urban settings. We use these to explore the effects of physical distancing interventions for the COVID-19 pandemic in a transmission model."
 
 # delete any tags which aren't appropriate
 # if you need more tags, they can be created! Please discuss.
@@ -20,7 +20,7 @@ status: paper-under-peer-review
 # status: comment-opinion-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-07-22
+update: 2020-08-13
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -37,8 +37,6 @@ authors:
   - id: alex_cook
   - id: mark_jit
 corresponding: true
-
-
 
 ---
   **[You can read the full preprint here](https://www.medrxiv.org/content/10.1101/2020.07.22.20159772v2)**
