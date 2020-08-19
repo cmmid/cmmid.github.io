@@ -9,7 +9,7 @@
   url: https://www.lshtm.ac.uk/aboutus/people/funk.sebastian
   twitter: sbfnk
 - id: roz_eggo
-  name: Rosalind Eggo
+  name: Rosalind M Eggo
   email: r.eggo@lshtm.ac.uk
   url: https://www.lshtm.ac.uk/aboutus/people/eggo.rosalind
   twitter: rozeggo
@@ -175,6 +175,8 @@
 - id: gwen_knight
   name: Gwen Knight
   email: gwen.knight@lshtm.ac.uk
+  twitter: gmknght
+  url: https://www.lshtm.ac.uk/aboutus/people/knight.gwen
 - id: kath_oreilly
   name: Kathleen O'Reilly
   email: kathleen.oreilly@lshtm.ac.uk
@@ -207,6 +209,30 @@
   email: quentin.leclerc@lshtm.ac.uk
   url: https://www.lshtm.ac.uk/aboutus/people/leclerc.quentin
   twitter: QuentinLclrc
+- id: finn_mcquaid
+  name: C Finn McQuaid
+  email: finn.mcquaid@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/mcquaid.finn
+  twitter: cfmcquaid
+- id: nicky_mccreesh
+  name: Nicky McCreesh
+  email: nicky.mccreesh@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/mccreesh.nicky
+- id: richard_white
+  name: Richard G White
+  email: richard.white@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/white.richard
+  twitter: richardwhite321
+- id: jon_read
+  name: Jonathan M Read
+  email: jonathan.read@lancaster.ac.uk
+  twitter: jonread15
+- id: tom_sumner
+  name: Tom Sumner
+  email: tom.sumner@lshtm.ac.uk
+- id: rebecca_harris
+  name: Rebecca Harris
+  email: rebecca.harris@lshtm.ac.uk
 - id: stephane_hue
   name: Stéphane Hué
   email: stephane.hue@lshtm.ac.uk
@@ -236,6 +262,10 @@
   url:
 - id: nick_golding
   name: Nick Golding
+- id: joesph_wu
+  name: Joesph Wu
+- id: loz_wright
+  name: Lawrence Wright
 - id: andy_clark
   name: Andrew Clark
 - id: francesco_checchi
@@ -244,10 +274,46 @@
   name: Deus Thindwa
   email: deus.thindwa@lshtm.ac.uk
   twitter: deusthindwa
+- id: chris_grundy
+  name: Chris Grundy
+  email: chris.grundy@lshtm.ac.uk
+- id: naomi_waterlow
+  name: Naomi R Waterlow
+  email: naomi.waterlow1@lshtm.ac.uk
+  twitter: n_r_waterlow
+  url: https://www.lshtm.ac.uk/aboutus/people/waterlow.naomi
 - id: other_collaborators_global_risk_factors
   name: Charlotte Warren-Gash, Bruce Guthrie, Harry HX Wang, Stewart W Mercer, Colin Sanderson, Martin McKee, Christopher Troeger, Kanyin I Ong, Francesco Checchi, Pablo Perel, Sarah Joseph, Amitava Banerjee
 - id: smart-group
   name: SACEMA Modelling and Analysis Response Team
+- id: collaborators_settings_transmission
+  name: Naomi M Fuller, Lisa E Knight
+- id: david_simons
+  name: David Simons
+  twitter: David_Simons_UK
+- id: georgia_langton
+  name: Georgia R Gore-Langton
+- id: matthew_quaife
+  name: Matthew Quaife
+  email: matthew.quaife@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/quaife.matthew
+  twitter: matthew_quaife
+- id: kashvi_shah
+  name: Kashvi Shah
+- id: daniel_mwanga
+  name: Daniel Mwanga
+- id: karen_austrian
+  name: Karen Austrian
+- id: beth_kangwana
+  name: Beth Kangwana
+- id: jessie_pinchoff
+  name: Jessie Pinchoff
+- id: edwine_barasa
+  name: Edwine Barasa
+- id: yungwai_chan
+  name: Yung-Wai Desmond Chan
+- id: alex_cook
+  name: Alex R Cook
 - id: ncov-group
   name: CMMID nCov working group
   type: group
@@ -296,3 +362,8 @@
    - eleanor_rees
    - sophie_meakin
    - anna_foss
+   - rachel_lowe
+   - david_simons
+   - georgia_langton
+   - matthew_quaife
+   - yungwai_chan

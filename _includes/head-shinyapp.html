@@ -3,11 +3,11 @@
   <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<!-- use bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
-	<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap" rel="stylesheet"> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/assets/css/styles.css" />
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158646461-1"></script>
@@ -19,8 +19,8 @@
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
 	</script>
-	<link rel="icon" type="image/png" href="/assets/images/favicon-16x16.png" sizes="16x16">  
-	<link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png" sizes="32x32">  
+	<link rel="icon" type="image/png" href="/assets/images/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96">
 	{% feed_meta %}
 	{% seo %}
@@ -34,5 +34,5 @@
 		}
 	</style>
 	<script type="text/javascript" src="/assets/js/iframeResizer.min.js"></script>
-	<script>function resizer() { iFrameResize({log:true, scrolling:true }); }</script>
+	<script>function resizer() { iFrameResize({log:true, scrolling:true {{ page.shiny_iframe_resize_options }} }); }</script>
 </head>

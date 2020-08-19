@@ -19,7 +19,7 @@ status: paper-under-peer-review
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
-# add the date at which post is updated (if applicable), in YYYY-MM-DD
+# add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
 update: 2020-02-07
 
 # add optional hash-array with authors

@@ -1,0 +1,78 @@
+[
+{"name":"Algeria",
+ "iso3":"DZA",
+ "initial": true
+},
+ {"name":"Bahrain",
+  "iso3":"BHR",
+  "initial": false
+},
+{"name":"Egypt",
+ "iso3":"EGY",
+ "initial": false
+},
+{"name":"Iran",
+ "iso3":"IRN",
+ "initial": false
+},
+{"name":"Iraq",
+ "iso3":"IRQ",
+ "initial": false
+},
+{"name":"Jordan",
+ "iso3":"JOR",
+ "initial": false
+},
+{"name":"Kuwait",
+ "iso3":"KWT",
+ "initial": false
+},
+{"name":"Lebanon",
+ "iso3":"LBN",
+ "initial": false
+},
+{"name":"Libya",
+ "iso3":"LBY",
+ "initial": false
+},
+{"name":"Morocco",
+ "iso3":"MAR",
+ "initial": false
+},
+{"name":"Oman",
+ "iso3":"OMN",
+ "initial": false
+},
+{"name":"Qatar",
+ "iso3":"QAT",
+ "initial": false
+},
+{"name":"Saudi Arabia",
+ "iso3":"SAU",
+ "initial": false
+},
+{"name":"Syria",
+ "iso3":"SYR",
+ "initial": false
+},
+{"name":"Tunisia",
+ "iso3":"TUN",
+ "initial": false
+},
+{"name":"Turkey",
+ "iso3":"TUR",
+ "initial": false
+},
+{"name":"United Arab Emirates",
+ "iso3":"ARE",
+ "initial": false
+},
+{"name":"Palestine",
+ "iso3":"PSE",
+ "initial": false
+},
+{"name":"Yemen",
+ "iso3":"YEM",
+ "initial": false
+}
+]

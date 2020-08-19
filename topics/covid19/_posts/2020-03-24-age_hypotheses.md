@@ -3,14 +3,14 @@
 #add the title of your project
 title: "Age-dependent effects in the transmission and control of COVID-19 epidemics"
 
-description: We evaluated hypotheses for the age-distribution of COVID-19 cases reported.
+description: We estimated the age-specific susceptibility to infection and probability of showing clinical symptoms.
 
-status: paper-under-peer-review
-# status: paper-accepted-at-journal
-# status: paper-published-at-journal
+#status: paper-under-peer-review
+#status: paper-accepted-at-journal
+status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-03-24
+update: 2020-06-16
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -35,10 +35,8 @@ redirect_from:
 tags: [transmission-dynamics]
 ---
 
-The COVID-19 pandemic has shown a markedly low proportion of cases among children. Age disparities in observed cases could be explained by assortative mixing patterns and reactive school closures which decrease mixing between children, or by children exhibiting lower susceptibility to infection, or by children having a lower propensity to show clinical symptoms. We formally test these hypotheses by fitting an age-structured mathematical model to epidemic data from six countries, finding strong age dependence in the probability of developing clinical symptoms, rising from around 20% in under 10s to over 70% in older adults. We find that interventions aimed at halting transmission in children may have minimal effects on preventing cases depending on the relative transmissibility of subclinical infections. Our estimated age-specific clinical fraction has implications for the expected global burden of clinical cases because of demographic differences across settings. In younger populations, the expected clinical attack rate would be lower, although it is likely that comorbidities in low-income countries will affect disease severity. Without effective control measures, regions with older populations may see disproportionally more clinical cases, particularly in the later stages of the pandemic.
+The COVID-19 pandemic has shown a markedly low proportion of cases among children. Age disparities in observed cases could be explained by children having lower susceptibility to infection, lower propensity to show clinical symptoms or both. We evaluate these possibilities by fitting an age-structured mathematical model to epidemic data from China, Italy, Japan, Singapore, Canada and South Korea. We estimate that susceptibility to infection in individuals under 20 years of age is approximately half that of adults aged over 20 years, and that clinical symptoms manifest in 21% (95% credible interval: 12–31%) of infections in 10- to 19-year-olds, rising to 69% (57–82%) of infections in people aged over 70 years. Accordingly, we find that interventions aimed at children might have a relatively small impact on reducing SARS-CoV-2 transmission, particularly if the transmissibility of subclinical infections is low. Our age-specific clinical fraction and susceptibility estimates have implications for the expected global burden of COVID-19, as a result of demographic differences across settings. In countries with younger population structures—such as many low-income countries—the expected per capita incidence of clinical cases would be lower than in countries with older population structures, although it is likely that comorbidities in low-income countries will also influence disease severity. Without effective control measures, regions with relatively older populations could see disproportionally more cases of COVID-19, particularly in the later stages of an unmitigated epidemic.
 
-The role of age in transmission is critical to designing interventions aiming to decrease transmission in the population as a whole, and to projecting the expected global burden. Early evidence, including presented here, suggests that there is age dependence in the risk of clinical symptoms following infection. Understanding if and by how much subclinical infections contribute to transmission has implications for predicted global burden and the impact of control interventions. This question must be resolved to effectively forecast and control COVID-19 epidemics.
+The published version of the paper is available Open Access at Nature Medicine, [here](https://www.nature.com/articles/s41591-020-0962-9) 
 
-A pre-print copy of the [main text](https://www.medrxiv.org/content/10.1101/2020.03.24.20043018v1) is on medrxiv.
 
-A pre-print copy of the [supplementary information](https://www.medrxiv.org/content/10.1101/2020.03.24.20043018v1.supplementary-material) is also available on medrxiv.

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+{% include head-lmic_dashboard.html%}
+<body>
+  {% include header.html %}
+  <section class="main">
+    <div class="container">
+      <div class="full-page-content">
+        {% if page.title %}
+          <h1>{{ page.title }}</h1>
+        {% endif %}
+        {{ content }}
+      </div>
+    </div>
+  </section>
+  {% include footer.html %}
+</body>
+</html>

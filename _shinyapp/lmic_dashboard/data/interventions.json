@@ -1,0 +1,23 @@
+[
+ {"name":"None",
+  "key":1
+ },
+ {"name":"50% self-isolation & 20% social distancing",
+  "key":3
+ },
+ {"name":"50% self-isolation & 40% social distancing",
+  "key":9
+ },
+ {"name":"50% self-isolation & 60% social distancing",
+  "key":15
+ },
+ {"name":"50% self-isolation & 80% social distancing",
+ "key":21
+},
+{"name":"25% self-isolation & 20% social distancing & 40/80% shielding",
+"key":42
+},
+{"name":"25% self-isolation & 20% social distancing & 80/80% shielding",
+"key":44
+}
+]

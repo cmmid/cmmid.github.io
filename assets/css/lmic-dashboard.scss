@@ -1,0 +1,197 @@
+---
+---
+@import 'variables';
+
+$color_lmicdb_ALG: #b0484f;
+$color_lmicdb_BHR: #55c155;
+$color_lmicdb_EGY: #c34eb7;
+$color_lmicdb_IRN: #98b83c;
+$color_lmicdb_IRQ: #7665d7;
+$color_lmicdb_JOR: #c6a639;
+$color_lmicdb_KWT: #7f5aa3;
+$color_lmicdb_LBN: #4c8d3a;
+$color_lmicdb_LBY: #e0497e;
+$color_lmicdb_OMN: #60c293;
+$color_lmicdb_QAT: #d24a34;
+$color_lmicdb_SYR: #48bbd2;
+$color_lmicdb_SAU: #9e6331;
+$color_lmicdb_TUN: #e0883c;
+$color_lmicdb_PSE: #6188cd;
+$color_lmicdb_ARE: #6f7229;
+$color_lmicdb_YEM: #d18cd0;
+$color_lmicdb_DZA: #36815b;
+$color_lmicdb_TUR: #a64c7a;
+$color_lmicdb_MAR: #b6ac6a;
+
+.country-ALG{stroke: $color_lmicdb_ALG;}
+.country-BHR{stroke: $color_lmicdb_BHR;}
+.country-EGY{stroke: $color_lmicdb_EGY;}
+.country-IRN{stroke: $color_lmicdb_IRN;}
+.country-IRQ{stroke: $color_lmicdb_IRQ;}
+.country-JOR{stroke: $color_lmicdb_JOR;}
+.country-KWT{stroke: $color_lmicdb_KWT;}
+.country-LBN{stroke: $color_lmicdb_LBN;}
+.country-LBY{stroke: $color_lmicdb_LBY;}
+.country-OMN{stroke: $color_lmicdb_OMN;}
+.country-QAT{stroke: $color_lmicdb_QAT;}
+.country-SYR{stroke: $color_lmicdb_SYR;}
+.country-SAU{stroke: $color_lmicdb_SAU;}
+.country-TUN{stroke: $color_lmicdb_TUN;}
+.country-PSE{stroke: $color_lmicdb_PSE;}
+.country-ARE{stroke: $color_lmicdb_ARE;}
+.country-YEM{stroke: $color_lmicdb_YEM;}
+.country-DZA{stroke: $color_lmicdb_DZA;}
+.country-TUR{stroke: $color_lmicdb_TUR;}
+.country-MAR{stroke: $color_lmicdb_MAR;}
+
+.country_select input#ALG:checked{background-color: $color_lmicdb_ALG;}
+.country_select input#EGY:checked{background-color: $color_lmicdb_BHR;}
+.country_select input#BHR:checked{background-color: $color_lmicdb_EGY;}
+.country_select input#IRN:checked{background-color: $color_lmicdb_IRN;}
+.country_select input#IRQ:checked{background-color: $color_lmicdb_IRQ;}
+.country_select input#JOR:checked{background-color: $color_lmicdb_JOR;}
+.country_select input#KWT:checked{background-color: $color_lmicdb_KWT;}
+.country_select input#LBN:checked{background-color: $color_lmicdb_LBN;}
+.country_select input#LBY:checked{background-color: $color_lmicdb_LBY;}
+.country_select input#OMN:checked{background-color: $color_lmicdb_OMN;}
+.country_select input#QAT:checked{background-color: $color_lmicdb_QAT;}
+.country_select input#SYR:checked{background-color: $color_lmicdb_SYR;}
+.country_select input#SAU:checked{background-color: $color_lmicdb_SAU;}
+.country_select input#TUN:checked{background-color: $color_lmicdb_TUN;}
+.country_select input#PSE:checked{background-color: $color_lmicdb_PSE;}
+.country_select input#ARE:checked{background-color: $color_lmicdb_ARE;}
+.country_select input#YEM:checked{background-color: $color_lmicdb_YEM;}
+.country_select input#DZA:checked{background-color: $color_lmicdb_DZA;}
+.country_select input#TUR:checked{background-color: $color_lmicdb_TUR;}
+.country_select input#MAR:checked{background-color: $color_lmicdb_MAR;}
+
+.country_select input[type="checkbox"] {
+  margin: 2px 2px 0;
+}
+
+.line-path {
+  stroke-width: 2;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.line-path.line-low, .line-path.line-high {
+  stroke-dasharray: 10;
+  stroke-width: 1;
+}
+
+.line-path.line-high {
+  stroke-dasharray: 3;
+}
+
+.line-path.unmitigated {
+  opacity: 0.5;
+}
+
+.tick text {
+  font-size: 1.1em;
+  fill: $color_lshtm_darkgreen;
+}
+
+.tick line {
+  stroke: $color_lshtm_lightgrey;
+}
+
+.axis-label {
+  font-size: 1.2em;
+  fill: $color_lshtm_darkgreen;
+}
+
+.country-legend{stroke: #000000;}
+
+.country_select label {
+    margin-right: 3%;
+}
+
+.country_select input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 1px solid $color_lshtm_darkgrey;
+  border-radius: 4px;
+  outline: none;
+  width: 15px;
+  height: 15px;
+  background-color: $color_lshtm_lightgrey;
+}
+
+.plot {
+  position: relative;
+}
+
+.graph_tooltip {
+  position: absolute;
+  background-color: red;
+  width: 27px;
+}
+
+.divider {
+  border-bottom: 1px solid $color_lshtm_lightgrey;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+@function get-dash-value($radius, $percentage) {
+  // Using $radius, calculate circumference.
+  $circumference: 2 * 3.1415927 * $radius;
+
+  // Convert percentage to decimal.
+  // i.e. 50% = 0.5.
+  $percentage-as-decimal: $percentage / 100%;
+
+  // Return unit value.
+  @return $circumference * $percentage-as-decimal;
+}
+
+$circle-radius: 50;
+
+// Keyframe animation which transitions between
+// stroke-dashoffset values.
+@keyframes circle--animation {
+  // Start with short dash for 25% of animation.
+  0%,
+  25% {
+    //stroke-dashoffset: 280;
+    transform: rotate(0);
+  }
+
+  // Very long dash, slightly rotated for 25% of animation.
+  // This is the "head" of the stroke getting away from the tail.
+  50%,
+  75% {
+    //stroke-dashoffset: 75;
+    transform: rotate(45deg);
+  }
+
+  // Back to short dash, rotated back to starting position.
+  // This is the "tail" of the stroke catching up to the head.
+  // The stroke moves backwards while at the same time the
+  // entire circle is rotated forward to return to its
+  // starting position.
+  100% {
+    //stroke-dashoffset: 280;
+    transform: rotate(360deg);
+  }
+}
+
+// Long form animation rules applied to circle element.
+.loading-spinner{
+  fill: transparent;
+  stroke: $color_lshtm_darkgreen;
+  stroke-width: 6;
+  stroke-dasharray: get-dash-value($circle-radius, 70%);
+  stroke-linecap: round;
+  transform-origin: 50% 50%;
+  animation: 1.4s ease-in-out infinite both circle--animation;
+  animation-duration: 1.4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-name: circle--animation;
+}

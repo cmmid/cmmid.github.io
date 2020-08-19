@@ -1,0 +1,33 @@
+<head>
+
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- if site.url != "https://cmmid.github.io" -%}<meta name="robots" content="noindex">{%- endif -%}
+  <title>{{ page.title }}</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- use bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="stylesheet" href="/assets/css/lmic-dashboard.css" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158646461-1"></script>
+	<script>
+	// disable tracking by default
+	window['ga-disable-UA-158646461-1'] = true;
+	// initialize gtag
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	</script>
+	<link rel="icon" type="image/png" href="/assets/images/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96">
+	{% feed_meta %}
+	{% seo %}
+	<script src="//d3js.org/d3.v5.min.js" charset="utf-8"></script>
+  <script src="//d3js.org/d3-scale.v3.min.js"></script>
+  <script src="//d3js.org/d3-path.v1.min.js"></script>
+  <script src="//d3js.org/d3-shape.v1.min.js"></script>
+</head>
