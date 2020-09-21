@@ -1,40 +1,13 @@
 ---
-# add the title of your project
 title: Estimating the time-varying reproduction number of SARS-CoV-2 using national and subnational case counts
-
 description: Assessing temporal variations in transmission in different countries is essential for monitoring the epidemic, evaluating the effectiveness of public health interventions and estimating the impact of changes in policy.
-
-# delete any tags which aren't appropriate
-# if you need more tags, they can be created! Please discuss.
-tags: [control-measures] 
-
-# these are the statuses you can choose from; delete/uncomment as necessary
-# defaults to paper-under-peer-review if not set
-status: paper-under-peer-review
-# status: paper-accepted-at-journal
-# status: paper-published-at-journal
- status: real-time-report
-# status: report
-# status: comment-opinion-online
-# status: comment-opinion-journal
-
-# add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
+tags: current-patterns-transmission
+status: real-time-report
 update: 2020-09-21
-
-# add optional hash-array with authors
-# see /_data/authors.yml for list of ids, or to add/edit an author
-# can add ncov-group as one author, will link to list of members
-# can set equal: X to show 'contributed equally'
-# can set corresponding: true to indicate corresponding author
 authors:
   - id: ncov-group
   - id: seb_funk
 corresponding: true
-
-# permalinks have changed
-# make sure old urls still work by redirecting to this post
-
-
 ---
 
 See [here](https://epiforecasts.io/covid/posts/global/) for further details and regularly updated estimates.
