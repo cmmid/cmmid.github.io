@@ -266,6 +266,7 @@
 - id: frank_sandmann
   name: Frank G Sandmann
   email: frank.sandmann@phe.gov.uk
+  url:
 - id: anna_vassall
   name: Anna Vassall
   email: anna.vassall@student.lshtm.ac.uk
@@ -273,8 +274,8 @@
   twitter: annavassall
 - id: nick_golding
   name: Nick Golding
-- id: joesph_wu
-  name: Joesph Wu
+- id: joseph_wu
+  name: Joseph Wu
 - id: loz_wright
   name: Lawrence Wright
 - id: andy_clark
