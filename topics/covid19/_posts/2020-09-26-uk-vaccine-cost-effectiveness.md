@@ -1,13 +1,32 @@
 ---
 
-title: The potential health and economic value of SARS-CoV-2 vaccination alongside physical distancing in the UK: transmission model-based future scenario analysis and economic evaluation
+# add the title of your project
+title: "The potential health and economic value of SARS-CoV-2 vaccination alongside physical distancing in the UK: transmission model-based future scenario analysis and economic evaluation"
 
-description: We used an age-structured dynamic-transmission and economic model to explore different scenarios of immunisation programmes over ten years. 
+description: "We used an age-structured dynamic-transmission and economic model to explore different scenarios of immunisation programmes over ten years."
 
+# delete any tags which aren't appropriate
+# if you need more tags, they can be created! Please discuss.
+tags: [control-measures, transmission-dynamics]
+
+# these are the statuses you can choose from; delete/uncomment as necessary
+# defaults to paper-under-peer-review if not set
 status: paper-under-peer-review
+# status: paper-accepted-at-journal
+# status: paper-published-at-journal
+# status: real-time-report
+# status: report
+# status: comment-opinion-online
+# status: comment-opinion-journal
 
+# add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-09-25
 
+# add optional hash-array with authors
+# see /_data/authors.yml for list of ids, or to add/edit an author
+# can add ncov-group as one author, will link to list of members
+# can set equal: X to show 'contributed equally'
+# can set corresponding: true to indicate corresponding author
 authors:
   - id: frank_sandmann
     corresponding: true
@@ -17,7 +36,6 @@ authors:
   - id: john_edmunds
   - id: mark_jit
 
-tags: [control-measures]
 ---
 
 Background. In response to the coronavirus disease 2019 (COVID-19), the UK adopted mandatory physical distancing measures in March 2020. Vaccines against the newly emerged severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) may become available as early as late 2020. We explored the health and economic value of introducing SARS-CoV-2 immunisation alongside physical distancing scenarios in the UK. 
