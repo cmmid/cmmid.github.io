@@ -29,7 +29,7 @@ update: 2020-09-25
 # can set corresponding: true to indicate corresponding author
 authors:
 # - id: frank_sandmann
-corresponding: true
+#corresponding: true
   - id: nick_davies
   - id: ncov-group
 #- id: anna_vassall
