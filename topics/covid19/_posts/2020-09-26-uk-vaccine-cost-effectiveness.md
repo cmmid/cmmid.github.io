@@ -28,11 +28,11 @@ update: 2020-09-25
 # can set equal: X to show 'contributed equally'
 # can set corresponding: true to indicate corresponding author
 authors:
-  - id: frank_sandmann
+# - id: frank_sandmann
 corresponding: true
   - id: nick_davies
   - id: ncov-group
-  - id: anna_vassall
+#- id: anna_vassall
   - id: john_edmunds
   - id: mark_jit
 
