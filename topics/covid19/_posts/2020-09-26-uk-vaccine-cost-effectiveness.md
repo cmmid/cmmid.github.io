@@ -1,4 +1,5 @@
 ---
+
 title: The potential health and economic value of SARS-CoV-2 vaccination alongside physical distancing in the UK: transmission model-based future scenario analysis and economic evaluation
 
 description: We used an age-structured dynamic-transmission and economic model to explore different scenarios of immunisation programmes over ten years. 
