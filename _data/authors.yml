@@ -263,18 +263,10 @@
   name: Sophie R Meakin
   email:
   url:
-- id: frank_sandmann
-  name: Frank G Sandmann
-  email: frank.sandmann@phe.gov.uk
-- id: anna_vassall
-  name: Anna Vassall
-  email: anna.vassall@student.lshtm.ac.uk
-  url: https://www.lshtm.ac.uk/aboutus/people/vassall.anna
-  twitter: annavassall
 - id: nick_golding
   name: Nick Golding
-- id: joseph_wu
-  name: Joseph Wu
+- id: joesph_wu
+  name: Joesph Wu
 - id: loz_wright
   name: Lawrence Wright
 - id: andy_clark
@@ -325,6 +317,14 @@
   name: Yung-Wai Desmond Chan
 - id: alex_cook
   name: Alex R Cook
+- id: frank_sandmann
+  name: Frank G Sandmann
+  email: frank.sandmann@phe.gov.uk
+- id: anna_vassall
+  name: Anna Vassall
+  email: anna.vassall@student.lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/vassall.anna
+  twitter: annavassall
 - id: ncov-group
   name: CMMID nCov working group
   type: group
@@ -379,3 +379,4 @@
    - matthew_quaife
    - yungwai_chan
    - rosie_barnard
+   - frank_sandmann
