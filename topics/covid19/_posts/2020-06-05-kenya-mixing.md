@@ -5,7 +5,7 @@ title: The impact of COVID-19 control measures on social contacts and transmissi
 
 description: We analyse social contact data from Kenyan informal settlements to estimate if COVID-19 control measures have affected disease transmission, and  economic and food security
 
-status: paper-under-peer-review 
+status: paper-published-at-journal 
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-06-05
@@ -35,7 +35,7 @@ authors:
 tags: [lmic-considerations, transmission-dynamics, mixing-patterns, control-measures]
 ---
 
-<a target = "_blank" href="reports/LSHTM-CMMID-20200605-kenya_mixing.pdf" title="Full report">Click [here](https://www.medrxiv.org/content/10.1101/2020.06.06.20122689v1) for the preprint of this paper.</a>
+This paper is now published Open Access at BMC Medicine [here](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01779-4).
 
 Many low- and middle-income countries have implemented control measures against coronavirus disease 2019 (COVID-19). It is not clear if the low numbers of recorded COVID-19 cases and deaths in Africa is due to these. One of the main aims of control measures is to reduce respiratory pathogen transmission through direct contact with others. In this study we collect contact data from residents of informal settlements around Nairobi to assess if control measures have changed contact patterns, and estimate the impact of changes on the reproduction number (R<sub>0</sub>). 
 
