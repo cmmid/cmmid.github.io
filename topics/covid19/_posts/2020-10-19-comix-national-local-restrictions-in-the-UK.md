@@ -25,6 +25,7 @@ authors:
     corresponding: true
   - id: amy_gimma
   - id: kevin_vanzandvoort
+  - id: kerry_wong
   - id: ncov-group
 #  - id: fergus_cummings
 #  - id: tom_ward
