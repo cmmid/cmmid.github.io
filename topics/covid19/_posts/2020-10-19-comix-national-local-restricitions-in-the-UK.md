@@ -26,8 +26,8 @@ authors:
   - id: amy_gimma
   - id: kevin_vanzandvoort
   - id: ncov-group
-  - id: fergus_cummings
-  - id: tom_ward
+#  - id: fergus_cummings
+#  - id: tom_ward
   - id: john_edmunds
     corresponding: true
 
