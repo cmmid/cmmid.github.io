@@ -54,7 +54,7 @@ Among 3,222 individuals, we found strong evidence (p<0.001) that following the r
 
 We determine that the rule of six and encouraging people to WFH, has seen the average person reduce contacts but these reductions are likely small. There was little suggestion that 10pm closure has affected the number of contacts that participants make outside home, work and school. In contrast to national restrictions, there was a strong suggestion that local restrictions reduced the number of contacts individuals make outside of work and school, though again, this effect was small in comparison to the national lockdown. 
 
-[CoMix restricitions full report](reports/comix/LSHTM-CMMID-20201019-CoMix-national_local_restrictions.pdf)
+[CoMix restrictions full report](reports/comix/LSHTM-CMMID-20201019-CoMix-national_local_restrictions.pdf)
 
 
 
