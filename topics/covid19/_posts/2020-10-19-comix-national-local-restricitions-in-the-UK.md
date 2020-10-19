@@ -32,7 +32,9 @@ authors:
 tags: [transmission-dynamics, mixing-patterns, control-measures]
 ---
 
-<a target = "_blank" href="reports/LSHTM-CMMID-20201019-CoMix-national_local_restrictions.pdf" title="CoMix full report">Click here to read our full report.</a>
+
+
+<a target = "_blank" href="reports/LSHTM-CMMID-20201019-CoMix-national_local_restrictions.pdf" title="CoMix restricitions full report">Click here to read our full report.</a>
 
 Background: 
 The United Kingdom’s (UK) COVID-19 response transitioned from a national lockdown to more localised interventions with less restrictive national measures. In September 2020, the UK imposed three national restrictions; the Rule of Six, pubs and restaurants closing at 10pm, and encouraging individuals to work from home (WFH). 
