@@ -1,6 +1,6 @@
 ---
 
-#add the title of your project
+# add the title of your project
 title: "The impact of local and national restrictions in response to COVID-19 on social contacts in the UK: a longitudinal natural experiment."
 
 description: We present the analyses of the impact of national and local restrictions on the number of setting-specific contacts that people have prior to and during the restrictions from an ongoing survey (CoMix) which tracks social contact behaviour during the Covid-19 pandemic.
@@ -12,10 +12,10 @@ status: paper-under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 
-#add the date at which post is updated (if applicable), in YYYY-MM-DD
+# add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-10-19
 
-#add optional hash-array with authors
+# add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
 # can add ncov-group as one author, will link to list of members
 # can set equal: X to show 'contributed equally'
