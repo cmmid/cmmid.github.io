@@ -5,8 +5,11 @@ title: The impact of local and national restrictions in response to COVID-19 on 
 
 description: We present the analyses of the impact of national and local restrictions on the number of setting-specific contacts that people have prior to and during the restrictions from an ongoing survey (CoMix) which tracks social contact behaviour during the Covid-19 pandemic.
 
+
+tags: [transmission-dynamics, mixing-patterns, control-measures]
+
 status: paper-under-peer-review
-#status: paper-accepted-at-journal
+# status: paper-accepted-at-journal
 # status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
@@ -29,12 +32,11 @@ authors:
     corresponding: true
 
 
-tags: [transmission-dynamics, mixing-patterns, control-measures]
+
 ---
 
+**This report has not been peer reviewed.**
 
-
-<a target = "_blank" href="reports/LSHTM-CMMID-20201019-CoMix-national_local_restrictions.pdf" title="CoMix restricitions full report">Click here to read our full report.</a>
 
 Background: 
 The United Kingdom’s (UK) COVID-19 response transitioned from a national lockdown to more localised interventions with less restrictive national measures. In September 2020, the UK imposed three national restrictions; the Rule of Six, pubs and restaurants closing at 10pm, and encouraging individuals to work from home (WFH). 
@@ -49,6 +51,7 @@ Among 3,222 individuals, we found strong evidence (p<0.001) that following the r
 Conclusions:
 We determine that the rule of six and encouraging people to WFH, has seen the average person reduce contacts but these reductions are likely small. There was little suggestion that 10pm closure has affected the number of contacts that participants make outside home, work and school. In contrast to national restrictions, there was a strong suggestion that local restrictions reduced the number of contacts individuals make outside of work and school, though again, this effect was small in comparison to the national lockdown. 
 
+[CoMix restricitions full report](reports/comix/LSHTM-CMMID-20201019-CoMix-national_local_restrictions.pdf)
 
-<br />
+
 
