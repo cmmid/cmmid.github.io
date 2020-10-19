@@ -1,7 +1,7 @@
 ---
 
 # add the title of your project
-title: "The impact of local and national restrictions in response to COVID-19 on social contacts in the UK: a longitudinal natural experiment."
+title: 'The impact of local and national restrictions in response to COVID-19 on social contacts in the UK: a longitudinal natural experiment.'
 
 description: We present the analyses of the impact of national and local restrictions on the number of setting-specific contacts that people have prior to and during the restrictions from an ongoing survey (CoMix) which tracks social contact behaviour during the Covid-19 pandemic.
 
