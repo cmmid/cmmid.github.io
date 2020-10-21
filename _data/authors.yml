@@ -325,6 +325,12 @@
   email: anna.vassall@student.lshtm.ac.uk
   url: https://www.lshtm.ac.uk/aboutus/people/vassall.anna
   twitter: annavassall
+- id: fergus_cummings
+  name: Fergus Cummings
+- id: tom_ward
+  name: Tom Ward
+- id: kerry_wong
+  name: Kerry LM Wong
 - id: ncov-group
   name: CMMID nCov working group
   type: group
