@@ -20,7 +20,7 @@ status: paper-published-at-journal
 # status: comment-opinion-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-05-06
+update: 2020-10-23
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
