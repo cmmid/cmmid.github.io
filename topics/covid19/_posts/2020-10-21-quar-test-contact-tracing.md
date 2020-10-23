@@ -32,6 +32,7 @@ authors:
     equal: 1 
   - id: stefan_flasche
   - id: adam_kucharski
+  - id: ncov-group
   - id: john_edmunds
 
 tags: [control-measures]
