@@ -13,7 +13,7 @@ tags: [transmission-dynamics, severity]
 # defaults to paper-under-peer-review if not set
 # status: paper-under-peer-review
 # status: paper-accepted-at-journal
- status: paper-published-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
