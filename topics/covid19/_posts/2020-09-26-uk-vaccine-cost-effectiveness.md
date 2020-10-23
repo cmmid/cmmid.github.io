@@ -20,7 +20,7 @@ status: paper-under-peer-review
 # status: comment-opinion-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-09-25
+update: 2020-10-23
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -28,11 +28,11 @@ update: 2020-09-25
 # can set equal: X to show 'contributed equally'
 # can set corresponding: true to indicate corresponding author
 authors:
-# - id: frank_sandmann
-#corresponding: true
+  - id: frank_sandmann
+    corresponding: true
   - id: nick_davies
   - id: ncov-group
-#- id: anna_vassall
+  - id: anna_vassall
   - id: john_edmunds
   - id: mark_jit
 
