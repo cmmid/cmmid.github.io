@@ -3,7 +3,7 @@
 # add the title of your project
 title: Human movements can inform the spatial scale of interventions against COVID-19 transmission
 
-description: We evaluated if Facebook for Good mobility data can provide information about movements within the UK and how people interact.
+description: We evaluated if Facebook for Good mobility data can provide information about movements within the UK during intervention periods and afterward.
 
 # delete any tags which aren't appropriate
 # if you need more tags, they can be created! Please discuss.
@@ -20,7 +20,7 @@ status: paper-under-peer-review
 # status: comment-opinion-journal
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2020-010-26
+update: 2020-10-26
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
