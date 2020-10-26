@@ -35,7 +35,7 @@ authors:
   - id: james_cheshire
   - id: leon_danon
   - id: liam_smeeth
-  - id: carl_pearson
+  - id: carl_ab_pearson
   - id: chris_grundy
   - id: ncov-group
   - id: adam_kucharski
