@@ -50,4 +50,4 @@ tags: [transmission-dynamics, control-measures]
 
 **Conclusions:** Our results indicate that sustained transmission was likely occurring several weeks prior to the implementation of the cordon sanitaire in four major cities of mainland China and that the observed decrease in incidence was likely attributable to other non-pharmaceutical, transmission-reducing interventions.
 
-**Read the published paper [here](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01712-9) in BMC Medicine.
+**Read the published paper [here](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01712-9) in BMC Medicine.**
