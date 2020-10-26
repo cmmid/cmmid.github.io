@@ -331,6 +331,12 @@
   name: Tom Ward
 - id: kerry_wong
   name: Kerry LM Wong
+- id: james_cheshire
+  name: James Cheshire
+- id: liam_smeeth
+  name: Liam Smeeth
+- id: leon_danon
+  name: Leon Danon
 - id: ncov-group
   name: CMMID nCov working group
   type: group
