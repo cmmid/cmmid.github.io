@@ -10,7 +10,7 @@ description: "Using reported data on COVID-19 cases and fatalities globally, we 
 status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-07-07
+update: 2020-10-28
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
