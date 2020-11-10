@@ -350,7 +350,7 @@
 - id: eleni_nastouli
   name: Eleni Nastouli
 - id: ncov-group
-  name: CMMID nCov working group
+  name: CMMID COVID-19 working group
   type: group
   members:
    - adam_kucharski
