@@ -337,6 +337,18 @@
   name: Liam Smeeth
 - id: leon_danon
   name: Leon Danon
+- id: safer_team
+  name: The SAFER Investigators and Field Study Team
+- id: crick_consortium
+  name: The Crick COVID-19 Consortium
+- id: rupert_beale
+  name: Rupert Beale
+- id: gavin_kelly
+  name: Gavin Kelly
+- id: catherine_houlihan
+  name: Catherine Houlihan
+- id: eleni_nastouli
+  name: Eleni Nastouli
 - id: ncov-group
   name: CMMID nCov working group
   type: group
