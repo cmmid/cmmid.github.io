@@ -21,8 +21,10 @@ update: 2020-11-10
 # can set corresponding: true to indicate corresponding author 
 authors:
   - id: joel_hellewell
+    equal: 1
     corresponding: true
   - id: tim_russell
+    equal: 1
   - id: safer_team
   - id: crick_consortium
   - id: ncov-group
