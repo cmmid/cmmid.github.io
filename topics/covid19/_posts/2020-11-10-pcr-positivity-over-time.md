@@ -37,10 +37,6 @@ authors:
 tags: [control-measures]
 ---
 
-<img src="reports/pcr_profile/figure3.png" width="80%" style="display: block; margin: auto;" />
-**Main result (Figure 3): Estimation of positivity over time, and probability that different testing
-frequencies with PCR would detect virus.**
-
 **Summary:** Using data on twice weekly PCR testing of front-line healthcare
 workers, we estimated individual infection times and probability of testing PCR
 positive through time since infection. Our results suggested that
@@ -52,6 +48,10 @@ probability of detection early in the infection period.
 **[Read the full preprint here](reports/pcr_profile/pcr_profile_preprint.pdf).**
 
 **[Reproduce our analysis using the code hosted here](https://github.com/cmmid/pcr-profile)**
+
+<img src="reports/pcr_profile/figure3.png" width="80%" style="display: block; margin: auto;" />
+**Main result (Figure 3): Estimation of positivity over time, and probability that different testing
+frequencies with PCR would detect virus.**
 
 <img src="reports/pcr_profile/figure1.png" width="80%" style="display: block; margin: auto;" />
 **Figure 1: Estimation of positivity over time, and probability that different testing
