@@ -58,5 +58,4 @@ probability of detection early in the infection period.
 frequencies with PCR would detect virus.** 
 
 <img src="reports/pcr_profile/figure2.png" width="80%" style="display: block; margin: auto;" />
-**Figure 2: The posterior of the infection time (Ti) of each participant.** 
-lines).*
+**Figure 2: The posterior of the infection time (Ti) of each participant.**
