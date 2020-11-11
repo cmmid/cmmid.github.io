@@ -45,9 +45,9 @@ Credible Interval: 55-89%). Using these estimates, we simulated testing
 strategies and showed that frequent asymptomatic testing can increase the
 probability of detection early in the infection period.
 
-**[Read the full preprint here](reports/pcr_profile/pcr_profile_preprint.pdf)**
+**[Read the full preprint here](reports/pcr_profile/pcr_profile_preprint.pdf).**
 
-**[Reproduce our analysis using the code hosted here](https://github.com/cmmid/pcr-profile)**
+**[Reproduce our analysis using the code hosted here](https://github.com/cmmid/pcr-profile).**
 
 <img src="reports/pcr_profile/figure3.png" width="80%" style="display: block; margin: auto;" />
 **Main result (Figure 3): Estimation of positivity over time, and probability that different testing
