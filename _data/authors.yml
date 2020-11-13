@@ -22,6 +22,10 @@
   name: Mark Jit
   email: mark.jit@lshtm.ac.uk
   url: https://www.lshtm.ac.uk/aboutus/people/jit.mark
+- id: kaja-a
+  name: Kaja Abbas
+  email: kaja.abbas@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/abbas.kaja
 - id: john_edmunds
   name: W John Edmunds
   email: john.edmunds@lshtm.ac.uk
@@ -337,8 +341,6 @@
   name: Liam Smeeth
 - id: leon_danon
   name: Leon Danon
-- id: kaja_abbas
-  name: Kaja Abbas
 - id: safer_team
   name: The SAFER Investigators and Field Study Team
 - id: crick_consortium
