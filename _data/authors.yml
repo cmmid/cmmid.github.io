@@ -341,10 +341,17 @@
   name: Liam Smeeth
 - id: leon_danon
   name: Leon Danon
+- id: malcolm_semple
+  name: Malcolm G Semple
+  email: M.G.Semple@liverpool.ac.uk
+  url: https://www.liverpool.ac.uk/translational-medicine/staff/malcolm-semple/
+  twitter: ProfCalumSemple
 - id: safer_team
   name: The SAFER Investigators and Field Study Team
 - id: crick_consortium
   name: The Crick COVID-19 Consortium
+- id: isaric4c_investigators
+  name: ISARIC4C Investigators
 - id: rupert_beale
   name: Rupert Beale
 - id: gavin_kelly
