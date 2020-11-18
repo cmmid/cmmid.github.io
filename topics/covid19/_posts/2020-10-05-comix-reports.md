@@ -22,10 +22,13 @@ update: 2020-10-05
 # can set equal: X to show 'contributed equally'
 # can set corresponding: true to indicate corresponding author
 authors:
-  - id: amy_gimma
   - id: chris_jarvis
+  - id: amy_gimma
   - id: kevin_vanzandvoort
+  - id: kerry_wong
+  - id: james_munday
   - id: petra_klepac
+  - id: seb_funk
   - id: john_edmunds
     corresponding: true
   - id: ncov-group
@@ -77,3 +80,9 @@ Weekly analyses were conducted when possible. We aimed to track the reproduction
 [Comix week 20-23](reports/comix/CoMix Weekly Report 20-23.pdf)
 
 [Comix week 24](reports/comix/CoMix Weekly Report 24.pdf) 
+
+[Comix week 29](reports/comix/CoMix Weekly Report 29.pdf) 
+
+[Comix week 31](reports/comix/CoMix Weekly Report 31.pdf) 
+
+[Comix week 33](reports/comix/CoMix Weekly Report 33.pdf) 
