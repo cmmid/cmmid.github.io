@@ -14,7 +14,7 @@ tags: [control-measures, mixing-patterns]
 status: report
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2020-10-05
+update: 2020-11-18
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
