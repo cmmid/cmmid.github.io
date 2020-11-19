@@ -5,12 +5,16 @@ title: Effective transmission across the globe&#58; the role of climate in COVID
 
 description: We discussed the current evidence on the role of climate on COVID-19 transmission.
 
-status: paper-under-peer-review
+# delete any tags which aren't appropriate
+# if you need more tags, they can be created! Please discuss.
+tags: [comments-opinions] 
+
+# status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-03-26
+update: 2020-11-19
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -30,6 +34,8 @@ redirect_from:
 
 tags: [transmission-dynamics]
 ---
+
+**Read the published letter [here](https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30106-6/fulltext)**.
 
 COVID-19 has been declared a pandemic by the World Health Organization (WHO), owing to its rapid global spread and alarming ability to quickly overwhelm healthcare services with patients requiring critical care \[1\]. A pertinent question for COVID-19 mitigation strategies is whether the SARS-CoV-2 virus is less transmissible in hot and humid climates. Some studies support that notion. Sajadi et al.found that regions with established community outbreaks had a lower average temperature and specific humidity compared to areas that did not report significant community transmission \[2\] and similar findings have been observed using ecological niche modelling \[3\]. Similarly, Wang et al. reported a decrease in transmission intensity associated with an increase in temperature and relative humidity \[4\]. An environmental study of SARS-CoV-1 reported reduced survival of the virus at higher temperatures and humidity \[5\] . Such studies have been interpreted by some as sufficient evidence to assume that rising temperatures in boreal summer will likely facilitate COVID-19 control. However, these findings are prone to confounding, including the delay in spread to warmer regions of the world due to travel patterns \[6\] . Hence, it is essential to contextualize these with the current global spread of COVID-19.
 
