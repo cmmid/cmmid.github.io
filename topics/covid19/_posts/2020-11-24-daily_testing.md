@@ -35,7 +35,7 @@ authors:
 tags: [control-measures]
 ---
 
-You can [download a copy of the full report here](reports/daily_testing_20201124.pdf) 
+You can [download a copy of the full report here.](reports/daily_testing_20201124.pdf) 
 
 - Traced contacts of confirmed SARS-CoV-2 cases in the UK are currently asked to quarantine until 14 days have passed from their last exposure to the index case to avert onwards transmission of SARS-CoV-2.
 - Here we assess the merit of using lateral flow antigen (LFA) tests to allow for a shorter quarantine period by testing at its end, or to replace quarantine altogether by testing daily upon tracing and isolating only when test-positive.
