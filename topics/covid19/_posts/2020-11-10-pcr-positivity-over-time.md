@@ -57,12 +57,13 @@ an asymptomatic infection is detected within 7 days of infection.
 
 **Findings:** 
 We estimated that the probability that the PCR test detected infection peaked
-at 77% (54 - 88%) 4 days after infection, decreasing to 50% (38 - 65%) by 10
-days after infection. Our results suggest a substantially higher probability of
-detecting infections 1–3 days after infection than previously published
-estimates. We estimated that testing every other day would detect 57% (33-76%)
-of symptomatic cases prior to onset and 94% (75-99%) of asymptomatic cases
-within 7 days if test results were returned within a day.
+at 77% (95% credible interval (CrI): 54-88%) 4 days after infection, decreasing 
+to 50% (95% CrI: 38-65%) by 10 days after infection. Our results suggest a 
+substantially higher probability of detecting infections 1–3 days after 
+infection than previously published estimates. We estimated that testing every
+other day would detect 57% (95% CrI: 33-76%) of symptomatic cases prior to onset 
+and 94% (95% CrI: 75-99%) of asymptomatic cases within 7 days if test results
+were returned within a day.
 
 **Interpretation:** 
 Our results suggest that routine asymptomatic testing can enable detection of a
@@ -70,7 +71,8 @@ high proportion of infected individuals early in their infection, provided that
 the testing is frequent and the time from testing to notification of results is
 sufficiently fast.
 
-**[Read the full preprint here](reports/pcr_profile/pcr_profile_paper.pdf).**
+**[Read the full preprint here](reports/pcr_profile/manuscript_main_text.pdf) 
+and [the supplementary material here](reports/pcr_profile/manuscript_supplementary_material.pdf).**
 
 **[Reproduce our analysis using the code hosted here](https://github.com/cmmid/pcr-profile).**
 
