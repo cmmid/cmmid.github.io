@@ -37,6 +37,11 @@ tags: [control-measures]
 
 You can [download a copy of the full report here](reports/daily_testing_20201124.pdf) 
 
+![Transmission potential averted by different quarantine and/or testing strategies](figures/daily_vs_end_quar_n_tests_plot.png)
+
+Figure: Transmission potential averted (integral of infectivity curve over time spent in quarantine or isolation) for each strategy, with quarantine-based strategies (quarantine required from time of tracing until n days have passed since exposure, either with or without a test on the final day) in A and daily testing strategies (daily lateral-flow antigen tests without quarantine for n days from tracing, isolating only upon a positive test result) in B. Quarantine adherence assumed to be 50% prior to symptom onset or a positive test result, where adherence is assumed to increase to 67%. The delay from index case’s positive test until the tracing of secondary cases is assumed to be 3 days (current average) (4). Time-varying values of sensitivity of LFA given by scaling the corresponding PCR value by 0.739. Central bars indicate the median amount of transmission potential averted for a given strategy, with 95% and 50% uncertainty intervals indicated by light and dark shaded bars, respectively. Here PCR tests (purple) are shown on the day of sampling, however the return of a result would take 1-2 days, and hence some additional transmission would be averted while awaiting a test result. For other assumptions of symptomatic self-isolation rates, and test and trace delays, see Figure S2 and S3.
+
+
 - Traced contacts of confirmed SARS-CoV-2 cases in the UK are currently asked to quarantine until 14 days have passed from their last exposure to the index case to avert onwards transmission of SARS-CoV-2.
 - Here we assess the merit of using lateral flow antigen (LFA) tests to allow for a shorter quarantine period by testing at its end, or to replace quarantine altogether by testing daily upon tracing and isolating only when test-positive.
 - We use an agent-based model of SARS-CoV-2 infection to simulate an exposed contact’s contact tracing delay, incubation period, probability of becoming symptomatic, infectivity profile, and time-varying probability of detection with PCR and LFA. 
