@@ -70,7 +70,7 @@ high proportion of infected individuals early in their infection, provided that
 the testing is frequent and the time from testing to notification of results is
 sufficiently fast.
 
-**[Read the full preprint here](reports/pcr_profile/pcr_profile_preprint.pdf).**
+**[Read the full preprint here](reports/pcr_profile/pcr_profile_paper.pdf).**
 
 **[Reproduce our analysis using the code hosted here](https://github.com/cmmid/pcr-profile).**
 
