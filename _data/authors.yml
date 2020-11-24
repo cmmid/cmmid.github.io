@@ -22,6 +22,10 @@
   name: Mark Jit
   email: mark.jit@lshtm.ac.uk
   url: https://www.lshtm.ac.uk/aboutus/people/jit.mark
+- id: kaja-a
+  name: Kaja Abbas
+  email: kaja.abbas@lshtm.ac.uk
+  url: https://www.lshtm.ac.uk/aboutus/people/abbas.kaja
 - id: john_edmunds
   name: W John Edmunds
   email: john.edmunds@lshtm.ac.uk
@@ -265,8 +269,8 @@
   url:
 - id: nick_golding
   name: Nick Golding
-- id: joesph_wu
-  name: Joesph Wu
+- id: joseph_wu
+  name: Joseph Wu
 - id: loz_wright
   name: Lawrence Wright
 - id: andy_clark
@@ -337,8 +341,27 @@
   name: Liam Smeeth
 - id: leon_danon
   name: Leon Danon
+- id: malcolm_semple
+  name: Malcolm G Semple
+  email: M.G.Semple@liverpool.ac.uk
+  url: https://www.liverpool.ac.uk/translational-medicine/staff/malcolm-semple/
+  twitter: ProfCalumSemple
+- id: safer_team
+  name: The SAFER Investigators and Field Study Team
+- id: crick_consortium
+  name: The Crick COVID-19 Consortium
+- id: isaric4c_investigators
+  name: ISARIC4C Investigators
+- id: rupert_beale
+  name: Rupert Beale
+- id: gavin_kelly
+  name: Gavin Kelly
+- id: catherine_houlihan
+  name: Catherine Houlihan
+- id: eleni_nastouli
+  name: Eleni Nastouli
 - id: ncov-group
-  name: CMMID nCov working group
+  name: CMMID COVID-19 working group
   type: group
   members:
    - adam_kucharski
@@ -392,3 +415,4 @@
    - yungwai_chan
    - rosie_barnard
    - frank_sandmann
+   - kaja-a
