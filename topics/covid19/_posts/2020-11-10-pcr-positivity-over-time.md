@@ -46,7 +46,7 @@ probability of detecting an infection will vary throughout the course of an
 infection. The effectiveness of routine asymptomatic testing will therefore
 depend on how testing and PCR detection varies over time.
 
-**Methods:**                
+**Methods:**
 We fitted a Bayesian statistical model to a dataset of twice weekly PCR tests
 of UK healthcare workers performed by self-administered nasopharyngeal swab,
 regardless of symptoms. We jointly estimated times of infection and the
@@ -55,7 +55,7 @@ asymptomatic testing strategies by calculating the probability that a
 symptomatic infection is detected before symptom onset and the probability that
 an asymptomatic infection is detected within 7 days of infection.
 
-**Findings:** 
+**Findings:**
 We estimated that the probability that the PCR test detected infection peaked
 at 77% (95% credible interval (CrI): 54-88%) 4 days after infection, decreasing 
 to 50% (95% CrI: 38-65%) by 10 days after infection. Our results suggest a 
@@ -65,7 +65,7 @@ other day would detect 57% (95% CrI: 33-76%) of symptomatic cases prior to onset
 and 94% (95% CrI: 75-99%) of asymptomatic cases within 7 days if test results
 were returned within a day.
 
-**Interpretation:** 
+**Interpretation:**
 Our results suggest that routine asymptomatic testing can enable detection of a
 high proportion of infected individuals early in their infection, provided that
 the testing is frequent and the time from testing to notification of results is
