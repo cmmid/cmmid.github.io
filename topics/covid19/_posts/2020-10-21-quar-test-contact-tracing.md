@@ -55,3 +55,6 @@ You can download a copy of the full report [here.](reports/2020-12-04-quar_test_
 
 **Funding:** National Institute for Health Research, UK Research and Innovation, Wellcome Trust, Bill & Melinda Gates Foundation, and EU Horizon 2020.
 
+
+![Transmission potential averted by different quarantine and/or testing strategies](figures/daily_vs_end_quar_n_tests_plot2.png)
+Figure: Ratio of transmission potential averted (sum of days of secondary cases’ infectious periods spent in quarantine or self-isolation / sum of days of secondary cases’ infectious periods) for each strategy vs the baseline of 14 days quarantine with no testing, with quarantine-based strategies (quarantine required from time of tracing until n days have passed since exposure, either with or without a test on the final day) in A and daily testing strategies (daily lateral-flow antigen tests without quarantine for n days from tracing, isolating only upon a positive test result) in B. Quarantine and self-isolation adherence assumed to be 50% and 67%, respectively. The delay from index case’s positive test until the tracing of secondary cases is assumed to be 3 days (current average) (18). Central bars indicate the median ratio for a given strategy, with 95% and 50% uncertainty intervals indicated by light and dark shaded bars, respectively. 
