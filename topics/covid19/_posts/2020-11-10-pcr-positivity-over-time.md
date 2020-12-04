@@ -74,6 +74,8 @@ sufficiently fast.
 **[Read the full preprint here](reports/pcr_profile/manuscript_main_text.pdf) 
 and [the supplementary material here](reports/pcr_profile/manuscript_supplementary_material.pdf).**
 
+**[Download the median and 95% credible interval for our PCR-positivity curve here](https://github.com/cmmid/pcr-profile/blob/main/PCR_curve_summary.csv) and [Download the median and 95% credible interval for our lateral flow test positivity curve here](https://github.com/cmmid/pcr-profile/blob/main/LFT_curve_summary.csv)** 
+
 **[Reproduce our analysis using the code hosted here](https://github.com/cmmid/pcr-profile).**
 
 <img src="reports/pcr_profile/figure3.png" width="80%" style="display: block; margin: auto;" />
