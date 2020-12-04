@@ -7,16 +7,16 @@ description: We evaluate the ability of different quarantine and testing strateg
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
-# status: paper-under-peer-review
+status: paper-under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 # status: real-time-report
-status: report
+# status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-10-21
+update: 2020-12-04
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -30,18 +30,25 @@ authors:
     corresponding: true
   - id: sam_clifford
     equal: 1 
-  - id: stefan_flasche
+  - id:joel_hellewell
+    equal: 2 
+  - id: tim_russell
+    equal: 2
   - id: adam_kucharski
   - id: ncov-group
+  - id: stefan_flasche
   - id: john_edmunds
+  
+redirect_from:
+  - /topics/covid/daily_testing.html
 
 tags: [control-measures]
 ---
 
-You can [download a copy of the full report here](reports/quar_test_contact_tracing/2020-10-18-quar_test_contact_tracing.pdf)
+You can [download a copy of the full report here](reports/quar_test_contact_tracing/2020-12-04-quar_test_contact_tracing.pdf)
 
-In most countries, contacts of confirmed COVID-19 cases are asked to quarantine for 14 days following exposure, to limit asymptomatic onward transmission. We assessed the merit of RT-PCR testing in reducing the length of quarantine, using the UK as a case study.
-We used an agent-based model to simulate an exposed contact’s  contact tracing detecting delay, incubation period, probability to become symptomatic, infectivity profile, and time-varying PCR detection probability. Assuming self-isolation on symptom onset, we assess the impact of the current 14 day quarantine strategy for all exposed contacts on their onward transmission potential and compare to alternative  quarantine lengths with or without  PCR tests during quarantine.
-Self-isolation on symptoms onset alone can prevent 39% (95% Uncertainty Interval for super spreading events: 34, 45%) of onward transmission from secondary cases. An additional 14 days post-exposure quarantine for all contacts reduces transmission by 70% (95% UI: 39, 90%). A negative PCR test taken upon tracing or 7 days after exposure can reduce transmission by 62% (95% UI: 40, 84%) or 68% (95% UI: 40, 88%) respectively. Halving contact tracing delays of currently 4 days reduces pre-tracing transmission potential from 26% (95% UI: 7, 56%) to 14% (95% UI: 5, 42%).
-PCR testing may allow for a substantial reduction in quarantine needs or even replacing quarantine requirements with no or a small excess in transmission risk respectively. Reducing contact tracing delays can help prevent a substantial amount of transmission.
-
+**Background:** In most countries, contacts of confirmed COVID-19 cases are asked to quarantine for 14 days following exposure to limit asymptomatic onward transmission. We assessed the merit of testing contacts to avert transmission as well as to replace or reduce the length of quarantine for uninfected contacts.
+**Methods:** We used an agent-based model to simulate the viral load dynamics of exposed contacts, their probability of detection over time, and their potential for onwards transmission in different quarantine and testing strategies. We compare the performance of quarantine, quarantine and testing with polymerase chain reaction (PCR) or lateral flow antigen (LFA) tests, and daily LFA testing without quarantine, against the current 14 day quarantine strategy.
+**Findings:** Assuming moderate levels of adherence to quarantine and self-isolation, self-isolation on symptom onset alone can prevent 37% (95% UI: 12%, 56%) of onward transmission potential from secondary cases. 14 days of post-exposure quarantine reduces transmission by 59% (95% UI: 28%, 79%). Quarantine with an LFA test 7 days after exposure or daily testing without quarantine for 5 days after tracing may avert a similar proportion (risk ratios of 0.88 (95% UI: 0.66, 1.11) and 0.88 (95% UI: 0.60, 1.43), respectively) compared to that of the 14 day quarantine, with greater benefit possible if individuals isolate more strictly after a positive test.
+**Interpretation:** Testing may allow for a substantial reduction in the length of, or replacement of quarantine with a small excess in transmission risk. Decreasing test and trace delays and increasing adherence will further increase the effectiveness of these strategies.
+**Funding:** National Institute for Health Research, UK Research and Innovation, Wellcome Trust, Bill & Melinda Gates Foundation, and EU Horizon 2020.
