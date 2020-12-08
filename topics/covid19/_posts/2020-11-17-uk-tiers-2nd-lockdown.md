@@ -20,7 +20,7 @@ status: paper-under-peer-review
 # status: comment-opinion-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-11-18
+update: 2020-12-08
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -54,3 +54,5 @@ A second wave of COVID-19 cases in Autumn 2020 led to localised, tiered “Alert
 **Interpretation:** Lockdown measures consistently outperform less stringent restrictions in reducing cumulative deaths. Amongst the scenarios modelled, the policy adopted in England appears to be a reasonable compromise—given the current epidemiological situation—as it reduces pressure on the health service to a similar extent to longer or more stringent lockdowns, is well-timed to suppress deaths over the winter period and keeps schools open.
 
 Read the full pre-print [here.](reports/uk-tiers-2nd-lockdown/uk_tiers_2nd_lockdown.pdf)
+
+We have archived the original report submitted to the Chief Medical Officer on Saturday, October 31 [here.](reports/uk-tiers-2nd-lockdown/Impact of lockdown on COVID-19 in England.pptx)
