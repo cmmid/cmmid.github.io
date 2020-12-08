@@ -55,4 +55,4 @@ A second wave of COVID-19 cases in Autumn 2020 led to localised, tiered “Alert
 
 Read the full pre-print [here.](reports/uk-tiers-2nd-lockdown/uk_tiers_2nd_lockdown.pdf)
 
-We have archived the original report submitted to the Chief Medical Officer on Saturday, October 31 [here.](reports/uk-tiers-2nd-lockdown/Impact of lockdown on COVID-19 in England.pptx)
+We have archived the original report submitted to UK policymakers on Saturday, October 31 [here.](reports/uk-tiers-2nd-lockdown/Impact of lockdown on COVID-19 in England.pptx)
