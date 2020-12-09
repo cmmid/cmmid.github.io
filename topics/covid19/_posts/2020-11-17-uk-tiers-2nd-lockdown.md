@@ -11,8 +11,8 @@ tags: [control-measures, transmission-dynamics]
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
-status: paper-under-peer-review
-# status: paper-accepted-at-journal
+# status: paper-under-peer-review
+status: paper-accepted-at-journal
 # status: paper-published-at-journal
 # status: real-time-report
 # status: report
