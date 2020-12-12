@@ -12,11 +12,11 @@ tags: [comments-opinions]
 # defaults to paper-under-peer-review if not set
 # status: paper-under-peer-review
 # status: paper-accepted-at-journal
-status: paper-published-at-journal
+# status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
-# status: comment-opinion-journal
+ status: comment-opinion-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-12-09
