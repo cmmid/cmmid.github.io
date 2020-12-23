@@ -50,11 +50,10 @@ authors:
 
 tags: [control-measures]
 
----
 
 A novel SARS-CoV-2 variant, VOC 202012/01, emerged in southeast England in November 2020 and appears to be rapidly spreading towards fixation. We fitted a two-strain mathematical model of SARS-CoV-2 transmission to observed COVID-19 hospital admissions, hospital and ICU bed occupancy, and deaths; SARS-CoV-2 PCR prevalence and seroprevalence; and the relative frequency of VOC 202012/01 in the three most heavily affected NHS England regions (South East, East of England, and London). We estimate that VOC 202012/01 is 56% more transmissible (95% credible interval across three regions 50-74%) than preexisting variants of SARS-CoV-2. We were unable to find clear evidence that VOC 202012/01 results in greater or lesser severity of disease than preexisting variants. Nevertheless, the increase in transmissibility is likely to lead to a large increase in incidence, with COVID-19 hospitalisations and deaths projected to reach higher levels in 2021 than were observed in 2020, even if regional tiered restrictions implemented before 19 December are maintained. Our estimates suggest that control measures of a similar stringency to the national lockdown implemented in England in November 2020 are unlikely to reduce the effective reproduction number Rt to less than 1, unless primary schools, secondary schools, and universities are also closed. We project that large resurgences of the virus are likely to occur following easing of control measures. It may be necessary to greatly accelerate vaccine roll-out to have an appreciable impact in suppressing the resulting disease burden.
 
-**[Read the full preprint here](reports/uk-novel-variant/2020_12_23_Transmissibility_and_severity of_VOC_202012_01_in_England.pdf).**
+**[Read the full preprint here](reports/uk-novel-variant/2020_12_23_Transmissibility_and_severity_of_VOC_202012_01_in_England.pdf).**
 
 <img src="figures/uk_novel_variant_Figure1.png" width="80%" style="display: block; margin: auto;" />
 
