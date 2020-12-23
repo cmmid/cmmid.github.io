@@ -7,9 +7,11 @@ status: report
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 
+tags: [control-measures]
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-12-23
+
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -45,6 +47,7 @@ authors:
   - id: mark_jit
   - id: katherine_atkins
   - id: john_edmunds
+
 
 tags: [control-measures]
 
