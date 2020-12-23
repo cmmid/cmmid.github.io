@@ -48,7 +48,6 @@ authors:
   - id: katherine_atkins
   - id: john_edmunds
 
-
 tags: [control-measures]
 
 ---
@@ -58,4 +57,5 @@ A novel SARS-CoV-2 variant, VOC 202012/01, emerged in southeast England in Novem
 **[Read the full preprint here](reports/uk-novel-variant/2020_12_23_Transmissibility_and_severity of_VOC_202012_01_in_England.pdf).**
 
 <img src="figures/uk_novel_variant_Figure1.png" width="80%" style="display: block; margin: auto;" />
+
 **Fig. 1.** (A) Proportion of VOC 202012/01 in South East, East of England, and London NHS England regions versus the rest of England from 28 September – 1 December 2020 (mean and 95% CI). Grey shaded areas (panels A, C, D) reflect the period of time when England was in a second national lockdown. We cut off the data after 1 December 2020 due to a substantial decrease in representativeness after this time (Fig. S4). (B) Proportion of S gene drop-outs (5 – 11 December) versus mean reproduction number (27 November – 4 December) by local authority in England. The one-week lag accounts for delays from infection to test. (C) Percentage change (95% CI) in Google Mobility indices relative to baseline over time and (D) setting-specific mean contacts (95% CI) from the CoMix study (9) over time and by age for local authorities that went into Tier 4 compared to the rest of England. Educ = education setting. Some local authorities that were within the South East, East of England, and London NHS England regions did not go into Tier 4 and were therefore included in the rest of England for panels C and D. (E) Estimates of R0 (50% and 95% CI) from CoMix social contact survey compared to Rt estimates from REACT-1 SARS-CoV-2 prevalence survey for England. R estimates based on single and aggregated REACT-1 survey rounds are shown.
