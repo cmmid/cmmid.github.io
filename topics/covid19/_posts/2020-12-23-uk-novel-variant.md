@@ -23,19 +23,19 @@ authors:
   - id: nick_davies
     corresponding: true
   - id: rosie_barnard
-      equal: 1
+    equal: 1
   - id: chris_jarvis
-      equal: 1
+    equal: 1
   - id: adam_kucharski
-      equal: 1
+    equal: 1
   - id: james_munday
-      equal: 1
+    equal: 1
   - id: carl_pearson
-      equal: 1
+    equal: 1
   - id: tim_russell
-      equal: 1
+    equal: 1
   - id: damien_tully
-      equal: 1
+    equal: 1
   - id: sam_abbott
   - id: amy_gimma
   - id: william_waites
