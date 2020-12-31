@@ -4,7 +4,7 @@ title: "Estimated transmissibility and severity of novel SARS-CoV-2 Variant of C
 
 description: "Combining multiple behavioural and epidemiological data sources with mathematical models, we analysed the transmissibility and severity of novel SARS-CoV-2 Variant of Concern 202012/01 in England."
 
-status: report
+status: paper-under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 
