@@ -87,8 +87,8 @@ Weekly analyses were conducted when possible. We aimed to track the reproduction
 
 [Comix week 33](reports/comix/CoMix Weekly Report 33.pdf) 
 
-[Comix week 34](reports/comix/CoMix Weekly Report 34.pdf) 
+[Comix week 34](reports/comix/Comix Weekly Report 34.pdf) 
 
-[Comix week 36](reports/comix/CoMix Weekly Report 36.pdf) 
+[Comix week 36](reports/comix/Comix Weekly Report 36.pdf) 
 
-[Comix week 38](reports/comix/CoMix Weekly Report 38.pdf) 
+`[Comix week 38](reports/comix/Comix Weekly Report 38.pdf) 
