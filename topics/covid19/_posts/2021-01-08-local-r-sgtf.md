@@ -8,7 +8,7 @@ status: real-time-report
 
 tags: [transmission-dynamics]
 
-update: 2020-01-08
+update: 2021-01-08
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
