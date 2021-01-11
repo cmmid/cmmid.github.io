@@ -11,7 +11,7 @@ status: paper-under-peer-review
 tags: [transmission-dynamics, severity, lmic-considerations, control-measures, comments-opinions]
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-01-11
+update: 2021-01-11
 
 authors:
   - id: carl_ab_pearson
