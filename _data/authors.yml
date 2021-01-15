@@ -362,6 +362,8 @@
   name: Eleni Nastouli
 - id: william_waites
   name: William Waites
+- id: collaborators_bed_pathways
+  name: Naomi M Fuller, Ruth H Keogh, Karla Diaz-Ordaz, Richard Sekula
 - id: ncov-group
   name: CMMID COVID-19 working group
   type: group
