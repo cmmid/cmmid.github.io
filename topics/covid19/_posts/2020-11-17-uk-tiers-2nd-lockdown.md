@@ -12,15 +12,15 @@ tags: [control-measures, transmission-dynamics]
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
 # status: paper-under-peer-review
-status: paper-accepted-at-journal
-# status: paper-published-at-journal
+# status: paper-accepted-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-12-08
+update: 2021-01-23
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -41,6 +41,8 @@ authors:
 
 ---
 
+This manuscript has now been published in [The Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30984-1/fulltext).
+
 We have archived the original report submitted to UK policymakers on Saturday, October 31 [here.](reports/uk-tiers-2nd-lockdown/Impact of lockdown on COVID-19 in England.pptx)
 
 A second wave of COVID-19 cases in Autumn 2020 led to localised, tiered “Alert Level” restrictions and subsequently a second national lockdown in England. We examine the impact of these tiered restrictions and alternatives for lockdown stringency, timing and duration.
@@ -58,6 +60,6 @@ We estimated a reduction in the effective reproduction number Rt of 2% (95% conf
 **Interpretation**
 Lockdown measures outperform less stringent restrictions in reducing cumulative deaths. The policy adopted in England reduces pressure on the health service, is well-timed to suppress deaths over the winter period, and keeps schools open. Following completion of the analysis, we analysed new data from November 2020, and found that despite similarities in policy, the second lockdown in England had a smaller impact on behaviour than the second lockdown in Wales.
 
-Read the full pre-print [here.](reports/uk-tiers-2nd-lockdown/uk_tiers_2nd_lockdown.pdf)
+Read the full pre-print [here.](reports/uk-tiers-2nd-lockdown/uk_tiers_2nd_lockdown.pdf) or the published article at [The Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30984-1/fulltext).
 
 
