@@ -60,6 +60,6 @@ We estimated a reduction in the effective reproduction number Rt of 2% (95% conf
 **Interpretation**
 Lockdown measures outperform less stringent restrictions in reducing cumulative deaths. The policy adopted in England reduces pressure on the health service, is well-timed to suppress deaths over the winter period, and keeps schools open. Following completion of the analysis, we analysed new data from November 2020, and found that despite similarities in policy, the second lockdown in England had a smaller impact on behaviour than the second lockdown in Wales.
 
-Read the full pre-print [here.](reports/uk-tiers-2nd-lockdown/uk_tiers_2nd_lockdown.pdf) or the published article at [The Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30984-1/fulltext).
+Read the full pre-print [here](reports/uk-tiers-2nd-lockdown/uk_tiers_2nd_lockdown.pdf), or the published article at [The Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30984-1/fulltext).
 
 
