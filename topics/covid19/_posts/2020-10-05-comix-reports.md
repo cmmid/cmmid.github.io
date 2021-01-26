@@ -35,7 +35,6 @@ authors:
 
 ---
 
-**These reports have not been peer reviewed.**
 
 We present updated reports from the [CoMix social contacts survey](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01597-8). Participants reported the total number of direct contacts that they had on the day before the survey, which are people with whom they had at least a brief face-to-face conversation, or with whom they had any sort of skin-to-skin contact. Week 1 links to a peer reviewed publications of the CoMix study which provides further details of the [study questions](https://static-content.springer.com/esm/art%3A10.1186%2Fs12916-020-01597-8/MediaObjects/12916_2020_1597_MOESM2_ESM.pdf) and the [study protocol](https://static-content.springer.com/esm/art%3A10.1186%2Fs12916-020-01597-8/MediaObjects/12916_2020_1597_MOESM1_ESM.pdf).
 
