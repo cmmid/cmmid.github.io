@@ -43,7 +43,7 @@ Weekly analyses were conducted when possible. We aimed to track the reproduction
 
 # Latest Reports
 
-<!--[Latest Report](reports/comix/Comix Weekly Report 43b- Effect of school opening.pdf) -->
+[Comix week 43](reports/comix/Comix Weekly Report 43.pdf) 
 
 [Comix week 43b- Schools](reports/comix/Comix Weekly Report 43b- Effect of school opening.pdf) 
 
