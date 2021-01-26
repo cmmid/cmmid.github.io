@@ -41,58 +41,67 @@ We present updated reports from the [CoMix social contacts survey](https://bmcme
 
 Weekly analyses were conducted when possible. We aimed to track the reproduction number and mean contacts over time and explore differences in regions. Additional ah-hoc analyses were also performed these changed on a week by week basis.
 
+# Latest Reports
 
-# Reports
-[Comix week 1](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01597-8)
+<!--[Latest Report](reports/comix/Comix Weekly Report 43b- Effect of school opening.pdf) -->
 
-[Comix week 2](reports/comix/CoMix Weekly Report 2.pdf)
+[Comix week 43b- Schools](reports/comix/Comix Weekly Report 43b- Effect of school opening.pdf) 
 
-[Comix week 3](reports/comix/CoMix Weekly Report 3.pdf)
-
-[Comix week 4](reports/comix/CoMix Weekly Report 4.pdf)
-
-[Comix week 5](reports/comix/CoMix Weekly Report 5.pdf)
-
-[Comix week 8](reports/comix/CoMix Weekly Report 8.pdf)
-
-[Comix week 9](reports/comix/CoMix Weekly Report 9.pdf)
-
-[Comix week 10](reports/comix/CoMix Weekly Report 10.pdf)
-
-[Comix week 11](reports/comix/CoMix Weekly Report 11.pdf)
-
-[Comix week 12](reports/comix/CoMix Weekly Report 12.pdf)
-
-[Comix week 13](reports/comix/CoMix Weekly Report 13.pdf)
-
-[Comix week 14](reports/comix/CoMix Weekly Report 14.pdf)
-
-[Comix week 15](reports/comix/CoMix Weekly Report 15.pdf)
-
-[Comix week 16](reports/comix/CoMix Weekly Report 16.pdf)
-
-[Comix week 17](reports/comix/CoMix Weekly Report 17.pdf)
-
-[Comix week 18](reports/comix/CoMix Weekly Report 18.pdf)
-
-[Comix week 19](reports/comix/CoMix Weekly Report 19.pdf)
-
-[Comix week 20-23](reports/comix/CoMix Weekly Report 20-23.pdf)
-
-[Comix week 24](reports/comix/CoMix Weekly Report 24.pdf) 
-
-[Comix week 29](reports/comix/CoMix Weekly Report 29.pdf) 
-
-[Comix week 31](reports/comix/CoMix Weekly Report 31.pdf) 
-
-[Comix week 33](reports/comix/CoMix Weekly Report 33.pdf) 
-
-[Comix week 34](reports/comix/Comix Weekly Report 34.pdf) 
-
-[Comix week 36](reports/comix/Comix Weekly Report 36.pdf) 
-
-[Comix week 38](reports/comix/Comix Weekly Report 38.pdf) 
+# Recent Reports
+[Comix week 42](reports/comix/Comix Weekly Report 42.pdf) 
 
 [Comix week 41](reports/comix/Comix Weekly Report 41.pdf) 
 
-[Comix week 42](reports/comix/Comix Weekly Report 42.pdf) 
+[Comix week 38](reports/comix/Comix Weekly Report 38.pdf) 
+
+
+# Older Reports
+
+[Comix week 36](reports/comix/Comix Weekly Report 36.pdf) 
+
+[Comix week 34](reports/comix/Comix Weekly Report 34.pdf) 
+
+[Comix week 33](reports/comix/CoMix Weekly Report 33.pdf) 
+
+[Comix week 31](reports/comix/CoMix Weekly Report 31.pdf) 
+
+[Comix week 29](reports/comix/CoMix Weekly Report 29.pdf) 
+
+[Comix week 24](reports/comix/CoMix Weekly Report 24.pdf) 
+
+[Comix week 20-23](reports/comix/CoMix Weekly Report 20-23.pdf)
+
+[Comix week 19](reports/comix/CoMix Weekly Report 19.pdf)
+
+[Comix week 18](reports/comix/CoMix Weekly Report 18.pdf)
+
+[Comix week 17](reports/comix/CoMix Weekly Report 17.pdf)
+
+[Comix week 16](reports/comix/CoMix Weekly Report 16.pdf)
+
+[Comix week 15](reports/comix/CoMix Weekly Report 15.pdf)
+
+[Comix week 14](reports/comix/CoMix Weekly Report 14.pdf)
+
+[Comix week 13](reports/comix/CoMix Weekly Report 13.pdf)
+
+[Comix week 12](reports/comix/CoMix Weekly Report 12.pdf)
+
+[Comix week 11](reports/comix/CoMix Weekly Report 11.pdf)
+
+[Comix week 10](reports/comix/CoMix Weekly Report 10.pdf)
+
+[Comix week 9](reports/comix/CoMix Weekly Report 9.pdf)
+
+[Comix week 8](reports/comix/CoMix Weekly Report 8.pdf)
+
+[Comix week 5](reports/comix/CoMix Weekly Report 5.pdf)
+
+[Comix week 4](reports/comix/CoMix Weekly Report 4.pdf)
+
+[Comix week 3](reports/comix/CoMix Weekly Report 3.pdf)
+
+[Comix week 2](reports/comix/CoMix Weekly Report 2.pdf)
+
+[Comix week 1](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01597-8)
+
