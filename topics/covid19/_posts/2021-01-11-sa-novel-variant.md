@@ -1,6 +1,6 @@
 ---
 
-title: "Estimates of severity and transmissibility of novel South Africa SARS-CoV-2 variant 501Y.V2"
+title: "Estimates of severity and transmissibility of novel SARS-CoV-2 variant 501Y.V2 in South Africa"
 
 description: "Using globally available data sources with mathematical models, we analysed the transmissibility and severity of a novel SARS-CoV-2 variant, 501Y.V2, in South Africa."
 
