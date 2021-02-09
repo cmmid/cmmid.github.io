@@ -42,19 +42,23 @@ Weekly analyses were conducted when possible. We aimed to track the reproduction
 
 # Latest Reports
 
+[Comix week 45](reports/comix/Comix Weekly Report 45.pdf) 
+
+
+# Recent Reports
+
 [Comix week 43](reports/comix/Comix Weekly Report 43.pdf) 
 
 [Comix week 43b- Schools](reports/comix/Comix Weekly Report 43b- Effect of school opening.pdf) 
 
-# Recent Reports
 [Comix week 42](reports/comix/Comix Weekly Report 42.pdf) 
 
 [Comix week 41](reports/comix/Comix Weekly Report 41.pdf) 
 
-[Comix week 38](reports/comix/Comix Weekly Report 38.pdf) 
 
 
 # Older Reports
+[Comix week 38](reports/comix/Comix Weekly Report 38.pdf) 
 
 [Comix week 36](reports/comix/Comix Weekly Report 36.pdf) 
 
