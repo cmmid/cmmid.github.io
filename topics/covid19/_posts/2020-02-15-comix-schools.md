@@ -36,7 +36,6 @@ authors:
 
 **[Read preprint here.](reports/comix/schools/School Reopening - PreprintVersion.pdf)**
 
-**[Supplementary material.](reports/comix/schools/School Reopening - Supplementary Material - for preprint.pdf)**
 
 
 # Summary
@@ -53,3 +52,5 @@ reopening scenario and that for current contact patterns) under different estima
 profile of susceptibility and infectiousness. B) The estimated R after reopening schools
 (points, 90% CI bars) from baseline R of 0.7, 0.8, 0.9 and 1.0 (vertical line). Dashed vertical
 lines show R = 1.0.
+
+**[Supplementary material.](reports/comix/schools/School Reopening - Supplementary Material - for preprint.pdf)**
