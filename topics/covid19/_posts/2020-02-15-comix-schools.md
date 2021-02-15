@@ -42,6 +42,13 @@ We measured social contacts when schools were either open or closed, amongst oth
 <img src="reports/comix/schools/Schools_reopening_figure_2.png" width="80%" style="display: block; margin: auto;" />
 
 
+**Figure 2: The impact of reopening schools on the reproduction number.** A) the relative
+increase in R (the ratio of dominant eigenvalues between contact matrices for each
+reopening scenario and that for current contact patterns) under different estimates of the age
+profile of susceptibility and infectiousness. B) The estimated R after reopening schools
+(points, 90% CI bars) from baseline R of 0.7, 0.8, 0.9 and 1.0 (vertical line). Dashed vertical
+lines show R = 1.0.
+
 **[Read preprint here.](reports/comix/schools/School Reopening - PreprintVersion.pdf)**
 
 **[Supplementary material.](reports/comix/schools/School Reopening - Supplementary Material - for preprint.pdf)**
