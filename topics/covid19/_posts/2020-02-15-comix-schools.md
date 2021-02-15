@@ -39,6 +39,8 @@ authors:
 **[Supplementary material.](reports/comix/schools/School Reopening - Supplementary Material - for preprint.pdf)**
 
 
+# Summary
+
 We measured social contacts when schools were either open or closed, amongst other restrictions. We combined these data with estimates of the susceptibility and infectiousness of children compared with adults to estimate the impact of reopening schools on the reproduction number. Our results suggest that reopening all schools could increase R from an assumed baseline of 0.8 to between 1.0 and 1.5, or to between 0.9 and 1.2 reopening primary or secondary schools alone.
 
 
