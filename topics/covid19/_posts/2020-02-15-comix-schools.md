@@ -40,9 +40,9 @@ We measured social contacts when schools were either open or closed, amongst oth
 
 
 
-
-
-<img src="reports/comix/schools/Schools_reopening_figure_2.pdf" width="80%" style="display: block; margin: auto;" />
+<object data="reports/comix/schools/Schools_reopening_figure_2.pdf" type="application/pdf" width="80%" style="display: block; margin: auto;>
+    <iframe src="https://docs.google.com/viewer?url=https://cmmid.github.io/topics/covid19/reports/comix/schools/Schools_reopening_figure_2.pdf&embedded=true"></iframe>
+</object>
 
 
 **[Read preprint here.](reports/comix/schools/School Reopening - PreprintVersion.pdf)**
