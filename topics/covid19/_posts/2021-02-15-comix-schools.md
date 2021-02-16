@@ -8,10 +8,10 @@ status: paper-under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 
-tags: [control-measures]
+tags: [control-measures, mixing-patterns]
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2021-02-06
+update: 2021-02-15
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
