@@ -4,5 +4,7 @@
   link: /topics/covid19/
 - name: Apps
   link: /visualisations
+- name: R and Nowcasts
+  link: https://epiforecasts.io/covid/posts/global
 - name: About
   link: /about/
