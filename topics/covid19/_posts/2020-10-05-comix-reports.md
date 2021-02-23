@@ -14,7 +14,7 @@ tags: [control-measures, mixing-patterns]
 status: report
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2020-11-18
+update: 2021-02-23
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -38,13 +38,15 @@ authors:
 
 We present updated reports from the [CoMix social contacts survey](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01597-8). Participants reported the total number of direct contacts that they had on the day before the survey, which are people with whom they had at least a brief face-to-face conversation, or with whom they had any sort of skin-to-skin contact. Week 1 links to a peer reviewed publications of the CoMix study which provides further details of the [study questions](https://static-content.springer.com/esm/art%3A10.1186%2Fs12916-020-01597-8/MediaObjects/12916_2020_1597_MOESM2_ESM.pdf) and the [study protocol](https://static-content.springer.com/esm/art%3A10.1186%2Fs12916-020-01597-8/MediaObjects/12916_2020_1597_MOESM1_ESM.pdf).
 
-Weekly analyses were conducted when possible. We aimed to track the reproduction number and mean contacts over time and explore differences in regions. Additional ah-hoc analyses were also performed these changed on a week by week basis.
+Analyses are present every two weeks. We aimed to track the reproduction number and mean contacts over time and explore differences in regions. Additional ah-hoc analyses were also performed these changed on a week by week basis.
 
 # Latest Reports
 
-[Comix week 45](reports/comix/Comix Weekly Report 45.pdf) 
+[Comix week 47](reports/comix/Comix Weekly Report 47.pdf) 
 
 # Recent Reports
+
+[Comix week 45](reports/comix/Comix Weekly Report 45.pdf) 
 
 [Comix week 43](reports/comix/Comix Weekly Report 43.pdf) 
 
