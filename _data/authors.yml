@@ -368,6 +368,32 @@
   name: Tom Wenseleers
 - id: justin_silverman
   name: Justin D. Silverman
+- id: fiammetta_bozzani
+  name: Fiammetta Bozzani
+- id: maryam_huda
+  name: Maryam Huda
+- id: henning_tarp_jensen
+  name: Henning Tarp Jensen
+- id: marcus_keogh_brown
+  name: Marcus Keogh-Brown
+- id: muhammad_khalid
+  name: Muhammad Khalid
+- id: sedona_sweeney
+  name: Sedona Sweeney
+- id: sergio_torres_rueda
+  name: Sergio Torres-Rueda
+- id: mishal_khan
+  name: Mishal Khan
+- id: nichola_naylor
+  name: Nichola Naylor
+- id: nuru_saadi
+  name: Nuru Saadi
+- id: julia_shen
+  name: Julia Shen
+- id: chil-group
+  name: CHiL COVID-19 Working Group
+  type: group
+  members: [mishal_khan, nichola_naylor, matthew_quaife, nuru_saadi, julia_shen]
 - id: collaborators_bed_pathways
   name: Naomi M Fuller, Ruth H Keogh, Karla Diaz-Ordaz, Richard Sekula
 - id: ncov-group
