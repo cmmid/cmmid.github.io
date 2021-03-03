@@ -3,7 +3,7 @@
 # add the title of your project
 title: Health impact and cost-effectiveness of COVID-19 vaccination in Sindh Province, Pakistan
 
-description: We evaluated the effectiveness of control measure X for 2019-nCoV infection
+description: We evaluated the cost-effectiveness of vaccination against COVID-19 in Sindh, Pakistan
 
 # delete any tags which aren't appropriate
 # if you need more tags, they can be created! Please discuss.

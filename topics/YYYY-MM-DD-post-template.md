@@ -1,9 +1,10 @@
 ---
 
 # add the title of your project
-title: New project on Covid work#add a description
+title: New project on Covid work
 
-description: We evaluated the effectiveness of control measure X for 2019-nCoV infection
+#add a description
+description: We evaluated the effectiveness of control measure X for SARS-CoV-2 infection
 
 # delete any tags which aren't appropriate
 # if you need more tags, they can be created! Please discuss.
