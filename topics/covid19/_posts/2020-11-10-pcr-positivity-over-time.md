@@ -1,5 +1,5 @@
 ---
-title: "Estimating the effectiveness of routine asymptomtatic PCR testing at
+title: "Estimating the effectiveness of routine asymptomatic PCR testing at
 different frequencies for the detection of SARS-CoV-2 infections"
 
 description: "Using data on twice weekly PCR testing of front-line healthcare
