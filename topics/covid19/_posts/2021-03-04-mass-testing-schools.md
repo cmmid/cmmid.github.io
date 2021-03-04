@@ -48,7 +48,7 @@ LFD test-positivity in educational settings followed the general epidemic, indic
 
 # Conclusions
 
-LFD tests have even higher specificity than previously reported and potentially even higher than the lower bound we could estimate here. Combined with their high sensitivity for detecting infectious infections LFD tests can therefore play an important part of pandemic mitigation strategies in educational settings and elsewhere. Nevertheless, as SARS-CoV-2 infection prevalence declines the proportion of true positives among the test positives will similarly decrease and so will the utility of mass testing compared to its societal and monetary cost. Disaggregated data by school could further improve the precision of our estimates and help better evaluate the expected number of false positives
+LFD tests have even higher specificity than previously reported and potentially even higher than the lower bound we could estimate here. Combined with their high sensitivity for detecting infectious infections LFD tests can therefore play an important part of pandemic mitigation strategies in educational settings and elsewhere. Nevertheless, as SARS-CoV-2 infection prevalence declines the proportion of true positives among the test positives will similarly decrease and so will the utility of mass testing compared to its societal and monetary cost. Disaggregated data by school could further improve the precision of our estimates and help better evaluate the expected number of false positives.
 
 <img src="reports/lfd_education_figure.png" width="80%" style="display: block; margin: auto;" />
 
