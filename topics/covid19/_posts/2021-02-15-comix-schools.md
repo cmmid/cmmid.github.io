@@ -34,7 +34,7 @@ authors:
 
 ---
 
-**[Read preprint here.](reports/comix/schools/School Reopening - PreprintVersion.pdf)**
+**[Read preprint here.](https://medrxiv.org/cgi/content/short/2021.03.06.21252964v1)**
 
 
 
