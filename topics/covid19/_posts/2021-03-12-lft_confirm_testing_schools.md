@@ -1,6 +1,6 @@
 ---
 # add the title of your project
-title: Confirmatory testing with a second lateral flow test may mitigate false positives at low levels of SARS-CoV-2 prevalence in English Schools
+title: Confirmatory testing with a second lateral flow test may mitigate false positives at low levels of SARS-CoV-2 prevalence in English schools
 
 description: Estimating the effect of using a follow-up PCR or lateral-flow test (LFT) upon a positive initial LFT in the mass asymptomatic testing of students in England.
 
