@@ -31,6 +31,7 @@ authors:
     corresponding: true
   - id: joel_hellewell
   - id: sam_clifford
+  - id: ncov-group
 ---
 
 **Read the full report [here.](reports/lft_confirm_testing_schools.pdf) The R code to reproduce this analysis can be found [here.](reports/lft_confirm_code.R)**
