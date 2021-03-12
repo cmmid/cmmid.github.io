@@ -45,5 +45,5 @@ authors:
 
 <img src="figures/predictive_plot_linear.png" width="80%" style="display: block; margin: auto;" />
 
-**Figure: Positive and Negative Predictive Value for different testing strategies at varying levels of prevalence. Coloured lines and bands indicate the median and 95% CI for PPV and NPV for sampled values of prevalence, assuming the same coefficient of variation as current prevalence estimates. Solid and dashed vertical lines are approximate median and 95% CIs of current SARS-CoV-2 prevalence in school children.
+**Figure: Positive and Negative Predictive Value for different testing strategies at varying levels of prevalence. Coloured lines and bands indicate the median and 95% CI for PPV and NPV for sampled values of prevalence, assuming the same coefficient of variation as current prevalence estimates. Solid and dashed vertical lines are approximate median and 95% CIs of current SARS-CoV-2 prevalence in school children.**
 
