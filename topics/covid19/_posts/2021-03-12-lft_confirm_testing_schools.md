@@ -33,7 +33,7 @@ authors:
   - id: sam_clifford
 ---
 
-**Read the full report [here.](reports/lfd_testing_educational_settings.pdf) The R code to reproduce this analysis can be found [here.](reports/lft_confirm_code.R)**
+**Read the full report [here.](reports/lft_confirm_testing_schools.pdf) The R code to reproduce this analysis can be found [here.](reports/lft_confirm_code.R)**
 
 - There is currently concern over the possibility of false-positive lateral flow test (LFT) results in the mass asymptomatic testing programme in English schools, with calls for positive LFTs to be confirmed by Polymerase Chain Reaction (PCR) tests.
 - However, delays in isolating cases and their contacts due to PCR test delays may lead to increased transmission risk and should be avoided unless strictly necessary.
