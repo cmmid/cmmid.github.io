@@ -14,7 +14,7 @@ tags: [control-measures, mixing-patterns]
 status: report
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2021-03-10
+update: 2021-03-23
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -23,6 +23,7 @@ update: 2021-03-10
 # can set corresponding: true to indicate corresponding author
 authors:
   - id: chris_jarvis
+    corresponding: true
   - id: amy_gimma
   - id: kevin_vanzandvoort
   - id: kerry_wong
@@ -41,10 +42,11 @@ We present updated reports from the [CoMix social contacts survey](https://bmcme
 Analyses are present every two weeks. We aimed to track the reproduction number and mean contacts over time and explore differences in regions. Additional ah-hoc analyses were also performed these changed on a week by week basis.
 
 # Latest Reports
+[Comix week 51](reports/comix/Comix Weekly Report 51.pdf) 
 
-[Comix week 49](reports/comix/Comix Weekly Report 49.pdf) 
 
 # Recent Reports
+[Comix week 49](reports/comix/Comix Weekly Report 49.pdf) 
 
 [Comix week 47](reports/comix/Comix Weekly Report 47.pdf) 
 
