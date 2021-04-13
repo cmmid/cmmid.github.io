@@ -41,7 +41,7 @@ We present updated reports from the [CoMix social contacts survey](https://bmcme
 
 Analyses are present every two weeks. We aimed to track the reproduction number and mean contacts over time and explore differences in regions. Additional ah-hoc analyses were also performed these changed on a week by week basis.
 
-# Latest Reports
+# Latest Report
 [Comix week 54](reports/comix/Comix Weekly Report 54.pdf) 
 
 
