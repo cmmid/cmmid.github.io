@@ -45,7 +45,7 @@ Analyses are presented every two weeks. We aimed to track the reproduction numbe
 [Comix week 56](reports/comix/Comix Weekly Report 56.pdf) 
 
 # Contact matrices
-[Comix contact matrix report](reports/comix/Comix Survey Contact matrices - Week 56.pdf) 
+[Comix contact matrices report](reports/comix/Comix Survey Contact matrices - Week 56.pdf) 
 
 
 # Recent Reports
