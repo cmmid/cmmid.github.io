@@ -42,7 +42,7 @@ We present updated reports from the [CoMix social contacts survey](https://bmcme
 Analyses are presented every two weeks. We aimed to track the reproduction number and mean contacts over time and explore differences in regions.
 
 # Latest Report
-[Comix week 56](reports/comix/Comix Weekly Report 56.pdf) 
+[Comix week 57](reports/comix/Comix Weekly Report 57.pdf) 
 
 # Contact matrices
 [Comix contact matrices report](reports/comix/Comix Survey Contact matrices - Week 56.pdf) 
@@ -51,6 +51,8 @@ Analyses are presented every two weeks. We aimed to track the reproduction numbe
 
 
 # Recent Reports
+[Comix week 56](reports/comix/Comix Weekly Report 56.pdf) 
+
 [Comix week 55](reports/comix/Comix Weekly Report 55.pdf) 
 
 [Comix week 54](reports/comix/Comix Weekly Report 54.pdf) 
