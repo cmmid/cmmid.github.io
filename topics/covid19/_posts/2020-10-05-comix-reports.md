@@ -14,7 +14,7 @@ tags: [control-measures, mixing-patterns]
 status: report
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2021-04-28
+update: 2021-05-18
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -42,7 +42,7 @@ We present updated reports from the [CoMix social contacts survey](https://bmcme
 Analyses are presented every two weeks. We aimed to track the reproduction number and mean contacts over time and explore differences in regions.
 
 # Latest Report
-[Comix week 57](reports/comix/Comix Weekly Report 57.pdf) 
+[Comix week 59](reports/comix/Comix Weekly Report 59.pdf) 
 
 # Contact matrices
 [Comix contact matrices report](reports/comix/Comix Survey Contact matrices - Week 56.pdf) 
@@ -51,6 +51,8 @@ Analyses are presented every two weeks. We aimed to track the reproduction numbe
 
 
 # Recent Reports
+[Comix week 57](reports/comix/Comix Weekly Report 57.pdf) 
+
 [Comix week 56](reports/comix/Comix Weekly Report 56.pdf) 
 
 [Comix week 55](reports/comix/Comix Weekly Report 55.pdf) 
