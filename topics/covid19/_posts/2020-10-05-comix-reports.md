@@ -14,7 +14,7 @@ tags: [control-measures, mixing-patterns]
 status: report
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2021-05-18
+update: 2021-05-25
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -42,7 +42,7 @@ We present updated reports from the [CoMix social contacts survey](https://bmcme
 Analyses are presented every two weeks. We aimed to track the reproduction number and mean contacts over time and explore differences in regions.
 
 # Latest Report
-[Comix week 59](reports/comix/Comix Weekly Report 59.pdf) 
+[Comix week 60](reports/comix/Comix Weekly Report 60.pdf) 
 
 # Contact matrices
 [Comix contact matrices report](reports/comix/Comix Survey Contact matrices - Week 56.pdf) 
@@ -51,6 +51,8 @@ Analyses are presented every two weeks. We aimed to track the reproduction numbe
 
 
 # Recent Reports
+[Comix week 59](reports/comix/Comix Weekly Report 59.pdf) 
+
 [Comix week 57](reports/comix/Comix Weekly Report 57.pdf) 
 
 [Comix week 56](reports/comix/Comix Weekly Report 56.pdf) 
@@ -59,6 +61,9 @@ Analyses are presented every two weeks. We aimed to track the reproduction numbe
 
 [Comix week 54](reports/comix/Comix Weekly Report 54.pdf) 
 
+
+
+# Older Reports
 [Comix week 53](reports/comix/Comix Weekly Report 53.pdf) 
 
 [Comix week 51](reports/comix/Comix Weekly Report 51.pdf) 
@@ -66,9 +71,6 @@ Analyses are presented every two weeks. We aimed to track the reproduction numbe
 [Comix week 49](reports/comix/Comix Weekly Report 49.pdf) 
 
 [Comix week 47](reports/comix/Comix Weekly Report 47.pdf) 
-
-
-# Older Reports
 
 [Comix week 45](reports/comix/Comix Weekly Report 45.pdf) 
 
