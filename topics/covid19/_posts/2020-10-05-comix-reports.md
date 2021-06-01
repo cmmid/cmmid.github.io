@@ -44,7 +44,7 @@ Analyses are presented every two weeks. We aimed to track the reproduction numbe
 # Latest Reports
 [Comix week 61](reports/comix/Comix Weekly Report 61.pdf) 
 
-[Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts](results/Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts.pdf)
+[Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts](reports/comix/Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts.pdf)
 
 # Contact matrices
 [Comix contact matrices report](reports/comix/Comix Survey Contact matrices - Week 56.pdf) 
