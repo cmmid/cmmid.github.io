@@ -1,9 +1,9 @@
 ---
 
 # add the title of your project
-title: CoMix study - Social contact survey in the UK.
+title: CoMix study - Social contact survey in the UK
 
-description: Reports from CoMix social contact survey
+description: Reports from the CoMix social contact survey
 
 # delete any tags which aren't appropriate
 # if you need more tags, they can be created! Please discuss.
@@ -41,8 +41,10 @@ We present updated reports from the [CoMix social contacts survey](https://bmcme
 
 Analyses are presented every two weeks. We aimed to track the reproduction number and mean contacts over time and explore differences in regions.
 
-# Latest Report
+# Latest Reports
 [Comix week 61](reports/comix/Comix Weekly Report 61.pdf) 
+
+[Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts](results/Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts.pdf)
 
 # Contact matrices
 [Comix contact matrices report](reports/comix/Comix Survey Contact matrices - Week 56.pdf) 
