@@ -8,7 +8,7 @@ description: We present one full year of CoMix contact survey data from particip
 status: paper-under-peer-review
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-# update: 2020-04-20
+update: 2021-06-02
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
