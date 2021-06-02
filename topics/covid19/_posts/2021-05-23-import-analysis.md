@@ -39,7 +39,7 @@ authors:
 
 Earlier versions of this analysis: [12th May report](https://www.gov.uk/government/publications/cmmid-covid-19-working-group-modelling-importations-and-local-transmission-of-b16172-in-the-uk-12-may-2021?utm_medium=email&utm_campaign=govuk-notifications&utm_source=44bb4abd-fb1b-42db-b903-08d94dfe0090&utm_content=immediately); [18th May report](reports/2021_05_18_importations.pdf).
 
-Plot below shows results for 2nd June 2021. These results would imply 36% (95% CrI: 16–64%) higher transmission for B.1.617.2 compared to non-B.1.617.2 variants circulating.
+Plot below shows results for 2nd June 2021. These results would suggest 40% (95% CrI: 25–54%) higher transmission for B.1.617.2 compared to non-B.1.617.2 variants circulating.
 
 <img src="figures/2021_06_02_importations.png" width="80%" style="display: block; margin: auto;" />
 
