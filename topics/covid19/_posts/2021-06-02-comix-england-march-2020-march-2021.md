@@ -34,7 +34,7 @@ authors:
 tags: [transmission-dynamics, mixing-patterns, control-measures]
 ---
 
-<a target = "_blank" href="reports/LSHTM-CMMID-20200530-CoMix-England-March-2020-March-2021.pdf" title="CoMix England Full Report">Click here to read our full report.</a>
+<a target = "_blank" href="https://www.medrxiv.org/content/10.1101/2021.05.28.21257973v1" title="CoMix England Full Report">Click here to read our full report.</a>
 
 ### Background
 
