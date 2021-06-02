@@ -34,7 +34,7 @@ authors:
 tags: [transmission-dynamics, mixing-patterns, control-measures]
 ---
 
-<a target = "_blank" href="https://www.medrxiv.org/content/10.1101/2021.05.28.21257973v1" title="CoMix England Full Report">Click here to read our full report.</a>
+<a target = "_blank" href="https://www.medrxiv.org/content/10.1101/2021.05.28.21257973v1" title="CoMix England Full Report">Click here to read our full preprint.</a>
 
 ### Background
 
