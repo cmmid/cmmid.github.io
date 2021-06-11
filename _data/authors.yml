@@ -414,6 +414,8 @@
   name: Stephanie Fischinger, Michael de St Aubin, Sameed M. Siddiqui, Diana Dayal, Michael A Loesche, Justin Rhee, Samuel Berger, Yiyuan Hu, Matthew J. Gluck, Benjamin Mormann, Mohammad A. Hasdianda, Elon R. Musk, Galit Alter, Anil S. Menon, Eric J. Nilles, SpaceX COVID-19 Cohort Collaborative
 - id: collaborators_bed_pathways
   name: Naomi M Fuller, Ruth H Keogh, Karla Diaz-Ordaz, Richard Sekula
+- id: collaborators_quar_test_importation_risk
+  name: Suzanne Pickering, Stuart JD Neil, Rui Pedro Galão
 - id: ncov-group
   name: CMMID COVID-19 working group
   type: group
