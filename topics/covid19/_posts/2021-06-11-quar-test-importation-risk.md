@@ -38,7 +38,7 @@ tags: [control-measures]
 
 #make sure old urls still work
 redirect_from:
-- /topics/covid19/_posts/2021-06-11-quar-test-importation_risk.html
+- /topics/covid19/quar-test-importation_risk.html
 
 ---
 
