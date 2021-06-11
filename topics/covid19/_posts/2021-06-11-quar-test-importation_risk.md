@@ -38,7 +38,8 @@ tags: [control-measures]
 
 ---
 
-
+<img src="figures/2021_06_11_quar_test_importation_risk_fig.png" width="80%" style="display: block; margin: auto;" />
+Figure: Change in Rs of infectious arrivals entering the community compared to symptomatic self-isolation only with full adherence (top row of plots) or adherence values from literature (28% of individuals adhering to quarantine and 86% adhering to post-positive test isolation, bottom row of plots), and with or without pre-flight tests. A) Quarantine of varying durations with or without testing with LFTs and PCR. B) Daily testing without quarantine with lateral flow tests, with self-isolation only upon a positive test result. Vertical lines represent 95% (outer) and 50% (inner) uncertainty intervals around medians (points). Note discrete x-axis values for quarantine duration and number of days of testing.
 
 **Background:** Many countries require incoming air travellers to quarantine on arrival and/or undergo testing to limit importation of SARS-CoV-2. 
 
@@ -48,5 +49,4 @@ tags: [control-measures]
 
 **Conclusions:** Strategies aimed at reducing the risk of imported cases should be considered with respect to: domestic incidence, transmission, and susceptibility; measures in place to support quarantining travellers; and incidence of new variants of concern in travellers’ origin countries. Daily testing with LFTs for 5 days is comparable to 5 days of quarantine with a test on exit or 14 days with no test.
 
-
-**Read the pre-print [here](reports/2021-06-11-quar_test_importation_risk.pdf).**
+**Read the pre-print [here](reports/2021-06-11-quar_test_importation_risk.pdf).** Accompanying code can be found [here](https://github.com/cmmid/covid_quar_test_import_risk)
