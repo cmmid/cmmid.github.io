@@ -1,7 +1,7 @@
 ---
 
 #add the title of your project
-title: "Quarantine and testing strategies to reduce transmission risk from imported SAR_s-CoV-2 infections: a global modelling study" 
+title: "Quarantine and testing strategies to reduce transmission risk from imported SARS-CoV-2 infections: a global modelling study" 
 
 description: "We evaluate the utility of pre and post-flight PCR and lateral flow testing (LFT) to reduce transmission risk from infected arrivals and to reduce the duration of, or replace, quarantine. We also estimate the effectiveness of each strategy relative to domestic incidence, and limits of achievable risk reduction, for 99 countries where flight data and case numbers are estimated." 
 
@@ -18,19 +18,19 @@ status: paper-under-peer-review
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2021-06-11
 
-#add optional hash-array with authoR_s
-# see /_data/authoR_s.yml for list of ids, or to add/edit an author
-# can add ncov-group as one author, will link to list of membeR_s
+#add optional hash-array with authors
+# see /_data/authors.yml for list of ids, or to add/edit an author
+# can add ncov-group as one author, will link to list of members
 # can set equal: X to show 'contributed equally'
 # can set corresponding: true to indicate corresponding author
 
-authoR_s:
+authors:
   - id: billy_quilty
     corresponding: true
   - id: tim_russell
   - id: sam_clifford
   - id: stefan_flasche
-  - id: collaboratoR_s_quar_test_importation_risk
+  - id: collaborators_quar_test_importation_risk
   - id: john_edmunds
   - id: ncov-group
 
@@ -39,13 +39,13 @@ tags: [control-measures]
 ---
 
 <img src="figures/2021_06_11_quar_test_importation_risk_fig.png" width="80%" style="display: block; margin: auto;" />
-Figure: Change in R_s of infectious arrivals entering the community compared to symptomatic self-isolation only with full adherence (top row of plots) or adherence values from literature (28% of individuals adhering to quarantine and 86% adhering to post-positive test isolation, bottom row of plots), and with or without pre-flight tests. A) Quarantine of varying durations with or without testing with LFTs and PCR. B) Daily testing without quarantine with lateral flow tests, with self-isolation only upon a positive test result. Vertical lines represent 95% (outer) and 50% (inner) uncertainty intervals around medians (points). Note discrete x-axis values for quarantine duration and number of days of testing.
+Figure: Change in R<sub>s</sub> of infectious arrivals entering the community compared to symptomatic self-isolation only with full adherence (top row of plots) or adherence values from literature (28% of individuals adhering to quarantine and 86% adhering to post-positive test isolation, bottom row of plots), and with or without pre-flight tests. A) Quarantine of varying durations with or without testing with LFTs and PCR. B) Daily testing without quarantine with lateral flow tests, with self-isolation only upon a positive test result. Vertical lines represent 95% (outer) and 50% (inner) uncertainty intervals around medians (points). Note discrete x-axis values for quarantine duration and number of days of testing.
 
-**Background:** Many countries require incoming air travellers to quarantine on arrival and/or undergo testing to limit importation of SAR_s-CoV-2. 
+**Background:** Many countries require incoming air travellers to quarantine on arrival and/or undergo testing to limit importation of SARS-CoV-2. 
 
-**Methods:** We developed mathematical models of SAR_s-CoV-2 viral load trajectories over the couR_se of infection to assess the effectiveness of quarantine and testing strategies. We consider the utility of pre and post-flight Polymerase Chain Reaction (PCR) and lateral flow testing (LFT) to reduce transmission risk from infected arrivals and to reduce the duration of, or replace, quarantine. We also estimate the effect of each strategy relative to domestic incidence, and limits of achievable risk reduction, for 99 countries where flight data and case numbers are estimated. 
+**Methods:** We developed mathematical models of SARS-CoV-2 viral load trajectories over the course of infection to assess the effectiveness of quarantine and testing strategies. We consider the utility of pre and post-flight Polymerase Chain Reaction (PCR) and lateral flow testing (LFT) to reduce transmission risk from infected arrivals and to reduce the duration of, or replace, quarantine. We also estimate the effect of each strategy relative to domestic incidence, and limits of achievable risk reduction, for 99 countries where flight data and case numbers are estimated. 
 
-**Results:** We find that LFTs immediately pre-flight are more effective than PCR tests 3 days before departure in decreasing the number of departing infectious travellers. Pre-flight LFTs and post-flight quarantines, with tests to release, may prevent the majority of transmission from infectious arrivals while reducing the required duration of quarantine; a pre-flight LFT followed by 5 days in quarantine with a test to release would reduce the expected number of secondary cases generated by an infected traveller compared to symptomatic self-isolation alone, R_s, by 85% (95% UI: 74%, 96%) for PCR and 85% (95% UI: 70%, 96%) for LFT, even assuming imperfect adherence to quarantine (28% of individuals) and self-isolation following a positive test (86%). Under the same adherence assumptions, 5 days of daily LFT testing would reduce R_s by 91% (95% UI: 75%, 98%). 
+**Results:** We find that LFTs immediately pre-flight are more effective than PCR tests 3 days before departure in decreasing the number of departing infectious travellers. Pre-flight LFTs and post-flight quarantines, with tests to release, may prevent the majority of transmission from infectious arrivals while reducing the required duration of quarantine; a pre-flight LFT followed by 5 days in quarantine with a test to release would reduce the expected number of secondary cases generated by an infected traveller compared to symptomatic self-isolation alone, R<sub>s</sub>, by 85% (95% UI: 74%, 96%) for PCR and 85% (95% UI: 70%, 96%) for LFT, even assuming imperfect adherence to quarantine (28% of individuals) and self-isolation following a positive test (86%). Under the same adherence assumptions, 5 days of daily LFT testing would reduce R<sub>s</sub> by 91% (95% UI: 75%, 98%). 
 
 **Conclusions:** Strategies aimed at reducing the risk of imported cases should be considered with respect to: domestic incidence, transmission, and susceptibility; measures in place to support quarantining travellers; and incidence of new variants of concern in travellers’ origin countries. Daily testing with LFTs for 5 days is comparable to 5 days of quarantine with a test on exit or 14 days with no test.
 
