@@ -36,6 +36,10 @@ authors:
 
 tags: [control-measures]
 
+#make sure old urls still work
+redirect_from:
+- /topics/covid19/_posts/2021-06-11-quar-test-importation_risk.html
+
 ---
 
 <img src="figures/2021_06_11_quar_test_importation_risk_fig.png" width="80%" style="display: block; margin: auto;" />
