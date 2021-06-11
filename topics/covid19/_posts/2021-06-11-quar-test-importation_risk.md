@@ -49,4 +49,4 @@ Figure: Change in R<sub>s</sub> of infectious arrivals entering the community co
 
 **Conclusions:** Strategies aimed at reducing the risk of imported cases should be considered with respect to: domestic incidence, transmission, and susceptibility; measures in place to support quarantining travellers; and incidence of new variants of concern in travellers’ origin countries. Daily testing with LFTs for 5 days is comparable to 5 days of quarantine with a test on exit or 14 days with no test.
 
-**Read the pre-print [here](reports/2021-06-11-quar_test_importation_risk.pdf).** Accompanying code can be found [here](https://github.com/cmmid/covid_quar_test_import_risk)
+**Read the pre-print [here](reports/2021-06-11-quar_test_importation_risk.pdf).** Accompanying code can be found [here.](https://github.com/cmmid/covid_quar_test_import_risk)
