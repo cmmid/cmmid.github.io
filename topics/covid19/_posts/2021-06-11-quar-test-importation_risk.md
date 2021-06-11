@@ -3,7 +3,7 @@
 #add the title of your project
 title: "Quarantine and testing strategies to reduce transmission risk from imported SARS-CoV-2 infections: a global modelling study" 
 
-description: "We evaluate the utility of pre and post-flight PCR and lateral flow testing (LFT) to reduce transmission risk from infected arrivals and to reduce the duration of, or replace, quarantine." 
+description: "We evaluate the utility of pre and post-flight PCR and lateral flow testing (LFT) to reduce transmission risk from infected arrivals and to reduce the duration of, or replace, quarantine. We also estimate the effectiveness of each strategy relative to domestic incidence, and limits of achievable risk reduction, for 99 countries where flight data and case numbers are estimated." 
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
