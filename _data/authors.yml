@@ -335,6 +335,9 @@
   email: anna.vassall@student.lshtm.ac.uk
   url: https://www.lshtm.ac.uk/aboutus/people/vassall.anna
   twitter: annavassall
+- id: mihaly_koltai
+  name: Mihaly Koltai
+  email: mihaly.koltai@lshtm.ac.uk
 - id: fergus_cummings
   name: Fergus Cummings
 - id: tom_ward
@@ -416,6 +419,8 @@
   name: Naomi M Fuller, Ruth H Keogh, Karla Diaz-Ordaz, Richard Sekula
 - id: collaborators_quar_test_importation_risk
   name: Suzanne Pickering, Stuart JD Neil, Rui Pedro Galão
+- id: collaborators_somalia_excess_mort_early_introd
+  name: Abdihamid Warsame, Farah Bashiir, Terri Freemantle, Chris Reeve, Chris Williams, Ahmed Aweis, Mohamed Ahmed, Abdirisak Dalmar
 - id: ncov-group
   name: CMMID COVID-19 working group
   type: group
