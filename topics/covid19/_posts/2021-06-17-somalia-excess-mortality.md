@@ -36,8 +36,10 @@ redirect_from:
 
 <img src="figures/somalia_excess_mortality_parampostdistr_dic.png" width="100%" style="display: block; margin: auto;" />
 
-**a. Quality of fits for different infection fatality ratios and seed sizes** Goodness of fit as measured by DIC (deviance information criterion) at different values of seed size and population-wide IFR. The labels above the colored lines show median estimates for R0 and the date of introduction, and the NPI-induced reduction in transmissibility during the first NPI period below.  
-**b. Estimates of date of introduction, R0 and scaling factor for NPI stringency index** Median values and credible intervals for the fitting parameters (introduction date, NPI_scale, R0) and quality of fits at different assumed values of the infection fatality ratio (x-axis) and seed size (colors). In the top panel, labels below the lines show median estimates of the date of introduction. Shaded areas around the median (black) are 50% (darker) and 95% credible intervals.
+**a. Quality of fits for different infection fatality ratios and seed sizes**  
+Goodness of fit as measured by DIC (deviance information criterion) at different values of seed size and population-wide IFR. The labels above the colored lines show median estimates for R0 and the date of introduction, and the NPI-induced reduction in transmissibility during the first NPI period below.  
+**b. Estimates of date of introduction, R0 and scaling factor for NPI stringency index**  
+Median values and credible intervals for the fitting parameters (introduction date, NPI_scale, R0) and quality of fits at different assumed values of the infection fatality ratio (x-axis) and seed size (colors). In the top panel, labels below the lines show median estimates of the date of introduction. Shaded areas around the median (black) are 50% (darker) and 95% credible intervals.
 
 <img src="figures/somalia_excess_mortality_dynamic_fits_seedsize200.png" width="60%" style="display: block; margin: auto;" />
 
