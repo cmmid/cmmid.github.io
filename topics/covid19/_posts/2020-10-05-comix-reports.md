@@ -14,7 +14,7 @@ tags: [control-measures, mixing-patterns]
 status: report
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2021-06-01
+update: 2021-06-22
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -42,11 +42,12 @@ We present updated reports from the [CoMix social contacts survey](https://bmcme
 Analyses are presented every two weeks. We aimed to track the reproduction number and mean contacts over time and explore differences in regions.
 
 # Latest Reports
-[Comix week 61](reports/comix/Comix Weekly Report 61.pdf) 
+[Comix week 64](reports/comix/Comix Weekly Report 64.pdf) 
 
-[Comix - individuals with high numbers of contacts](reports/comix/Comix Report - high numbers of contacts.pdf)
+[Comix week 63](reports/comix/Comix Weekly Report 63.pdf) 
 
-[Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts](reports/comix/Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts - v2.pdf)
+[Comix week 62](reports/comix/Comix Weekly Report 62.pdf) 
+
 
 # Contact matrices
 [Comix contact matrices report](reports/comix/Comix Survey Contact matrices - Week 56.pdf) 
@@ -55,6 +56,13 @@ Analyses are presented every two weeks. We aimed to track the reproduction numbe
 
 
 # Recent Reports
+
+[Comix week 61](reports/comix/Comix Weekly Report 61.pdf) 
+
+[Comix - individuals with high numbers of contacts](reports/comix/Comix Report - high numbers of contacts.pdf)
+
+[Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts](reports/comix/Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts - v2.pdf)
+
 [Comix week 60](reports/comix/Comix Weekly Report 60.pdf) 
 
 [Comix week 59](reports/comix/Comix Weekly Report 59.pdf) 
