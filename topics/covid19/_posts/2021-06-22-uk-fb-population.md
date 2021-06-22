@@ -1,10 +1,10 @@
 ---
 
 #add the title of your project
-title: Population disruption: estimating changes in population distribution in the UK during the COVID-19 pandemic
+title: "Population disruption: estimating changes in population distribution in the UK during the COVID-19 pandemic"
 
 #add a description
-description: We estimated population changes in the UK using the location of Facebook users and show how time-varying populations influence a model of COVID-19.
+description: "We estimated population changes in the UK using the location of Facebook users and show how time-varying populations influence a model of COVID-19."
 
 tags: [transmission-dynamics, control-measures, mixing-patterns]
 
