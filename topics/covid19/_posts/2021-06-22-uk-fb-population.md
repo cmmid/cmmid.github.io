@@ -25,6 +25,7 @@ authors:
   - id: ncov-group
   - id: roz_eggo
     equal: 1
+    corresponding: true
 
 ---
 
@@ -43,3 +44,5 @@ We show how the timing and magnitude of observed population changes can impact t
 ### Conclusions
 
 The methods used in this study reveal significant changes in population distribution at high spatial and temporal resolutions that have not previously been quantified by available demographic surveys in the UK.
+
+**Read the pre-print [here](reports/2021_06_22_uk_fb_population.pdf).** Population estimates for 2019 Local Authority Districts are available [here](https://zenodo.org/record/5013620).
