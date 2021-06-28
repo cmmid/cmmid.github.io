@@ -44,6 +44,7 @@ Analyses are presented every two weeks. We aimed to track the reproduction numbe
 ** Note there was a data issue in reports 62-64 therefore the results are not accurate. We keep them here for historical purposes** 
 
 # Latest Reports
+
 [Comix week 65](reports/comix/Comix Weekly Report 65.pdf) 
 
 
