@@ -41,7 +41,7 @@ We present updated reports from the [CoMix social contacts survey](https://bmcme
 
 Analyses are presented every two weeks. We aimed to track the reproduction number and mean contacts over time and explore differences in regions.
 
-** Note there was a data issue in reports 62-64 therefore the results are not accurate. We keep them here for historical purposes** 
+*Note there was a data issue in reports 62-64 therefore the results are not accurate. We keep them here for historical purposes*
 
 # Latest Reports
 
@@ -56,7 +56,7 @@ Analyses are presented every two weeks. We aimed to track the reproduction numbe
 
 # Recent Reports
 
-** Note there was a data issue in reports 62-64 therefore the results are not accurate. We keep them here for historical purposes** 
+*Note there was a data issue in reports 62-64 therefore the results are not accurate. We keep them here for historical purposes* 
 
 [Comix week 64](reports/comix/Comix Weekly Report 64.pdf) 
 
