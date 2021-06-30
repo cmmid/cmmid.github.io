@@ -68,7 +68,7 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 
 [Comix - individuals with high numbers of contacts](reports/comix/Comix Report - high numbers of contacts.pdf)
 
-[Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts](reports/comix/Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts - v2.pdf)
+[Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts](reports/comix/Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts - v3.pdf)
 
 [Comix week 60](reports/comix/Comix Weekly Report 60.pdf) 
 
