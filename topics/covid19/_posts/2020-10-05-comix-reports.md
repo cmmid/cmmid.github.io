@@ -47,6 +47,8 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 
 [Comix week 65](reports/comix/Comix Weekly Report 65.pdf) 
 
+[Comix - contacts in the workplace](reports/comix/Comix Report contacts in the workplace.pdf) 
+
 
 # Contact matrices
 [Comix contact matrices report](reports/comix/Comix Survey Contact matrices - Week 56.pdf) 
