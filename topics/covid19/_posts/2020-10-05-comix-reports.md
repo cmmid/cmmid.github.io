@@ -45,9 +45,7 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 
 # Latest Reports
 
-[Comix week 65](reports/comix/Comix Weekly Report 65.pdf) 
-
-[Comix - contacts in the workplace](reports/comix/Comix Report contacts in the workplace.pdf) 
+[Comix week 67](reports/comix/Comix Weekly Report 67.pdf) 
 
 
 # Contact matrices
@@ -56,6 +54,10 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 [Comix contact matrices available here](https://zenodo.org/record/4677018#.YIljs0TPyPo) 
 
 # Recent Reports
+
+[Comix week 65](reports/comix/Comix Weekly Report 65.pdf) 
+
+[Comix - contacts in the workplace](reports/comix/Comix Report contacts in the workplace.pdf) 
 
 Note there was a data issue in reports 62-64 therefore the results are not accurate. We keep them here for historical purposes. 
 
