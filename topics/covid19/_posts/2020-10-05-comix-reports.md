@@ -14,7 +14,7 @@ tags: [control-measures, mixing-patterns]
 status: report
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2021-06-28
+update: 2021-07-27
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -45,7 +45,7 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 
 # Latest Reports
 
-[Comix week 67](reports/comix/Comix Weekly Report 67.pdf) 
+[Comix week 69](reports/comix/Comix Weekly Report 69.pdf) 
 
 
 # Contact matrices
@@ -54,6 +54,8 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 [Comix contact matrices available here](https://zenodo.org/record/4677018#.YIljs0TPyPo) 
 
 # Recent Reports
+
+[Comix week 67](reports/comix/Comix Weekly Report 67.pdf) 
 
 [Comix week 65](reports/comix/Comix Weekly Report 65.pdf) 
 
