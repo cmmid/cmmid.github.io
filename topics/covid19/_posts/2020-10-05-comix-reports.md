@@ -14,7 +14,7 @@ tags: [control-measures, mixing-patterns]
 status: report
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2021-07-27
+update: 2021-08-03
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -45,13 +45,22 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 
 # Latest Reports
 
+[Comix week 70](reports/comix/Comix Weekly Report 70.pdf) 
+
 [Comix week 69](reports/comix/Comix Weekly Report 69.pdf) 
 
 
-# Contact matrices
+# Special Reports
+
 [Comix contact matrices report](reports/comix/Comix Survey Contact matrices - Week 56.pdf) 
 
 [Comix contact matrices available here](https://zenodo.org/record/4677018#.YIljs0TPyPo) 
+
+[Comix - contacts in the workplace](reports/comix/Comix Report contacts in the workplace.pdf) 
+
+[Comix - individuals with high numbers of contacts](reports/comix/Comix Report - high numbers of contacts.pdf)
+
+[Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts](reports/comix/Comix_sec_case_dist_viral_load_contacts_v3.pdf)
 
 # Recent Reports
 
@@ -59,8 +68,11 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 
 [Comix week 65](reports/comix/Comix Weekly Report 65.pdf) 
 
-[Comix - contacts in the workplace](reports/comix/Comix Report contacts in the workplace.pdf) 
 
+
+
+
+# Older Reports
 Note there was a data issue in reports 62-64 therefore the results are not accurate. We keep them here for historical purposes. 
 
 [Comix week 64](reports/comix/Comix Weekly Report 64.pdf) 
@@ -69,12 +81,8 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 
 [Comix week 62](reports/comix/Comix Weekly Report 62.pdf) 
 
-
 [Comix week 61](reports/comix/Comix Weekly Report 61.pdf) 
 
-[Comix - individuals with high numbers of contacts](reports/comix/Comix Report - high numbers of contacts.pdf)
-
-[Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts](reports/comix/Comix_sec_case_dist_viral_load_contacts_v3.pdf)
 
 [Comix week 60](reports/comix/Comix Weekly Report 60.pdf) 
 
@@ -86,9 +94,6 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 
 [Comix week 55](reports/comix/Comix Weekly Report 55.pdf) 
 
-
-
-# Older Reports
 [Comix week 54](reports/comix/Comix Weekly Report 54.pdf) 
 
 [Comix week 53](reports/comix/Comix Weekly Report 53.pdf) 
