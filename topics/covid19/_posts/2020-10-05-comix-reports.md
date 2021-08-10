@@ -46,6 +46,8 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 # Latest Reports
 
 [Comix week 71](reports/comix/Comix Weekly Report 71.pdf) 
+
+
 [Comix week 70](reports/comix/Comix Weekly Report 70.pdf) 
 
 
