@@ -14,7 +14,7 @@ tags: [control-measures, mixing-patterns]
 status: report
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2021-08-25
+update: 2021-08-31
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -44,6 +44,8 @@ Analyses are presented every two weeks. We aimed to track the reproduction numbe
 Note there was a data issue in reports 62-64 therefore the results are not accurate. We keep them here for historical purposes.
 
 # Latest Reports
+
+[Comix week 74](reports/comix/Comix Weekly Report 74.pdf) 
 
 [Comix week 73](reports/comix/Comix Weekly Report 73.pdf) 
 
