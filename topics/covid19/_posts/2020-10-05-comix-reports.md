@@ -45,12 +45,9 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 
 # Latest Reports
 
+[Comix week 76](reports/comix/Comix Weekly Report 76.pdf) 
+
 [Comix week 75](reports/comix/Comix Weekly Report 75.pdf) 
-
-[Comix week 74](reports/comix/Comix Weekly Report 74.pdf) 
-
-[Comix week 73](reports/comix/Comix Weekly Report 73.pdf) 
-
 
 # Special Reports
 
@@ -65,6 +62,10 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 [Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts](reports/comix/Comix_sec_case_dist_viral_load_contacts_v3.pdf)
 
 # Recent Reports
+
+[Comix week 74](reports/comix/Comix Weekly Report 74.pdf) 
+
+[Comix week 73](reports/comix/Comix Weekly Report 73.pdf) 
 
 [Comix week 72](reports/comix/Comix Weekly Report 72.pdf) 
 
