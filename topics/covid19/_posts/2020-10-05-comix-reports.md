@@ -14,7 +14,7 @@ tags: [control-measures, mixing-patterns]
 status: report
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2021-10-12
+update: 2021-10-19
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -47,9 +47,10 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 
 [Comix week 80](reports/comix/Comix Weekly Report 80.pdf) 
 
+[Comix week 80](reports/comix/Comix Weekly Report 80.pdf) 
+
 [Comix week 79](reports/comix/Comix Weekly Report 79.pdf) 
 
-[Comix week 78](reports/comix/Comix Weekly Report 78.pdf) 
 
 
 # Special Reports
@@ -65,6 +66,8 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 [Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts](reports/comix/Comix_sec_case_dist_viral_load_contacts_v3.pdf)
 
 # Recent Reports
+
+[Comix week 78](reports/comix/Comix Weekly Report 78.pdf) 
 
 [Comix week 77](reports/comix/Comix Weekly Report 77.pdf) 
 
