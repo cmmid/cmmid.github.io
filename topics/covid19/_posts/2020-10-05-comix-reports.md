@@ -43,6 +43,10 @@ Analyses are presented every two weeks. We aimed to track the reproduction numbe
 
 Note there was a data issue in reports 62-64 therefore the results are not accurate. We keep them here for historical purposes.
 
+## Funding statement
+
+The CoMix study is supported by the Medical Research Council (grant number MC_PC 19065), the National Institute for Health Research (CV220-088) and the European Union’s Horizon 2020 Research and Innovations Programme - project EpiPose (Epidemic Intelligence to Minimize COVID-19’s Public Health, Societal and Economical Impact, No 101003688). 
+
 # Latest Reports
 
 [Comix week 81](reports/comix/Comix Weekly Report 81.pdf) 
