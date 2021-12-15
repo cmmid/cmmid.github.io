@@ -49,13 +49,13 @@ The CoMix study is supported by the Medical Research Council (grant number MC_PC
 
 ### Latest Reports
 
+[Comix week 89](reports/comix/Comix Weekly Report 89.pdf) 
+
 [Comix week 87](reports/comix/Comix Weekly Report 87.pdf) 
 
 [Comix week 85](reports/comix/Comix Weekly Report 85.pdf) 
 
 [Comix week 84](reports/comix/Comix Weekly Report 84.pdf) 
-
-[Comix week 81](reports/comix/Comix Weekly Report 81.pdf) 
 
 
 ### Special Reports
@@ -72,8 +72,9 @@ The CoMix study is supported by the Medical Research Council (grant number MC_PC
 
 ### Recent Reports
 
-[Comix week 80](reports/comix/Comix Weekly Report 80.pdf) 
+[Comix week 81](reports/comix/Comix Weekly Report 81.pdf) 
 
+[Comix week 80](reports/comix/Comix Weekly Report 80.pdf) 
 
 [Comix week 79](reports/comix/Comix Weekly Report 79.pdf) 
 
