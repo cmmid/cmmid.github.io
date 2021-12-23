@@ -36,8 +36,8 @@ We model the potential consequences of the Omicron SARS-CoV-2 variant on transmi
 
 **Read the full report:**
 
-[23rd Dec 2021: Updated version 2 of report.](reports/omicron_england/report_23_dec_2021.pdf)
+# 23rd Dec 2021: [Updated version 2 of report.](reports/omicron_england/report_23_dec_2021.pdf)
 
-[16th Dec 2021: Preprint on medRxiv.](https://www.medrxiv.org/content/10.1101/2021.12.15.21267858v1)
+# 16th Dec 2021: [Preprint on medRxiv.](https://www.medrxiv.org/content/10.1101/2021.12.15.21267858v1)
 
-[11th Dec 2021: Original report.](reports/omicron_england/report_11_dec_2021.pdf)
+# 11th Dec 2021: [Original report.](reports/omicron_england/report_11_dec_2021.pdf)
