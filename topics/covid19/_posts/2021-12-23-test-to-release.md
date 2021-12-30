@@ -35,7 +35,7 @@ tags: [control-measures]
 ---
 
 <img src="figures/main_plot2_vacc.png" width="80%" style="display: block; margin: auto;" />
-Figure: Comparison of policy outcomes for vaccinated populations. A) Number of days saved vs. a 10-day isolation policy per individual and B) days infectious in the community per 10,000 infected individuals following release from isolation for 3, 5, and 7 days wait after an initial positive test to initiate testing and number of consecutive days of negative tests required for release. Points indicate mean and error bars represent the 95% uncertainty interval. For days saved, the first day testing positive is considered the minimum mandatory isolation, so for example, a “3 day wait” is equal to 1 day + 3 days wait to then test again on day 4.
+Figure: Comparison of policy outcomes for vaccinated populations. A) Number of days saved vs. a 10-day isolation policy per individual and B) days infectious in the community per 10,000 infected individuals following release from isolation for 3, 5, and 7 days wait after an initial positive test to initiate testing and number of consecutive days of negative tests required for release. Points indicate median and error bars represent the 95% uncertainty interval. For days saved, the first day testing positive is considered the minimum mandatory isolation, so for example, a “3 day wait” is equal to 1 day + 3 days wait to then test again on day 4.
 
 **Summary** 
 
