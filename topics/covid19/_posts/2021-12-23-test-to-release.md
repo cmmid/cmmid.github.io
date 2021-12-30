@@ -47,4 +47,4 @@ Figure: Comparison of policy outcomes for vaccinated populations. A) Number of d
 - Due to a lack of specific data on viral load progression, infectivity, and likelihood of testing positive by LFT over the course of an Omicron infection, we assume the same parameters as for pre-Omicron variants and explore the impact of a possible shorter proliferation phase.
 
 
-**Read the pre-print [here](reports/2021-12-30-test-to-release_v2.pdf).** Accompanying code can be found [here.](https://github.com/bquilty25/daily_testing)
+**Read the pre-print [here](reports/2021-12-30-test-to-release-v2.pdf).** Accompanying code can be found [here.](https://github.com/bquilty25/daily_testing)
