@@ -49,14 +49,9 @@ The CoMix study is supported by the Medical Research Council (grant number MC_PC
 
 ### Latest Reports
 
+[Comix week 92](reports/comix/CoMix Weekly Report 92.pdf) 
+
 [Comix week 89](reports/comix/CoMix Weekly Report 89.pdf) 
-
-[Comix week 87](reports/comix/Comix Weekly Report 87.pdf) 
-
-[Comix week 85](reports/comix/Comix Weekly Report 85.pdf) 
-
-[Comix week 84](reports/comix/Comix Weekly Report 84.pdf) 
-
 
 ### Special Reports
 
@@ -71,6 +66,12 @@ The CoMix study is supported by the Medical Research Council (grant number MC_PC
 [Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts](reports/comix/Comix_sec_case_dist_viral_load_contacts_v3.pdf)
 
 ### Recent Reports
+
+[Comix week 87](reports/comix/Comix Weekly Report 87.pdf) 
+
+[Comix week 85](reports/comix/Comix Weekly Report 85.pdf) 
+
+[Comix week 84](reports/comix/Comix Weekly Report 84.pdf) 
 
 [Comix week 81](reports/comix/Comix Weekly Report 81.pdf) 
 
