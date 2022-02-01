@@ -45,17 +45,21 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 
 ### Funding statement
 
-The CoMix study is supported by the Medical Research Council (grant number MC_PC 19065), the National Institute for Health Research (CV220-088) and the European Union’s Horizon 2020 Research and Innovations Programme - project EpiPose (Epidemic Intelligence to Minimize COVID-19’s Public Health, Societal and Economical Impact, No 101003688). 
+The CoMix study is supported by the Medical Research Council (grant number MC_PC 19065), the National Institute for Health Research (CV220-088) and the European Union’s Horizon 2020 Research and Innovations Programme - project EpiPose (Epidemic Intelligence to Minimize COVID-19’s Public Health, Societal and Economical Impact, No 101003688). UKHSA has been the main funder of CoMix since December 2021.
 
 ### Latest Reports
+
+[Comix week 96](reports/comix/Comix Weekly Report 96.pdf) 
+
+[Comix Christmas](reports/comix/Comix Report Christmas.pdf) 
 
 [Comix week 94](reports/comix/Comix Weekly Report 94.pdf) 
 
 [Comix week 92](reports/comix/Comix Weekly Report 92.pdf) 
 
-[Comix week 89](reports/comix/Comix Weekly Report 89.pdf) 
 
 ### Special Reports
+
 
 [Comix contact matrices report](reports/comix/Comix Survey Contact matrices - Week 56.pdf) 
 
@@ -68,6 +72,7 @@ The CoMix study is supported by the Medical Research Council (grant number MC_PC
 [Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts](reports/comix/Comix_sec_case_dist_viral_load_contacts_v3.pdf)
 
 ### Recent Reports
+[Comix week 89](reports/comix/Comix Weekly Report 89.pdf) 
 
 [Comix week 87](reports/comix/Comix Weekly Report 87.pdf) 
 
