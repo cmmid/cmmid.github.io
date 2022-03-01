@@ -14,7 +14,7 @@ tags: [control-measures, mixing-patterns]
 status: report
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2021-10-19
+update: 2022-03-01
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -25,8 +25,8 @@ authors:
   - id: chris_jarvis
     corresponding: true
   - id: amy_gimma
-  - id: kevin_vanzandvoort
   - id: kerry_wong
+  - id: kevin_vanzandvoort
   - id: james_munday
   - id: petra_klepac
   - id: seb_funk
@@ -50,6 +50,8 @@ The CoMix study is supported by the Medical Research Council (grant number MC_PC
 **NOTE: The CoMix study will stop in the first week of March. The final routine report is anticipated for the 8th of March.** 
 
 ### Latest Reports
+
+[Comix week 100](reports/comix/Comix Weekly Report 100.pdf) 
 
 [Comix week 98](reports/comix/Comix Weekly Report 98.pdf) 
 
