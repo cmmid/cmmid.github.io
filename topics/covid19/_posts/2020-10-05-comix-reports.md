@@ -36,7 +36,6 @@ authors:
 
 ---
 
-
 We present updated reports from the [CoMix social contacts survey](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01597-8). Participants reported the total number of direct contacts that they had on the day before the survey, which are people with whom they had at least a brief face-to-face conversation, or with whom they had any sort of skin-to-skin contact. Week 1 links to a peer-reviewed publication of the CoMix study which provides further details of the [study questions](https://static-content.springer.com/esm/art%3A10.1186%2Fs12916-020-01597-8/MediaObjects/12916_2020_1597_MOESM2_ESM.pdf) and the [study protocol](https://static-content.springer.com/esm/art%3A10.1186%2Fs12916-020-01597-8/MediaObjects/12916_2020_1597_MOESM1_ESM.pdf).
 
 Analyses are presented every two weeks. We aimed to track the reproduction number and mean contacts over time and explore differences in regions.
@@ -47,16 +46,13 @@ Note there was a data issue in reports 62-64 therefore the results are not accur
 
 The CoMix study is supported by the Medical Research Council (grant number MC_PC 19065), the National Institute for Health Research (CV220-088) and the European Union’s Horizon 2020 Research and Innovations Programme - project EpiPose (Epidemic Intelligence to Minimize COVID-19’s Public Health, Societal and Economical Impact, No 101003688). UKHSA has been the main funder of CoMix since December 2021.
 
-**NOTE: The CoMix study will stop in the first week of March. The final routine report is anticipated for the 8th of March.** 
+**NOTE: The CoMix study stopped collecting data on the 2nd of March 2022. The final routine report is report 101.** 
 
 ### Latest Reports
 
+[Comix week 101](reports/comix/Comix Weekly Report 101.pdf) 
+
 [Comix week 100](reports/comix/Comix Weekly Report 100.pdf) 
-
-[Comix week 98](reports/comix/Comix Weekly Report 98.pdf) 
-
-[Comix week 96](reports/comix/Comix Weekly Report 96.pdf) 
-
 
 ### Special Reports
 
@@ -73,11 +69,21 @@ The CoMix study is supported by the Medical Research Council (grant number MC_PC
 [Comix - Reconstructing the secondary case distribution of SARS-CoV-2 from heterogeneity in viral load trajectories and social contacts](reports/comix/Comix_sec_case_dist_viral_load_contacts_v3.pdf)
 
 ### Recent Reports
+[Comix week 98](reports/comix/Comix Weekly Report 98.pdf) 
+
+[Comix week 96](reports/comix/Comix Weekly Report 96.pdf) 
+
 [Comix week 94](reports/comix/Comix Weekly Report 94.pdf) 
 
 [Comix week 92](reports/comix/Comix Weekly Report 92.pdf) 
 
 [Comix week 89](reports/comix/Comix Weekly Report 89.pdf) 
+
+
+
+
+### Older Reports
+Note there was a data issue in reports 62-64 therefore the results are not accurate. We keep them here for historical purposes. 
 
 [Comix week 87](reports/comix/Comix Weekly Report 87.pdf) 
 
@@ -115,12 +121,6 @@ The CoMix study is supported by the Medical Research Council (grant number MC_PC
 
 [Comix week 65](reports/comix/Comix Weekly Report 65.pdf) 
 
-
-
-
-
-### Older Reports
-Note there was a data issue in reports 62-64 therefore the results are not accurate. We keep them here for historical purposes. 
 
 [Comix week 64](reports/comix/Comix Weekly Report 64.pdf) 
 
