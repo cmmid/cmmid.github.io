@@ -46,7 +46,7 @@ If you want to use mathjax, tabs, or other objects regularly used in Rmarkdown h
 # Figures and attachments
 
 Copy your figures and attachments into the `/topics/{topic}/figures` and `/topics/{topic}/reports` directories accordingly. 
-Make sure they have a unique name (chances are someone else has already generated a `figure1.png` file), or create under `/topics/{topic}/figures` specifically for your figures. 
+Make sure they have a unique name (chances are someone else has already generated a `figure1.png` file), or create a subdirectory under `/topics/{topic}/figures` specifically for your figures. 
 The template contains some example markup demonstrating this.
 
 # Adding TRANSLATED posts

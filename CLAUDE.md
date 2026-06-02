@@ -16,14 +16,14 @@ Requires Ruby + Bundler.
 ## Adding a post
 
 1. Create `topics/{topic}/_posts/YYYY-MM-DD-{slug}.md`
-2. Copy front-matter from `topics/YYYY-MM-DD-post-template.md`
+2. Copy front-matter from `/topics/YYYY-MM-DD-post-template.md`
 3. Place figures in `topics/{topic}/figures/`, reports in `topics/{topic}/reports/` (use unique filenames)
 
-Minimal front-matter:
+Front-matter example:
 
 ```yaml
 ---
-title: "Post title"
+title: Post title
 description: One-line summary
 status: paper-under-peer-review
 update: YYYY-MM-DD
