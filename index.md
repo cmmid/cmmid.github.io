@@ -11,4 +11,5 @@ We recommend interpreting results with caution. Work may become outdated: please
 All work here is open-access, and we welcome feedback. 
 Please contact individual authors listed on the content pages, or leave a comment on the general purpose [forum](https://github.com/cmmid/cmmid.github.io/discussions).
 
-## [Covid-19](topics/covid19/)
+
+<button type="button" style="color: blue;">[Covid-19](topics/covid19/)</button>
