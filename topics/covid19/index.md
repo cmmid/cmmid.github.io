@@ -15,7 +15,7 @@ We also translated some of our posts in Chinese: <a style="color: #00BF6F;" titl
 
 As well as static reports, we:
 
-- Made multiple [interactive applications](/topics/covid19/visualisations.md) where some of our work can be explored further
+- Made multiple [interactive applications](/topics/covid19/visualisations) where some of our work can be explored further
 - Published real-time nowcasts and forecasts [available here](https://epiforecasts.io/covid/posts/global)
 
 To only show studies for a specific topic, select from the <span class="selector-position-help-md">sidebar list</span><span class="selector-position-help-xs">list above</span>.
