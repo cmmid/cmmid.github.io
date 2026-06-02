@@ -4,7 +4,7 @@ The source for the [web page](https://cmmid.github.io/) advertising assorted [CM
 
 # Adding NEW posts
 
-To add a new post to the website, add a new markdown or html file to `/topics/covid19/_posts` using the template [/topics/YYYY-MM-DD-post-template.md](https://github.com/cmmid/cmmid.github.io/blob/master/topics/YYYY-MM-DD-post-template.md)..
+To add a new post to the website, add a new markdown or html file to `/topics/{topic}/_posts` using the template [/topics/YYYY-MM-DD-post-template.md](https://github.com/cmmid/cmmid.github.io/blob/master/topics/YYYY-MM-DD-post-template.md).
 
 Front-matter variables are optional, but the following are available:
 
@@ -42,12 +42,12 @@ authors:
 If you want to use mathjax, tabs, or other objects regularly used in Rmarkdown html files:
  1. set 'output: html_fragment' in your rmarkdown file
  2. set rmarkdown_html_fragment: true in the front-matter of your post
- 
 
 # Figures and attachments
 
-Copy your figures and attachments into the `/topics/covid19/figures` and `/topics/covid19/reports` directories accordingly. Make sure they have a unique name (chances are someone else has already generated a `figure1.png` file), or create under `/topics/covid19/figures` specifically for your figures. The template contains some example markup demonstrating this.
-
+Copy your figures and attachments into the `/topics/{topic}/figures` and `/topics/{topic}/reports` directories accordingly. 
+Make sure they have a unique name (chances are someone else has already generated a `figure1.png` file), or create under `/topics/{topic}/figures` specifically for your figures. 
+The template contains some example markup demonstrating this.
 
 # Adding TRANSLATED posts
 
