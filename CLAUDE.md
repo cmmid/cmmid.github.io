@@ -51,16 +51,6 @@ Two steps required — both must be present before tag appears:
 1. Create topic page in `topics/{topic}/` with `tag_filter` matching the new tag
 2. Add entry to `_data/translations.yml` with `id` matching the tag and `en-gb` value
 
-## PR workflow
-
-No PR template or CI. Branch from `master`, open PR against `master`.
-
-Key maintainers/reviewers (use GitHub handles or tag by email):
-- Adam Kucharski — adam.kucharski@lshtm.ac.uk
-- Sebastian Funk — sebastian.funk@lshtm.ac.uk
-- Rosalind Eggo — r.eggo@lshtm.ac.uk
-- John Edmunds — john.edmunds@lshtm.ac.uk
-
 ## Key files
 
 | Path | Purpose |
