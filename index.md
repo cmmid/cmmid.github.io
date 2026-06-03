@@ -11,5 +11,6 @@ We recommend interpreting results with caution. Work may become outdated: please
 All work here is open-access, and we welcome feedback. 
 Please contact individual authors listed on the content pages, or leave a comment on the general purpose [forum](https://github.com/cmmid/cmmid.github.io/discussions).
 
-
+<button type="button" style="color: blue;">[Ebola BVD](topics/ebola-bvd/)</button>
 <button type="button" style="color: blue;">[Covid-19](topics/covid19/)</button>
+
