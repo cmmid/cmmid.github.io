@@ -1,5 +1,7 @@
 - name: Home
   link: /
+- name: Ebola BVD
+  link: /topics/ebola-bvd/
 - name: Covid-19
   link: /topics/covid19/
 - name: About
