@@ -478,3 +478,11 @@
    - frank_sandmann
    - kaja-a
    - david_hodgson
+- id: bvd-group
+  name: CMMID BVD working group
+  type: group
+  members:
+   - nick_davies
+   - kevin_vanzandvoort
+   - seb_funk
+   - roz_eggo
