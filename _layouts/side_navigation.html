@@ -18,15 +18,17 @@ layout: default
   <section>
     <div class="navigation">
       <ul class="nav nav-pills nav-stacked">
-        {% include nav_link url="/topics/covid19/" id="home" %}
+        {% assign topic_dir = page.dir | remove_first: "/" %}
+        {% assign topic_home = "/" | append: topic_dir %}
+        {% include nav_link url=topic_home id="home" %}
 
-        {% assign site_tags = site.posts | where: "language", page.language | map: "tags" | uniq %}
+        {% assign topic_posts = site.posts | where_exp: "post", "post.path contains topic_dir" %}
+        {% assign site_tags = topic_posts | where: "language", page.language | map: "tags" | join: "," | split: "," | uniq %}
         {% for tag in site_tags %}
-          {% assign tag_url = "/topics/covid19/" | append: tag | append: ".html" %}
+          {% assign tag_url = topic_home | append: tag | append: ".html" %}
           {% include nav_link url=tag_url id=tag %}
         {% endfor %}
 
-        {% include nav_link url="/visualisations" id="apps" %}
       </ul>
     </div>
     <div class="nav-content">
