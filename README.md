@@ -1,86 +1,48 @@
-# OVERVIEW
+# CMMID Repository
 
-The source for the [web page](https://cmmid.github.io/) advertising assorted [CMMID](https://cmmid.lshtm.ac.uk/) project work.
+Source for [cmmid.github.io](https://cmmid.github.io/) — an open-access repository for project work from [CMMID](https://cmmid.lshtm.ac.uk/).
 
-# Adding NEW posts
+## Site structure
 
-To add a new post to the website, add a new markdown or html file to `/topics/covid19/_posts` using the template [/topics/YYYY-MM-DD-post-template.md](https://github.com/cmmid/cmmid.github.io/blob/master/topics/YYYY-MM-DD-post-template.md)..
+Each topic lives under `topics/<topic-name>/` with its own `_posts/` directory and optional sub-pages for filtering by tag. Current topics:
 
-Front-matter variables are optional, but the following are available:
+- **Ebola BVD** — `topics/ebola-bvd/` — 2026 Bundibugyo ebolavirus outbreak
+- **Covid-19** — `topics/covid19/` — SARS-CoV-2 work
 
-```
+## Adding a post
+
+1. Add a markdown or HTML file to the relevant topic's `_posts/` directory, e.g. `topics/ebola-bvd/_posts/` or `topics/covid19/_posts/`
+2. Name it `YYYY-MM-DD-short-title.md`
+3. Use [topics/YYYY-MM-DD-post-template.md](topics/YYYY-MM-DD-post-template.md) as a starting point
+
+Key frontmatter fields:
+
+```yaml
 title: Title of the post
-description: Short description of post
-
-# these are the statuses you can choose from; delete/uncomment as necessary
-# defaults to paper-under-peer-review if not set
-status: paper-under-peer-review
-# status: paper-accepted-at-journal
-# status: paper-published-at-journal
-# status: real-time-report
-# status: report
-# status: comment-opinion-online
-# status: comment-opinion-journal
-
-update: YYYY-MM-DD when post was updated
-```
-
-```
-tags: [transmission-dynamics, severity, lmic-considerations, control-measures, mixing-patterns, healthcare-settings, comments-opinions, forecasts-and-projections]
-
-```
-
-Posts can appear in multiple sections; delete the tags as appropriate
-
-```
+description: Short description
+status: paper-under-peer-review  # see template for all options
+update: YYYY-MM-DD
+tags: [transmission-dynamics, severity]  # controls which sub-page the post appears on
 authors:
-  - id: author_1
-  - id: author_2
-  - id: author_3
-```
-  
-If you want to use mathjax, tabs, or other objects regularly used in Rmarkdown html files:
- 1. set 'output: html_fragment' in your rmarkdown file
- 2. set rmarkdown_html_fragment: true in the front-matter of your post
- 
-
-# Figures and attachments
-
-Copy your figures and attachments into the `/topics/covid19/figures` and `/topics/covid19/reports` directories accordingly. Make sure they have a unique name (chances are someone else has already generated a `figure1.png` file), or create under `/topics/covid19/figures` specifically for your figures. The template contains some example markup demonstrating this.
-
-
-# Adding TRANSLATED posts
-
-Post translations can be added alongside their English versions, but with the language variable set in the front-matter:
-
-```
-language: zh-cn
+  - id: author_id  # see _data/authors.yml for ids
 ```
 
-These posts can share the same images as the English versions.
+Figures go in `topics/<topic>/figures/`, reports in `topics/<topic>/reports/`.
 
-Currently, only zh-cn is available. If unspecified, the language of the post will be set to `en-gb` automatically.
- 
+## Adding a tag (sub-page)
 
-# Adding R Shiny Apps
+Tags control which section a post appears under within a topic.
 
-To add a new shiny app to the [visualisations page](https://cmmid.github.io/visualisations.html), all you need to do is copy a file, and change two fields.
+1. Add a page in the topic directory with `tag_filter: your-tag` in the frontmatter (see existing pages for examples)
+2. Add a translation entry to `_data/translations.yml` with the tag id and an `en-gb` label
 
-Detailed instructions:
- 1. copy the [_shinyapp/template.md](https://github.com/cmmid/cmmid.github.io/blob/master/_shinyapp/template.md) file to a new file name in the same directory
- 2. if using the Github interface, click raw to see the text to copy, then create a new file and paste that in; there is no simple way to duplicate a file in the web interface
- 3. edit the `URL` in the `shinyurl: https://cmmid-lshtm.shinyapps.io/SOME_APP/` line to match the url where the application is hosted; this can be *any* url that serves up an R Shiny App
- 4. edit the title; this must be valid YAML, so no new lines and watch out for `:` and `,` in your title - those and other special characters can be addressed by quoting the whole entry
- 5. **DON'T** edit the `---`s.
- 6. if using the Github web editing interface, you can check the preview to ensure proper entry. Should see a table-like thing
- 7. commit your changes
+## Adding a new topic
 
+1. Create `topics/<topic-name>/` with an `index.md` (frontmatter: `title`)
+2. Create `topics/<topic-name>/_posts/` for posts
+3. Add the topic to `_data/navigation.yml` and the homepage `index.md`
+4. Add a working group page in `groups/` if needed
 
-# Adding new tags
+## R Shiny apps
 
-To add a new tag, two things are required:
-
-1. a topic page with the `tag_filter` matching that tag (see existing ones for an example)
-2. an entry in `_data/translations.yml` (only the id, matching the tag, and an `en-gb` version are required).
-
-Both of these must be in place before the new tag will be visible on the site.
+Copy `_shinyapp/template.md` to a new file in the same directory and update the `shinyurl` and `title` fields.
