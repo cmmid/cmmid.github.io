@@ -2,10 +2,12 @@
 layout: side_navigation
 ---
 
+{% assign topic_dir = page.dir | remove_first: "/" %}
+{% assign topic_posts = site.posts | where_exp: "post", "post.path contains topic_dir" %}
 {% if page.tag_filter %}
-  {% assign filtered_posts = site.tags[page.tag_filter] %}
+  {% assign filtered_posts = topic_posts | where_exp: "post", "post.tags contains page.tag_filter" %}
 {% else %}
-  {% assign filtered_posts = site.posts %}
+  {% assign filtered_posts = topic_posts %}
 {% endif %}
 
 {% assign posts = filtered_posts | where: "language", page.language %}
