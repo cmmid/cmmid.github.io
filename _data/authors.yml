@@ -409,6 +409,12 @@
   name: Julia Shen
 - id: pietro_coletti
   name: Pietro Coletti
+- id: james_azam
+  name: James Azam
+  email: james.azam@lshtm.ac.uk
+- id: kath_sherratt
+  name: Katharine Sherratt
+  email: katharine.sherratt@lshtm.ac.uk
 - id: chil-group
   name: CHiL COVID-19 Working Group
   type: group
