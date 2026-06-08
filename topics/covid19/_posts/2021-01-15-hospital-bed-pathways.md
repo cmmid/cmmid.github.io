@@ -8,10 +8,13 @@ tags: [healthcare-settings]
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
-status: paper-under-peer-review
+# status: paper-under-peer-review
+status: paper-published-at-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2021-01-15
+#update: 2021-01-15
+update: 2026-06-08
+
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -30,6 +33,8 @@ authors:
   - id: gwen_knight
 
 ---
+
+
 
 **Objectives**
 
@@ -50,5 +55,5 @@ For UCH, we found that using bed pathways improved the accuracy of bed occupancy
 We identified five bed pathways, with substantial variation in LoS by bed type, pathway, and geography. This might be caused by local differences in patient characteristics, clinical care strategies, or resource availability, and suggests that national LoS averages may not be appropriate for local forecasts of bed occupancy for COVID-19.
 
 
-**Read the full pre-print [here](https://www.medrxiv.org/content/10.1101/2021.01.14.21249791v1) and access the code and data [here](https://github.com/qleclerc/COVID_bed_occupancy).**
+**Read the full journal article [here](https://doi.org/10.1186/s12913-021-06509-x) and access the code and data [here](https://github.com/qleclerc/COVID_bed_occupancy).**
 

@@ -1,7 +1,7 @@
 ---
 
 # add the title of your project
-title: Human movements can inform the spatial scale of interventions against COVID-19 transmission
+title: Detecting behavioural changes in human movement to inform the spatial scale of interventions against COVID-19
 
 description: We evaluated if Facebook for Good mobility data can provide information about movements within the UK during intervention periods and afterward.
 
@@ -11,16 +11,17 @@ tags: [transmission-dynamics,  control-measures]
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
-status: paper-under-peer-review
+# status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2020-10-26
+#update: 2020-10-26
+update: 2026-06-08
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -51,4 +52,4 @@ authors:
 
 The UK enacted an intensive, nationwide lockdown on March 23 2020 to mitigate transmission of COVID-19. As restrictions began to ease, resurgence in transmission has been targeted by geographically-limited interventions of various stringencies. Determining the optimal spatial scale for local interventions is critical to ensure interventions reach the most at risk areas without unnecessarily restricting areas at low risk of resurgence. Here we use detailed human mobility data from Facebook to determine the spatially-explicit network community structure of the UK before and during the lockdown period, and how that has changed in response to the easing of restrictions and to locally-targeted interventions. We found that the mobility network became more sparse and the number of mobility communities decreased under the national lockdown. During this period, there was no evidence of re-routing in the network. Communities in which locally-targeted interventions have happened following resurgence did not show reorganization but did show small decreases in measurable mobility effects in the Facebook dataset. We propose that geographic communities detected in Facebook or other mobility data be part of decision making for determining the spatial extent or boundaries of interventions in the UK. These data are available in near real-time, and allow quantification of changes in the distribution of the population across the UK, as well as people's travel patterns to give data-driven metrics for geographically-targeted interventions.
 
-Please download the [main text](reports/Facebook_movement_analysis_UK-20201026.pdf) and [supplement](reports/Facebook_movement_analysis_UK-Supplemental-20201026.pdf) for more information.
+Please download the [published paper](https://doi.org/10.1371/journal.pcbi.1009162), [an earlier report](reports/Facebook_movement_analysis_UK-20201026.pdf) and [supplement](reports/Facebook_movement_analysis_UK-Supplemental-20201026.pdf) for more information.

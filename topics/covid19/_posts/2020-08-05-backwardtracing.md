@@ -5,9 +5,9 @@ title: "Implication of backward contact tracing in the presence of overdispersed
 
 description: "We explored the potential of combining backward contact tracing with more conventional forward contact tracing for control of COVID-19."
 
-status: paper-under-peer-review
+# status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-08-05
@@ -20,6 +20,7 @@ update: 2020-08-05
 authors:
   - id: akira_endo
     corresponding: true
+  - id: ncov-group
   - id: quentin_leclerc
   - id: gwen_knight
   - id: graham_medley
@@ -33,9 +34,12 @@ tags: [control-measures]
 ---
 
 
-**[Read the full preprint here](https://www.medrxiv.org/content/10.1101/2020.08.01.20166595v1.full.pdf).**
+**[Read the published article here](https://doi.org/10.12688/wellcomeopenres.16344.3).**
+
+**[Read an earlier preprint here](https://www.medrxiv.org/content/10.1101/2020.08.01.20166595v1).**
 
 ### Abstract
+
 Unlike forward contact tracing, backward contact tracing identifies the source of newly detected cases. This approach is particularly valuable when there is high individual-level variation in the number of secondary transmissions. By using a simple branching process model, we explored the potential of combining backward contact tracing with more conventional forward contact tracing for control of COVID-19.
 
 <img src="reports/backwardtracing1.png" width="70%" style="display: block; margin: auto;" />

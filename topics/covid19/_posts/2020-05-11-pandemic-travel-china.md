@@ -1,7 +1,7 @@
 ---
   
 # add the title of your project
-title: Changing Travel Patterns in Mainland China During the Early Stages of the COVID-2019 Pandemic
+title: Changing travel patterns in China during the early stages of the COVID-19 pandemic
 
 description: We examined human movement on multiple geographic scales to provide a complete picture of the overall dynamics while drawing links to their public health implications.
 
@@ -11,16 +11,17 @@ tags: [transmission-dynamics, lmic-considerations, control-measures]
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
-status: paper-under-peer-review
+# status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-05-11
+# update: 2020-05-11
+update: 2026-06-08
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -33,6 +34,7 @@ authors:
   corresponding: true
 - id: yang_liu
   equal: 1
+  corresponding: true
 - id: carl_ab_pearson
 - id: chris_jarvis
 - id: chris_grundy
@@ -50,4 +52,4 @@ authors:
 <img src="figures/pandemic_travel_china_fig3.png" width="80%"/>
 **Figure 3. Human mobility, healthcare services availability, and COVID-19 related healthcare pressure.** A), The changes in traveller volume before (blue) and after (red) LNY. Net change is defined as inbound migration index minus outbound migration index. Thus, a negative change indicates more travellers leave than arrive while a positive value indicates more travellers arrive than leave. Solid line indicates the median level of healthcare access. B), The changes in the healthcare pressure (log10 scale) related to COVID-19 each week in low and high healthcare access prefectures. Healthcare access is measured by the number of hospitals per 100,000 residents. Healthcare pressure is measured by confirmed COVID-19 cases divided by healthcare access. Darker shade represents weeks when low healthcare access settings experienced significantly higher pressure than high healthcare access settings; lighter shade represents when differences are not significant based on Mann-Whitney U test. 
 
-This [pre-print](reports/pandemic_travel_china_Manuscript.pdf) and [supplemental materials](reports/pandemic_travel_china_Supplement.pdf) are being submitted to medrxiv and the links will be updated after screening.
+Read the published article [here](https://doi.org/10.1038/s41467-020-18783-0). An earlier [pre-print](reports/pandemic_travel_china_Manuscript.pdf) and [supplemental materials](reports/pandemic_travel_china_Supplement.pdf) also available.

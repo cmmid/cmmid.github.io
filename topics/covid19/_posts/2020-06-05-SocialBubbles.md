@@ -5,16 +5,17 @@ description: "We consider expanding the social bubble of either all households o
 
 # this is a legacy status and should be changed to one of the newer ones
 # status: in-progress
-status: paper-under-peer-review
+# status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-06-05
+# update: 2020-06-05
+update: 2026-06-08
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -45,7 +46,10 @@ tags: [transmission-dynamics, control-measures]
 
 **Conclusions:** Social bubbles can be an effective way of extending contacts beyond the household limiting the increase in epidemic risk, if managed appropriately.
 
-**[Read the full preprint here](reports/SocialBubbles.pdf).**
+**[Read the published here](https://doi.org/10.12688/wellcomeopenres.16164.2).**
+
+
+**[Read an earlier preprint here](reports/SocialBubbles.pdf).**
 
 <img src="figures/SocialBubbles.png" width="70%" style="display: block; margin: auto;" />
 ***Figure 1. top panel: schematic of model structure and its stratification into different household sizes with three components of transmission dynamics, community transmission, bubble transmission and household transmission; left panel: household size distribution for all households in England and Wales, for those households with at least one child younger than 20 years old and for those with at least one child younger than 10 years old (about primary school age and younger). Right panel: illustrative transmission probability matrix A, composed of household and bubble contacts and including community transmission.*

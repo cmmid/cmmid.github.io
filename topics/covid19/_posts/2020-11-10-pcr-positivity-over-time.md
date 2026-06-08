@@ -6,13 +6,14 @@ description: "Using data on twice weekly PCR testing of front-line healthcare
 workers, we estimated individual infection times and probability of testing PCR
 positive through time since infection."
 
-status: paper-under-peer-review
+# status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-11-24
+#update: 2020-11-24
+update: 2026-06-08
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -71,7 +72,7 @@ high proportion of infected individuals early in their infection, provided that
 the testing is frequent and the time from testing to notification of results is
 sufficiently fast.
 
-**[Read the full preprint here](reports/pcr_profile/manuscript_main_text.pdf) 
+**[Read the published article here](https://doi.org/10.1186/s12916-021-01982-x), [an earlier preprint here](reports/pcr_profile/manuscript_main_text.pdf) 
 and [the supplementary material here](reports/pcr_profile/manuscript_supplementary_material.pdf).**
 
 **[Download the median and 95% credible interval for our PCR-positivity curve (Figure 3) here](https://github.com/cmmid/pcr-profile/blob/main/PCR_curve_summary.csv) and [download the median and 95% credible interval for our lateral flow test positivity curve (Figure S3) here](https://github.com/cmmid/pcr-profile/blob/main/LFT_curve_summary.csv)** 

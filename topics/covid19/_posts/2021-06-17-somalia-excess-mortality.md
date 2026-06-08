@@ -1,6 +1,6 @@
 ---
 
-#add the title of your project
+# add the title of your project
 title: Model fitting of early 2020 increase in burials in Mogadishu (Somalia) suggests possible early introduction of SARS-CoV-2
 
 #add a description
@@ -8,10 +8,12 @@ description: We fitted a dynamic transmission model to satellite imagery of the 
 
 tags: [transmission-dynamics, severity, lmic-considerations, control-measures]
 
-status: paper-under-peer-review
+#status: paper-under-peer-review
+status: paper-published-at-journal
 
 #add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2021-06-17
+#update: 2021-06-17
+update: 2026-06-08
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -22,10 +24,11 @@ authors:
   - id: mihaly_koltai
     corresponding: true  
   - id: collaborators_somalia_excess_mort_early_introd
-  - id: stefan_flasche
   - id: mark_jit
-  - id: francesco_checchi
+  - id: stefan_flasche
+  - id: nick_davies
   - id: ncov-group
+  - id: francesco_checchi
 
 # permalinks have changed
 # make sure old urls still work by redirecting to this post
@@ -33,6 +36,8 @@ redirect_from:
   - /topics/covid19/somalia-excess-mortality.html
 
 ---
+
+**[The published version is available here.](https://doi.org/10.12688/wellcomeopenres.17247.2)**
 
 ### **Background**
 

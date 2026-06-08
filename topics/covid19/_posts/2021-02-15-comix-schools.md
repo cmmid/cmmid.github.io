@@ -4,14 +4,15 @@ title: "Estimating the impact of reopening schools on the reproduction number of
 
 description: "Combining CoMix contact survey data with profiles in infectiousness and susceptibility to estimate the effect on the reproduction number."
 
-status: paper-under-peer-review
+#status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 
 tags: [control-measures, mixing-patterns]
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2021-02-15
+#update: 2021-02-15
+update: 2026-06-08
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -34,9 +35,9 @@ authors:
 
 ---
 
+**[Read published article here.](https://doi.org/10.1186/s12916-021-02107-0)**
+
 **[Read preprint here.](https://medrxiv.org/cgi/content/short/2021.03.06.21252964v1)**
-
-
 
 # Summary
 
