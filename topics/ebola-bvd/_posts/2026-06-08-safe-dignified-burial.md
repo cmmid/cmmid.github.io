@@ -4,7 +4,9 @@
 title: Simulation of safe and dignified burial for control of Bundibugyo Ebola virus epidemics
 
 #add a description
-description: We evaluated the effectiveness of control measure X for infection
+description: We use a simple transmission model to explore different scenarios of how safe and 
+dignified burial (SDB) could affect the Bundibugyo epidemic's trajectory, and thus inform 
+decisions about which targets an SDB service should set out to achieve.
 
 # delete any tags which aren't appropriate
 # if you need more tags, they can be created! Please discuss.
@@ -29,8 +31,10 @@ authors:
 
 ---
 
-![Estimates of the absolute reduction in *R* resulting from varying levels of SDB effectiveness, for cases
-that do benefit from SDB (i.e. assuming 100% coverage).](reports/2026-06-08-safe-dignified-burial/figure.jpg)
+<figure>
+  <img src="reports/2026-06-08-safe-dignified-burial/figure.jpg" width="65%" />
+  <figcaption>Estimates of the absolute reduction in <em>R</em> resulting from varying levels of SDB effectiveness, for cases that do benefit from SDB (i.e. assuming 100% coverage).</figcaption>
+</figure>
 
 The ongoing epidemic of Ebola Bundibugyo Virus Disease (BVD) in the eastern Democratic Republic of
 Congo (DRC) and Uganda appears to be propagating. Just as during the previous large DRC epidemic
