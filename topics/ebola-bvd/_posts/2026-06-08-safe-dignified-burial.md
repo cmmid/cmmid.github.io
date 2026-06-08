@@ -4,9 +4,7 @@
 title: Simulation of safe and dignified burial for control of Bundibugyo Ebola virus epidemics
 
 #add a description
-description: We use a simple transmission model to explore different scenarios of how safe and 
-dignified burial (SDB) could affect the Bundibugyo epidemic's trajectory, and thus inform 
-decisions about which targets an SDB service should set out to achieve.
+description: We use a simple transmission model to explore different scenarios of how safe and dignified burial (SDB) could affect the Bundibugyo epidemic's trajectory, and thus inform decisions about which targets an SDB service should set out to achieve.
 
 # delete any tags which aren't appropriate
 # if you need more tags, they can be created! Please discuss.
