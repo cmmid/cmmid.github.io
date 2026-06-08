@@ -45,6 +45,8 @@ and Guinea. Overlaid points show the date of importation (x-axis), source countr
 evacuation status (triangles for medevac cases, circles for latent cases) of primary exported cases.</figcaption>
 </figure>
 
+<br/>
+
 **Background** An outbreak of Bundibugyo ebolavirus in Ituri, Democratic Republic of the Congo
 was reported in May 2026. Neighbouring countries in Africa are at the greatest risk of
 cross-border spread, but the severe nature of Ebola virus disease has raised concerns globally
