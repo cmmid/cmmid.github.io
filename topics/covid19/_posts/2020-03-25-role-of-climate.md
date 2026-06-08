@@ -29,7 +29,7 @@ authors:
 redirect_from:
 - /topics/covid19/current-patterns-transmission/role-of-climate.html
 
-tags: [transmission-dynamics]
+tags: [transmission-dynamics, comments-opinions]
 ---
 
 The published version of this article is available [here](https://doi.org/10.1016/S2542-5196(20)30106-6)
