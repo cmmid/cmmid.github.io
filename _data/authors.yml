@@ -85,7 +85,6 @@
   name: Nicholas Davies
   email: nicholas.davies@lshtm.ac.uk
   url: https://www.lshtm.ac.uk/aboutus/people/davies.nicholas
-  twitter: _nickdavies
 - id: charlie_diamond
   name: Charlie Diamond
   email: charlie.diamond@lshtm.ac.uk
@@ -277,6 +276,7 @@
   name: Andrew Clark
 - id: francesco_checchi
   name: Francesco Checchi
+  email: francesco.checchi@lshtm.ac.uk
 - id: deus_thindwa
   name: Deus Thindwa
   email: deus.thindwa@lshtm.ac.uk
