@@ -21,7 +21,7 @@ status: report
 # status: comment-opinion-journal
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2026-06-08
+update: 2026-06-10
 
 authors:
   - id: kevin_vanzandvoort
@@ -80,4 +80,4 @@ risk of case exportations could be substantially mitigated by infection preventi
 the outbreak source and among outbreak response workers, in concert with enhanced travel
 screening and monitoring for returning response workers.
 
-The [full report is available here](reports/2026-06-08-exportation-risk/exportation_risk.pdf).
+The [full report is available here](reports/2026-06-08-exportation-risk/exportation_risk_v2.pdf).
