@@ -12,16 +12,16 @@ tags: [control-measures]
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
-status: report
+# status: report
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2026-06-10
+update: 2026-07-07
 
 authors:
   - id: kevin_vanzandvoort
@@ -80,4 +80,6 @@ risk of case exportations could be substantially mitigated by infection preventi
 the outbreak source and among outbreak response workers, in concert with enhanced travel
 screening and monitoring for returning response workers.
 
-The [full report is available here](reports/2026-06-08-exportation-risk/exportation_risk_v2.pdf).
+The published paper is available at [Eurosurveillance](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2026.31.24.2600508).
+
+The preprint report is available [here](reports/2026-06-08-exportation-risk/exportation_risk_v2.pdf).
