@@ -5,10 +5,12 @@ title: CoMix - Changes in social contacts as measured by the contact survey duri
 
 description: We present one full year of CoMix contact survey data from participants in England between March 2020 and March 2021 to track social contact behaviour during the Covid-19 pandemic.
 
-status: paper-under-peer-review
+#status: paper-under-peer-review
+status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2021-06-02
+#update: 2021-06-02
+update: 2026-06-08
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -33,6 +35,9 @@ authors:
 
 tags: [transmission-dynamics, mixing-patterns, control-measures]
 ---
+
+<a target = "_blank" href="https://doi.org/10.1371/journal.pmed.1003907" title="CoMix England Full Report">Click here to read the published article.</a>
+
 
 <a target = "_blank" href="https://www.medrxiv.org/content/10.1101/2021.05.28.21257973v1" title="CoMix England Full Report">Click here to read our full preprint.</a>
 

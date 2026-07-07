@@ -11,16 +11,17 @@ tags: [mixing-patterns, control-measures, transmission-dynamics]
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
-status: paper-under-peer-review
+# status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-08-13
+# update: 2020-08-13
+update: 2026-06-08
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -39,7 +40,8 @@ authors:
 corresponding: true
 
 ---
-  **[You can read the full preprint here](https://www.medrxiv.org/content/10.1101/2020.07.22.20159772v2)**
+  **[You can read the published paper here](https://doi.org/10.1371/journal.pcbi.1009098)**
+  **[You can read an earlier preprint here](https://www.medrxiv.org/content/10.1101/2020.07.22.20159772v2)**
   **[and the supplementary information here](reports/synthetic_contact_matrices/synthetic_matrices_supplement_2020-07-22.pdf).**
   
 The risk of contracting a directly-transmitted infectious disease such as the Coronavirus Disease 2019 (COVID-19) depends on who interacts with whom. 
