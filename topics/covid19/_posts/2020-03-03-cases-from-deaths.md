@@ -6,17 +6,17 @@ title: "Inferring cases from recent deaths"
 description: We infer the number of COVID-19 cases based on recently reported deaths. Results suggest that by the time a single COVID-19 death is reported, hundreds to thousands of cases may already be present in the population.
 
 # this is a legacy status and should be changed to one of the newer ones
-status: paper-under-peer-review
+# status: paper-under-peer-review
 # status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-03-04
+update: 2026-06-08
 
 #add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -26,23 +26,25 @@ update: 2020-03-04
 authors:
   - id: thibaut_jombart
     corresponding: true
-  - id: sam_abbott
-    equal: 1
-  - id: amy_gimma
-    equal: 1
-  - id: chris_jarvis
+  - id: kevin_vanzandvoort
     equal: 1
   - id: tim_russell
     equal: 1
-  - id: kevin_vanzandvoort
+  - id: chris_jarvis
+    equal: 1
+  - id: amy_gimma
+    equal: 1
+  - id: sam_abbott
     equal: 1
   - id: sam_clifford
   - id: seb_funk
   - id: hamish_gibbs
   - id: yang_liu
+  - id: carl_ab_pearson
+  - id: nikos_bosse
+  - id: ncov-group
   - id: roz_eggo
   - id: adam_kucharski
-  - id: ncov-group
   - id: john_edmunds
 
 redirect_from:
@@ -90,6 +92,7 @@ table.blueTable tfoot td {
 
 </style>
 
+The published article is available [here](https://doi.org/10.12688/wellcomeopenres.15786.1)
 
 ## Aim
 

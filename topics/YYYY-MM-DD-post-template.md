@@ -1,13 +1,14 @@
 ---
 
 # add the title of your project
-title: New project on Covid work#add a description
+title: New project
 
-description: We evaluated the effectiveness of control measure X for 2019-nCoV infection
+#add a description
+description: We evaluated the effectiveness of control measure X for infection
 
 # delete any tags which aren't appropriate
 # if you need more tags, they can be created! Please discuss.
-tags: [transmission-dynamics, severity, lmic-considerations, control-measures, mixing-patterns, healthcare-settings, comments-opinions, forecasts-and-projections] 
+tags: [transmission-dynamics, severity, lmic-considerations, control-measures, mixing-patterns, healthcare-settings, comments-opinions, forecasts-and-projections]
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
@@ -20,7 +21,7 @@ status: paper-under-peer-review
 # status: comment-opinion-journal
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2020-02-07
+update: 2000-01-01
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -45,11 +46,6 @@ authors:
   - id: roz_eggo
     equal: 2
     corresponding: true
-
-# permalinks have changed
-# make sure old urls still work by redirecting to this post
-redirect_from:
-  - /ncov/isolation_contact_tracing/
 
 ---
 

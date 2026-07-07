@@ -3,11 +3,12 @@ title: "Understanding the duration and size of the spillover event at the start 
 
 description: "The transmissibility of novel Coronavirus in the early stages of the 2019-20 outbreak in Wuhan: Exploring initial point-source exposure sizes and durations using scenario analysis"
 
-status: paper-under-peer-review
+# status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 
-update: 2020-01-30
+# update: 2020-01-30
+update: 2026-06-08
 
 authors:
   - id: sam_abbott
@@ -28,7 +29,7 @@ tags: [transmission-dynamics]
 
 *S. Abbott, J. Hellewell, J. Munday, CMMID nCoV working group, S. Funk*
 
-*Last updated: 30 January 2020*
+The study can be read [here](https://wellcomeopenresearch.org/articles/5-17) and the package code can be found [here](https://github.com/epiforecasts/WuhanSeedingVsTransmission).
 
 **Background:** The current novel coronavirus outbreak appears to have originated from a point-source exposure event at Huanan seafood wholesale market in Wuhan, China. There is still uncertainty around the scale and duration of this exposure event. This has implications for the estimated transmissibility of the coronavirus and as such, these potential scenarios should be explored.
 
@@ -37,6 +38,3 @@ tags: [transmission-dynamics]
 **Results:** Using a pre-intervention SARS-like serial interval suggested a larger initial transmission event and a higher R0 estimate. Using a SARs-like serial interval we found that the most likely scenario produced an R0 estimate between 2-2.7 (90% credible interval (CrI)). A pre-intervention SARS-like serial interval resulted in an R0 estimate between 2-3 (90% CrI). There were other plausible scenarios with smaller events sizes and longer duration that had comparable R0 estimates. There were very few simulations that were able to reproduce the observed data when R0 was less than 1.
 
 **Conclusions:** Our results indicate that an R0 of less than 1 was highly unlikely unless the size of the initial exposure event was much greater than currently reported. We found that R0 estimates were comparable across scenarios with decreasing event size and increasing duration. Scenarios with a pre-intervention SARS-like serial interval resulted in a higher R0 and were equally plausible to scenarios with SARs-like serial intervals.
-
-
-The study can be read [here](https://wellcomeopenresearch.org/articles/5-17) and the package code can be found [here](https://github.com/epiforecasts/WuhanSeedingVsTransmission).

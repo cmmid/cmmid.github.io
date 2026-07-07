@@ -1,7 +1,7 @@
 ---
 
 # add the title of your project
-title: A Modelling Study for Designing a Multi-layered Surveillance Approach to Detect the Potential Resurgence of SARS-CoV-2
+title: Designing a multi-layered surveillance approach to detecting SARS-CoV-2: A modelling study
 
 description: We evaluated routine surveillance/ testing strategies that can act as early warning systems in China.
 
@@ -11,16 +11,17 @@ tags: [control-measures, healthcare-settings]
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
-status: paper-under-peer-review
+# status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2020-08-19
+# update: 2020-08-19
+update: 2026-06-08
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -58,7 +59,7 @@ authors:
 
 **Funding:** Bill & Melinda Gates Foundation, National Institute of Health Research (UK), National Institute of Health (US), the Royal Society, and Wellcome Trust.
 
-**Read the full pre-print [here](https://www.medrxiv.org/content/10.1101/2020.06.27.20141440v1) and find the code used [here](https://github.com/yangclaraliu/covid_surveillance_strategy).**
+**Read the published paper [here](https://doi.org/10.12688/wellcomeopenres.16256.1), an earlier pre-print [here](https://www.medrxiv.org/content/10.1101/2020.06.27.20141440v1), and find the code used [here](https://github.com/yangclaraliu/covid_surveillance_strategy).**
 
 <img src="figures/surveillance.JPG" width="70%" style="display: block; margin: auto;" />
 **Figure 1.** Likely scope of outbreak by the time of first COVID-19 detection. In a city like Beijing, testing at the rate of 0.04 and 0.07 per 1000 roughly translates to testing 800 and 1600 patients per day. The current routine testing level is approximately 2000 per day. We showed that targeted testing such as the on-going efforts in fever clinics could lead to earlier detection of community transmission. However, with the current level of efforts, it is unlikely detection can occur before cumulative incidence has exceed 100 cases.

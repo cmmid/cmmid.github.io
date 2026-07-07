@@ -5,7 +5,7 @@ title: "Combining fine-scale social contact data with epidemic modelling reveals
 
 description: "Simulated isolation, tracing and quarantine control strategies for SARS-CoV-2 in a real-world social network generated from high resolution GPS data."
 
-status: paper-under-peer-review
+status: paper-published-at-journal
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 
@@ -31,11 +31,12 @@ tags: [mixing-patterns, control-measures]
 
 ---
 
-Case isolation and contact tracing can contribute to the control of COVID-19 outbreaks. However, it remains unclear how real-world networks could influence the effectiveness and efficiency of such approaches. To address this issue, we simulated control strategies for SARS-CoV-2 in a real-world social network generated from high resolution GPS data. We found that tracing contacts-of-contacts reduced the size of simulated outbreaks more than tracing of only contacts, but resulted in almost half of the local population being quarantined at a single point in time. Testing and releasing non-infectious individuals led to increases in outbreak size, suggesting that contact tracing and quarantine may be most effective when it acts as a ‘local lockdown’ when contact rates are high. Finally, we estimated that combining physical distancing with contact tracing could enable epidemic control while reducing the number of quarantined individuals. Our approach highlights the importance of network structure and social dynamics in evaluating the potential impact of SARS-CoV-2 control.
+**Now published in [Nature Medicine](https://www.nature.com/articles/s41591-020-1036-8)**
+
+Case isolation and contact tracing can contribute to the control of COVID-19 outbreaks. However, it remains unclear how real-world social networks could influence the effectiveness and efficiency of such approaches. To address this issue, we simulated control strategies for SARS-CoV-2 transmission in a real-world social network generated from high-resolution GPS data that were gathered in the course of a citizen-science experiment. We found that tracing the contacts of contacts reduced the size of simulated outbreaks more than tracing of only contacts, but this strategy also resulted in almost half of the local population being quarantined at a single point in time. Testing and releasing non-infectious individuals from quarantine led to increases in outbreak size, suggesting that contact tracing and quarantine might be most effective as a ‘local lockdown’ strategy when contact rates are high. Finally, we estimated that combining physical distancing with contact tracing could enable epidemic control while reducing the number of quarantined individuals. Our findings suggest that targeted tracing and quarantine strategies would be most efficient when combined with other control measures such as physical distancing.
 
 <img src="figures/tracing_network_local.png" alt="Network epidemics" style="max-width:600px; margin: auto; width:100%;" />
 
 _Epidemic model predictions of outbreak size and number of people isolated/quarantined under different non-pharmaceutical intervention scenarios in the Haslemere network. A cumulative number of cases, number of people isolated, and number of people quarantined at a given point in time under each scenario. Lines and shaded areas represent median and interquartile range from 1000 simulations. B Example networks from a single simulation of each scenario at day 20 of the outbreak._
 
-**[Read the full preprint here](reports/2020_07_01_firth_et_al_manuscript.pdf) and the accompanying [supporting information here](reports/2020_07_01_firth_et_al_SI.pdf).**
 

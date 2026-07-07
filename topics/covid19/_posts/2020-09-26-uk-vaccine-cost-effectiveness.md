@@ -11,16 +11,17 @@ tags: [control-measures, transmission-dynamics]
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
-status: paper-under-peer-review
+# status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-10-23
+# update: 2020-10-23
+update: 2026-06-08
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -31,10 +32,10 @@ authors:
   - id: frank_sandmann
     corresponding: true
   - id: nick_davies
-  - id: ncov-group
   - id: anna_vassall
   - id: john_edmunds
   - id: mark_jit
+  - id: ncov-group
 
 ---
 
@@ -46,4 +47,4 @@ Findings. Without vaccination and physical distancing, we estimated 147.9 millio
 
 Interpretation. Our model findings highlight the substantial health and economic value of introducing SARS-CoV-2 vaccination. Given uncertainty around both characteristics of the eventually licensed vaccines and long-term COVID-19 epidemiology, our study provides early insights about possible future scenarios in a post-vaccination era from an economic and epidemiological perspective.
 
-Read the full pre-print [here.](https://www.medrxiv.org/content/10.1101/2020.09.24.20200857v1)
+Read the full paper [here](https://doi.org/10.1016/S1473-3099(21)00079-7), or an earlier pre-print [here.](https://www.medrxiv.org/content/10.1101/2020.09.24.20200857v1)

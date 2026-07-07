@@ -1,11 +1,11 @@
 ---
-title: "The effect of international travel restrictions on internal spread of COVID-19"
+title: "Effect of internationally imported cases on internal spread of COVID-19"
 
 description: "Using flight data, prevalence estimates and incidence estimates combined, we calculate the ratio of expected imported cases and local incidence globally."
 
-status: paper-under-peer-review
+# status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 
 #add the date at which post is updated (if applicable), in YYYY-MM-DD
 update: 2020-07-12
@@ -28,35 +28,16 @@ authors:
 tags: [transmission-dynamics, control-measures]
 ---
 
-<img src="reports/global_travel_restrictions/figure_1_main.png" width="80%" style="display: block; margin: auto;" />
-***Figure 1: Risk rating by country, in the absence of international travel restrictions, in each of the four scenarios about international travellers in May 2020. 
-(A) Travel assumed to be at the same levels as May 2019. (B) Traveller numbers scaled downwards based on the reduction in flights in May 2020 reported by OpenSky. 
-(C) Traveller numbers scaled down by 25%. (D) Traveller numbers scaled down by 50%.*
+This work is now published at [The Lancet Public Health](https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(20)30263-2/fulltext) and the code for the analysis in the paper can be found [here](https://github.com/thimotei/covid_travel_restrictions) and the code for the underlying model can be found [here](https://github.com/thimotei/CFR_calculation)
 
-**[Read the full preprint here](reports/global_travel_restrictions/manuscript.pdf).**
-**[and the supplementary information here](reports/global_travel_restrictions/supplementary.pdf).**
+**Background**
+Countries have restricted international arrivals to delay the spread of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). These measures carry a high economic and social cost, and might have little effect on COVID-19 epidemics if there are many more cases resulting from local transmission compared with imported cases. Our study aims to investigate the extent to which imported cases contribute to local transmission under different epidemic conditions.
 
-**Background:** Countries have restricted international arrivals to delay the spread of COVID-19. These measures carry a high economic and social cost. 
-They may have little impact on COVID-19 epidemics if there are many more cases resulting from local transmission compared to imported cases.
+**Methods**
+To inform decisions about international travel restrictions, we calculated the ratio of expected COVID-19 cases from international travel (assuming no travel restrictions) to expected cases arising from internal spread, expressed as a proportion, on an average day in May and September, 2020, in each country. COVID-19 prevalence and incidence were estimated using a modelling framework that adjusts reported cases for under-ascertainment and asymptomatic infections. We considered different travel scenarios for May and September, 2020: an upper bound with estimated travel volumes at the same levels as May and September, 2019, and a lower bound with estimated travel volumes adjusted downwards according to expected reductions in May and September, 2020. Results were interpreted in the context of local epidemic growth rates.
 
-**Methods**: To inform decisions about international travel restrictions, we compared the ratio of expected COVID-19 cases from international travel 
-(assuming no travel restrictions) to the expected COVID-19 cases arising from internal spread on an average day in May 2020 in each country. 
-COVID-19 prevalence and incidence were estimated using a modelling framework that adjusts reported cases for under-ascertainment and asymptomatic infections.
+**Findings**
+In May, 2020, imported cases are likely to have accounted for a high proportion of total incidence in many countries, contributing more than 10% of total incidence in 102 (95% credible interval 63–129) of 136 countries when assuming no reduction in travel volumes (ie, with 2019 travel volumes) and in 74 countries (33–114) when assuming estimated 2020 travel volumes. Imported cases in September, 2020, would have accounted for no more than 10% of total incidence in 106 (50–140) of 162 countries and less than 1% in 21 countries (4–71) when assuming no reductions in travel volumes. With estimated 2020 travel volumes, imported cases in September, 2020, accounted for no more than 10% of total incidence in 125 countries (65–162) and less than 1% in 44 countries (8–97). Of these 44 countries, 22 (2–61) had epidemic growth rates far from the tipping point of exponential growth, making them the least likely to benefit from travel restrictions.
 
-**Findings:** With May 2019 travel volumes, imported cases account for <10% of total incidence in 103 (95% credible interval: 76 - 130) out of 142 countries,
- and <1% in 48 (95% CrI: 9 - 95). If we assume that travel would decrease compared to May 2019 even in the absence of formal restrictions, 
- then imported cases account for <10% of total incidence in 109-123 countries and <1% in 61-88 countries (depending on the assumptions about travel reductions).
-
-**Interpretation:** While countries can expect infected travellers to arrive inthe absence of travel restrictions, in most countries these imported 
-cases likely contribute little to local COVID-19 epidemics. Stringent travel restrictions may have limited impact on epidemic dynamics except in 
-countries with low COVID-19 incidence and large numbers of arrivals from other countries.
-
-<img src="reports/global_travel_restrictions/figure_2.png" width="80%" style="display: block; margin: auto;" />
-***Figure 2: Percentage reduction in passenger numbers required for countries in scenario B where imported cases account for more than 1% of local 
-incidence to bring that proportion below 1%. Countries are grouped by United Nations Region (Oc. is Oceania).*
-
-<img src="reports/global_travel_restrictions/figure_3.png" width="80%" style="display: block; margin: auto;" />
-***Figure 3: Scatter plot showing the percentage of local daily incidence that daily imported cases represent, where the expected number of imported cases is at 
-least 1% of local incidence. The dashed line represents 10% of local incidence from imported cases. NB: For New Zealand (NZL) and China (CHN),
- imported cases represent at least 100% of local incidence.
-*
+**Interpretation**
+Countries can expect travellers infected with SARS-CoV-2 to arrive in the absence of travel restrictions. Although such restrictions probably contribute to epidemic control in many countries, in others, imported cases are likely to contribute little to local COVID-19 epidemics. Stringent travel restrictions might have little impact on epidemic dynamics except in countries with low COVID-19 incidence and large numbers of arrivals from other countries, or where epidemics are close to tipping points for exponential growth. Countries should consider local COVID-19 incidence, local epidemic growth, and travel volumes before implementing such restrictions.

@@ -34,7 +34,7 @@
 - id: real-time-report
   en-gb: Real time report
 - id: report
-  en-gb: report
+  en-gb: Report
 - id: comment-opinion-online
   en-gb: Comment/Opinion (Online)
 - id: comment-opinion-journal
@@ -45,7 +45,7 @@
 - id: contributed-equally
   en-gb: contributed equally
 - id: posts
-  en-gb: Studies
+  en-gb: Projects
   zh-cn: 符合当前条件的全部文章
 - id: category-list
   en-gb: We have divided our work on this topic under the following categories
@@ -91,3 +91,5 @@
   en-gb: Comments / Opinions
 - id: forecasts-and-projections
   en-gb: Forecasts and projections
+- id: ebola-bvd
+  en-gb: Ebola BVD

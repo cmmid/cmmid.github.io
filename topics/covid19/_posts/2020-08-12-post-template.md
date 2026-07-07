@@ -11,16 +11,17 @@ tags: [control-measures]
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
-status: paper-under-peer-review
+# status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
-update: 2020-08-19
+# update: 2020-08-19
+update: 2026-06-08
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -53,4 +54,4 @@ authors:
 
 **Conclusion:** Understanding the impact that specific NPIs have had on SARS-CoV-2 transmission is complicated by temporal clustering, time-dependent variation in effects and differences in NPI intensity. However, the effectiveness of school closure and internal movement restrictions appears robust across different model specifications taking into account these effects, with some evidence that other NPIs may also be effective under particular conditions. This provides empirical evidence for the potential effectiveness of many although not all the actions policy-makers are taking to respond to the COVID-19 pandemic.
 
-**Read the full pre-print [here](https://www.medrxiv.org/content/10.1101/2020.08.11.20172643v1) and find the code used [here](https://github.com/yangclaraliu/COVID19_NPIs_vs_Rt).**
+**Read the published paper [here](https://doi.org/10.1186/s12916-020-01872-8), an earlier pre-print [here](https://www.medrxiv.org/content/10.1101/2020.08.11.20172643v1), and find the code used [here](https://github.com/yangclaraliu/COVID19_NPIs_vs_Rt).**

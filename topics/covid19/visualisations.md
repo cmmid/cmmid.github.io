@@ -1,7 +1,7 @@
 ---
 layout: side_navigation
-permalink: /visualisations
-title: CMMID Interactive Applications
+permalink: /topics/covid19/visualisations
+title: Covid-19 Interactive Applications
 ---
 
 {% for app in site.shinyapp %}

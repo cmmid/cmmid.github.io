@@ -11,16 +11,17 @@ tags: [healthcare-settings]
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
-status: paper-under-peer-review
+# status: paper-under-peer-review
 # status: paper-accepted-at-journal
-# status: paper-published-at-journal
+status: paper-published-at-journal
 # status: real-time-report
 # status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
 # add the date at which post is updated (if applicable), in YYYY-MM-DD
-update: 2020-05-06
+# update: 2020-05-06
+update: 2026-06-08
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -39,7 +40,7 @@ authors:
   - id: carl_ab_pearson
   - id: ncov-group
   - id: thibaut_jombart
-  - id:  simon_procter
+  - id: simon_procter
     equal: 2
   - id: gwen_knight
     equal: 2
@@ -65,5 +66,7 @@ authors:
 <img src="figures/losreview_distributions.png" width="75%"> <br>
 **Figure 3: Combined LOS distributions.** Samples from the overall LoS distributions, split by location (China or rest of world) and type (ICU vs General). For each subset, 100000 draws were taken. The x-axis was cut at days = 60.
 
-Preprint available at medRxiv: <https://www.medrxiv.org/content/10.1101/2020.04.30.20084780v1.article-info>
+Published article available at [BMC Medicine](https://doi.org/10.1186/s12916-020-01726-3)
+
+An earlier preprint is available at [medRxiv](https://www.medrxiv.org/content/10.1101/2020.04.30.20084780v1)
 

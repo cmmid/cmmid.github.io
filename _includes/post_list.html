@@ -11,10 +11,10 @@
           <dt class="status">Status</dt>
           <dd class="status {{post.status}}">{% include fn_translate id=post.status %}</dd>
           <dt class="date">{% include fn_translate id='first-online' %}</dt>
-          <dd class="date">{{post.date | date: "%d-%m-%Y"}}</dd>
+          <dd class="date">{{post.date | date: "%d %B %Y"}}</dd>
           {% if post.update %}
             <dt class="date">{% include fn_translate id="last-update" %}</dt>
-            <dd class="date">{{post.update | date: "%d-%m-%Y"}}</dd>
+            <dd class="date">{{post.update | date: "%d %B %Y"}}</dd>
           {% endif %}
         </dl>
       </header>
