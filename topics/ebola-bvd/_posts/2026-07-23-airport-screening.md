@@ -12,10 +12,11 @@ tags: [control-measures]
 
 # these are the statuses you can choose from; delete/uncomment as necessary
 # defaults to paper-under-peer-review if not set
+status: paper-under-peer-review
 # status: paper-accepted-at-journal
 # status: paper-published-at-journal
 # status: real-time-report
-status: report
+# status: report
 # status: comment-opinion-online
 # status: comment-opinion-journal
 
@@ -62,5 +63,6 @@ pre-symptomatic. Resources are likely better directed towards outbreak control a
 clinician preparedness and referral pathways in receiving countries, and structured
 post-departure self-monitoring guidance for travellers from affected regions. Full methods,
 results, sensitivity analyses and an interactive Shiny app for exploring screening parameters are
-available in the [accompanying report](https://bquilty25.github.io/airport_screening_ebola_bvd/)
-and [GitHub repository](https://github.com/bquilty25/airport_screening_ebola_bvd).
+available in the [accompanying report](https://bquilty25.github.io/airport_screening_ebola_bvd/),
+the [preprint on medRxiv](https://www.medrxiv.org/content/10.64898/2026.06.11.26355442v2), and the
+[GitHub repository](https://github.com/bquilty25/airport_screening_ebola_bvd).
