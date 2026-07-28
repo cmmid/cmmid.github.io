@@ -1,7 +1,7 @@
 ---
 
 # add the title of your project
-title: Designing a multi-layered surveillance approach to detecting SARS-CoV-2: A modelling study
+title: "Designing a multi-layered surveillance approach to detecting SARS-CoV-2: A modelling study"
 
 description: We evaluated routine surveillance/ testing strategies that can act as early warning systems in China.
 
@@ -21,7 +21,7 @@ status: paper-published-at-journal
 
 # add the date at which post is updated (or the date of the initial post, if its the initial post) in YYYY-MM-DD
 # update: 2020-08-19
-update: 2026-06-08
+update: 2026-07-28
 
 # add optional hash-array with authors
 # see /_data/authors.yml for list of ids, or to add/edit an author
@@ -49,6 +49,9 @@ authors:
 #   - /ncov/isolation_contact_tracing/
 
 ---
+
+**Read the published paper [here](https://doi.org/10.12688/wellcomeopenres.16256.1)** [version 1; peer review: 2 approved with reservations]
+
 **Background:** Countries achieving control of COVID-19 after an initial outbreak will continue to face the risk of SARS-CoV-2 resurgence. This study explores surveillance strategies for COVID-19 containment based on polymerase chain reaction tests.  
 
 **Methods:** Using a dynamic SEIR-type model to simulate the initial dynamics of a COVID-19 introduction, we investigate COVID-19 surveillance strategies among healthcare workers, hospital patients, and community members. We estimate surveillance sensitivity as the probability of COVID-19 detection using a hypergeometric sampling process. We identify test allocation strategies that maximise the probability of COVID-19 detection across different testing capacities. We use Beijing, China as a case study.  
@@ -59,7 +62,7 @@ authors:
 
 **Funding:** Bill & Melinda Gates Foundation, National Institute of Health Research (UK), National Institute of Health (US), the Royal Society, and Wellcome Trust.
 
-**Read the published paper [here](https://doi.org/10.12688/wellcomeopenres.16256.1), an earlier pre-print [here](https://www.medrxiv.org/content/10.1101/2020.06.27.20141440v1), and find the code used [here](https://github.com/yangclaraliu/covid_surveillance_strategy).**
+**Read an earlier pre-print [here](https://www.medrxiv.org/content/10.1101/2020.06.27.20141440v1), and find the code used [here](https://github.com/yangclaraliu/covid_surveillance_strategy).**
 
 <img src="figures/surveillance.JPG" width="70%" style="display: block; margin: auto;" />
 **Figure 1.** Likely scope of outbreak by the time of first COVID-19 detection. In a city like Beijing, testing at the rate of 0.04 and 0.07 per 1000 roughly translates to testing 800 and 1600 patients per day. The current routine testing level is approximately 2000 per day. We showed that targeted testing such as the on-going efforts in fever clinics could lead to earlier detection of community transmission. However, with the current level of efforts, it is unlikely detection can occur before cumulative incidence has exceed 100 cases.
