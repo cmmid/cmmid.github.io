@@ -50,7 +50,7 @@ authors:
 
 ---
 
-**Read the published paper [here](https://doi.org/10.12688/wellcomeopenres.16256.1)** [version 1; peer review: 2 approved with reservations]
+**Read the published paper [here](https://doi.org/10.12688/wellcomeopenres.16256.1)** Peer review: 2 approved with reservations
 
 **Background:** Countries achieving control of COVID-19 after an initial outbreak will continue to face the risk of SARS-CoV-2 resurgence. This study explores surveillance strategies for COVID-19 containment based on polymerase chain reaction tests.  
 
