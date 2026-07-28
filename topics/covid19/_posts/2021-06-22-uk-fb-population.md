@@ -38,7 +38,7 @@ Mobility data have demonstrated major changes in human movement patterns in resp
 
 ### Methods
 
-In this paper, we combine detailed data from Facebook, measuring the location of approximately 6 million daily active Facebook users in 5km2 tiles in the UK with census-derived population estimates to measure population mobility and redistribution. We provide time-varying population estimates and assess spatial population changes with respect to population density and four key reference dates in 2020 (first UK lockdown, end of term, beginning of term, Christmas).
+In this paper, we combine detailed data from Facebook, measuring the location of approximately 6 million daily active Facebook users in 5km<sup>2</sup> tiles in the UK with census-derived population estimates to measure population mobility and redistribution. We provide time-varying population estimates and assess spatial population changes with respect to population density and four key reference dates in 2020 (first UK lockdown, end of term, beginning of term, Christmas).
 
 ### Results
 
